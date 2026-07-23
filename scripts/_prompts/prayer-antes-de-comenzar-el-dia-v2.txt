@@ -1,0 +1,25 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with clearly separated fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a young child cartoon character and a parent cartoon character standing near a large bright window early in the morning, doing a simple calm activity together (like looking outside or getting ready), relaxed natural posture, nobody posing for camera,
+
+a simple warm kitchen or bright room in early morning, a large window as the main feature letting in strong soft daylight,
+
+both characters calm and quietly hopeful, morning energy, a day full of possibility,
+
+warm bright morning sunlight as the key light through the window, soft sky-blue ambient fill, soft golden rim light separating both characters from the background, hopeful energetic morning atmosphere,
+
+WIDE portrait composition 3:4 ratio, both characters comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept clear for a text overlay,
+
+never show any firefly character, never show Lumo — this is a real family moment, not a mascot scene

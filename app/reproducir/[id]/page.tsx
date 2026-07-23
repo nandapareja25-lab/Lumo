@@ -6,8 +6,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { BookOpen, Check, Heart, Pause, Play, SkipBack, SkipForward, X } from "lucide-react";
 import { CONTENT, getContent } from "@/lib/content-catalog";
-import { MoodScene } from "@/components/scenes/mood-scene";
-import { ArtAsset } from "@/components/app/art-asset";
+import { EpisodeIllustration } from "@/components/app/episode-illustration";
 import {
   AppState,
   completeStory,
@@ -214,10 +213,10 @@ export default function ReproducirPage() {
   if (isGated(appState, content.id, isOracion ? "oracion" : "historia")) {
     return (
       <main className="relative flex min-h-dvh flex-col overflow-hidden bg-[#100B08]">
-        <ArtAsset
-          slug={content.illustrationSlug}
-          alt={content.title}
-          fallback={<MoodScene mood={content.segments[0].mood} />}
+        <EpisodeIllustration
+          content={content}
+          segmentIndex={0}
+          mood={content.segments[0].mood}
           className="absolute inset-0"
         />
         <div
@@ -294,10 +293,10 @@ export default function ReproducirPage() {
     // más un mensaje que se siente como una promesa ("va a estar") en vez de un aviso de error.
     return (
       <main className="relative flex min-h-dvh flex-col overflow-hidden bg-[#100B08]">
-        <ArtAsset
-          slug={content.illustrationSlug}
-          alt={content.title}
-          fallback={<MoodScene mood={content.segments[0].mood} />}
+        <EpisodeIllustration
+          content={content}
+          segmentIndex={0}
+          mood={content.segments[0].mood}
           className="absolute inset-0"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#100B08] via-[#100B08]/40 to-transparent" />
@@ -528,23 +527,11 @@ export default function ReproducirPage() {
       <audio ref={musicRef} />
       <audio ref={sfxRef} />
 
-      <ArtAsset
-        slug={content.illustrationSlug}
-        alt={content.title}
-        fallback={
-          <AnimatePresence mode="sync">
-            <motion.div
-              key={index}
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: isOracion ? 1.1 : 0.7, ease: "easeInOut" }}
-              className="absolute inset-0"
-            >
-              <MoodScene mood={scene.mood} />
-            </motion.div>
-          </AnimatePresence>
-        }
+      <EpisodeIllustration
+        content={content}
+        segmentIndex={index}
+        mood={scene.mood}
+        animated
         className="absolute inset-0"
       />
 

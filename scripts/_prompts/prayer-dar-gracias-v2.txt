@@ -1,0 +1,25 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with clearly separated fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a young child cartoon character, warm skin tone, simple everyday clothes, holding out a small hand-drawn picture with both hands toward an adult, proud bright smile; a parent cartoon character crouching slightly to look closely at the picture, warm delighted smile, looking at the drawing not at camera,
+
+a warm cozy corner of a home in late afternoon light, a small table, one soft houseplant nearby,
+
+the child's expression is proud joy, the parent's expression is warm delighted attention,
+
+warm afternoon sunlight key light from a nearby window, soft sky-blue ambient fill, warm golden rim light separating both characters from the background, joyful grateful atmosphere,
+
+WIDE portrait composition 3:4 ratio, both characters comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept clear for a text overlay,
+
+never show any firefly character, never show Lumo — this is a real family moment, not a mascot scene

@@ -45,7 +45,47 @@ export type ContentSegment = {
   /** Nombre de un efecto de sonido de la biblioteca reutilizable (ver lib/audio-library.ts) que
    * suena una vez al entrar a este segmento — usar con moderación, 1-2 por episodio (sección 13). */
   sfx?: string;
+  /** Qué `Illustration.id` de `ContentItem.illustrations` se muestra durante este segmento.
+   * Si falta, cae a la primera ilustración del array (o al illustrationSlug legado). */
+  illustrationId?: string;
 };
+
+/**
+ * Una ilustración real (no el fallback MoodScene) asociada a un momento narrativo puntual de
+ * un episodio — arquitectura para múltiples ilustraciones por episodio (2026-07-23), no solo
+ * una portada. Ver production/notifications no aplica acá; el pipeline real vive en
+ * production/agents/README.md y el registro de personajes en lib/character-registry.ts.
+ */
+export type IllustrationApprovalStatus = "draft" | "approved" | "rejected";
+
+export type Illustration = {
+  id: string;
+  /** A qué escena/momento del guion corresponde (identificador libre, ej. "s1e1-anuncio-pastores"). */
+  sceneId: string;
+  /** Orden de aparición dentro del episodio. */
+  order: number;
+  /** Descripción breve del fragmento/momento narrativo que representa. */
+  narrativeMoment: string;
+  approvalStatus: IllustrationApprovalStatus;
+  /** Ruta al archivo de prompt usado (scripts/_prompts/...). */
+  promptFile: string;
+  /** slug de personaje (lib/character-registry.ts) -> versión usada en esta ilustración. */
+  characterVersions: Record<string, string>;
+  image300: string;
+  image600: string;
+};
+
+/** Devuelve la ilustración real que corresponde a un segmento, o undefined si el episodio
+ * todavía no tiene ilustraciones por escena (cae al illustrationSlug legado vía <ArtAsset>). */
+export function illustrationForSegment(content: ContentItem, segmentIndex: number): Illustration | undefined {
+  if (!content.illustrations || content.illustrations.length === 0) return undefined;
+  const segment = content.segments[segmentIndex];
+  if (segment?.illustrationId) {
+    const match = content.illustrations.find((i) => i.id === segment.illustrationId);
+    if (match) return match;
+  }
+  return content.illustrations[0];
+}
 
 export type ContentTag = "personajes" | "milagros" | "mujeres" | "valores";
 
@@ -96,6 +136,9 @@ export type ContentItem = {
   dailyChallenge?: string;
   /** Solo episodios de Series: el gancho de cierre ("Mañana descubrirás...") que invita a volver. */
   nextEpisodeHook?: string;
+  /** Ilustraciones reales por escena (arquitectura 2026-07-23). Vacío/ausente = todavía solo
+   * tiene la portada vía illustrationSlug — ver production/ILLUSTRATION-AUDIT.md. */
+  illustrations?: Illustration[];
 };
 
 export const CONTENT: ContentItem[] = [
@@ -724,6 +767,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Salmo 4:8"],
     language: "es",
     illustrationSlug: "prayer-antes-de-dormir",
+    illustrations: [
+      {
+        id: "prayer-antes-de-dormir-i1",
+        sceneId: "prayer-antes-de-dormir",
+        order: 1,
+        narrativeMoment: "Un padre acomoda la manta de un niño que se queda dormido, luz de velador.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-antes-de-dormir-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-antes-de-dormir-v2_300.webp",
+        image600: "/lumo-art/prayer-antes-de-dormir-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -789,6 +845,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["1 Tesalonicenses 5:18"],
     language: "es",
     illustrationSlug: "prayer-dar-gracias",
+    illustrations: [
+      {
+        id: "prayer-dar-gracias-i1",
+        sceneId: "prayer-dar-gracias",
+        order: 1,
+        narrativeMoment: "Un niño le muestra con orgullo un dibujo a un adulto.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-dar-gracias-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-dar-gracias-v2_300.webp",
+        image600: "/lumo-art/prayer-dar-gracias-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -854,6 +923,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Isaías 41:10"],
     language: "es",
     illustrationSlug: "prayer-cuando-tengo-miedo",
+    illustrations: [
+      {
+        id: "prayer-cuando-tengo-miedo-i1",
+        sceneId: "prayer-cuando-tengo-miedo",
+        order: 1,
+        narrativeMoment: "Un adulto abraza fuerte a un niño de noche, luz cálida de pasillo.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-cuando-tengo-miedo-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-cuando-tengo-miedo-v2_300.webp",
+        image600: "/lumo-art/prayer-cuando-tengo-miedo-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -925,6 +1007,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Salmo 34:18"],
     language: "es",
     illustrationSlug: "prayer-cuando-estoy-triste",
+    illustrations: [
+      {
+        id: "prayer-cuando-estoy-triste-i1",
+        sceneId: "prayer-cuando-estoy-triste",
+        order: 1,
+        narrativeMoment: "Un niño apoyado en un adulto mirando la luz de atardecer por la ventana.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-cuando-estoy-triste-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-cuando-estoy-triste-v2_300.webp",
+        image600: "/lumo-art/prayer-cuando-estoy-triste-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -990,6 +1085,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Filipenses 4:13"],
     language: "es",
     illustrationSlug: "prayer-antes-de-un-examen",
+    illustrations: [
+      {
+        id: "prayer-antes-de-un-examen-i1",
+        sceneId: "prayer-antes-de-un-examen",
+        order: 1,
+        narrativeMoment: "Un niño frente a su cuaderno con la mano de un adulto en el hombro, calma tranquila.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-antes-de-un-examen-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-antes-de-un-examen-v2_300.webp",
+        image600: "/lumo-art/prayer-antes-de-un-examen-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1055,6 +1163,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Josué 24:15"],
     language: "es",
     illustrationSlug: "prayer-por-mi-familia",
+    illustrations: [
+      {
+        id: "prayer-por-mi-familia-i1",
+        sceneId: "prayer-por-mi-familia",
+        order: 1,
+        narrativeMoment: "La familia completa reunida alrededor de la mesa, de noche.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-por-mi-familia-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-por-mi-familia-v2_300.webp",
+        image600: "/lumo-art/prayer-por-mi-familia-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1120,6 +1241,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Salmo 136:1"],
     language: "es",
     illustrationSlug: "prayer-antes-de-comer",
+    illustrations: [
+      {
+        id: "prayer-antes-de-comer-i1",
+        sceneId: "prayer-antes-de-comer",
+        order: 1,
+        narrativeMoment: "La familia en la mesa, pausa compartida justo antes del primer bocado.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-antes-de-comer-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-antes-de-comer-v2_300.webp",
+        image600: "/lumo-art/prayer-antes-de-comer-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1178,6 +1312,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Salmo 118:24"],
     language: "es",
     illustrationSlug: "prayer-antes-de-comenzar-el-dia",
+    illustrations: [
+      {
+        id: "prayer-antes-de-comenzar-el-dia-i1",
+        sceneId: "prayer-antes-de-comenzar-el-dia",
+        order: 1,
+        narrativeMoment: "Un niño y un adulto junto a una ventana grande con luz de mañana.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/prayer-antes-de-comenzar-el-dia-v2.txt",
+        characterVersions: {},
+        image300: "/lumo-art/prayer-antes-de-comenzar-el-dia-v2_300.webp",
+        image600: "/lumo-art/prayer-antes-de-comenzar-el-dia-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1248,6 +1395,30 @@ export const CONTENT: ContentItem[] = [
     passages: ["Lucas 2:1-20"],
     language: "es",
     illustrationSlug: "series-vida-jesus-s1e1-belen",
+    illustrations: [
+      {
+        id: "s1e1-i1",
+        sceneId: "s1e1-nacimiento",
+        order: 1,
+        narrativeMoment: "María y José junto al pesebre, recién nacido Jesús envuelto en telas.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e1-belen.txt",
+        characterVersions: { maria: "v1", "jose-de-nazaret": "v1", "jesus-bebe": "v1" },
+        image300: "/lumo-art/series-vida-jesus-s1e1-belen_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e1-belen_600.webp",
+      },
+      {
+        id: "s1e1-i2",
+        sceneId: "s1e1-angel-pastores",
+        order: 2,
+        narrativeMoment: "El ángel se aparece a los pastores en el campo, anunciando el nacimiento.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e1-angel-pastores.txt",
+        characterVersions: {},
+        image300: "/lumo-art/series-vida-jesus-s1e1-angel-pastores_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e1-angel-pastores_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1268,6 +1439,7 @@ export const CONTENT: ContentItem[] = [
         mood: "night",
         caption:
           "Esa misma noche, en las colinas cercanas, unos pastores cuidaban sus ovejas bajo un cielo lleno de estrellas. De pronto, una luz enorme los rodeó, y un ángel se les apareció. Los pastores se asustaron y se cubrieron los ojos.\n\n—No tengan miedo —les dijo el ángel—. Les traigo una noticia que va a alegrar a todo el mundo: hoy, en Belén, nació el Salvador. Lo van a encontrar envuelto en telas, recostado en un pesebre.\n\nY de repente, el cielo se llenó de más luces, como si todas las estrellas cantaran juntas:\n\n—¡Gloria a Dios, y paz en la tierra!\n\nLos pastores no lo pensaron dos veces. Dejaron a sus ovejas y corrieron hacia Belén, tan rápido como sus piernas se lo permitían.",
+        illustrationId: "s1e1-i2",
       },
       {
         role: "narracion",
@@ -1310,6 +1482,25 @@ export const CONTENT: ContentItem[] = [
     passages: ["Mateo 2:1-12"],
     language: "es",
     illustrationSlug: "series-vida-jesus-s1e2-sabios",
+    illustrations: [
+      {
+        id: "s1e2-i1",
+        sceneId: "s1e2-visita-sabios",
+        order: 1,
+        narrativeMoment: "María con el niño Jesús recibiendo a los tres sabios y sus regalos.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e2-sabios.txt",
+        characterVersions: {
+          maria: "v1",
+          "jesus-nino-pequeno": "v1",
+          "sabio-oro": "v1",
+          "sabio-incienso": "v1",
+          "sabio-mirra": "v1",
+        },
+        image300: "/lumo-art/series-vida-jesus-s1e2-sabios_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e2-sabios_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1366,6 +1557,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Lucas 2:41-52"],
     language: "es",
     illustrationSlug: "series-vida-jesus-s1e3-templo",
+    illustrations: [
+      {
+        id: "s1e3-i1",
+        sceneId: "s1e3-nino-en-el-templo",
+        order: 1,
+        narrativeMoment: "Jesús de 12 años conversando con un maestro en el templo.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e3-templo.txt",
+        characterVersions: { "jesus-12-anos": "v1", "maestro-del-templo": "v1" },
+        image300: "/lumo-art/series-vida-jesus-s1e3-templo_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e3-templo_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1422,6 +1626,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Lucas 2:22-38"],
     language: "es",
     illustrationSlug: "series-vida-jesus-s1e4-simeon",
+    illustrations: [
+      {
+        id: "s1e4-i1",
+        sceneId: "s1e4-presentacion-templo",
+        order: 1,
+        narrativeMoment: "Simeón sosteniendo al bebé Jesús en el templo, María observando.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e4-simeon.txt",
+        characterVersions: { simeon: "v1", maria: "v1", "jesus-bebe": "v1" },
+        image300: "/lumo-art/series-vida-jesus-s1e4-simeon_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e4-simeon_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1478,6 +1695,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Mateo 2:13-15"],
     language: "es",
     illustrationSlug: "series-vida-jesus-s1e5-huida",
+    illustrations: [
+      {
+        id: "s1e5-i1",
+        sceneId: "s1e5-huida-a-egipto",
+        order: 1,
+        narrativeMoment: "José guiando al burro con María y el bebé Jesús, de noche, camino a Egipto.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e5-huida.txt",
+        characterVersions: { "jose-de-nazaret": "v1", maria: "v1", "jesus-bebe": "v1" },
+        image300: "/lumo-art/series-vida-jesus-s1e5-huida_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e5-huida_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -1534,6 +1764,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Mateo 2:19-23"],
     language: "es",
     illustrationSlug: "series-vida-jesus-s1e6-nazaret",
+    illustrations: [
+      {
+        id: "s1e6-i1",
+        sceneId: "s1e6-regreso-a-nazaret",
+        order: 1,
+        narrativeMoment: "José y María en la puerta de su casa en Nazaret, con Jesús ya de edad de caminar.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/series-vida-jesus-s1e6-nazaret.txt",
+        characterVersions: { "jose-de-nazaret": "v1", maria: "v1", "jesus-nino-pequeno": "v1" },
+        image300: "/lumo-art/series-vida-jesus-s1e6-nazaret_300.webp",
+        image600: "/lumo-art/series-vida-jesus-s1e6-nazaret_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [

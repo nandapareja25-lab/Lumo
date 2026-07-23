@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
+import { PushSettings } from "@/components/app/push-settings";
 import { AppState, clearApp, readApp } from "@/lib/app-data";
 
 /**
@@ -44,6 +45,8 @@ export default function PerfilPage() {
         <p className="text-sm font-semibold">Cristiana</p>
         <p className="text-xs text-[#6B5A4A]">Tradición de fe de su familia</p>
       </div>
+
+      <PushSettings />
 
       <div
         className="rounded-2xl border border-[rgba(42,31,23,0.10)] bg-white p-5"

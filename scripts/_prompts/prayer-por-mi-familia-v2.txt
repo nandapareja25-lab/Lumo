@@ -1,0 +1,25 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with clearly separated fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a small family cartoon group — two adults and one or two children of different ages, warm varied skin tones — gathered closely around a small home table, looking at each other in a natural moment of closeness, nobody looking at camera, no group hug pose,
+
+a warm cozy living room or dining nook at night, one warm central light source above the table,
+
+all faces warm and content, a sense of belonging and love, quiet togetherness,
+
+warm central light key light from above the table, soft warm ambient fill around the room, warm golden rim light separating the family from the background, loving belonging atmosphere,
+
+WIDE portrait composition 3:4 ratio, the whole family group comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept clear for a text overlay,
+
+never show any firefly character, never show Lumo — this is a real family moment, not a mascot scene
