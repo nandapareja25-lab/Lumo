@@ -143,7 +143,7 @@ export const SERIES: Series[] = [
     ],
   },
   { id: "parabolas", collectionId: "series", label: "Parábolas", testament: "nuevo", targetEpisodes: 4, order: 2 },
-  { id: "milagros", collectionId: "series", label: "Milagros", testament: "nuevo", targetEpisodes: 4, order: 3 },
+  { id: "milagros-de-jesus", collectionId: "series", label: "Milagros", testament: "nuevo", targetEpisodes: 4, order: 3 },
   {
     id: "aventuras-de-pablo",
     collectionId: "series",
