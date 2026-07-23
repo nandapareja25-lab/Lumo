@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { Search } from "lucide-react";
 import { StoryPoster } from "@/components/app/story-poster";
@@ -20,6 +20,14 @@ import { AppState, isGated, readApp } from "@/lib/app-data";
  */
 
 export default function ExplorarPage() {
+  return (
+    <Suspense fallback={null}>
+      <ExplorarPageInner />
+    </Suspense>
+  );
+}
+
+function ExplorarPageInner() {
   const searchParams = useSearchParams();
   const [filter, setFilter] = useState<FilterId>("todo");
   const [query, setQuery] = useState("");
