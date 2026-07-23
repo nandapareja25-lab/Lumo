@@ -1342,7 +1342,7 @@ export const CONTENT: ContentItem[] = [
     dailyChallenge:
       "Hoy, regalá algo tuyo de verdad — un dibujo, un abrazo, un rato de tu tiempo — a alguien de tu familia, como hicieron los sabios.",
     nextEpisodeHook:
-      "Mañana descubrirás cómo Jesús, ya de niño, sorprendió a unos maestros con las preguntas que hacía.",
+      "Mañana damos un salto de varios años: descubrirás cómo Jesús, ya de niño, sorprendió a unos maestros con las preguntas que hacía.",
   },
   {
     id: "vida-jesus-s1e3-el-nino-en-el-templo",
@@ -1485,7 +1485,7 @@ export const CONTENT: ContentItem[] = [
         role: "narracion",
         mood: "night",
         caption:
-          "Poco después de que los sabios se fueran, José tuvo un sueño. En ese sueño, un ángel le advertía con urgencia:\n\n—Levántate. Toma al niño y a su madre, y huyan a Egipto. Herodes va a buscar al niño para hacerle daño.\n\nJosé se despertó de golpe, en medio de la noche, con el corazón acelerado.",
+          "Tiempo después de la visita de los sabios, José tuvo un sueño. En ese sueño, un ángel le advertía con urgencia:\n\n—Levántate. Toma al niño y a su madre, y huyan a Egipto. Herodes va a buscar al niño para hacerle daño.\n\nJosé se despertó de golpe, en medio de la noche, con el corazón acelerado.",
       },
       {
         role: "narracion",
@@ -1511,6 +1511,61 @@ export const CONTENT: ContentItem[] = [
       "Hoy, pregúntale a alguien de tu familia si alguna vez tuvo que actuar rápido para proteger a alguien — y cuenta tú también si te pasó algo parecido.",
     nextEpisodeHook:
       "Mañana la familia por fin vuelve a casa — descubrirás cómo fue ese regreso, después de tanto tiempo lejos.",
+  },
+  {
+    id: "vida-jesus-s1e6-el-regreso-a-nazaret",
+    contentType: "historia",
+    title: "La vuelta a casa",
+    subtitle: "Un nuevo comienzo, en el lugar de siempre",
+    description:
+      "Cuando por fin es seguro volver, José elige instalarse en un pueblo pequeño llamado Nazaret — y ahí, en un hogar sencillo, Jesús crece como cualquier niño.",
+    category: "nuevo",
+    collectionId: "series",
+    seriesId: "la-vida-de-jesus",
+    season: 1,
+    episodeNumber: 6,
+    lengthCategory: "episodio-serie",
+    durationSeconds: 0,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Jesús", "María", "José"],
+    tags: ["personajes"],
+    passages: ["Mateo 2:19-23"],
+    language: "es",
+    illustrationSlug: "series-vida-jesus-s1e6-nazaret",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Pasó el tiempo, y un día José tuvo otro sueño: el peligro ya había pasado, y era momento de volver.\n\nJuntaron sus cosas una vez más, y esta vez el camino de regreso se sintió distinto — no había miedo ni apuro, solo las ganas de por fin instalarse en algún lugar.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "En vez de volver a Belén, José eligió un pueblo pequeño y tranquilo llamado Nazaret. Ahí encontraron una casa sencilla, con un patio de tierra y vecinos que pronto se volvieron conocidos.\n\nJesús, que ya caminaba de la mano de su madre, miró la casa nueva con esos mismos ojos curiosos de siempre — como si cada lugar nuevo fuera una pequeña aventura por descubrir.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Ahí, en Nazaret, Jesús creció como cualquier otro niño del pueblo: jugando, aprendiendo el oficio de su padre, ayudando en la casa, haciendo amigos.\n\nNadie en el pueblo sabía todavía lo que ese niño llegaría a hacer algún día. Para sus vecinos, era simplemente el hijo del carpintero — y eso, para José y María, ya era motivo suficiente de alegría tranquila.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Después de tanto viaje, de tanta incertidumbre, lo que esta familia encontró al final no fue algo grandioso — fue un hogar sencillo, y eso les alcanzó para ser felices.\n\n¿Qué es lo que hace que tu casa se sienta como tu lugar seguro?",
+      },
+    ],
+    conversationQuestions: ["¿Qué es lo que hace que tu casa se sienta como tu lugar seguro?"],
+    dailyChallenge: "Hoy, agradece en voz alta por algo simple de tu casa que normalmente das por sentado.",
+    nextEpisodeHook:
+      "Mañana empieza una nueva temporada: Jesús ya es grande, y está por comenzar la parte de su historia que va a cambiarlo todo.",
   },
 ];
 

@@ -108,8 +108,17 @@
       "season": 1,
       "episodeNumber": 5,
       "title": "Un viaje en medio de la noche",
-      "state": "writing",
-      "files": {},
+      "state": "approved",
+      "files": {
+        "content": "lib/content-catalog.ts#vida-jesus-s1e5-la-huida-a-egipto",
+        "draft": "production/drafts/vida-jesus-s1e5.json",
+        "imagePrompt": "scripts/_prompts/series-vida-jesus-s1e5-huida.txt",
+        "image300": "public/lumo-art/series-vida-jesus-s1e5-huida_300.webp",
+        "image600": "public/lumo-art/series-vida-jesus-s1e5-huida_600.webp",
+        "rejectedVariants": [
+          "production/drafts/series-vida-jesus-s1e5-huida_v1-rejected_600.webp"
+        ]
+      },
       "rejections": [
         {
           "phase": "visual_review",
@@ -117,8 +126,43 @@
           "reason": "Tercio inferior ocupado por patas del burro y pies de José con mucho detalle — afecta la composición/usabilidad para overlay de texto, aunque personajes y anatomía estaban bien.",
           "file": "public/lumo-art/series-vida-jesus-s1e5-huida_600.webp (v1, descartada)"
         }
-      ]
+      ],
+      "note": "Editorial: APROBADO. Visual: intento 1 RECHAZADO (tercio inferior con demasiado detalle), intento 2 APROBADA limpia.",
+      "attempts": 2,
+      "costEstimate": 0.4
+    },
+    "vida-jesus-s1e6-el-regreso-a-nazaret": {
+      "seriesId": "la-vida-de-jesus",
+      "season": 1,
+      "episodeNumber": 6,
+      "title": "La vuelta a casa",
+      "state": "approved",
+      "files": {
+        "content": "lib/content-catalog.ts#vida-jesus-s1e6-el-regreso-a-nazaret",
+        "draft": "production/drafts/vida-jesus-s1e6.json",
+        "imagePrompt": "scripts/_prompts/series-vida-jesus-s1e6-nazaret.txt",
+        "image300": "public/lumo-art/series-vida-jesus-s1e6-nazaret_300.webp",
+        "image600": "public/lumo-art/series-vida-jesus-s1e6-nazaret_600.webp",
+        "rejectedVariants": [
+          "production/drafts/series-vida-jesus-s1e6-nazaret_v1-rejected_600.webp"
+        ]
+      },
+      "rejections": [
+        {
+          "phase": "visual_review",
+          "attempt": 1,
+          "reason": "Pie del niño cortado en el borde inferior del cuadro; tercio inferior demasiado ocupado para texto; manos entrelazadas algo ambiguas.",
+          "file": "public/lumo-art/series-vida-jesus-s1e6-nazaret_600.webp (v1, descartada)"
+        }
+      ],
+      "note": "Editorial: APROBADO (corregido voseo residual). Visual: intento 1 RECHAZADO (pie cortado), intento 2 APROBADA CON NOTA. Revisión de continuidad de temporada: 2 ajustes de guion aplicados (salto temporal E2->E3 aclarado, ambigüedad cronológica E4/E5 suavizada).",
+      "attempts": 2,
+      "costEstimate": 0.4
     }
   },
-  "blocked": []
+  "blocked": [],
+  "seasonReview": {
+    "season": "la-vida-de-jesus S1",
+    "verdict": "Aprobada con 2 ajustes de guion aplicados (salto temporal E2-E3, ambigüedad E4-E5). Pendiente menor no bloqueante: paleta de E5 podría inclinarse más a tensión/peligro en vez de misterio/noche."
+  }
 }

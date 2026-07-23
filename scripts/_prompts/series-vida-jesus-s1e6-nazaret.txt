@@ -1,0 +1,23 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with clearly separated fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a young father cartoon character (Joseph), warm brown skin, simple earth-toned tunic, standing in an open doorway of a small simple house, one hand resting on the wooden door, warm welcoming smile looking toward the viewer's left; beside him, a young mother cartoon character (Mary), warm olive skin, simple pale blue robe, holding hands gently with a small toddler boy, hands clearly separated with visible individual fingers, no fused or ambiguous fingers, (Jesus, now a bit older, walking age) who looks toward the house with bright curious wonder,
+
+the exterior of a small humble house at golden hour, a simple wooden door, one clay pot with a small plant beside the doorway,
+
+Joseph's expression is warm relief and welcome, Mary's expression is peaceful contentment, the toddler's expression is bright curiosity,
+
+warm golden hour key light from the side, soft warm ambient fill, gentle warm rim light separating the family from the house background, hopeful peaceful atmosphere,
+
+WIDE portrait composition 3:4 ratio, camera pulled back further and framed higher so all three characters including the toddler's full body and feet fit completely within the frame with clear space below their feet, nobody cropped at any edge, the entire bottom third of the frame is empty plain ground with no dense detail, reserved clear for a text overlay
