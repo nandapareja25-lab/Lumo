@@ -1,0 +1,23 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with clearly separated fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a young father cartoon character (Joseph), warm brown skin, simple earth-toned traveling tunic, walking calmly leading a small donkey by its rope, looking back over his shoulder toward his family with a protective determined expression; riding on the donkey behind him, a young mother cartoon character (Mary), warm olive skin, simple pale blue robe, holding a swaddled baby close to her chest,
+
+a quiet desert road at night, a few distant palm silhouettes, a wide starry sky,
+
+Joseph's expression is calm protective determination, Mary's expression is peaceful and watchful,
+
+soft cool moonlight as the main ambient light, warm golden light from a small lantern hanging on the donkey as a secondary practical light source, warm rim light separating the figures from the night background, quiet hopeful nighttime atmosphere,
+
+WIDE portrait composition 3:4 ratio, camera framed higher so the donkey's legs and feet of the walking figure stay within the middle of the frame, NOT near the bottom edge, generous empty dark margin on all sides including a full clear bottom third with no legs, feet or ground detail crossing into it, everything comfortably contained with no cropping at any edge

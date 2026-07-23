@@ -1,0 +1,36 @@
+{
+  "id": "vida-jesus-s1e2-los-sabios-de-oriente",
+  "title": "Los sabios que siguieron una estrella",
+  "subtitle": "Un viaje largo para encontrar lo que de verdad importa",
+  "description": "Unos sabios de tierras lejanas ven una estrella nueva en el cielo y viajan durante meses para encontrar al niño que anuncia, llevándole regalos preciosos.",
+  "seriesId": "la-vida-de-jesus",
+  "season": 1,
+  "episodeNumber": 2,
+  "passages": ["Mateo 2:1-12"],
+  "characters": ["Jesús", "María", "los sabios de oriente"],
+  "segments": [
+    {
+      "role": "narracion",
+      "mood": "night",
+      "caption": "Muy lejos de Belén, en tierras de oriente, unos sabios pasaban las noches estudiando el cielo. Conocían cada estrella, cada patrón, cada señal — y por eso, cuando una estrella completamente nueva apareció una noche, brillando distinta a todas las demás, supieron que algo importante estaba pasando.\n\n—Un rey nuevo ha nacido —dijo uno de ellos, sin apartar los ojos del cielo—. Uno que vale la pena ir a conocer.\n\nNo lo pensaron mucho tiempo. Prepararon regalos dignos de un rey — oro, incienso y mirra — y emprendieron un viaje que iba a durar meses, guiándose de noche por esa única estrella."
+    },
+    {
+      "role": "narracion",
+      "mood": "threshold",
+      "caption": "El camino fue largo y cansador. Cruzaron desiertos, ciudades, ríos — y cuando por fin llegaron a Jerusalén, preguntaron en el palacio del rey Herodes:\n\n—¿Dónde está el rey de los judíos que acaba de nacer? Vimos su estrella, y venimos a rendirle honor.\n\nHerodes se inquietó al escuchar esto — él mismo era rey, y no le gustaba la idea de otro — pero disimuló su preocupación y les pidió, con voz suave, que cuando encontraran al niño, volvieran a contarle dónde estaba, para él también ir a 'rendirle honor'. Algo en su voz sonaba amable, pero no se sentía del todo bien. En realidad, Herodes tenía otros planes, mucho menos amables.\n\nLos sabios no lo sabían todavía. Siguieron su camino, y la estrella, que no habían vuelto a ver desde que entraron a la ciudad, apareció otra vez — y esta vez se detuvo justo encima de la casa donde estaban María y el niño."
+    },
+    {
+      "role": "narracion",
+      "mood": "family",
+      "caption": "Los sabios entraron, y al ver al niño con su madre, se arrodillaron y lo honraron. Después de tantos meses de camino, de tantas noches guiándose por una sola luz en el cielo, por fin estaban ahí.\n\nAbrieron sus cofres y le entregaron sus regalos: oro, como a un rey; incienso, como a alguien especial; mirra, un perfume valioso.\n\nMaría los recibió con una sonrisa callada, sin terminar de entender del todo por qué unos sabios de tan lejos habían viajado tanto solo para conocer a su hijo."
+    },
+    {
+      "role": "guia-cierre",
+      "mood": "prayer",
+      "caption": "Los sabios no sabían exactamente qué iban a encontrar al final del viaje — solo sabían que valía la pena seguir esa estrella, noche tras noche, sin rendirse.\n\nY cuando llegaron, no se guardaron lo mejor que tenían: se lo dieron.\n\n¿Alguna vez tuviste que ser paciente durante mucho tiempo para lograr algo que de verdad te importaba?"
+    }
+  ],
+  "conversationQuestions": ["¿Alguna vez tuviste que ser paciente durante mucho tiempo para lograr algo que de verdad te importaba?"],
+  "dailyChallenge": "Hoy, regalá algo tuyo de verdad — un dibujo, un abrazo, un rato de tu tiempo — a alguien de tu familia, como hicieron los sabios.",
+  "nextEpisodeHook": "Mañana descubrirás cómo Jesús, ya de niño, sorprendió a unos maestros con las preguntas que hacía."
+}

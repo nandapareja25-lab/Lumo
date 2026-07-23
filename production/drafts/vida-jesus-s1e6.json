@@ -1,0 +1,37 @@
+{
+  "id": "vida-jesus-s1e6-el-regreso-a-nazaret",
+  "title": "La vuelta a casa",
+  "subtitle": "Un nuevo comienzo, en el lugar de siempre",
+  "description": "Cuando por fin es seguro volver, José elige instalarse en un pueblo pequeño llamado Nazaret — y ahí, en un hogar sencillo, Jesús crece como cualquier niño.",
+  "seriesId": "la-vida-de-jesus",
+  "season": 1,
+  "episodeNumber": 6,
+  "passages": ["Mateo 2:19-23"],
+  "characters": ["Jesús", "María", "José"],
+  "sceneNote": "Escena simplificada: José abriendo la puerta de una casa sencilla, María entrando con el niño (ahora un poco más grande, caminando de su mano). Tres personajes, una sola acción — llegar a casa.",
+  "segments": [
+    {
+      "role": "narracion",
+      "mood": "book",
+      "caption": "Pasó el tiempo, y un día José tuvo otro sueño: el peligro ya había pasado, y era momento de volver.\n\nJuntaron sus cosas una vez más, y esta vez el camino de regreso se sintió distinto — no había miedo ni apuro, solo las ganas de por fin instalarse en algún lugar."
+    },
+    {
+      "role": "narracion",
+      "mood": "family",
+      "caption": "En vez de volver a Belén, José eligió un pueblo pequeño y tranquilo llamado Nazaret. Ahí encontraron una casa sencilla, con un patio de tierra y vecinos que pronto se volvieron conocidos.\n\nJesús, que ya caminaba de la mano de su madre, miró la casa nueva con esos mismos ojos curiosos de siempre — como si cada lugar nuevo fuera una pequeña aventura por descubrir."
+    },
+    {
+      "role": "narracion",
+      "mood": "family",
+      "caption": "Ahí, en Nazaret, Jesús creció como cualquier otro niño del pueblo: jugando, aprendiendo el oficio de su padre, ayudando en la casa, haciendo amigos.\n\nNadie en el pueblo sabía todavía lo que ese niño llegaría a hacer algún día. Para sus vecinos, era simplemente el hijo del carpintero — y eso, para José y María, ya era motivo suficiente de alegría tranquila."
+    },
+    {
+      "role": "guia-cierre",
+      "mood": "prayer",
+      "caption": "Después de tanto viaje, de tanta incertidumbre, lo que esta familia encontró al final no fue algo grandioso — fue un hogar sencillo, y eso les alcanzó para ser felices.\n\n¿Qué es lo que hace que tu casa se sienta como tu lugar seguro?"
+    }
+  ],
+  "conversationQuestions": ["¿Qué es lo que hace que tu casa se sienta como tu lugar seguro?"],
+  "dailyChallenge": "Hoy, agradecé en voz alta por algo simple de tu casa que normalmente das por sentado.",
+  "nextEpisodeHook": "Mañana empieza una nueva temporada: Jesús ya es grande, y está por comenzar la parte de su historia que va a cambiarlo todo."
+}

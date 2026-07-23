@@ -1,0 +1,72 @@
+{
+  "music": {
+    "family": {
+      "url": "/lumo-music/family.mp3",
+      "prompt": "Instrumental ambient background music for a warm, gentle Christian family storytelling app for children. No lyrics, no vocals, no percussion drums, loopable, cinematic but understated — must sit quietly behind spoken narration, never compete with a voice. Mood: cozy, warm, safe, gentle strings and soft piano, hopeful and tender, like a family gathered together.",
+      "durationMs": 30000,
+      "generatedAt": "2026-07-20T00:48:27.751Z"
+    },
+    "book": {
+      "url": "/lumo-music/book.mp3",
+      "prompt": "Instrumental ambient background music for a warm, gentle Christian family storytelling app for children. No lyrics, no vocals, no percussion drums, loopable, cinematic but understated — must sit quietly behind spoken narration, never compete with a voice. Mood: curious, light, wonder-filled, gentle woodwinds and soft strings, a storytelling once-upon-a-time feeling.",
+      "durationMs": 30000,
+      "generatedAt": "2026-07-20T00:48:34.611Z"
+    },
+    "prayer": {
+      "url": "/lumo-music/prayer.mp3",
+      "prompt": "Instrumental ambient background music for a warm, gentle Christian family storytelling app for children. No lyrics, no vocals, no percussion drums, loopable, cinematic but understated — must sit quietly behind spoken narration, never compete with a voice. Mood: soft, reverent, intimate, slow piano and warm strings, tender and still.",
+      "durationMs": 30000,
+      "generatedAt": "2026-07-20T00:48:41.270Z"
+    },
+    "diary": {
+      "url": "/lumo-music/diary.mp3",
+      "prompt": "Instrumental ambient background music for a warm, gentle Christian family storytelling app for children. No lyrics, no vocals, no percussion drums, loopable, cinematic but understated — must sit quietly behind spoken narration, never compete with a voice. Mood: reflective, calm, introspective, sparse soft piano, quiet and personal.",
+      "durationMs": 30000,
+      "generatedAt": "2026-07-20T00:48:47.881Z"
+    },
+    "night": {
+      "url": "/lumo-music/night.mp3",
+      "prompt": "Instrumental ambient background music for a warm, gentle Christian family storytelling app for children. No lyrics, no vocals, no percussion drums, loopable, cinematic but understated — must sit quietly behind spoken narration, never compete with a voice. Mood: hushed, mysterious but safe (never scary), slow low strings, gentle tension without fear.",
+      "durationMs": 30000,
+      "generatedAt": "2026-07-20T00:48:54.382Z"
+    },
+    "threshold": {
+      "url": "/lumo-music/threshold.mp3",
+      "prompt": "Instrumental ambient background music for a warm, gentle Christian family storytelling app for children. No lyrics, no vocals, no percussion drums, loopable, cinematic but understated — must sit quietly behind spoken narration, never compete with a voice. Mood: a moment of decision or crossing over, subtle uplifting build, hopeful strings, quiet anticipation.",
+      "durationMs": 30000,
+      "generatedAt": "2026-07-20T00:49:01.147Z"
+    }
+  },
+  "sfx": {
+    "pasos-camino-rocoso": {
+      "url": "/lumo-sfx/pasos-camino-rocoso.mp3",
+      "prompt": "Footsteps walking slowly on a rocky desert dirt path, outdoors, warm and natural, no music",
+      "durationSeconds": 3,
+      "generatedAt": "2026-07-20T00:49:31.675Z"
+    },
+    "viento-desierto": {
+      "url": "/lumo-sfx/viento-desierto.mp3",
+      "prompt": "Gentle desert wind ambience, soft and warm, no music, subtle background texture",
+      "durationSeconds": 4,
+      "generatedAt": "2026-07-20T00:49:33.346Z"
+    },
+    "burro-resoplido": {
+      "url": "/lumo-sfx/burro-resoplido.mp3",
+      "prompt": "A donkey's soft snort and gentle hoofsteps, warm and friendly, no music",
+      "durationSeconds": 3,
+      "generatedAt": "2026-07-20T00:49:35.020Z"
+    },
+    "tela-vendaje": {
+      "url": "/lumo-sfx/tela-vendaje.mp3",
+      "prompt": "Soft cloth fabric rustling and tearing gently, close-up, no music",
+      "durationSeconds": 2,
+      "generatedAt": "2026-07-20T00:49:36.403Z"
+    },
+    "monedas": {
+      "url": "/lumo-sfx/monedas.mp3",
+      "prompt": "A couple of coins clinking together softly in a hand, warm and gentle, no music",
+      "durationSeconds": 2,
+      "generatedAt": "2026-07-20T00:49:37.898Z"
+    }
+  }
+}

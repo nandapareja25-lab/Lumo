@@ -1,0 +1,37 @@
+{
+  "id": "vida-jesus-s1e3-el-nino-en-el-templo",
+  "title": "El niño que sorprendió a los maestros",
+  "subtitle": "Cuando hacer preguntas también es una forma de fe",
+  "description": "A los doce años, Jesús se queda en el templo haciendo preguntas a los maestros — y hasta ellos se sorprenden con sus respuestas.",
+  "seriesId": "la-vida-de-jesus",
+  "season": 1,
+  "episodeNumber": 3,
+  "passages": ["Lucas 2:41-52"],
+  "characters": ["Jesús", "María", "José"],
+  "sceneNote": "Escena simplificada a propósito: solo Jesús (12 años) y un maestro anciano, sentados, conversando. Una sola acción clara — el chico haciendo una pregunta. Sin más personajes en el cuadro principal.",
+  "segments": [
+    {
+      "role": "narracion",
+      "mood": "family",
+      "caption": "Cada año, la familia de Jesús viajaba a Jerusalén para la fiesta. Ese año, Jesús ya tenía doce, y el viaje de vuelta a casa se hizo en un grupo grande, entre parientes y vecinos, como siempre.\n\nMaría y José caminaron todo el primer día sin darse cuenta de que Jesús no estaba con ellos — cada uno pensaba que estaba con el otro grupo. Cuando por fin se dieron cuenta, el corazón se les detuvo un instante."
+    },
+    {
+      "role": "narracion",
+      "mood": "threshold",
+      "caption": "Volvieron corriendo a Jerusalén, buscando entre las calles, preguntando a quien encontraran. Recién al tercer día lo encontraron — no perdido, no asustado, sino sentado tranquilamente en el templo, en medio de los maestros más sabios de la ciudad, escuchando y haciendo preguntas.\n\nY todos los que lo oían se quedaban asombrados de sus respuestas — no eran respuestas de un chico de doce años cualquiera."
+    },
+    {
+      "role": "narracion",
+      "mood": "book",
+      "caption": "—Hijo —le dijo María, entre el alivio y el reto—, ¿por qué nos hiciste esto? Tu padre y yo te buscamos angustiados.\n\n—¿Por qué me buscaban? —respondió Jesús, con calma—. ¿No sabían que tenía que estar en la casa de mi Padre?\n\nNi María ni José entendieron del todo esa respuesta en ese momento. Pero Jesús se levantó, los siguió de vuelta a Nazaret sin más vueltas, y siguió creciendo — en tamaño, en sabiduría, y en el cariño de quienes lo conocían."
+    },
+    {
+      "role": "guia-cierre",
+      "mood": "prayer",
+      "caption": "A veces hacer una pregunta —una buena pregunta, de esas que te hacen pensar de verdad— es tan valioso como saber una respuesta.\n\nJesús no tenía miedo de preguntar, ni los maestros más grandes le daban vergüenza.\n\n¿Cuál es la pregunta que más ganas tienes de hacerle a alguien esta semana?"
+    }
+  ],
+  "conversationQuestions": ["¿Cuál es la pregunta que más ganas tienes de hacerle a alguien esta semana?"],
+  "dailyChallenge": "Hoy, anímate a hacer una pregunta que hace tiempo tenías guardada — a un adulto, a un amigo, o incluso a Dios.",
+  "nextEpisodeHook": "Mañana volvemos atrás en el tiempo, a cuando Jesús era apenas un bebé de semanas, y dos ancianos en el templo lo reconocieron sin que nadie se los dijera."
+}

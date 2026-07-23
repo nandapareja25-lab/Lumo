@@ -1,0 +1,124 @@
+{
+  "updatedAt": "2026-07-23",
+  "episodes": {
+    "vida-jesus-s1e1-buenas-noticias-en-belen": {
+      "seriesId": "la-vida-de-jesus",
+      "season": 1,
+      "episodeNumber": 1,
+      "title": "Buenas noticias en Belén",
+      "state": "approved",
+      "note": "Producido en la sesión anterior, fuera de este pipeline formal — revisado manualmente (texto + imagen real) y aprobado. Se integra retroactivamente como referencia del formato.",
+      "files": {
+        "content": "lib/content-catalog.ts#vida-jesus-s1e1-buenas-noticias-en-belen",
+        "imagePrompt": "scripts/_prompts/series-vida-jesus-s1e1-belen.txt",
+        "image300": "public/lumo-art/series-vida-jesus-s1e1-belen_300.webp",
+        "image600": "public/lumo-art/series-vida-jesus-s1e1-belen_600.webp"
+      }
+    },
+    "vida-jesus-s1e2-los-sabios-de-oriente": {
+      "seriesId": "la-vida-de-jesus",
+      "season": 1,
+      "episodeNumber": 2,
+      "title": "Los sabios que siguieron una estrella",
+      "state": "approved",
+      "note": "Editorial: APROBADO CON AJUSTES MENORES (2 ajustes aplicados). Dependencia: los-sabios-de-oriente sin Character Card formal — tratados como personajes de apoyo puntuales, mismo criterio que María/José en ep.1. | Visual: APROBADA CON NOTA en v5 tras 4 rechazos reales (v1: encuadre 85-90%+regalo único; v2: solo 2 sabios+regalos genéricos; v3: 3er sabio fuera de escala+regalos casi idénticos; v4: solo 2 sabios visibles). Nota final: solo 2 de 3 regalos quedan explícitos en cuadro, no bloqueante.",
+      "files": {
+        "content": "lib/content-catalog.ts#vida-jesus-s1e2-los-sabios-de-oriente",
+        "draft": "production/drafts/vida-jesus-s1e2.json",
+        "imagePrompt": "scripts/_prompts/series-vida-jesus-s1e2-sabios.txt",
+        "image300": "public/lumo-art/series-vida-jesus-s1e2-sabios_300.webp",
+        "image600": "public/lumo-art/series-vida-jesus-s1e2-sabios_600.webp",
+        "rejectedVariants": [
+          "production/drafts/series-vida-jesus-s1e2-sabios_v1-rejected_600.webp",
+          "production/drafts/series-vida-jesus-s1e2-sabios_v2-rejected_600.webp",
+          "production/drafts/series-vida-jesus-s1e2-sabios_v3-rejected_600.webp",
+          "production/drafts/series-vida-jesus-s1e2-sabios_v4-rejected_600.webp"
+        ]
+      },
+      "rejections": [
+        {
+          "phase": "visual_review",
+          "reason": "Encuadre demasiado cerrado (~85-90% del cuadro en vez de 60%), tercio inferior sin espacio para texto, sabio derecho cortado por el borde, solo 1 de 3 regalos visible.",
+          "file": "public/lumo-art/series-vida-jesus-s1e2-sabios_600.webp (v1, descartada)"
+        },
+        {
+          "phase": "visual_review",
+          "reason": "v2: solo aparecen 2 de los 3 sabios, regalos no distinguibles entre sí, grupo pegado al borde derecho (sabio cortado), tercio inferior ocupado.",
+          "file": "public/lumo-art/series-vida-jesus-s1e2-sabios_600.webp (v2, descartada)"
+        },
+        {
+          "phase": "visual_review",
+          "reason": "v3: dos de los tres regalos casi idénticos (ambos cofres dorados), el tercer sabio dibujado fuera de escala (más chico), cortes de borde, tercio inferior invadido.",
+          "file": "public/lumo-art/series-vida-jesus-s1e2-sabios_600.webp (v3, descartada)"
+        },
+        {
+          "phase": "visual_review",
+          "reason": "v4: regalos ya distinguibles y márgenes correctos, pero solo aparecen 2 de los 3 sabios (falta el del cofre dorado). Composición de 5 figuras en una fila sigue siendo difícil de lograr completa.",
+          "file": "public/lumo-art/series-vida-jesus-s1e2-sabios_600.webp (v4, descartada)"
+        }
+      ]
+    },
+    "vida-jesus-s1e3-el-nino-en-el-templo": {
+      "seriesId": "la-vida-de-jesus",
+      "season": 1,
+      "episodeNumber": 3,
+      "title": "El niño que sorprendió a los maestros",
+      "state": "approved",
+      "note": "Editorial: APROBADO. Visual: APROBADA CON NOTA en el 1er intento (margen derecho ajustado, no bloqueante).",
+      "attempts": 1,
+      "costEstimate": 0.2,
+      "files": {
+        "content": "lib/content-catalog.ts#vida-jesus-s1e3-el-nino-en-el-templo",
+        "draft": "production/drafts/vida-jesus-s1e3.json",
+        "imagePrompt": "scripts/_prompts/series-vida-jesus-s1e3-templo.txt",
+        "image300": "public/lumo-art/series-vida-jesus-s1e3-templo_300.webp",
+        "image600": "public/lumo-art/series-vida-jesus-s1e3-templo_600.webp"
+      }
+    },
+    "vida-jesus-s1e4-presentado-en-el-templo": {
+      "seriesId": "la-vida-de-jesus",
+      "season": 1,
+      "episodeNumber": 4,
+      "title": "El anciano que esperó toda su vida",
+      "state": "approved",
+      "files": {
+        "content": "lib/content-catalog.ts#vida-jesus-s1e4-presentado-en-el-templo",
+        "draft": "production/drafts/vida-jesus-s1e4.json",
+        "imagePrompt": "scripts/_prompts/series-vida-jesus-s1e4-simeon.txt",
+        "image300": "public/lumo-art/series-vida-jesus-s1e4-simeon_300.webp",
+        "image600": "public/lumo-art/series-vida-jesus-s1e4-simeon_600.webp",
+        "rejectedVariants": [
+          "production/drafts/series-vida-jesus-s1e4-simeon_v1-rejected_600.webp"
+        ]
+      },
+      "rejections": [
+        {
+          "phase": "visual_review",
+          "attempt": 1,
+          "reason": "Cortes de borde (codo de Simeón y hombro de María pegados a los bordes), manos de Simeón sosteniendo al bebé con anatomía anómala.",
+          "file": "public/lumo-art/series-vida-jesus-s1e4-simeon_600.webp (v1, descartada)"
+        }
+      ],
+      "note": "Editorial: APROBADO CON AJUSTES (agregada Ana, corregido anacronismo). Visual: intento 1 RECHAZADO (cortes de borde + manos anómalas), intento 2 APROBADA CON NOTA (leve imprecisión en dedos, no bloqueante).",
+      "attempts": 2,
+      "costEstimate": 0.4
+    },
+    "vida-jesus-s1e5-la-huida-a-egipto": {
+      "seriesId": "la-vida-de-jesus",
+      "season": 1,
+      "episodeNumber": 5,
+      "title": "Un viaje en medio de la noche",
+      "state": "writing",
+      "files": {},
+      "rejections": [
+        {
+          "phase": "visual_review",
+          "attempt": 1,
+          "reason": "Tercio inferior ocupado por patas del burro y pies de José con mucho detalle — afecta la composición/usabilidad para overlay de texto, aunque personajes y anatomía estaban bien.",
+          "file": "public/lumo-art/series-vida-jesus-s1e5-huida_600.webp (v1, descartada)"
+        }
+      ]
+    }
+  },
+  "blocked": []
+}

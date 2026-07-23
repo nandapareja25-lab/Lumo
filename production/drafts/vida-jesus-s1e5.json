@@ -1,0 +1,37 @@
+{
+  "id": "vida-jesus-s1e5-la-huida-a-egipto",
+  "title": "Un viaje en medio de la noche",
+  "subtitle": "A veces cuidar a alguien significa actuar rápido, sin esperar",
+  "description": "José tiene un sueño que le advierte de un peligro, y sin dudarlo, esa misma noche despierta a su familia para partir a un lugar seguro.",
+  "seriesId": "la-vida-de-jesus",
+  "season": 1,
+  "episodeNumber": 5,
+  "passages": ["Mateo 2:13-15"],
+  "characters": ["Jesús", "María", "José"],
+  "sceneNote": "Escena simplificada: José guiando a un burro de noche, María sentada sobre el animal sosteniendo al bebé. Tres personajes (incluido el bebé) + un animal, una sola acción — viajar de noche bajo las estrellas.",
+  "segments": [
+    {
+      "role": "narracion",
+      "mood": "night",
+      "caption": "Poco después de que los sabios se fueran, José tuvo un sueño. En ese sueño, un ángel le advertía con urgencia:\n\n—Levántate. Toma al niño y a su madre, y huyan a Egipto. Herodes va a buscar al niño para hacerle daño.\n\nJosé se despertó de golpe, en medio de la noche, con el corazón acelerado."
+    },
+    {
+      "role": "narracion",
+      "mood": "night",
+      "caption": "No esperó a que amaneciera. No lo pensó dos veces. Despertó a María, juntaron lo poco que tenían, y esa misma noche, todavía oscura, salieron de Belén rumbo a Egipto — un lugar lejano, desconocido, pero seguro.\n\nMaría sostenía al bebé contra su pecho mientras el burro avanzaba despacio por el camino, y José caminaba adelante, mirando las estrellas para no perder el rumbo."
+    },
+    {
+      "role": "narracion",
+      "mood": "family",
+      "caption": "El viaje fue largo e incierto. No sabían exactamente qué los esperaba en Egipto, ni cuánto tiempo tendrían que quedarse ahí. Pero se quedaron tranquilos, sabiendo que estaban haciendo lo correcto para proteger a su hijo.\n\nY se quedaron en Egipto, seguros, hasta que llegó el momento de volver a casa."
+    },
+    {
+      "role": "guia-cierre",
+      "mood": "prayer",
+      "caption": "José no dudó cuando entendió que su familia estaba en peligro — actuó rápido, aunque eso significara dejar todo atrás en medio de la noche.\n\n¿Alguna vez tuviste que tomar una decisión rápida para cuidar a alguien que quieres?"
+    }
+  ],
+  "conversationQuestions": ["¿Alguna vez tuviste que tomar una decisión rápida para cuidar a alguien que quieres?"],
+  "dailyChallenge": "Hoy, pregúntale a alguien de tu familia si alguna vez tuvo que actuar rápido para proteger a alguien — y cuenta tú también si te pasó algo parecido.",
+  "nextEpisodeHook": "Mañana la familia por fin vuelve a casa — descubrirás cómo fue ese regreso, después de tanto tiempo lejos."
+}

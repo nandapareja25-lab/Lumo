@@ -1,0 +1,37 @@
+{
+  "id": "vida-jesus-s1e4-presentado-en-el-templo",
+  "title": "El anciano que esperó toda su vida",
+  "subtitle": "A veces la paciencia dura años, y vale la pena",
+  "description": "Un anciano llamado Simeón esperó toda su vida un momento — y cuando por fin llegó, lo reconoció al instante en los brazos de una madre cualquiera.",
+  "seriesId": "la-vida-de-jesus",
+  "season": 1,
+  "episodeNumber": 4,
+  "passages": ["Lucas 2:22-38"],
+  "characters": ["Jesús", "María", "Simeón", "Ana"],
+  "sceneNote": "Escena simplificada: solo María sosteniendo al bebé y Simeón (anciano) recibiéndolo en brazos, mirándolo con asombro. Dos personajes adultos + bebé, una sola acción — el momento de recibirlo.",
+  "segments": [
+    {
+      "role": "narracion",
+      "mood": "book",
+      "caption": "Cuando el bebé Jesús tenía apenas unas semanas, María y José lo llevaron al templo, como era costumbre, para presentarlo ante Dios.\n\nAhí vivía un anciano llamado Simeón. Llevaba toda su vida esperando algo — una promesa que le habían hecho hacía mucho: que no moriría sin antes ver con sus propios ojos al niño que Dios había prometido enviar."
+    },
+    {
+      "role": "narracion",
+      "mood": "family",
+      "caption": "Ese mismo día, algo lo llevó hasta el templo, poco antes de que María y José llegaran.\n\nCuando los vio entrar con el bebé, Simeón no dudó ni un segundo. Caminó hacia ellos, y María, sin conocerlo de nada, le dejó tomar a su hijo en brazos.\n\nSimeón sostuvo al bebé, lo miró largamente, y sus ojos se llenaron de lágrimas — no de tristeza, sino del alivio de quien por fin ve cumplida una espera de toda una vida."
+    },
+    {
+      "role": "narracion",
+      "mood": "prayer",
+      "caption": "—Ahora sí —dijo Simeón, en voz baja, casi para sí mismo— puedo descansar en paz. Mis ojos ya vieron lo que esperaban ver.\n\nMaría y José se quedaron sorprendidos de sus palabras — un desconocido, que nunca los había visto, hablando de su hijo como si lo conociera de toda la vida.\n\nCerca de ahí, otra anciana llamada Ana, que vivía prácticamente en el templo orando día tras día, se acercó también en ese mismo instante. Al ver al niño, ella tampoco tuvo dudas — y desde ese día, no paró de contarles a todos los que conocía que ese bebé era el que tanto habían esperado."
+    },
+    {
+      "role": "guia-cierre",
+      "mood": "prayer",
+      "caption": "Simeón esperó años y años sin perder la esperanza — y cuando por fin llegó su momento, lo reconoció enseguida, sin necesitar que nadie se lo explicara.\n\n¿Hay algo que estás esperando con paciencia, aunque todavía no sepas cuándo va a llegar?"
+    }
+  ],
+  "conversationQuestions": ["¿Hay algo que estás esperando con paciencia, aunque todavía no sepas cuándo va a llegar?"],
+  "dailyChallenge": "Hoy, piensa en algo que estuviste esperando por mucho tiempo, y cuéntale a alguien de tu familia cómo te sentiste cuando por fin pasó (o cómo te sientes esperándolo todavía).",
+  "nextEpisodeHook": "Mañana, la familia de Jesús va a tener que escapar en medio de la noche — descubrirás de qué tuvieron que cuidarlo."
+}

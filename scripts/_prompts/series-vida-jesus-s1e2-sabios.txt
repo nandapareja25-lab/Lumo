@@ -1,0 +1,25 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+LEFT SIDE of frame: a young mother cartoon character (Mary), warm olive skin, simple pale blue robe, seated, holding a curious toddler boy (Jesus) on her lap, both facing right toward the visitors.
+
+RIGHT SIDE of frame, arranged in a staggered depth line (not a flat row) facing Mary and the child: closest to camera and largest, a wise man with a deep purple turban kneeling and holding forward a small closed golden treasure chest with both hands; just behind and slightly beside him, a second wise man with a teal turban holding forward a wide open woven basket filled with visible orange-brown incense resin chunks, clearly not a chest; a third wise man with a burgundy turban standing just behind the first two, taller in the frame due to standing, holding a tall slender white alabaster bottle at chest height, clearly visible over the shoulders of the two kneeling men in front of him. All three wise men are adult men, same character design quality, no character omitted.
+
+a humble simple home interior at night, a small window in the background showing a bright star, soft warm ambient room light,
+
+all faces full of quiet awe and reverence, gentle warm smiles,
+
+warm ambient light filling the room, soft cool blue light from the starlit window in the background, warm golden rim light separating all five figures from the dark background,
+
+vertical portrait composition 3:4 ratio, camera pulled back with visible empty margin on left, right and top of frame, nobody touching any edge, the entire bottom third of the frame kept empty and dark with no hands, gifts or feet crossing into it, reserved clear for a text overlay

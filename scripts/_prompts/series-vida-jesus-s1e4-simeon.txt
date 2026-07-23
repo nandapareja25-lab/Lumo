@@ -1,0 +1,23 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with exactly five clearly separated fingers each, no fused or malformed fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+an elderly wise man cartoon character (Simeon), long white beard, warm deep red robes, gently cradling a swaddled newborn baby low in his arms at waist height, clean simple hand pose with the baby resting mostly on his forearms rather than gripped by fingers, eyes filled with quiet joyful tears, looking down at the baby; a young mother cartoon character (Mary), warm olive skin, simple pale blue robe, standing close beside him with one hand resting gently near the baby, calm trusting smile,
+
+a simple temple interior with soft blurred stone columns, warm daylight from a high window,
+
+Simeon's expression is deep emotional relief and joy, Mary's expression is calm trust,
+
+warm soft daylight key light from the high window, gentle neutral ambient fill, warm rim light separating both characters from the stone background, tender emotional atmosphere,
+
+WIDE portrait composition 3:4 ratio, camera pulled back further than usual, both characters centered with wide generous empty margin on left, right and top of frame — at least 20% empty space on each side, nobody touching or cropped by any frame edge, the entire bottom third of the frame kept clear and dark for a text overlay

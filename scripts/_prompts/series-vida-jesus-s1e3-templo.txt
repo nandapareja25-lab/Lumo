@@ -1,0 +1,23 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a 12-year-old boy cartoon character (Jesus), warm olive skin, simple cream-colored tunic, sitting cross-legged, one hand raised mid-gesture as if asking a thoughtful question, bright curious focused eyes; facing him, one single elderly teacher cartoon character, long gray beard, warm deep blue robes, listening with an amazed expression, leaning slightly forward,
+
+a simple temple interior with stone columns, soft warm daylight from a high window, a scroll resting nearby,
+
+the boy's expression is engaged curiosity, the teacher's expression is genuine surprise and delight,
+
+warm soft daylight key light from the high window, gentle neutral ambient fill, soft warm rim light separating both characters from the stone background, thoughtful hopeful atmosphere,
+
+WIDE portrait composition 3:4 ratio, only two characters total, camera pulled back with generous empty margin on all sides, both characters comfortably within frame with no cropping, the entire bottom third of the frame kept empty and clear for a text overlay

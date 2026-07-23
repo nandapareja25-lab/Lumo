@@ -1,0 +1,6129 @@
+{
+  "david-goliat": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:21:04.468Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/david-goliat-0.mp3",
+        "cues": [
+          {
+            "text": "En las colinas de Belén,",
+            "start": 0,
+            "end": 1.335
+          },
+          {
+            "text": "el sol apenas empezaba a calentar la hierba cuando",
+            "start": 1.486,
+            "end": 4.505
+          },
+          {
+            "text": "David terminó de contar sus ovejas por tercera",
+            "start": 4.563,
+            "end": 7.419
+          },
+          {
+            "text": "vez esa mañana. Ninguna faltaba.",
+            "start": 7.477,
+            "end": 10.484
+          },
+          {
+            "text": "Se sentó sobre una piedra grande,",
+            "start": 11.18,
+            "end": 13.259
+          },
+          {
+            "text": "sacó su honda de cuero y,",
+            "start": 13.433,
+            "end": 15.256
+          },
+          {
+            "text": "sin apuntar a nada en particular,",
+            "start": 15.279,
+            "end": 17.427
+          },
+          {
+            "text": "la hizo girar en el aire,",
+            "start": 17.601,
+            "end": 19.203
+          },
+          {
+            "text": "una y otra vez, hasta que el silbido se volvió",
+            "start": 19.447,
+            "end": 22.884
+          },
+          {
+            "text": "parte del paisaje, como el canto de los pájaros.",
+            "start": 22.965,
+            "end": 26.39
+          },
+          {
+            "text": "David era el menor de ocho hermanos.",
+            "start": 27.086,
+            "end": 29.733
+          },
+          {
+            "text": "Los mayores ya habían ido a la guerra,",
+            "start": 30.175,
+            "end": 32.589
+          },
+          {
+            "text": "siguiendo al rey Saúl,",
+            "start": 32.682,
+            "end": 34.215
+          },
+          {
+            "text": "y a él le tocaba quedarse cuidando el rebaño.",
+            "start": 34.493,
+            "end": 37.5
+          },
+          {
+            "text": "No le molestaba. Ahí,",
+            "start": 38.278,
+            "end": 40.821
+          },
+          {
+            "text": "solo entre las ovejas,",
+            "start": 41.018,
+            "end": 42.516
+          },
+          {
+            "text": "David cantaba canciones para Dios que nadie más",
+            "start": 42.713,
+            "end": 45.581
+          },
+          {
+            "text": "escuchaba, y sentía que Dios sí lo escuchaba",
+            "start": 45.639,
+            "end": 48.983
+          },
+          {
+            "text": "a él. —Algún día —le dijo una vez a su padre,",
+            "start": 49.099,
+            "end": 53.406
+          },
+          {
+            "text": "Isaí— me gustaría hacer algo grande por Dios.",
+            "start": 53.464,
+            "end": 57.133
+          },
+          {
+            "text": "Isaí sonrió y le revolvió el cabello.",
+            "start": 57.574,
+            "end": 60.477
+          },
+          {
+            "text": "—Ya lo estás haciendo,",
+            "start": 61.081,
+            "end": 62.416
+          },
+          {
+            "text": "hijo. Cuidas lo que te confiaron.",
+            "start": 62.439,
+            "end": 64.9
+          },
+          {
+            "text": "Eso también es grande.",
+            "start": 65.179,
+            "end": 66.781
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/david-goliat-1.mp3",
+        "cues": [
+          {
+            "text": "Muy lejos de allí, en el valle de Ela,",
+            "start": 0,
+            "end": 2.241
+          },
+          {
+            "text": "las cosas no se sentían nada tranquilas.",
+            "start": 2.31,
+            "end": 4.888
+          },
+          {
+            "text": "Dos ejércitos acampaban en colinas opuestas,",
+            "start": 5.004,
+            "end": 7.802
+          },
+          {
+            "text": "separados por un valle angosto,",
+            "start": 7.86,
+            "end": 9.868
+          },
+          {
+            "text": "y cada mañana ocurría lo mismo.",
+            "start": 9.903,
+            "end": 11.981
+          },
+          {
+            "text": "Un gigante llamado Goliat,",
+            "start": 12.04,
+            "end": 13.897
+          },
+          {
+            "text": "tan alto como tres hombres uno sobre otro,",
+            "start": 13.92,
+            "end": 16.614
+          },
+          {
+            "text": "salía de las filas filisteas con su armadura",
+            "start": 16.73,
+            "end": 19.377
+          },
+          {
+            "text": "de bronce brillando como fuego,",
+            "start": 19.423,
+            "end": 21.35
+          },
+          {
+            "text": "y gritaba con una voz que hacía temblar las piedras:",
+            "start": 21.42,
+            "end": 24.81
+          },
+          {
+            "text": "—¡Elijan a un hombre,",
+            "start": 24.833,
+            "end": 26.215
+          },
+          {
+            "text": "y que baje a pelear contra mí!",
+            "start": 26.285,
+            "end": 28.107
+          },
+          {
+            "text": "¡Si me vence, seremos sus esclavos!",
+            "start": 28.131,
+            "end": 30.905
+          },
+          {
+            "text": "¡Pero si yo venzo, ustedes serán los nuestros!",
+            "start": 30.952,
+            "end": 34.296
+          },
+          {
+            "text": "Silencio. Ni un soldado israelita se movía.",
+            "start": 34.47,
+            "end": 38.15
+          },
+          {
+            "text": "Cuarenta días llevaba Goliat gritando lo mismo,",
+            "start": 38.359,
+            "end": 41.691
+          },
+          {
+            "text": "y cuarenta días el ejército entero,",
+            "start": 41.807,
+            "end": 44.002
+          },
+          {
+            "text": "incluido el rey Saúl,",
+            "start": 44.118,
+            "end": 45.673
+          },
+          {
+            "text": "agachaba la mirada, sin que nadie se atreviera",
+            "start": 45.789,
+            "end": 48.669
+          },
+          {
+            "text": "a responder. —Nadie puede contra él —susurró",
+            "start": 48.692,
+            "end": 52.639
+          },
+          {
+            "text": "un soldado joven, escondido tras su escudo—.",
+            "start": 52.674,
+            "end": 55.611
+          },
+          {
+            "text": "Es demasiado grande. Es imposible.",
+            "start": 56.122,
+            "end": 58.885
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/david-goliat-2.mp3",
+        "cues": [
+          {
+            "text": "Isaí envió a David hasta el campamento a llevarles",
+            "start": 0,
+            "end": 3.251
+          },
+          {
+            "text": "pan y queso a sus hermanos.",
+            "start": 3.344,
+            "end": 5.074
+          },
+          {
+            "text": "Cuando David llegó, alcanzó a ver a Goliat gritando",
+            "start": 5.224,
+            "end": 8.487
+          },
+          {
+            "text": "su desafío de siempre,",
+            "start": 8.545,
+            "end": 10.101
+          },
+          {
+            "text": "y algo dentro de él se removió,",
+            "start": 10.182,
+            "end": 12.33
+          },
+          {
+            "text": "incómodo. —¿Quién se cree este filisteo —preguntó",
+            "start": 12.423,
+            "end": 15.894
+          },
+          {
+            "text": "David a los soldados que tenía cerca—",
+            "start": 15.952,
+            "end": 18.75
+          },
+          {
+            "text": "para desafiar al ejército del Dios viviente?",
+            "start": 18.866,
+            "end": 21.606
+          },
+          {
+            "text": "Su hermano mayor, Eliab,",
+            "start": 21.99,
+            "end": 23.928
+          },
+          {
+            "text": "lo escuchó y se enojó.",
+            "start": 24.103,
+            "end": 25.867
+          },
+          {
+            "text": "—¿Qué haces aquí? —le reclamó—.",
+            "start": 26.308,
+            "end": 29.002
+          },
+          {
+            "text": "¿Quién cuida esas pocas ovejas que dejaste solas?",
+            "start": 29.13,
+            "end": 32.392
+          },
+          {
+            "text": "Sé por qué viniste: solo quieres ver la batalla.",
+            "start": 32.717,
+            "end": 36.049
+          },
+          {
+            "text": "—¿Qué hice ahora? —respondió David,",
+            "start": 36.746,
+            "end": 39.103
+          },
+          {
+            "text": "sin bajar los brazos—.",
+            "start": 39.126,
+            "end": 40.554
+          },
+          {
+            "text": "Solo hice una pregunta.",
+            "start": 40.833,
+            "end": 42.539
+          },
+          {
+            "text": "Pero la pregunta ya había llegado a oídos del",
+            "start": 42.818,
+            "end": 45.79
+          },
+          {
+            "text": "rey Saúl, y Saúl mandó llamar a este muchacho",
+            "start": 45.86,
+            "end": 48.983
+          },
+          {
+            "text": "que se atrevía a hablar así.",
+            "start": 49.029,
+            "end": 51.131
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/david-goliat-3.mp3",
+        "cues": [
+          {
+            "text": "—Que no se desanime nadie por causa de este filisteo",
+            "start": 0,
+            "end": 3.239
+          },
+          {
+            "text": "—le dijo David al rey,",
+            "start": 3.367,
+            "end": 4.957
+          },
+          {
+            "text": "de pie frente a él, sin temblar—.",
+            "start": 5.074,
+            "end": 7.221
+          },
+          {
+            "text": "Yo iré a pelear contra él.",
+            "start": 8.034,
+            "end": 9.88
+          },
+          {
+            "text": "Saúl lo miró de arriba abajo,",
+            "start": 10.577,
+            "end": 12.504
+          },
+          {
+            "text": "casi con lástima. —No puedes ir tú contra este",
+            "start": 12.597,
+            "end": 16.045
+          },
+          {
+            "text": "filisteo —le dijo—. Eres solo un muchacho,",
+            "start": 16.091,
+            "end": 19.946
+          },
+          {
+            "text": "y él ha sido guerrero toda su vida.",
+            "start": 20.12,
+            "end": 22.732
+          },
+          {
+            "text": "—Su siervo cuidaba las ovejas de su padre —respondió",
+            "start": 23.057,
+            "end": 26.575
+          },
+          {
+            "text": "David con calma— y cuando venía un león,",
+            "start": 26.633,
+            "end": 29.512
+          },
+          {
+            "text": "o un oso, y se llevaba una oveja del rebaño,",
+            "start": 29.721,
+            "end": 32.903
+          },
+          {
+            "text": "yo salía tras él, lo golpeaba,",
+            "start": 33.077,
+            "end": 35.526
+          },
+          {
+            "text": "y la rescataba de su boca.",
+            "start": 35.607,
+            "end": 37.418
+          },
+          {
+            "text": "El Dios que me libró de las garras del león y",
+            "start": 38.185,
+            "end": 40.507
+          },
+          {
+            "text": "del oso, también me librará de la mano de este",
+            "start": 40.553,
+            "end": 43.189
+          },
+          {
+            "text": "filisteo. Saúl se quedó en silencio un largo",
+            "start": 43.235,
+            "end": 47.24
+          },
+          {
+            "text": "momento. Luego suspiró.",
+            "start": 47.298,
+            "end": 49.586
+          },
+          {
+            "text": "—Ve, entonces —dijo—.",
+            "start": 50.247,
+            "end": 52.953
+          },
+          {
+            "text": "Y que el Señor esté contigo.",
+            "start": 53.522,
+            "end": 55.403
+          },
+          {
+            "text": "Quiso ponerle su propia armadura de bronce y",
+            "start": 55.89,
+            "end": 58.444
+          },
+          {
+            "text": "su espada, pero David,",
+            "start": 58.514,
+            "end": 60.279
+          },
+          {
+            "text": "al caminar unos pasos con todo ese peso encima,",
+            "start": 60.43,
+            "end": 63.344
+          },
+          {
+            "text": "negó con la cabeza. —No puedo andar con esto",
+            "start": 63.448,
+            "end": 66.792
+          },
+          {
+            "text": "—dijo, quitándosela—.",
+            "start": 66.931,
+            "end": 68.824
+          },
+          {
+            "text": "No estoy acostumbrado.",
+            "start": 69.23,
+            "end": 70.693
+          },
+          {
+            "text": "En cambio, tomó su bastón de pastor,",
+            "start": 71.111,
+            "end": 73.828
+          },
+          {
+            "text": "su honda de siempre, y fue hasta el arroyo.",
+            "start": 74.071,
+            "end": 77.38
+          },
+          {
+            "text": "Ahí, escogió cinco piedras lisas,",
+            "start": 77.891,
+            "end": 81.142
+          },
+          {
+            "text": "redondas, del tamaño justo,",
+            "start": 81.386,
+            "end": 83.882
+          },
+          {
+            "text": "y las guardó en su bolsa.",
+            "start": 84.056,
+            "end": 85.867
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/david-goliat-4.mp3",
+        "cues": [
+          {
+            "text": "Goliat vio acercarse a David y soltó una carcajada",
+            "start": 0,
+            "end": 3.146
+          },
+          {
+            "text": "que resonó por todo el valle.",
+            "start": 3.216,
+            "end": 4.981
+          },
+          {
+            "text": "—¿Soy acaso un perro —gritó—,",
+            "start": 5.422,
+            "end": 8.127
+          },
+          {
+            "text": "para que vengas contra mí con un palo?",
+            "start": 8.243,
+            "end": 10.263
+          },
+          {
+            "text": "¡Ven aquí, y les daré tu carne a las aves del",
+            "start": 10.704,
+            "end": 13.514
+          },
+          {
+            "text": "cielo y a las fieras del campo!",
+            "start": 13.572,
+            "end": 15.406
+          },
+          {
+            "text": "David se detuvo, sostuvo la mirada del gigante,",
+            "start": 16.103,
+            "end": 19.76
+          },
+          {
+            "text": "y respondió con una voz que no temblaba: —Tú",
+            "start": 19.958,
+            "end": 23.51
+          },
+          {
+            "text": "vienes contra mí con espada,",
+            "start": 23.58,
+            "end": 25.379
+          },
+          {
+            "text": "lanza y jabalina. Pero yo vengo contra ti en",
+            "start": 25.623,
+            "end": 29.071
+          },
+          {
+            "text": "el nombre del Señor de los ejércitos,",
+            "start": 29.141,
+            "end": 31.556
+          },
+          {
+            "text": "el Dios de Israel, al que tú has desafiado.",
+            "start": 31.718,
+            "end": 35.237
+          },
+          {
+            "text": "Hoy el Señor te entregará en mis manos,",
+            "start": 35.562,
+            "end": 38.116
+          },
+          {
+            "text": "y todo el mundo sabrá que hay un Dios en Israel.",
+            "start": 38.267,
+            "end": 41.541
+          },
+          {
+            "text": "Goliat avanzó, pesado,",
+            "start": 42.133,
+            "end": 43.979
+          },
+          {
+            "text": "seguro de sí mismo. David corrió hacia él —no",
+            "start": 44.049,
+            "end": 47.787
+          },
+          {
+            "text": "lejos, no escondido, sino directo hacia el valle—",
+            "start": 47.857,
+            "end": 51.618
+          },
+          {
+            "text": "metió la mano en su bolsa,",
+            "start": 51.734,
+            "end": 53.453
+          },
+          {
+            "text": "sacó una piedra, la puso en la honda,",
+            "start": 53.604,
+            "end": 56.286
+          },
+          {
+            "text": "y la hizo girar en el aire con un silbido que",
+            "start": 56.367,
+            "end": 59.188
+          },
+          {
+            "text": "ya conocía de memoria.",
+            "start": 59.258,
+            "end": 60.906
+          },
+          {
+            "text": "La soltó. La piedra voló recta,",
+            "start": 61.289,
+            "end": 63.878
+          },
+          {
+            "text": "golpeó al gigante justo en la frente,",
+            "start": 63.995,
+            "end": 66.526
+          },
+          {
+            "text": "y Goliat cayó al suelo con un estruendo que hizo",
+            "start": 66.7,
+            "end": 69.869
+          },
+          {
+            "text": "temblar la tierra bajo los pies de los dos ejércitos.",
+            "start": 69.927,
+            "end": 73.654
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/david-goliat-5.mp3",
+        "cues": [
+          {
+            "text": "Un silencio enorme cubrió el valle entero.",
+            "start": 0,
+            "end": 2.984
+          },
+          {
+            "text": "Y luego, un grito — no de miedo esta vez,",
+            "start": 3.367,
+            "end": 7.036
+          },
+          {
+            "text": "sino de alegría — se levantó desde las filas",
+            "start": 7.187,
+            "end": 10.066
+          },
+          {
+            "text": "israelitas, que corrieron adelante celebrando",
+            "start": 10.147,
+            "end": 13.189
+          },
+          {
+            "text": "la victoria que Dios les había dado.",
+            "start": 13.247,
+            "end": 15.882
+          },
+          {
+            "text": "David se quedó de pie un momento,",
+            "start": 16.486,
+            "end": 18.97
+          },
+          {
+            "text": "mirando sus propias manos,",
+            "start": 19.179,
+            "end": 20.967
+          },
+          {
+            "text": "todavía temblando un poco,",
+            "start": 21.141,
+            "end": 22.894
+          },
+          {
+            "text": "no de miedo, sino de asombro.",
+            "start": 23.173,
+            "end": 25.286
+          },
+          {
+            "text": "—No fui yo —susurró, mirando al cielo—.",
+            "start": 25.611,
+            "end": 29.384
+          },
+          {
+            "text": "Fuiste tú.",
+            "start": 29.895,
+            "end": 30.836
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/david-goliat-6.mp3",
+        "cues": [
+          {
+            "text": "Qué historia, ¿no? David no era el más fuerte,",
+            "start": 0,
+            "end": 3.947
+          },
+          {
+            "text": "ni el más grande. Pero tenía algo mucho más importante:",
+            "start": 4.063,
+            "end": 7.767
+          },
+          {
+            "text": "confiaba en Dios de verdad,",
+            "start": 7.918,
+            "end": 9.555
+          },
+          {
+            "text": "incluso frente a un gigante.",
+            "start": 9.601,
+            "end": 11.564
+          },
+          {
+            "text": "¿Alguna vez tuviste miedo de algo que parecía",
+            "start": 12.005,
+            "end": 14.687
+          },
+          {
+            "text": "enorme? ¿Qué fue lo que te ayudó a sentirte valiente?",
+            "start": 14.745,
+            "end": 18.437
+          }
+        ]
+      }
+    ]
+  },
+  "noe-arca": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:32:14.255Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/noe-arca-0.mp3",
+        "cues": [
+          {
+            "text": "Noé vivía en una época en la que casi nadie se",
+            "start": 0,
+            "end": 2.81
+          },
+          {
+            "text": "acordaba de Dios. Pero él sí.",
+            "start": 2.856,
+            "end": 5.05
+          },
+          {
+            "text": "Todas las mañanas salía a caminar entre sus animales",
+            "start": 5.074,
+            "end": 8.22
+          },
+          {
+            "text": "y hablaba con Dios como quien habla con un amigo",
+            "start": 8.336,
+            "end": 10.925
+          },
+          {
+            "text": "cercano. Un día, mientras cortaba madera junto",
+            "start": 10.96,
+            "end": 14.013
+          },
+          {
+            "text": "a su casa, Dios le habló: —Noé,",
+            "start": 14.048,
+            "end": 16.439
+          },
+          {
+            "text": "construye un arca. Un barco enorme,",
+            "start": 16.509,
+            "end": 18.959
+          },
+          {
+            "text": "con tres pisos, tan grande como para que quepan",
+            "start": 18.994,
+            "end": 21.478
+          },
+          {
+            "text": "tú, tu familia, y dos de cada animal que existe.",
+            "start": 21.548,
+            "end": 24.787
+          },
+          {
+            "text": "Va a llover como nunca antes llovió,",
+            "start": 24.938,
+            "end": 27.121
+          },
+          {
+            "text": "y quiero cuidarlos a todos.",
+            "start": 27.202,
+            "end": 29.083
+          },
+          {
+            "text": "Noé se quedó mirando el cielo.",
+            "start": 29.594,
+            "end": 31.463
+          },
+          {
+            "text": "No había ni una sola nube.",
+            "start": 31.637,
+            "end": 33.529
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/noe-arca-1.mp3",
+        "cues": [
+          {
+            "text": "—¿Un barco? —le preguntó su esposa esa noche,",
+            "start": 0,
+            "end": 3.03
+          },
+          {
+            "text": "mientras Noé le contaba lo que había escuchado—.",
+            "start": 3.065,
+            "end": 5.619
+          },
+          {
+            "text": "¿Aquí, tan lejos del mar?",
+            "start": 5.944,
+            "end": 7.953
+          },
+          {
+            "text": "—Eso me dijo Dios —respondió Noé—.",
+            "start": 8.464,
+            "end": 11.053
+          },
+          {
+            "text": "Y yo le creo. Durante años,",
+            "start": 11.436,
+            "end": 14.036
+          },
+          {
+            "text": "Noé cortó madera, midió tablas,",
+            "start": 14.071,
+            "end": 16.544
+          },
+          {
+            "text": "y clavó cada pieza del arca bajo un sol que no",
+            "start": 16.718,
+            "end": 19.423
+          },
+          {
+            "text": "anunciaba ninguna lluvia.",
+            "start": 19.47,
+            "end": 21.014
+          },
+          {
+            "text": "Los vecinos pasaban y se reían.",
+            "start": 21.095,
+            "end": 23.173
+          },
+          {
+            "text": "—¿Para qué construyes un barco,",
+            "start": 23.208,
+            "end": 24.799
+          },
+          {
+            "text": "Noé, si no hay ni una gota de agua?",
+            "start": 24.833,
+            "end": 26.877
+          },
+          {
+            "text": "—le gritaban, entre risas.",
+            "start": 26.9,
+            "end": 28.607
+          },
+          {
+            "text": "Noé no discutía. Seguía martillando,",
+            "start": 28.758,
+            "end": 31.451
+          },
+          {
+            "text": "tabla tras tabla, confiando en que Dios cumpliría",
+            "start": 31.567,
+            "end": 34.33
+          },
+          {
+            "text": "su palabra, aunque nadie más le creyera.",
+            "start": 34.377,
+            "end": 37.059
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/noe-arca-2.mp3",
+        "cues": [
+          {
+            "text": "Cuando el arca estuvo terminada,",
+            "start": 0,
+            "end": 1.962
+          },
+          {
+            "text": "pasó algo increíble: los animales empezaron a",
+            "start": 2.009,
+            "end": 5.143
+          },
+          {
+            "text": "llegar solos, caminando en parejas hacia la rampa",
+            "start": 5.166,
+            "end": 8.545
+          },
+          {
+            "text": "del barco. Leones junto a ovejas,",
+            "start": 8.591,
+            "end": 11.297
+          },
+          {
+            "text": "elefantes junto a conejos,",
+            "start": 11.331,
+            "end": 13.41
+          },
+          {
+            "text": "pájaros de todos los colores.",
+            "start": 13.433,
+            "end": 15.592
+          },
+          {
+            "text": "Noé los recibía a todos,",
+            "start": 15.72,
+            "end": 18.053
+          },
+          {
+            "text": "guiándolos adentro con calma.",
+            "start": 18.123,
+            "end": 20.166
+          },
+          {
+            "text": "—Entren, entren —les decía,",
+            "start": 20.549,
+            "end": 23.8
+          },
+          {
+            "text": "como si los conociera de toda la vida.",
+            "start": 24.079,
+            "end": 26.517
+          },
+          {
+            "text": "Cuando el último animal entró,",
+            "start": 27.121,
+            "end": 29.013
+          },
+          {
+            "text": "Noé, su esposa, sus hijos y sus familias entraron",
+            "start": 29.187,
+            "end": 33.796
+          },
+          {
+            "text": "también. Y entonces, Dios mismo cerró la puerta",
+            "start": 33.866,
+            "end": 37.964
+          },
+          {
+            "text": "del arca detrás de ellos.",
+            "start": 38.011,
+            "end": 39.845
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/noe-arca-3.mp3",
+        "cues": [
+          {
+            "text": "Esa misma noche empezó a llover.",
+            "start": 0,
+            "end": 2.078
+          },
+          {
+            "text": "Al principio, gotas suaves contra el techo de",
+            "start": 2.252,
+            "end": 4.632
+          },
+          {
+            "text": "madera. Después, una lluvia tan fuerte que no",
+            "start": 4.679,
+            "end": 7.454
+          },
+          {
+            "text": "se veía nada más allá del arca.",
+            "start": 7.5,
+            "end": 9.59
+          },
+          {
+            "text": "Llovió durante cuarenta días y cuarenta noches,",
+            "start": 9.683,
+            "end": 12.504
+          },
+          {
+            "text": "sin parar ni un momento.",
+            "start": 12.62,
+            "end": 14.292
+          },
+          {
+            "text": "Adentro, en la oscuridad,",
+            "start": 14.443,
+            "end": 16.161
+          },
+          {
+            "text": "se escuchaba el sonido de los animales acomodándose,",
+            "start": 16.254,
+            "end": 19.157
+          },
+          {
+            "text": "y el crujido del arca meciéndose sobre el agua",
+            "start": 19.238,
+            "end": 21.711
+          },
+          {
+            "text": "que subía y subía, cubriendo todo lo que antes",
+            "start": 21.757,
+            "end": 24.509
+          },
+          {
+            "text": "había sido tierra firme.",
+            "start": 24.555,
+            "end": 26.146
+          },
+          {
+            "text": "Noé abrazó a su familia,",
+            "start": 26.297,
+            "end": 28.108
+          },
+          {
+            "text": "y aunque el mundo entero parecía haber desaparecido",
+            "start": 28.189,
+            "end": 30.766
+          },
+          {
+            "text": "bajo el agua, sintió una paz extraña: Dios los",
+            "start": 30.801,
+            "end": 33.773
+          },
+          {
+            "text": "había puesto justo ahí adentro,",
+            "start": 33.82,
+            "end": 35.608
+          },
+          {
+            "text": "a salvo.",
+            "start": 35.666,
+            "end": 36.409
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/noe-arca-4.mp3",
+        "cues": [
+          {
+            "text": "Pasaron muchos días flotando sobre el agua,",
+            "start": 0,
+            "end": 2.717
+          },
+          {
+            "text": "sin ver tierra por ningún lado.",
+            "start": 2.868,
+            "end": 4.841
+          },
+          {
+            "text": "Noé soltó una paloma para ver si encontraba un",
+            "start": 5.224,
+            "end": 7.779
+          },
+          {
+            "text": "lugar seco donde posarse,",
+            "start": 7.837,
+            "end": 9.59
+          },
+          {
+            "text": "pero la paloma volvió,",
+            "start": 9.625,
+            "end": 10.983
+          },
+          {
+            "text": "sin nada. Una semana después,",
+            "start": 11.064,
+            "end": 13.584
+          },
+          {
+            "text": "la volvió a soltar. Esta vez,",
+            "start": 13.735,
+            "end": 16.173
+          },
+          {
+            "text": "la paloma regresó con una rama de olivo en el",
+            "start": 16.347,
+            "end": 18.762
+          },
+          {
+            "text": "pico — la señal de que,",
+            "start": 18.82,
+            "end": 20.422
+          },
+          {
+            "text": "en algún lugar, el agua ya se estaba retirando.",
+            "start": 20.445,
+            "end": 23.429
+          },
+          {
+            "text": "Cuando por fin el arca tocó tierra firme,",
+            "start": 23.522,
+            "end": 25.879
+          },
+          {
+            "text": "Noé abrió una ventana y respiró un aire distinto:",
+            "start": 25.96,
+            "end": 29.698
+          },
+          {
+            "text": "limpio, nuevo.",
+            "start": 29.814,
+            "end": 31.208
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/noe-arca-5.mp3",
+        "cues": [
+          {
+            "text": "Toda la familia y todos los animales salieron",
+            "start": 0,
+            "end": 2.995
+          },
+          {
+            "text": "del arca, después de tanto tiempo,",
+            "start": 3.042,
+            "end": 5.248
+          },
+          {
+            "text": "y pisaron tierra seca otra vez.",
+            "start": 5.364,
+            "end": 7.477
+          },
+          {
+            "text": "El sol brillaba como nunca,",
+            "start": 7.802,
+            "end": 9.578
+          },
+          {
+            "text": "y en el cielo, justo sobre ellos,",
+            "start": 9.822,
+            "end": 12.214
+          },
+          {
+            "text": "apareció un arcoíris enorme,",
+            "start": 12.283,
+            "end": 14.408
+          },
+          {
+            "text": "con todos sus colores.",
+            "start": 14.559,
+            "end": 16.208
+          },
+          {
+            "text": "—Esa es mi promesa —le dijo Dios a Noé—.",
+            "start": 16.452,
+            "end": 19.505
+          },
+          {
+            "text": "Cada vez que veas un arcoíris,",
+            "start": 19.83,
+            "end": 21.618
+          },
+          {
+            "text": "acuérdate: yo siempre voy a cuidar de ustedes.",
+            "start": 21.665,
+            "end": 24.707
+          },
+          {
+            "text": "Noé miró el arcoíris,",
+            "start": 24.823,
+            "end": 26.576
+          },
+          {
+            "text": "y después miró a su familia,",
+            "start": 26.657,
+            "end": 28.375
+          },
+          {
+            "text": "sana y salva a su lado,",
+            "start": 28.491,
+            "end": 30.163
+          },
+          {
+            "text": "y supo que había valido la pena confiar,",
+            "start": 30.221,
+            "end": 32.671
+          },
+          {
+            "text": "aunque nadie más le hubiera creído.",
+            "start": 32.764,
+            "end": 35.063
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/noe-arca-6.mp3",
+        "cues": [
+          {
+            "text": "Qué historia, ¿no? Noé confió en Dios durante",
+            "start": 0,
+            "end": 3.529
+          },
+          {
+            "text": "años, aunque nadie a su alrededor entendía por",
+            "start": 3.576,
+            "end": 6.525
+          },
+          {
+            "text": "qué. Y esa confianza cuidó a toda su familia.",
+            "start": 6.594,
+            "end": 10.089
+          },
+          {
+            "text": "¿Alguna vez hiciste algo difícil porque confiabas",
+            "start": 10.6,
+            "end": 13.537
+          },
+          {
+            "text": "en que era lo correcto,",
+            "start": 13.607,
+            "end": 14.779
+          },
+          {
+            "text": "aunque otros no lo entendieran?",
+            "start": 14.896,
+            "end": 16.765
+          }
+        ]
+      }
+    ]
+  },
+  "buen-samaritano": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:20:15.071Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/buen-samaritano-0.mp3",
+        "cues": [
+          {
+            "text": "Cerca de Jerusalén, un maestro de la ley se acercó",
+            "start": 0,
+            "end": 3.611
+          },
+          {
+            "text": "a Jesús. No venía a aprender —",
+            "start": 3.657,
+            "end": 6.641
+          },
+          {
+            "text": "venía a ponerlo a prueba.",
+            "start": 6.757,
+            "end": 8.429
+          },
+          {
+            "text": "—Maestro —dijo, con una media sonrisa—,",
+            "start": 8.754,
+            "end": 12.446
+          },
+          {
+            "text": "¿qué debo hacer para heredar la vida eterna?",
+            "start": 12.469,
+            "end": 15.36
+          },
+          {
+            "text": "Jesús lo miró con calma,",
+            "start": 15.801,
+            "end": 17.427
+          },
+          {
+            "text": "sin apuro. —¿Qué dice la ley?",
+            "start": 17.508,
+            "end": 19.993
+          },
+          {
+            "text": "—preguntó—. Tú la conoces bien.",
+            "start": 20.039,
+            "end": 22.837
+          },
+          {
+            "text": "¿Qué lees ahí? El hombre respondió de memoria,",
+            "start": 23.104,
+            "end": 26.599
+          },
+          {
+            "text": "casi sin pensarlo: —Amarás al Señor tu Dios con",
+            "start": 26.761,
+            "end": 30.175
+          },
+          {
+            "text": "todo tu corazón, con toda tu alma,",
+            "start": 30.256,
+            "end": 32.857
+          },
+          {
+            "text": "con todas tus fuerzas...",
+            "start": 33.008,
+            "end": 34.552
+          },
+          {
+            "text": "y a tu prójimo como a ti mismo.",
+            "start": 34.923,
+            "end": 36.804
+          },
+          {
+            "text": "—Bien dicho —contestó Jesús—.",
+            "start": 37.129,
+            "end": 39.846
+          },
+          {
+            "text": "Haz eso, y vivirás. Pero el maestro de la ley",
+            "start": 40.09,
+            "end": 43.561
+          },
+          {
+            "text": "quería quedar bien delante de los demás.",
+            "start": 43.631,
+            "end": 45.86
+          },
+          {
+            "text": "Así que insistió: —¿Y quién es mi prójimo?",
+            "start": 46.069,
+            "end": 49.54
+          },
+          {
+            "text": "Jesús guardó silencio un momento.",
+            "start": 49.982,
+            "end": 52.048
+          },
+          {
+            "text": "Después empezó a contar una historia.",
+            "start": 52.327,
+            "end": 54.521
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/buen-samaritano-1.mp3",
+        "cues": [
+          {
+            "text": "El camino de Jerusalén a Jericó bajaba casi 1,000",
+            "start": 0,
+            "end": 3.727
+          },
+          {
+            "text": "metros entre rocas afiladas y curvas cerradas,",
+            "start": 3.808,
+            "end": 7.291
+          },
+          {
+            "text": "un camino angosto donde el sonido de tus propios",
+            "start": 7.5,
+            "end": 10.356
+          },
+          {
+            "text": "pasos rebotaba en la piedra.",
+            "start": 10.437,
+            "end": 12.608
+          },
+          {
+            "text": "Era conocido por algo más: ahí se escondían los",
+            "start": 13.305,
+            "end": 17.264
+          },
+          {
+            "text": "bandidos, entre las grietas,",
+            "start": 17.322,
+            "end": 19.296
+          },
+          {
+            "text": "esperando. Un hombre viajaba solo,",
+            "start": 19.342,
+            "end": 21.954
+          },
+          {
+            "text": "con su bolso al hombro,",
+            "start": 21.989,
+            "end": 23.313
+          },
+          {
+            "text": "sin sospechar que unos ojos lo seguían desde",
+            "start": 23.382,
+            "end": 25.89
+          },
+          {
+            "text": "una roca alta. Lo atacaron sin aviso.",
+            "start": 25.983,
+            "end": 28.758
+          },
+          {
+            "text": "Le arrancaron la ropa,",
+            "start": 28.827,
+            "end": 30.186
+          },
+          {
+            "text": "le quitaron todo lo que llevaba,",
+            "start": 30.267,
+            "end": 32.171
+          },
+          {
+            "text": "y lo golpearon una y otra vez hasta dejarlo tirado",
+            "start": 32.218,
+            "end": 35.805
+          },
+          {
+            "text": "a un costado del camino,",
+            "start": 35.887,
+            "end": 37.454
+          },
+          {
+            "text": "medio muerto, bajo un sol que ya empezaba a quemar",
+            "start": 37.512,
+            "end": 40.67
+          },
+          {
+            "text": "la piel. El viento levantaba el polvo seco entre",
+            "start": 40.74,
+            "end": 43.967
+          },
+          {
+            "text": "las rocas. El hombre apenas podía respirar,",
+            "start": 44.025,
+            "end": 47.752
+          },
+          {
+            "text": "apenas podía moverse.",
+            "start": 47.961,
+            "end": 49.715
+          },
+          {
+            "text": "Y el camino, que un minuto antes parecía tranquilo,",
+            "start": 49.958,
+            "end": 53.592
+          },
+          {
+            "text": "ahora se sentía completamente vacío —",
+            "start": 53.743,
+            "end": 56.541
+          },
+          {
+            "text": "como si el mundo entero se hubiera ido.",
+            "start": 56.611,
+            "end": 59.165
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/buen-samaritano-2.mp3",
+        "cues": [
+          {
+            "text": "Pasó un tiempo largo.",
+            "start": 0,
+            "end": 1.3
+          },
+          {
+            "text": "El sol se movió en el cielo.",
+            "start": 1.625,
+            "end": 3.46
+          },
+          {
+            "text": "Al fin, alguien apareció a lo lejos,",
+            "start": 3.971,
+            "end": 6.548
+          },
+          {
+            "text": "caminando despacio: un sacerdote,",
+            "start": 6.583,
+            "end": 9.578
+          },
+          {
+            "text": "todavía con las ropas de su servicio en el templo",
+            "start": 9.694,
+            "end": 12.457
+          },
+          {
+            "text": "de Jerusalén. Se acercó,",
+            "start": 12.504,
+            "end": 15.012
+          },
+          {
+            "text": "paso a paso. Vio el cuerpo tirado en el suelo,",
+            "start": 15.256,
+            "end": 18.982
+          },
+          {
+            "text": "la sangre ya oscura y seca sobre la ropa rota,",
+            "start": 19.307,
+            "end": 22.384
+          },
+          {
+            "text": "una respiración tan débil que casi no se notaba.",
+            "start": 22.825,
+            "end": 26.203
+          },
+          {
+            "text": "Aminoró el paso, dudando.",
+            "start": 26.645,
+            "end": 28.827
+          },
+          {
+            "text": "—Si lo toco y ya está muerto —pensó,",
+            "start": 29.199,
+            "end": 32.124
+          },
+          {
+            "text": "casi en voz alta—, quedaré impuro.",
+            "start": 32.357,
+            "end": 35.213
+          },
+          {
+            "text": "No podré cumplir con mis deberes en el templo",
+            "start": 35.642,
+            "end": 37.965
+          },
+          {
+            "text": "esta semana. Además, seguro alguien más viene",
+            "start": 38.034,
+            "end": 41.831
+          },
+          {
+            "text": "detrás de mí. Sin decir una palabra,",
+            "start": 41.877,
+            "end": 44.524
+          },
+          {
+            "text": "sin siquiera acercarse del todo,",
+            "start": 44.733,
+            "end": 46.951
+          },
+          {
+            "text": "cruzó hacia el otro lado del camino,",
+            "start": 47.16,
+            "end": 49.505
+          },
+          {
+            "text": "tan lejos como pudo. Apuró el paso.",
+            "start": 49.656,
+            "end": 52.791
+          },
+          {
+            "text": "No volvió a mirar atrás —",
+            "start": 53.232,
+            "end": 54.985
+          },
+          {
+            "text": "como si no mirar pudiera hacer que lo que había",
+            "start": 55.136,
+            "end": 57.574
+          },
+          {
+            "text": "visto dejara de ser verdad.",
+            "start": 57.632,
+            "end": 59.536
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/buen-samaritano-3.mp3",
+        "cues": [
+          {
+            "text": "Más tarde, cuando el sol ya empezaba a bajar,",
+            "start": 0,
+            "end": 3.158
+          },
+          {
+            "text": "pasó un levita — alguien que también servía en",
+            "start": 3.274,
+            "end": 6.293
+          },
+          {
+            "text": "el templo, ayudando a los sacerdotes.",
+            "start": 6.362,
+            "end": 9.044
+          },
+          {
+            "text": "Se acercó lo suficiente para ver la sangre en",
+            "start": 9.485,
+            "end": 11.97
+          },
+          {
+            "text": "la ropa del herido, para escuchar el quejido",
+            "start": 12.04,
+            "end": 14.733
+          },
+          {
+            "text": "bajito que todavía salía de su boca.",
+            "start": 14.779,
+            "end": 17.252
+          },
+          {
+            "text": "Dudó un instante. Dio un paso hacia él.",
+            "start": 17.763,
+            "end": 20.909
+          },
+          {
+            "text": "Pero enseguida se detuvo.",
+            "start": 21.42,
+            "end": 23.022
+          },
+          {
+            "text": "—Tengo prisa —se dijo,",
+            "start": 23.719,
+            "end": 26.227
+          },
+          {
+            "text": "casi en voz alta, como para convencerse a sí",
+            "start": 26.401,
+            "end": 29.222
+          },
+          {
+            "text": "mismo—. Me esperan en Jericó antes de que anochezca.",
+            "start": 29.292,
+            "end": 33.413
+          },
+          {
+            "text": "Seguro alguien más se detiene a ayudarlo,",
+            "start": 33.738,
+            "end": 36.165
+          },
+          {
+            "text": "alguien con más tiempo que yo.",
+            "start": 36.223,
+            "end": 37.813
+          },
+          {
+            "text": "Y siguió caminando, cada vez más rápido,",
+            "start": 37.929,
+            "end": 40.379
+          },
+          {
+            "text": "sin mirar hacia atrás,",
+            "start": 40.402,
+            "end": 41.679
+          },
+          {
+            "text": "como si apurar el paso pudiera borrar lo que",
+            "start": 41.726,
+            "end": 44.083
+          },
+          {
+            "text": "sus propios ojos acababan de ver.",
+            "start": 44.129,
+            "end": 46.44
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/buen-samaritano-4.mp3",
+        "cues": [
+          {
+            "text": "Por último, apareció un samaritano —",
+            "start": 0,
+            "end": 2.519
+          },
+          {
+            "text": "de un pueblo que los judíos evitaban,",
+            "start": 2.612,
+            "end": 4.725
+          },
+          {
+            "text": "con el que ni siquiera se hablaban en tiempos",
+            "start": 4.783,
+            "end": 6.931
+          },
+          {
+            "text": "normales. Pero cuando lo vio,",
+            "start": 7.012,
+            "end": 8.847
+          },
+          {
+            "text": "no pensó en las diferencias entre ambos.",
+            "start": 8.94,
+            "end": 11.471
+          },
+          {
+            "text": "Sintió compasión, así,",
+            "start": 11.622,
+            "end": 13.735
+          },
+          {
+            "text": "de golpe, sin pensarlo dos veces.",
+            "start": 13.851,
+            "end": 16.568
+          },
+          {
+            "text": "Se bajó de su burro. Se arrodilló junto al hombre,",
+            "start": 16.684,
+            "end": 19.935
+          },
+          {
+            "text": "limpió sus heridas con aceite y vino,",
+            "start": 20.051,
+            "end": 22.373
+          },
+          {
+            "text": "y las cubrió con tela,",
+            "start": 22.443,
+            "end": 23.882
+          },
+          {
+            "text": "con cuidado, como quien cuida a alguien de su",
+            "start": 23.929,
+            "end": 26.552
+          },
+          {
+            "text": "propia familia. Lo subió a su propio animal y",
+            "start": 26.622,
+            "end": 29.908
+          },
+          {
+            "text": "caminó a su lado hasta una posada cercana.",
+            "start": 29.978,
+            "end": 32.741
+          },
+          {
+            "text": "Esa noche, no lo dejó solo.",
+            "start": 33.437,
+            "end": 35.783
+          },
+          {
+            "text": "Al día siguiente, antes de partir,",
+            "start": 36.386,
+            "end": 38.685
+          },
+          {
+            "text": "sacó unas monedas y se las entregó al dueño de",
+            "start": 38.894,
+            "end": 41.762
+          },
+          {
+            "text": "la posada. —Cuida de él —le pidió—.",
+            "start": 41.808,
+            "end": 45.117
+          },
+          {
+            "text": "Y si gastas más que esto,",
+            "start": 45.442,
+            "end": 47.195
+          },
+          {
+            "text": "yo te lo pagaré cuando vuelva por aquí.",
+            "start": 47.288,
+            "end": 49.505
+          },
+          {
+            "text": "El hombre que nadie conocía se había convertido,",
+            "start": 50.457,
+            "end": 53.371
+          },
+          {
+            "text": "para ese viajero herido,",
+            "start": 53.43,
+            "end": 54.974
+          },
+          {
+            "text": "en la única esperanza de todo el camino.",
+            "start": 55.02,
+            "end": 57.725
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/buen-samaritano-5.mp3",
+        "cues": [
+          {
+            "text": "Jesús terminó la historia y se quedó mirando",
+            "start": 0,
+            "end": 2.659
+          },
+          {
+            "text": "al maestro de la ley,",
+            "start": 2.694,
+            "end": 4.005
+          },
+          {
+            "text": "que ya no sonreía como al principio.",
+            "start": 4.052,
+            "end": 6.281
+          },
+          {
+            "text": "—Dime —le preguntó Jesús—: de los tres que pasaron",
+            "start": 6.432,
+            "end": 9.718
+          },
+          {
+            "text": "por ese camino, ¿cuál de ellos fue el prójimo",
+            "start": 9.776,
+            "end": 12.376
+          },
+          {
+            "text": "del hombre que cayó en manos de los bandidos?",
+            "start": 12.423,
+            "end": 15.162
+          },
+          {
+            "text": "El maestro de la ley se quedó callado un momento",
+            "start": 15.278,
+            "end": 18.169
+          },
+          {
+            "text": "largo. No podía decir \"el sacerdote\",",
+            "start": 18.239,
+            "end": 21.118
+          },
+          {
+            "text": "ni \"el levita\" — los dos habían cruzado la calle",
+            "start": 21.246,
+            "end": 24.369
+          },
+          {
+            "text": "para evitarlo. Al final respondió,",
+            "start": 24.427,
+            "end": 26.772
+          },
+          {
+            "text": "casi en voz baja, como si le costara decirlo:",
+            "start": 26.83,
+            "end": 29.768
+          },
+          {
+            "text": "—El que tuvo compasión de él.",
+            "start": 29.942,
+            "end": 31.985
+          },
+          {
+            "text": "Ni siquiera podía nombrar al samaritano en voz",
+            "start": 32.31,
+            "end": 34.911
+          },
+          {
+            "text": "alta. —Ve —le dijo Jesús,",
+            "start": 35.004,
+            "end": 37.988
+          },
+          {
+            "text": "con una calidez que no tenía nada de reproche—",
+            "start": 38.139,
+            "end": 40.948
+          },
+          {
+            "text": "y haz tú lo mismo.",
+            "start": 41.122,
+            "end": 42.585
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/buen-samaritano-6.mp3",
+        "cues": [
+          {
+            "text": "A veces creemos que ayudar es solo para la gente",
+            "start": 0,
+            "end": 2.635
+          },
+          {
+            "text": "que ya conocemos, o que se parece a nosotros.",
+            "start": 2.694,
+            "end": 5.654
+          },
+          {
+            "text": "Pero el samaritano nos enseña que el amor de",
+            "start": 5.863,
+            "end": 8.696
+          },
+          {
+            "text": "verdad no pregunta primero quién es el otro.",
+            "start": 8.742,
+            "end": 11.865
+          },
+          {
+            "text": "¿Cómo puedes ayudar esta semana a alguien que",
+            "start": 11.981,
+            "end": 14.687
+          },
+          {
+            "text": "quizás no conoces tan bien?",
+            "start": 14.756,
+            "end": 16.858
+          }
+        ]
+      }
+    ]
+  },
+  "moises-mar-rojo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:32:49.997Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/moises-mar-rojo-0.mp3",
+        "cues": [
+          {
+            "text": "El pueblo caminaba desde hacía días,",
+            "start": 0,
+            "end": 2.334
+          },
+          {
+            "text": "todos juntos, cargando lo poco que habían podido",
+            "start": 2.38,
+            "end": 5.341
+          },
+          {
+            "text": "llevarse. Durante años habían sido esclavos en",
+            "start": 5.364,
+            "end": 8.15
+          },
+          {
+            "text": "Egipto, obligados a trabajar sin descanso —",
+            "start": 8.208,
+            "end": 11.146
+          },
+          {
+            "text": "y ahora, por fin, eran libres.",
+            "start": 11.238,
+            "end": 13.293
+          },
+          {
+            "text": "De día, una columna de nube los guiaba por el",
+            "start": 13.41,
+            "end": 16.231
+          },
+          {
+            "text": "camino; de noche, una columna de fuego alumbraba",
+            "start": 16.289,
+            "end": 20.166
+          },
+          {
+            "text": "el campamento para que nadie tuviera miedo de",
+            "start": 20.19,
+            "end": 22.384
+          },
+          {
+            "text": "la oscuridad. —¿A dónde vamos?",
+            "start": 22.43,
+            "end": 25.356
+          },
+          {
+            "text": "—le preguntó un niño a su madre,",
+            "start": 25.472,
+            "end": 27.55
+          },
+          {
+            "text": "mirando esa nube enorme flotando delante de todos.",
+            "start": 27.759,
+            "end": 31.01
+          },
+          {
+            "text": "—A la tierra que Dios nos prometió —respondió",
+            "start": 31.451,
+            "end": 34.365
+          },
+          {
+            "text": "ella, apretándole la mano—.",
+            "start": 34.423,
+            "end": 36.246
+          },
+          {
+            "text": "Dios mismo nos está mostrando el camino.",
+            "start": 36.571,
+            "end": 38.835
+          },
+          {
+            "text": "Adelante de todos caminaba Moisés,",
+            "start": 39.531,
+            "end": 42.062
+          },
+          {
+            "text": "con su hermana Miriam a su lado,",
+            "start": 42.155,
+            "end": 43.885
+          },
+          {
+            "text": "guiando al pueblo que Dios le había confiado.",
+            "start": 44.001,
+            "end": 46.625
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-1.mp3",
+        "cues": [
+          {
+            "text": "Pero en Egipto, el Faraón empezó a arrepentirse.",
+            "start": 0,
+            "end": 3.216
+          },
+          {
+            "text": "—¿Qué hemos hecho? —dijo,",
+            "start": 3.425,
+            "end": 5.097
+          },
+          {
+            "text": "furioso, a sus generales—.",
+            "start": 5.12,
+            "end": 6.757
+          },
+          {
+            "text": "¡Dejamos ir a todos nuestros esclavos!",
+            "start": 6.815,
+            "end": 9.3
+          },
+          {
+            "text": "Mandó preparar sus carros de guerra,",
+            "start": 9.625,
+            "end": 11.587
+          },
+          {
+            "text": "seiscientos de sus mejores carros,",
+            "start": 11.656,
+            "end": 14.095
+          },
+          {
+            "text": "y salió con todo su ejército a perseguir al pueblo",
+            "start": 14.129,
+            "end": 17.02
+          },
+          {
+            "text": "que se había ido. El pueblo acampaba junto al",
+            "start": 17.067,
+            "end": 19.586
+          },
+          {
+            "text": "mar Rojo, descansando por fin,",
+            "start": 19.644,
+            "end": 21.792
+          },
+          {
+            "text": "cuando alguien miró hacia atrás y vio una nube",
+            "start": 21.862,
+            "end": 24.601
+          },
+          {
+            "text": "de polvo enorme levantándose en el horizonte.",
+            "start": 24.648,
+            "end": 27.759
+          },
+          {
+            "text": "—¡Es el ejército del Faraón!",
+            "start": 28.27,
+            "end": 30.232
+          },
+          {
+            "text": "—gritó, y el grito corrió de familia en familia",
+            "start": 30.29,
+            "end": 33.169
+          },
+          {
+            "text": "como un escalofrío. Adelante,",
+            "start": 33.216,
+            "end": 35.248
+          },
+          {
+            "text": "el mar. Atrás, los carros de guerra acercándose",
+            "start": 35.294,
+            "end": 38.243
+          },
+          {
+            "text": "cada vez más rápido. No había a dónde correr.",
+            "start": 38.289,
+            "end": 41.285
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-2.mp3",
+        "cues": [
+          {
+            "text": "El pánico se extendió por todo el campamento.",
+            "start": 0,
+            "end": 2.682
+          },
+          {
+            "text": "Algunos lloraban, otros gritaban,",
+            "start": 2.798,
+            "end": 5.294
+          },
+          {
+            "text": "y muchos corrieron hasta donde estaba Moisés.",
+            "start": 5.387,
+            "end": 8.139
+          },
+          {
+            "text": "—¿No había tumbas suficientes en Egipto —le reclamó",
+            "start": 8.522,
+            "end": 12.179
+          },
+          {
+            "text": "uno—, que nos trajiste a morir aquí,",
+            "start": 12.272,
+            "end": 14.64
+          },
+          {
+            "text": "en el desierto? ¡Mejor hubiera sido seguir siendo",
+            "start": 14.71,
+            "end": 18.019
+          },
+          {
+            "text": "esclavos, que morir así!",
+            "start": 18.053,
+            "end": 19.934
+          },
+          {
+            "text": "Moisés sintió el miedo de todos encima suyo,",
+            "start": 21.049,
+            "end": 24.334
+          },
+          {
+            "text": "pesado como una piedra.",
+            "start": 24.369,
+            "end": 26.134
+          },
+          {
+            "text": "Pero respiró hondo, y levantó las manos para",
+            "start": 26.947,
+            "end": 29.652
+          },
+          {
+            "text": "que lo escucharan. —No tengan miedo —dijo,",
+            "start": 29.698,
+            "end": 34.029
+          },
+          {
+            "text": "con una voz que intentaba ser firme aunque por",
+            "start": 34.145,
+            "end": 36.989
+          },
+          {
+            "text": "dentro también temblaba—.",
+            "start": 37.059,
+            "end": 38.812
+          },
+          {
+            "text": "Quédense quietos, y vean cómo Dios los salva",
+            "start": 39.764,
+            "end": 42.98
+          },
+          {
+            "text": "hoy. A los egipcios que ven ahora,",
+            "start": 43.027,
+            "end": 46.336
+          },
+          {
+            "text": "no volverán a verlos nunca más.",
+            "start": 46.486,
+            "end": 48.623
+          },
+          {
+            "text": "El Señor va a pelear por ustedes;",
+            "start": 49.226,
+            "end": 51.606
+          },
+          {
+            "text": "ustedes solo tienen que estar tranquilos.",
+            "start": 51.932,
+            "end": 55.031
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-3.mp3",
+        "cues": [
+          {
+            "text": "Entonces Dios le habló a Moisés: —Extiende tu",
+            "start": 0,
+            "end": 3.332
+          },
+          {
+            "text": "bastón sobre el mar. Moisés caminó hasta la orilla,",
+            "start": 3.379,
+            "end": 7.012
+          },
+          {
+            "text": "con todo el pueblo conteniendo la respiración",
+            "start": 7.047,
+            "end": 9.636
+          },
+          {
+            "text": "detrás de él, y levantó su bastón sobre las aguas.",
+            "start": 9.694,
+            "end": 13.119
+          },
+          {
+            "text": "Un viento fuerte empezó a soplar —",
+            "start": 13.56,
+            "end": 16.08
+          },
+          {
+            "text": "no un viento cualquiera,",
+            "start": 16.23,
+            "end": 17.635
+          },
+          {
+            "text": "sino uno que venía directo del cielo,",
+            "start": 17.809,
+            "end": 20.131
+          },
+          {
+            "text": "y que sopló toda la noche,",
+            "start": 20.166,
+            "end": 21.919
+          },
+          {
+            "text": "sin detenerse. Poco a poco,",
+            "start": 21.977,
+            "end": 24.067
+          },
+          {
+            "text": "ante los ojos de todos,",
+            "start": 24.102,
+            "end": 25.739
+          },
+          {
+            "text": "el mar comenzó a abrirse: las aguas se levantaron",
+            "start": 25.797,
+            "end": 28.978
+          },
+          {
+            "text": "como dos paredes, una a cada lado,",
+            "start": 29.048,
+            "end": 31.498
+          },
+          {
+            "text": "y entre ellas quedó un camino de tierra seca,",
+            "start": 31.614,
+            "end": 34.284
+          },
+          {
+            "text": "tan ancho como para que todo el pueblo pudiera",
+            "start": 34.354,
+            "end": 36.641
+          },
+          {
+            "text": "cruzar junto. Nadie dijo una palabra.",
+            "start": 36.688,
+            "end": 39.312
+          },
+          {
+            "text": "Solo se escuchaba el viento,",
+            "start": 39.393,
+            "end": 41.146
+          },
+          {
+            "text": "y el sonido de las aguas quietas,",
+            "start": 41.262,
+            "end": 43.143
+          },
+          {
+            "text": "esperando.",
+            "start": 43.178,
+            "end": 44.164
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-4.mp3",
+        "cues": [
+          {
+            "text": "Moisés dio el primer paso sobre la tierra seca,",
+            "start": 0,
+            "end": 3.007
+          },
+          {
+            "text": "y el pueblo entero empezó a cruzar detrás de",
+            "start": 3.088,
+            "end": 5.584
+          },
+          {
+            "text": "él, entre esas dos paredes de agua que no caían.",
+            "start": 5.666,
+            "end": 9.044
+          },
+          {
+            "text": "Los niños miraban hacia arriba,",
+            "start": 9.16,
+            "end": 11.204
+          },
+          {
+            "text": "asombrados, tomados fuerte de la mano de sus",
+            "start": 11.238,
+            "end": 14.118
+          },
+          {
+            "text": "padres. Algunos estiraban los dedos para casi",
+            "start": 14.187,
+            "end": 17.194
+          },
+          {
+            "text": "tocar el agua, sin animarse del todo.",
+            "start": 17.252,
+            "end": 19.563
+          },
+          {
+            "text": "Las familias cruzaban juntas,",
+            "start": 19.714,
+            "end": 21.606
+          },
+          {
+            "text": "cargando lo que tenían,",
+            "start": 21.676,
+            "end": 22.976
+          },
+          {
+            "text": "sin dejar de mirar hacia adelante,",
+            "start": 23.092,
+            "end": 25.24
+          },
+          {
+            "text": "hacia el otro lado. Detrás de ellos,",
+            "start": 25.275,
+            "end": 27.608
+          },
+          {
+            "text": "ya se veían las antorchas del ejército egipcio",
+            "start": 27.678,
+            "end": 30.488
+          },
+          {
+            "text": "llegando a la orilla —",
+            "start": 30.511,
+            "end": 31.788
+          },
+          {
+            "text": "pero el pueblo de Dios seguía caminando,",
+            "start": 31.812,
+            "end": 34.436
+          },
+          {
+            "text": "paso a paso, por un camino que minutos antes",
+            "start": 34.47,
+            "end": 37.384
+          },
+          {
+            "text": "había sido mar.",
+            "start": 37.454,
+            "end": 38.685
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-5.mp3",
+        "cues": [
+          {
+            "text": "El ejército del Faraón,",
+            "start": 0,
+            "end": 1.544
+          },
+          {
+            "text": "al ver el camino abierto,",
+            "start": 1.614,
+            "end": 3.158
+          },
+          {
+            "text": "se lanzó detrás del pueblo,",
+            "start": 3.251,
+            "end": 4.934
+          },
+          {
+            "text": "con todos sus carros y caballos.",
+            "start": 4.969,
+            "end": 6.978
+          },
+          {
+            "text": "Pero las ruedas de los carros empezaron a atascarse",
+            "start": 7.012,
+            "end": 9.973
+          },
+          {
+            "text": "en la tierra húmeda, y el avance se hizo cada",
+            "start": 10.019,
+            "end": 12.852
+          },
+          {
+            "text": "vez más difícil. —¡Alejémonos!",
+            "start": 12.91,
+            "end": 15.535
+          },
+          {
+            "text": "—gritó uno de los soldados egipcios—.",
+            "start": 15.593,
+            "end": 18.1
+          },
+          {
+            "text": "¡El Dios de Israel está peleando por ellos!",
+            "start": 18.217,
+            "end": 20.98
+          },
+          {
+            "text": "Para entonces, el último israelita ya había puesto",
+            "start": 21.177,
+            "end": 24.683
+          },
+          {
+            "text": "el pie en la otra orilla,",
+            "start": 24.73,
+            "end": 26.506
+          },
+          {
+            "text": "a salvo. Dios le habló otra vez a Moisés: —Extiende",
+            "start": 26.587,
+            "end": 31.533
+          },
+          {
+            "text": "tu mano sobre el mar de nuevo.",
+            "start": 31.591,
+            "end": 33.669
+          },
+          {
+            "text": "Moisés obedeció, y las paredes de agua,",
+            "start": 33.843,
+            "end": 36.676
+          },
+          {
+            "text": "que habían esperado pacientes toda la noche,",
+            "start": 36.734,
+            "end": 39.614
+          },
+          {
+            "text": "volvieron a su lugar,",
+            "start": 39.672,
+            "end": 41.03
+          },
+          {
+            "text": "cerrando el camino para siempre.",
+            "start": 41.1,
+            "end": 43.282
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-6.mp3",
+        "cues": [
+          {
+            "text": "Del otro lado, a salvo,",
+            "start": 0,
+            "end": 1.962
+          },
+          {
+            "text": "el pueblo entero miró hacia atrás y vio el mar",
+            "start": 2.02,
+            "end": 5.074
+          },
+          {
+            "text": "tranquilo otra vez, como si nada hubiera pasado.",
+            "start": 5.132,
+            "end": 8.742
+          },
+          {
+            "text": "Miriam tomó una pandereta,",
+            "start": 8.858,
+            "end": 10.739
+          },
+          {
+            "text": "y todas las mujeres la siguieron,",
+            "start": 10.89,
+            "end": 12.98
+          },
+          {
+            "text": "cantando y danzando de alegría por lo que Dios",
+            "start": 13.096,
+            "end": 15.929
+          },
+          {
+            "text": "había hecho. —¡Cantemos al Señor —cantaba Miriam,",
+            "start": 15.999,
+            "end": 19.923
+          },
+          {
+            "text": "y su voz se escuchaba por toda la orilla—",
+            "start": 19.981,
+            "end": 22.918
+          },
+          {
+            "text": "porque se ha cubierto de gloria!",
+            "start": 22.988,
+            "end": 25.217
+          },
+          {
+            "text": "Moisés se quedó mirando el mar un momento,",
+            "start": 25.333,
+            "end": 28.236
+          },
+          {
+            "text": "en silencio, todavía sin poder creer del todo",
+            "start": 28.352,
+            "end": 31.73
+          },
+          {
+            "text": "lo que acababan de vivir.",
+            "start": 31.823,
+            "end": 33.437
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/moises-mar-rojo-7.mp3",
+        "cues": [
+          {
+            "text": "Qué noche, ¿no? El pueblo estaba atrapado,",
+            "start": 0,
+            "end": 2.554
+          },
+          {
+            "text": "sin ninguna salida — y justo ahí,",
+            "start": 2.612,
+            "end": 5.027
+          },
+          {
+            "text": "donde parecía que no había ningún camino,",
+            "start": 5.074,
+            "end": 7.477
+          },
+          {
+            "text": "Dios abrió uno. ¿Alguna vez sentiste que un problema",
+            "start": 7.593,
+            "end": 10.635
+          },
+          {
+            "text": "no tenía solución, y de repente se resolvió?",
+            "start": 10.693,
+            "end": 13.607
+          }
+        ]
+      }
+    ]
+  },
+  "hijo-prodigo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:33:12.018Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/hijo-prodigo-0.mp3",
+        "cues": [
+          {
+            "text": "Un hombre tenía dos hijos.",
+            "start": 0,
+            "end": 1.695
+          },
+          {
+            "text": "Un día, el más joven se acercó a su padre.",
+            "start": 1.974,
+            "end": 4.934
+          },
+          {
+            "text": "—Papá —le dijo—, dame ahora la parte de la herencia",
+            "start": 5.317,
+            "end": 9.195
+          },
+          {
+            "text": "que me toca. Era un pedido extraño,",
+            "start": 9.242,
+            "end": 12.434
+          },
+          {
+            "text": "casi como desear que su padre ya no existiera.",
+            "start": 12.713,
+            "end": 15.639
+          },
+          {
+            "text": "Pero el padre, sin decir una palabra de reproche,",
+            "start": 16.242,
+            "end": 19.853
+          },
+          {
+            "text": "repartió lo que tenía entre sus dos hijos.",
+            "start": 20.294,
+            "end": 22.964
+          },
+          {
+            "text": "Pocos días después, el hijo menor juntó todo",
+            "start": 23.661,
+            "end": 26.982
+          },
+          {
+            "text": "lo suyo y se fue lejos,",
+            "start": 27.051,
+            "end": 28.932
+          },
+          {
+            "text": "a un país lejano, listo para vivir la vida que",
+            "start": 29.315,
+            "end": 32.833
+          },
+          {
+            "text": "había imaginado.",
+            "start": 32.868,
+            "end": 34.273
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/hijo-prodigo-1.mp3",
+        "cues": [
+          {
+            "text": "Allá lejos, el hijo gastó todo su dinero en fiestas",
+            "start": 0,
+            "end": 3.704
+          },
+          {
+            "text": "y lujos, sin pensar en el mañana.",
+            "start": 3.762,
+            "end": 6.362
+          },
+          {
+            "text": "Tenía amigos nuevos todas las noches,",
+            "start": 6.873,
+            "end": 9.462
+          },
+          {
+            "text": "y nadie le preguntaba de dónde venía ni a dónde",
+            "start": 9.636,
+            "end": 12.19
+          },
+          {
+            "text": "iba. Pero el dinero se acabó.",
+            "start": 12.26,
+            "end": 14.675
+          },
+          {
+            "text": "Y justo entonces, una hambruna enorme cayó sobre",
+            "start": 15.116,
+            "end": 18.762
+          },
+          {
+            "text": "esa tierra. Sin un centavo,",
+            "start": 18.796,
+            "end": 20.735
+          },
+          {
+            "text": "sin amigos, y sin nada que comer,",
+            "start": 20.782,
+            "end": 22.988
+          },
+          {
+            "text": "el joven consiguió el único trabajo que encontró:",
+            "start": 23.022,
+            "end": 25.762
+          },
+          {
+            "text": "cuidar cerdos en el campo de un desconocido.",
+            "start": 25.82,
+            "end": 28.468
+          },
+          {
+            "text": "Tenía tanta hambre que hasta la comida de los",
+            "start": 28.537,
+            "end": 31.068
+          },
+          {
+            "text": "cerdos le parecía apetecible.",
+            "start": 31.091,
+            "end": 33.158
+          },
+          {
+            "text": "Y nadie le daba nada.",
+            "start": 33.193,
+            "end": 34.83
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/hijo-prodigo-2.mp3",
+        "cues": [
+          {
+            "text": "Sentado en ese campo,",
+            "start": 0,
+            "end": 1.556
+          },
+          {
+            "text": "solo, el joven pensó en su casa.",
+            "start": 1.707,
+            "end": 4.319
+          },
+          {
+            "text": "—En la casa de mi padre —se dijo a sí mismo—,",
+            "start": 4.435,
+            "end": 7.535
+          },
+          {
+            "text": "hasta los trabajadores tienen comida de sobra,",
+            "start": 7.709,
+            "end": 10.263
+          },
+          {
+            "text": "y yo aquí me muero de hambre.",
+            "start": 10.391,
+            "end": 12.376
+          },
+          {
+            "text": "Decidió volver. Ensayó las palabras una y otra",
+            "start": 12.655,
+            "end": 16.103
+          },
+          {
+            "text": "vez durante el camino: —Papá,",
+            "start": 16.161,
+            "end": 18.715
+          },
+          {
+            "text": "pequé contra el cielo y contra ti.",
+            "start": 18.924,
+            "end": 21.037
+          },
+          {
+            "text": "Ya no merezco que me llames hijo.",
+            "start": 21.478,
+            "end": 23.429
+          },
+          {
+            "text": "Solo déjame trabajar para ti,",
+            "start": 23.87,
+            "end": 25.797
+          },
+          {
+            "text": "como uno más. Caminó de regreso con esas palabras",
+            "start": 25.948,
+            "end": 29.814
+          },
+          {
+            "text": "en la boca, y con mucho miedo de lo que su padre",
+            "start": 29.895,
+            "end": 32.868
+          },
+          {
+            "text": "diría al verlo así.",
+            "start": 32.926,
+            "end": 34.365
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/hijo-prodigo-3.mp3",
+        "cues": [
+          {
+            "text": "Pero su padre lo vio llegar desde muy lejos —",
+            "start": 0,
+            "end": 2.659
+          },
+          {
+            "text": "porque, en realidad, todos los días miraba hacia",
+            "start": 2.775,
+            "end": 5.875
+          },
+          {
+            "text": "ese mismo camino, esperando.",
+            "start": 5.933,
+            "end": 8.092
+          },
+          {
+            "text": "Y cuando lo reconoció,",
+            "start": 8.22,
+            "end": 9.59
+          },
+          {
+            "text": "no esperó a que su hijo llegara hasta la puerta.",
+            "start": 9.741,
+            "end": 12.539
+          },
+          {
+            "text": "Corrió hacia él, lo abrazó fuerte,",
+            "start": 12.666,
+            "end": 15.174
+          },
+          {
+            "text": "y lo besó, cubierto todavía de polvo del camino.",
+            "start": 15.244,
+            "end": 18.785
+          },
+          {
+            "text": "—Papá —alcanzó a decir el hijo—,",
+            "start": 18.866,
+            "end": 21.467
+          },
+          {
+            "text": "pequé contra el cielo y contra ti.",
+            "start": 21.49,
+            "end": 23.719
+          },
+          {
+            "text": "Ya no merezco... —¡Rápido!",
+            "start": 23.835,
+            "end": 25.867
+          },
+          {
+            "text": "—interrumpió el padre,",
+            "start": 25.902,
+            "end": 27.399
+          },
+          {
+            "text": "llamando a sus siervos,",
+            "start": 27.457,
+            "end": 28.769
+          },
+          {
+            "text": "sin soltar a su hijo—.",
+            "start": 28.827,
+            "end": 30.29
+          },
+          {
+            "text": "Traigan la mejor ropa,",
+            "start": 30.616,
+            "end": 32.078
+          },
+          {
+            "text": "y pónganle un anillo en la mano.",
+            "start": 32.148,
+            "end": 34.064
+          },
+          {
+            "text": "¡Preparen la fiesta más grande que hayamos hecho!",
+            "start": 34.11,
+            "end": 36.804
+          },
+          {
+            "text": "Mi hijo estaba muerto,",
+            "start": 36.885,
+            "end": 38.464
+          },
+          {
+            "text": "y ha vuelto a la vida.",
+            "start": 38.522,
+            "end": 39.776
+          },
+          {
+            "text": "Estaba perdido, ¡y lo hemos encontrado!",
+            "start": 39.822,
+            "end": 42.539
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/hijo-prodigo-4.mp3",
+        "cues": [
+          {
+            "text": "El hijo mayor, que trabajaba en el campo,",
+            "start": 0,
+            "end": 2.264
+          },
+          {
+            "text": "escuchó la música y las risas de la fiesta desde",
+            "start": 2.31,
+            "end": 4.923
+          },
+          {
+            "text": "lejos, y preguntó qué pasaba.",
+            "start": 4.981,
+            "end": 7.07
+          },
+          {
+            "text": "—Tu hermano volvió —le dijeron—,",
+            "start": 7.454,
+            "end": 10.136
+          },
+          {
+            "text": "y tu padre hizo una fiesta enorme por él.",
+            "start": 10.17,
+            "end": 12.748
+          },
+          {
+            "text": "El hermano mayor se enojó,",
+            "start": 13.131,
+            "end": 14.814
+          },
+          {
+            "text": "y no quiso entrar. Su padre salió a buscarlo.",
+            "start": 14.896,
+            "end": 18.495
+          },
+          {
+            "text": "—Hijo —le dijo el padre—,",
+            "start": 18.936,
+            "end": 21.165
+          },
+          {
+            "text": "tú siempre estuviste conmigo,",
+            "start": 21.34,
+            "end": 23.278
+          },
+          {
+            "text": "y todo lo que tengo es tuyo.",
+            "start": 23.336,
+            "end": 25.368
+          },
+          {
+            "text": "Pero teníamos que festejar: tu hermano estaba",
+            "start": 25.693,
+            "end": 28.665
+          },
+          {
+            "text": "perdido, y lo hemos encontrado.",
+            "start": 28.723,
+            "end": 30.987
+          },
+          {
+            "text": "Estaba muerto, y ha vuelto a estar vivo.",
+            "start": 31.231,
+            "end": 34.227
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/hijo-prodigo-5.mp3",
+        "cues": [
+          {
+            "text": "Qué historia tan cálida,",
+            "start": 0,
+            "end": 1.382
+          },
+          {
+            "text": "¿no? El padre no esperó una disculpa perfecta:",
+            "start": 1.405,
+            "end": 4.807
+          },
+          {
+            "text": "corrió a abrazar a su hijo apenas lo vio a lo",
+            "start": 5.248,
+            "end": 7.721
+          },
+          {
+            "text": "lejos. ¿Alguna vez pediste perdón por algo?",
+            "start": 7.779,
+            "end": 11.122
+          },
+          {
+            "text": "¿Cómo te sentiste después?",
+            "start": 11.331,
+            "end": 13.189
+          }
+        ]
+      }
+    ]
+  },
+  "daniel-leones": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:33:32.995Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/daniel-leones-0.mp3",
+        "cues": [
+          {
+            "text": "Daniel vivía en un reino lejano,",
+            "start": 0,
+            "end": 2.543
+          },
+          {
+            "text": "sirviendo al rey Darío,",
+            "start": 2.635,
+            "end": 4.191
+          },
+          {
+            "text": "y lo hacía tan bien que el rey pensaba nombrarlo",
+            "start": 4.261,
+            "end": 6.978
+          },
+          {
+            "text": "por encima de todos los demás gobernantes del",
+            "start": 7.024,
+            "end": 9.718
+          },
+          {
+            "text": "reino. Eso hizo que otros hombres,",
+            "start": 9.799,
+            "end": 11.958
+          },
+          {
+            "text": "celosos de Daniel, empezaran a buscar algo —",
+            "start": 11.993,
+            "end": 14.965
+          },
+          {
+            "text": "cualquier cosa — para acusarlo delante del rey.",
+            "start": 15.012,
+            "end": 18.204
+          },
+          {
+            "text": "Pero no encontraban nada.",
+            "start": 18.286,
+            "end": 19.667
+          },
+          {
+            "text": "Daniel era honesto, cuidadoso,",
+            "start": 19.714,
+            "end": 21.873
+          },
+          {
+            "text": "y fiel en cada tarea que se le encomendaba.",
+            "start": 21.931,
+            "end": 24.59
+          },
+          {
+            "text": "—La única forma de encontrar algo contra este",
+            "start": 24.636,
+            "end": 27.156
+          },
+          {
+            "text": "hombre —se dijeron entre ellos—",
+            "start": 27.214,
+            "end": 29.269
+          },
+          {
+            "text": "es por su forma de orar a su Dios.",
+            "start": 29.338,
+            "end": 31.672
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/daniel-leones-1.mp3",
+        "cues": [
+          {
+            "text": "Así que esos hombres fueron con el rey Darío",
+            "start": 0,
+            "end": 2.821
+          },
+          {
+            "text": "y le propusieron una ley: —Su majestad,",
+            "start": 2.902,
+            "end": 5.689
+          },
+          {
+            "text": "que se firme un decreto: durante treinta días,",
+            "start": 5.805,
+            "end": 9.044
+          },
+          {
+            "text": "nadie puede orarle a ningún dios ni a ningún",
+            "start": 9.195,
+            "end": 11.993
+          },
+          {
+            "text": "hombre que no sea usted.",
+            "start": 12.04,
+            "end": 13.63
+          },
+          {
+            "text": "El que lo haga, será arrojado al foso de los",
+            "start": 13.723,
+            "end": 16.649
+          },
+          {
+            "text": "leones. El rey, sin sospechar la trampa,",
+            "start": 16.719,
+            "end": 19.935
+          },
+          {
+            "text": "firmó el decreto. Daniel se enteró de la nueva",
+            "start": 19.993,
+            "end": 22.953
+          },
+          {
+            "text": "ley. Y aun así, esa misma tarde,",
+            "start": 23,
+            "end": 25.67
+          },
+          {
+            "text": "subió a su cuarto, abrió la ventana que miraba",
+            "start": 25.728,
+            "end": 28.747
+          },
+          {
+            "text": "hacia Jerusalén, tal como lo hacía siempre,",
+            "start": 28.793,
+            "end": 31.73
+          },
+          {
+            "text": "y se arrodilló a orar a Dios,",
+            "start": 31.765,
+            "end": 33.936
+          },
+          {
+            "text": "tres veces, como cada día de su vida.",
+            "start": 33.983,
+            "end": 36.641
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/daniel-leones-2.mp3",
+        "cues": [
+          {
+            "text": "Los hombres que lo acechaban lo encontraron orando,",
+            "start": 0,
+            "end": 3.123
+          },
+          {
+            "text": "exactamente como esperaban,",
+            "start": 3.193,
+            "end": 5.178
+          },
+          {
+            "text": "y corrieron a contárselo al rey.",
+            "start": 5.259,
+            "end": 7.43
+          },
+          {
+            "text": "—¡Daniel no le hace caso a su decreto,",
+            "start": 7.546,
+            "end": 9.81
+          },
+          {
+            "text": "majestad! ¡Sigue orando a su Dios tres veces",
+            "start": 9.834,
+            "end": 12.887
+          },
+          {
+            "text": "al día! El rey Darío se angustió muchísimo —",
+            "start": 12.968,
+            "end": 16.149
+          },
+          {
+            "text": "él apreciaba a Daniel,",
+            "start": 16.265,
+            "end": 17.752
+          },
+          {
+            "text": "y entendió demasiado tarde la trampa en la que",
+            "start": 17.786,
+            "end": 20.573
+          },
+          {
+            "text": "había caído. Buscó toda la tarde una forma de",
+            "start": 20.596,
+            "end": 23.568
+          },
+          {
+            "text": "salvarlo, pero la ley ya estaba firmada,",
+            "start": 23.615,
+            "end": 26.192
+          },
+          {
+            "text": "y no podía deshacerse.",
+            "start": 26.227,
+            "end": 27.887
+          },
+          {
+            "text": "Con tristeza, el rey ordenó que llevaran a Daniel",
+            "start": 27.91,
+            "end": 30.801
+          },
+          {
+            "text": "al foso de los leones.",
+            "start": 30.87,
+            "end": 32.403
+          },
+          {
+            "text": "—Que tu Dios, al que sirves siempre —le dijo",
+            "start": 32.647,
+            "end": 36.141
+          },
+          {
+            "text": "el rey, antes de que sellaran la entrada—,",
+            "start": 36.165,
+            "end": 38.812
+          },
+          {
+            "text": "te salve.",
+            "start": 38.963,
+            "end": 39.845
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/daniel-leones-3.mp3",
+        "cues": [
+          {
+            "text": "Esa noche, el rey no pudo dormir.",
+            "start": 0,
+            "end": 2.241
+          },
+          {
+            "text": "No comió, no quiso música,",
+            "start": 2.566,
+            "end": 4.679
+          },
+          {
+            "text": "y apenas amaneció, corrió hasta el foso,",
+            "start": 4.853,
+            "end": 7.523
+          },
+          {
+            "text": "angustiado, y gritó hacia adentro: —¡Daniel,",
+            "start": 7.593,
+            "end": 11.076
+          },
+          {
+            "text": "siervo del Dios viviente!",
+            "start": 11.122,
+            "end": 12.875
+          },
+          {
+            "text": "¿Pudo tu Dios, al que sirves siempre,",
+            "start": 13.026,
+            "end": 15.139
+          },
+          {
+            "text": "salvarte de los leones?",
+            "start": 15.163,
+            "end": 16.73
+          },
+          {
+            "text": "Desde adentro, una voz respondió,",
+            "start": 17.171,
+            "end": 19.331
+          },
+          {
+            "text": "tranquila: —¡Majestad,",
+            "start": 19.412,
+            "end": 21.27
+          },
+          {
+            "text": "viva para siempre! Mi Dios envió a su ángel,",
+            "start": 21.386,
+            "end": 24.532
+          },
+          {
+            "text": "y cerró la boca de los leones,",
+            "start": 24.578,
+            "end": 26.413
+          },
+          {
+            "text": "para que no me hicieran ningún daño.",
+            "start": 26.483,
+            "end": 28.746
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/daniel-leones-4.mp3",
+        "cues": [
+          {
+            "text": "El rey, lleno de alegría,",
+            "start": 0,
+            "end": 2.067
+          },
+          {
+            "text": "ordenó sacar a Daniel del foso enseguida.",
+            "start": 2.113,
+            "end": 4.853
+          },
+          {
+            "text": "Cuando lo revisaron, no encontraron en él ni",
+            "start": 5.004,
+            "end": 8.057
+          },
+          {
+            "text": "un rasguño — porque había confiado en su Dios.",
+            "start": 8.173,
+            "end": 11.343
+          },
+          {
+            "text": "El rey Darío, admirado por lo que había visto,",
+            "start": 11.587,
+            "end": 14.582
+          },
+          {
+            "text": "escribió una nueva orden para todo el reino:",
+            "start": 14.629,
+            "end": 17.473
+          },
+          {
+            "text": "—Que todos, en cada rincón de mi reino,",
+            "start": 17.623,
+            "end": 20.178
+          },
+          {
+            "text": "respeten y teman al Dios de Daniel,",
+            "start": 20.294,
+            "end": 22.465
+          },
+          {
+            "text": "porque él es el Dios viviente,",
+            "start": 22.534,
+            "end": 24.346
+          },
+          {
+            "text": "y su reino jamás será destruido.",
+            "start": 24.38,
+            "end": 26.888
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/daniel-leones-5.mp3",
+        "cues": [
+          {
+            "text": "Qué noche tan larga habrá sido esa,",
+            "start": 0,
+            "end": 1.974
+          },
+          {
+            "text": "¿no? Daniel eligió seguir orando aunque eso significara",
+            "start": 1.997,
+            "end": 6.072
+          },
+          {
+            "text": "arriesgarlo todo — y Dios estuvo con él,",
+            "start": 6.095,
+            "end": 8.963
+          },
+          {
+            "text": "incluso ahí adentro, entre los leones.",
+            "start": 9.172,
+            "end": 12.028
+          },
+          {
+            "text": "¿Alguna vez hiciste lo correcto aunque te diera",
+            "start": 12.098,
+            "end": 14.466
+          },
+          {
+            "text": "miedo? ¿Qué pasó?",
+            "start": 14.524,
+            "end": 16.161
+          }
+        ]
+      }
+    ]
+  },
+  "jesus-tormenta": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:33:50.180Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/jesus-tormenta-0.mp3",
+        "cues": [
+          {
+            "text": "Al caer la tarde, Jesús les dijo a sus discípulos:",
+            "start": 0,
+            "end": 3.646
+          },
+          {
+            "text": "—Vamos al otro lado del lago.",
+            "start": 3.727,
+            "end": 6.002
+          },
+          {
+            "text": "Subieron todos a la barca,",
+            "start": 6.13,
+            "end": 7.918
+          },
+          {
+            "text": "cansados después de un día entero enseñando a",
+            "start": 7.953,
+            "end": 10.704
+          },
+          {
+            "text": "la gente. Jesús, agotado,",
+            "start": 10.739,
+            "end": 13.096
+          },
+          {
+            "text": "se acomodó en la parte de atrás,",
+            "start": 13.177,
+            "end": 15.209
+          },
+          {
+            "text": "apoyó la cabeza sobre un almohadón,",
+            "start": 15.244,
+            "end": 17.519
+          },
+          {
+            "text": "y se quedó dormido casi enseguida,",
+            "start": 17.554,
+            "end": 19.992
+          },
+          {
+            "text": "mecido por el suave vaivén del agua.",
+            "start": 20.062,
+            "end": 22.663
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jesus-tormenta-1.mp3",
+        "cues": [
+          {
+            "text": "Pero el cielo empezó a cambiar.",
+            "start": 0,
+            "end": 1.869
+          },
+          {
+            "text": "Nubes oscuras taparon las estrellas,",
+            "start": 2.252,
+            "end": 4.783
+          },
+          {
+            "text": "y de pronto un viento fortísimo se levantó sobre",
+            "start": 4.992,
+            "end": 7.941
+          },
+          {
+            "text": "el lago. Las olas, cada vez más grandes,",
+            "start": 7.964,
+            "end": 11.575
+          },
+          {
+            "text": "golpeaban los costados de la barca y entraban",
+            "start": 11.691,
+            "end": 14.42
+          },
+          {
+            "text": "a bordo, mojando todo.",
+            "start": 14.478,
+            "end": 16.265
+          },
+          {
+            "text": "Los discípulos, muchos de ellos pescadores con",
+            "start": 16.869,
+            "end": 19.806
+          },
+          {
+            "text": "años de experiencia en ese mismo lago,",
+            "start": 19.853,
+            "end": 22.186
+          },
+          {
+            "text": "nunca habían visto una tormenta así.",
+            "start": 22.302,
+            "end": 24.671
+          },
+          {
+            "text": "—¡Vamos a hundirnos! —gritó uno,",
+            "start": 25.367,
+            "end": 27.829
+          },
+          {
+            "text": "mientras achicaba agua con las manos.",
+            "start": 27.875,
+            "end": 30.174
+          },
+          {
+            "text": "Y Jesús, en medio de todo ese caos,",
+            "start": 30.685,
+            "end": 33.413
+          },
+          {
+            "text": "seguía dormido.",
+            "start": 33.483,
+            "end": 34.737
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jesus-tormenta-2.mp3",
+        "cues": [
+          {
+            "text": "Aterrados, los discípulos corrieron hasta donde",
+            "start": 0,
+            "end": 2.728
+          },
+          {
+            "text": "dormía Jesús y lo despertaron,",
+            "start": 2.775,
+            "end": 4.957
+          },
+          {
+            "text": "gritando por encima del ruido del viento y las",
+            "start": 5.132,
+            "end": 7.57
+          },
+          {
+            "text": "olas. —¡Maestro! ¡Maestro!",
+            "start": 7.686,
+            "end": 10.774
+          },
+          {
+            "text": "—le decían, sacudiéndolo—.",
+            "start": 11.053,
+            "end": 13.317
+          },
+          {
+            "text": "¿No te importa que nos estemos hundiendo?",
+            "start": 13.827,
+            "end": 16.323
+          },
+          {
+            "text": "Jesús se levantó despacio,",
+            "start": 17.136,
+            "end": 18.947
+          },
+          {
+            "text": "se puso de pie en medio de la barca que se sacudía",
+            "start": 19.191,
+            "end": 21.919
+          },
+          {
+            "text": "violentamente, y miró hacia el cielo oscuro y",
+            "start": 21.977,
+            "end": 25.309
+          },
+          {
+            "text": "hacia el mar embravecido.",
+            "start": 25.367,
+            "end": 27.028
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jesus-tormenta-3.mp3",
+        "cues": [
+          {
+            "text": "—¡Cálmate! ¡Está quieto!",
+            "start": 0,
+            "end": 1.892
+          },
+          {
+            "text": "—dijo Jesús, con una voz firme,",
+            "start": 1.916,
+            "end": 4.331
+          },
+          {
+            "text": "dirigida directamente al viento y a las olas.",
+            "start": 4.4,
+            "end": 7.616
+          },
+          {
+            "text": "Y en ese mismo instante,",
+            "start": 7.732,
+            "end": 9.451
+          },
+          {
+            "text": "el viento se detuvo. Las olas,",
+            "start": 9.567,
+            "end": 11.865
+          },
+          {
+            "text": "que segundos antes golpeaban la barca con violencia,",
+            "start": 11.935,
+            "end": 15.116
+          },
+          {
+            "text": "se aquietaron por completo,",
+            "start": 15.232,
+            "end": 16.997
+          },
+          {
+            "text": "hasta dejar el mar liso como un espejo.",
+            "start": 17.055,
+            "end": 19.655
+          },
+          {
+            "text": "Un silencio enorme cayó sobre todos.",
+            "start": 19.771,
+            "end": 22.616
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jesus-tormenta-4.mp3",
+        "cues": [
+          {
+            "text": "Jesús se dio vuelta hacia sus discípulos,",
+            "start": 0,
+            "end": 2.659
+          },
+          {
+            "text": "todavía empapados y temblando,",
+            "start": 2.705,
+            "end": 4.818
+          },
+          {
+            "text": "no ya de frío sino de asombro.",
+            "start": 4.934,
+            "end": 7.024
+          },
+          {
+            "text": "—¿Por qué tienen tanto miedo?",
+            "start": 7.268,
+            "end": 8.963
+          },
+          {
+            "text": "—les preguntó, con calma—.",
+            "start": 8.986,
+            "end": 11.006
+          },
+          {
+            "text": "¿Todavía no confían en mí?",
+            "start": 11.099,
+            "end": 12.968
+          },
+          {
+            "text": "Los discípulos se miraron entre ellos,",
+            "start": 13.177,
+            "end": 15.569
+          },
+          {
+            "text": "sin saber bien qué decir.",
+            "start": 15.639,
+            "end": 17.322
+          },
+          {
+            "text": "—¿Quién es este —se preguntaban,",
+            "start": 17.496,
+            "end": 19.551
+          },
+          {
+            "text": "asombrados— que hasta el viento y el mar le obedecen?",
+            "start": 19.575,
+            "end": 22.988
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jesus-tormenta-5.mp3",
+        "cues": [
+          {
+            "text": "Qué susto habrán tenido esa noche,",
+            "start": 0,
+            "end": 2.322
+          },
+          {
+            "text": "¿no? Y justo en medio de la tormenta más fuerte,",
+            "start": 2.438,
+            "end": 6.165
+          },
+          {
+            "text": "la paz estaba ahí, más cerca de lo que pensaban.",
+            "start": 6.409,
+            "end": 9.996
+          },
+          {
+            "text": "¿Qué cosas te ayudan a sentir calma cuando algo",
+            "start": 10.379,
+            "end": 12.945
+          },
+          {
+            "text": "te asusta?",
+            "start": 12.992,
+            "end": 13.886
+          }
+        ]
+      }
+    ]
+  },
+  "jose-hermanos": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:34:22.515Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/jose-hermanos-0.mp3",
+        "cues": [
+          {
+            "text": "José era el hijo favorito de su padre Jacob,",
+            "start": 0,
+            "end": 2.984
+          },
+          {
+            "text": "y eso sus hermanos mayores no se lo perdonaban.",
+            "start": 3.1,
+            "end": 6.269
+          },
+          {
+            "text": "Para hacerlo peor, Jacob le había regalado a",
+            "start": 6.351,
+            "end": 9.079
+          },
+          {
+            "text": "José una túnica preciosa,",
+            "start": 9.125,
+            "end": 11.227
+          },
+          {
+            "text": "de colores, distinta a la de todos los demás.",
+            "start": 11.343,
+            "end": 14.571
+          },
+          {
+            "text": "—Papá lo quiere más a él —se quejaban entre ellos,",
+            "start": 14.594,
+            "end": 17.995
+          },
+          {
+            "text": "cada vez con más rabia.",
+            "start": 18.053,
+            "end": 19.516
+          },
+          {
+            "text": "Una noche, José tuvo un sueño extraño y se lo",
+            "start": 19.632,
+            "end": 22.535
+          },
+          {
+            "text": "contó a sus hermanos sin pensarlo dos veces:",
+            "start": 22.581,
+            "end": 25.367
+          },
+          {
+            "text": "—Soñé que estábamos atando manojos de trigo en",
+            "start": 25.426,
+            "end": 28.212
+          },
+          {
+            "text": "el campo, y el mío se levantaba,",
+            "start": 28.258,
+            "end": 30.523
+          },
+          {
+            "text": "y los de ustedes se inclinaban ante el mío.",
+            "start": 30.581,
+            "end": 33.007
+          },
+          {
+            "text": "Sus hermanos lo escucharon en silencio,",
+            "start": 33.123,
+            "end": 35.306
+          },
+          {
+            "text": "y el odio que ya sentían por él creció todavía",
+            "start": 35.364,
+            "end": 38.232
+          },
+          {
+            "text": "más.",
+            "start": 38.29,
+            "end": 38.87
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-1.mp3",
+        "cues": [
+          {
+            "text": "Un día, Jacob envió a José a buscar a sus hermanos,",
+            "start": 0,
+            "end": 3.262
+          },
+          {
+            "text": "que estaban cuidando el rebaño lejos de casa.",
+            "start": 3.297,
+            "end": 5.921
+          },
+          {
+            "text": "Apenas lo vieron acercarse,",
+            "start": 6.432,
+            "end": 8.266
+          },
+          {
+            "text": "con su túnica de colores brillando entre los",
+            "start": 8.301,
+            "end": 10.519
+          },
+          {
+            "text": "árboles, algo se rompió dentro de ellos.",
+            "start": 10.6,
+            "end": 13.41
+          },
+          {
+            "text": "—Ahí viene el soñador —dijo uno,",
+            "start": 13.851,
+            "end": 16.66
+          },
+          {
+            "text": "con desprecio—. Matémoslo,",
+            "start": 16.695,
+            "end": 19.087
+          },
+          {
+            "text": "y digamos que un animal salvaje lo devoró.",
+            "start": 19.145,
+            "end": 21.641
+          },
+          {
+            "text": "Ya veremos qué pasa con sus sueños.",
+            "start": 21.92,
+            "end": 24.067
+          },
+          {
+            "text": "Rubén, el hermano mayor,",
+            "start": 24.346,
+            "end": 26.122
+          },
+          {
+            "text": "logró convencerlos de no matarlo,",
+            "start": 26.238,
+            "end": 28.328
+          },
+          {
+            "text": "pero lo tiraron a un pozo vacío y seco.",
+            "start": 28.421,
+            "end": 31.057
+          },
+          {
+            "text": "Y cuando pasó una caravana de mercaderes,",
+            "start": 31.382,
+            "end": 33.739
+          },
+          {
+            "text": "decidieron algo casi igual de cruel: lo vendieron",
+            "start": 33.89,
+            "end": 37.024
+          },
+          {
+            "text": "como esclavo.",
+            "start": 37.082,
+            "end": 38.035
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-2.mp3",
+        "cues": [
+          {
+            "text": "Los hermanos mancharon la túnica de colores con",
+            "start": 0,
+            "end": 2.473
+          },
+          {
+            "text": "sangre de animal, y se la llevaron a su padre.",
+            "start": 2.543,
+            "end": 5.224
+          },
+          {
+            "text": "—La encontramos así —le dijeron,",
+            "start": 5.828,
+            "end": 8.092
+          },
+          {
+            "text": "sin mirarlo a los ojos—.",
+            "start": 8.127,
+            "end": 9.625
+          },
+          {
+            "text": "¿No es la túnica de José?",
+            "start": 9.868,
+            "end": 11.633
+          },
+          {
+            "text": "Jacob reconoció la túnica de inmediato,",
+            "start": 12.33,
+            "end": 14.779
+          },
+          {
+            "text": "y lloró como nunca antes había llorado,",
+            "start": 14.93,
+            "end": 17.368
+          },
+          {
+            "text": "convencido de que su hijo amado había muerto",
+            "start": 17.426,
+            "end": 20.201
+          },
+          {
+            "text": "devorado por una fiera.",
+            "start": 20.259,
+            "end": 21.699
+          },
+          {
+            "text": "Nadie logró consolarlo.",
+            "start": 21.873,
+            "end": 23.487
+          },
+          {
+            "text": "Mientras tanto, lejos de ahí,",
+            "start": 23.637,
+            "end": 25.553
+          },
+          {
+            "text": "José llegaba encadenado a Egipto,",
+            "start": 25.588,
+            "end": 27.747
+          },
+          {
+            "text": "vendido como esclavo en la casa de un funcionario",
+            "start": 27.829,
+            "end": 30.673
+          },
+          {
+            "text": "egipcio, sin nadie conocido a su lado.",
+            "start": 30.708,
+            "end": 33.436
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-3.mp3",
+        "cues": [
+          {
+            "text": "En Egipto, José trabajó con tanta honestidad",
+            "start": 0,
+            "end": 3.042
+          },
+          {
+            "text": "y sabiduría que, aunque pasó incluso un tiempo",
+            "start": 3.088,
+            "end": 5.956
+          },
+          {
+            "text": "injustamente preso, terminó llamando la atención",
+            "start": 6.002,
+            "end": 8.8
+          },
+          {
+            "text": "del mismísimo Faraón,",
+            "start": 8.835,
+            "end": 10.379
+          },
+          {
+            "text": "gracias a su capacidad de interpretar sueños.",
+            "start": 10.461,
+            "end": 13.235
+          },
+          {
+            "text": "Cuando José interpretó correctamente un sueño",
+            "start": 13.328,
+            "end": 15.719
+          },
+          {
+            "text": "del Faraón — que anunciaba siete años de abundancia",
+            "start": 15.766,
+            "end": 18.692
+          },
+          {
+            "text": "seguidos de siete años de hambre —",
+            "start": 18.75,
+            "end": 20.735
+          },
+          {
+            "text": "el Faraón quedó tan impresionado que lo puso",
+            "start": 20.851,
+            "end": 23.243
+          },
+          {
+            "text": "a cargo de todo Egipto,",
+            "start": 23.278,
+            "end": 24.74
+          },
+          {
+            "text": "segundo solo después de él mismo.",
+            "start": 24.856,
+            "end": 26.957
+          },
+          {
+            "text": "José organizó a todo el país durante los años",
+            "start": 27.166,
+            "end": 29.744
+          },
+          {
+            "text": "buenos, guardando grano de sobra para cuando",
+            "start": 29.79,
+            "end": 32.333
+          },
+          {
+            "text": "llegara el hambre.",
+            "start": 32.356,
+            "end": 33.436
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-4.mp3",
+        "cues": [
+          {
+            "text": "Y llegó el hambre, tal como José había anunciado",
+            "start": 0,
+            "end": 3.251
+          },
+          {
+            "text": "— no solo en Egipto, sino en toda la región,",
+            "start": 3.367,
+            "end": 6.606
+          },
+          {
+            "text": "incluida la tierra donde vivían su padre y sus",
+            "start": 6.815,
+            "end": 9.799
+          },
+          {
+            "text": "hermanos. Jacob envió a sus hijos a Egipto a",
+            "start": 9.834,
+            "end": 13.723
+          },
+          {
+            "text": "comprar grano, porque había escuchado que allá",
+            "start": 13.793,
+            "end": 16.683
+          },
+          {
+            "text": "sí había alimento. Los hermanos viajaron,",
+            "start": 16.811,
+            "end": 20.12
+          },
+          {
+            "text": "se presentaron ante el gobernador de Egipto para",
+            "start": 20.236,
+            "end": 22.755
+          },
+          {
+            "text": "pedir ayuda, y se inclinaron ante él sin saber",
+            "start": 22.802,
+            "end": 26.157
+          },
+          {
+            "text": "quién era en realidad.",
+            "start": 26.238,
+            "end": 27.527
+          },
+          {
+            "text": "José los reconoció de inmediato.",
+            "start": 27.968,
+            "end": 30.058
+          },
+          {
+            "text": "Ellos, a él, no — habían pasado muchos años,",
+            "start": 30.383,
+            "end": 34.585
+          },
+          {
+            "text": "y lo último que sabían de José era que lo habían",
+            "start": 34.713,
+            "end": 37.476
+          },
+          {
+            "text": "vendido como esclavo.",
+            "start": 37.534,
+            "end": 39.055
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-5.mp3",
+        "cues": [
+          {
+            "text": "José se apartó a llorar en secreto más de una",
+            "start": 0,
+            "end": 2.961
+          },
+          {
+            "text": "vez, abrumado por volver a ver a sus hermanos",
+            "start": 3.019,
+            "end": 5.979
+          },
+          {
+            "text": "después de tanto tiempo.",
+            "start": 6.037,
+            "end": 7.57
+          },
+          {
+            "text": "Finalmente, ya no pudo contenerse más,",
+            "start": 7.628,
+            "end": 10.577
+          },
+          {
+            "text": "y les pidió a todos los egipcios que salieran",
+            "start": 10.623,
+            "end": 13.177
+          },
+          {
+            "text": "de la sala, para quedar a solas con ellos.",
+            "start": 13.224,
+            "end": 15.871
+          },
+          {
+            "text": "—Yo soy José —les dijo,",
+            "start": 15.999,
+            "end": 18.031
+          },
+          {
+            "text": "en su propio idioma—.",
+            "start": 18.054,
+            "end": 19.563
+          },
+          {
+            "text": "¿Vive todavía mi padre?",
+            "start": 19.842,
+            "end": 21.502
+          },
+          {
+            "text": "Sus hermanos se quedaron mudos,",
+            "start": 21.885,
+            "end": 23.801
+          },
+          {
+            "text": "paralizados de miedo.",
+            "start": 23.824,
+            "end": 25.264
+          },
+          {
+            "text": "El hermano que habían vendido como esclavo estaba",
+            "start": 25.438,
+            "end": 28.236
+          },
+          {
+            "text": "ahora frente a ellos,",
+            "start": 28.259,
+            "end": 29.618
+          },
+          {
+            "text": "con poder sobre sus propias vidas.",
+            "start": 29.652,
+            "end": 31.951
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-6.mp3",
+        "cues": [
+          {
+            "text": "—Acérquense —les dijo José,",
+            "start": 0,
+            "end": 2.218
+          },
+          {
+            "text": "con los ojos llenos de lágrimas—.",
+            "start": 2.334,
+            "end": 4.528
+          },
+          {
+            "text": "No tengan miedo. Es verdad que ustedes me vendieron,",
+            "start": 4.911,
+            "end": 7.964
+          },
+          {
+            "text": "pensando en hacerme daño.",
+            "start": 7.988,
+            "end": 9.578
+          },
+          {
+            "text": "Pero Dios lo transformó en algo bueno,",
+            "start": 9.961,
+            "end": 12.144
+          },
+          {
+            "text": "para salvar la vida de muchísima gente,",
+            "start": 12.179,
+            "end": 14.536
+          },
+          {
+            "text": "incluidos ustedes. José abrazó a cada uno de",
+            "start": 14.582,
+            "end": 18.599
+          },
+          {
+            "text": "sus hermanos, uno por uno,",
+            "start": 18.646,
+            "end": 20.771
+          },
+          {
+            "text": "llorando junto a ellos.",
+            "start": 20.921,
+            "end": 22.593
+          },
+          {
+            "text": "Después mandó traer a su padre Jacob y a toda",
+            "start": 22.976,
+            "end": 25.949
+          },
+          {
+            "text": "la familia a vivir cerca de él,",
+            "start": 25.983,
+            "end": 27.922
+          },
+          {
+            "text": "en Egipto, donde nunca más les faltaría alimento.",
+            "start": 28.131,
+            "end": 31.579
+          },
+          {
+            "text": "Lo que sus hermanos habían hecho para lastimarlo,",
+            "start": 32.183,
+            "end": 34.854
+          },
+          {
+            "text": "José eligió no cargarlo más —",
+            "start": 34.888,
+            "end": 36.839
+          },
+          {
+            "text": "y lo transformó en un reencuentro.",
+            "start": 36.885,
+            "end": 39.01
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/jose-hermanos-7.mp3",
+        "cues": [
+          {
+            "text": "Qué historia tan larga de cargar,",
+            "start": 0,
+            "end": 1.927
+          },
+          {
+            "text": "¿no? José tuvo muchos años y muchas razones para",
+            "start": 1.95,
+            "end": 5.224
+          },
+          {
+            "text": "guardar rencor — y sin embargo,",
+            "start": 5.271,
+            "end": 7.291
+          },
+          {
+            "text": "cuando llegó el momento,",
+            "start": 7.326,
+            "end": 8.626
+          },
+          {
+            "text": "eligió perdonar con todo su corazón.",
+            "start": 8.742,
+            "end": 11.111
+          },
+          {
+            "text": "¿Alguna vez perdonaste a alguien que te lastimó?",
+            "start": 11.169,
+            "end": 13.874
+          },
+          {
+            "text": "¿Cómo te sentiste?",
+            "start": 13.897,
+            "end": 15.325
+          }
+        ]
+      }
+    ]
+  },
+  "ester-reina": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T00:34:47.036Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/ester-reina-0.mp3",
+        "cues": [
+          {
+            "text": "Ester era una joven judía que vivía en Persia,",
+            "start": 0,
+            "end": 2.856
+          },
+          {
+            "text": "criada por su primo Mardoqueo desde muy chica,",
+            "start": 2.937,
+            "end": 5.666
+          },
+          {
+            "text": "como si fuera su propia hija.",
+            "start": 5.7,
+            "end": 7.384
+          },
+          {
+            "text": "Cuando el rey Asuero buscó una nueva reina entre",
+            "start": 7.558,
+            "end": 10.136
+          },
+          {
+            "text": "todas las jóvenes del reino,",
+            "start": 10.194,
+            "end": 11.9
+          },
+          {
+            "text": "Ester fue elegida entre todas —",
+            "start": 11.97,
+            "end": 14.199
+          },
+          {
+            "text": "pero, siguiendo el consejo de Mardoqueo,",
+            "start": 14.245,
+            "end": 16.439
+          },
+          {
+            "text": "guardó en secreto que ella pertenecía al pueblo",
+            "start": 16.486,
+            "end": 19.144
+          },
+          {
+            "text": "de Dios. Desde el palacio,",
+            "start": 19.191,
+            "end": 21.281
+          },
+          {
+            "text": "Ester se convirtió en reina,",
+            "start": 21.397,
+            "end": 23.115
+          },
+          {
+            "text": "pero nunca dejó de escuchar los consejos de Mardoqueo,",
+            "start": 23.15,
+            "end": 26.169
+          },
+          {
+            "text": "que se quedaba cerca,",
+            "start": 26.238,
+            "end": 27.492
+          },
+          {
+            "text": "cuidándola desde lejos.",
+            "start": 27.515,
+            "end": 29.21
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/ester-reina-1.mp3",
+        "cues": [
+          {
+            "text": "En el reino había un hombre llamado Amán,",
+            "start": 0,
+            "end": 2.496
+          },
+          {
+            "text": "que ocupaba un cargo muy importante,",
+            "start": 2.612,
+            "end": 5.05
+          },
+          {
+            "text": "y exigía que todos se inclinaran ante él al pasar.",
+            "start": 5.097,
+            "end": 8.626
+          },
+          {
+            "text": "Mardoqueo, fiel a Dios,",
+            "start": 8.719,
+            "end": 10.484
+          },
+          {
+            "text": "se negó a inclinarse ante ningún hombre.",
+            "start": 10.577,
+            "end": 12.98
+          },
+          {
+            "text": "Eso llenó de furia a Amán,",
+            "start": 13.038,
+            "end": 15.047
+          },
+          {
+            "text": "quien descubrió que Mardoqueo era judío,",
+            "start": 15.116,
+            "end": 17.624
+          },
+          {
+            "text": "y decidió algo terrible: convenció al rey de",
+            "start": 17.67,
+            "end": 20.526
+          },
+          {
+            "text": "firmar un decreto para destruir a todo el pueblo",
+            "start": 20.573,
+            "end": 23.394
+          },
+          {
+            "text": "judío del reino, en un solo día,",
+            "start": 23.44,
+            "end": 25.797
+          },
+          {
+            "text": "sin que el rey supiera que su propia reina era",
+            "start": 25.867,
+            "end": 28.572
+          },
+          {
+            "text": "parte de ese pueblo.",
+            "start": 28.642,
+            "end": 30.139
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/ester-reina-2.mp3",
+        "cues": [
+          {
+            "text": "Cuando Mardoqueo se enteró del decreto,",
+            "start": 0,
+            "end": 2.485
+          },
+          {
+            "text": "se vistió de luto y lloró amargamente frente",
+            "start": 2.577,
+            "end": 5.526
+          },
+          {
+            "text": "al palacio. Le envió un mensaje urgente a Ester,",
+            "start": 5.561,
+            "end": 9.195
+          },
+          {
+            "text": "contándole todo, y pidiéndole que fuera ante",
+            "start": 9.276,
+            "end": 12.144
+          },
+          {
+            "text": "el rey a suplicar por su pueblo.",
+            "start": 12.179,
+            "end": 14.141
+          },
+          {
+            "text": "Pero había un problema: nadie podía presentarse",
+            "start": 14.582,
+            "end": 17.693
+          },
+          {
+            "text": "ante el rey sin ser llamado —",
+            "start": 17.74,
+            "end": 19.621
+          },
+          {
+            "text": "ni siquiera la reina —",
+            "start": 19.737,
+            "end": 21.06
+          },
+          {
+            "text": "bajo pena de muerte, a menos que el rey extendiera",
+            "start": 21.141,
+            "end": 24.148
+          },
+          {
+            "text": "su cetro de oro en señal de perdón.",
+            "start": 24.195,
+            "end": 26.714
+          },
+          {
+            "text": "Ester, asustada, dudó.",
+            "start": 26.796,
+            "end": 29.048
+          },
+          {
+            "text": "Pero Mardoqueo le envió una última palabra: —¿Quién",
+            "start": 29.199,
+            "end": 32.693
+          },
+          {
+            "text": "sabe si no llegaste a ser reina precisamente",
+            "start": 32.763,
+            "end": 35.317
+          },
+          {
+            "text": "para un momento como este?",
+            "start": 35.363,
+            "end": 37.244
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/ester-reina-3.mp3",
+        "cues": [
+          {
+            "text": "Ester tomó una decisión.",
+            "start": 0,
+            "end": 1.66
+          },
+          {
+            "text": "Pidió a todo su pueblo que ayunara y orara por",
+            "start": 1.73,
+            "end": 4.389
+          },
+          {
+            "text": "ella durante tres días.",
+            "start": 4.447,
+            "end": 5.944
+          },
+          {
+            "text": "—Después iré ante el rey,",
+            "start": 6.06,
+            "end": 7.628
+          },
+          {
+            "text": "aunque no haya sido llamada —dijo—.",
+            "start": 7.744,
+            "end": 9.95
+          },
+          {
+            "text": "Y si perezco, que perezca.",
+            "start": 10.043,
+            "end": 11.784
+          },
+          {
+            "text": "Al tercer día, Ester se vistió con sus mejores",
+            "start": 11.9,
+            "end": 14.779
+          },
+          {
+            "text": "ropas reales y caminó,",
+            "start": 14.86,
+            "end": 16.393
+          },
+          {
+            "text": "con el corazón latiéndole fuerte,",
+            "start": 16.428,
+            "end": 18.413
+          },
+          {
+            "text": "hasta la entrada del salón del trono,",
+            "start": 18.436,
+            "end": 20.584
+          },
+          {
+            "text": "donde el rey no sabía que ella iba a presentarse.",
+            "start": 20.642,
+            "end": 23.823
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/ester-reina-4.mp3",
+        "cues": [
+          {
+            "text": "El rey Asuero la vio de pie en la entrada,",
+            "start": 0,
+            "end": 2.728
+          },
+          {
+            "text": "y en vez de enojarse,",
+            "start": 2.844,
+            "end": 4.389
+          },
+          {
+            "text": "extendió hacia ella su cetro de oro —",
+            "start": 4.505,
+            "end": 7.245
+          },
+          {
+            "text": "la señal de que podía acercarse sin ningún peligro.",
+            "start": 7.361,
+            "end": 10.913
+          },
+          {
+            "text": "—¿Qué te pasa, reina Ester?",
+            "start": 11.088,
+            "end": 12.899
+          },
+          {
+            "text": "—le preguntó—. Pide lo que quieras,",
+            "start": 12.957,
+            "end": 15.546
+          },
+          {
+            "text": "y te lo daré, hasta la mitad de mi reino.",
+            "start": 15.72,
+            "end": 18.541
+          },
+          {
+            "text": "Con calma y valentía,",
+            "start": 18.715,
+            "end": 20.352
+          },
+          {
+            "text": "Ester invitó al rey y a Amán a un banquete especial.",
+            "start": 20.422,
+            "end": 24.543
+          },
+          {
+            "text": "Y en ese banquete, por fin,",
+            "start": 24.659,
+            "end": 26.854
+          },
+          {
+            "text": "Ester habló: —Mi rey,",
+            "start": 27.028,
+            "end": 29.129
+          },
+          {
+            "text": "si he hallado gracia ante tus ojos,",
+            "start": 29.303,
+            "end": 31.834
+          },
+          {
+            "text": "te pido que salves mi vida y la de mi pueblo",
+            "start": 31.927,
+            "end": 34.736
+          },
+          {
+            "text": "— porque hemos sido vendidos para ser destruidos.",
+            "start": 34.887,
+            "end": 38.394
+          },
+          {
+            "text": "El rey, sorprendido, preguntó quién se había",
+            "start": 38.672,
+            "end": 42.213
+          },
+          {
+            "text": "atrevido a planear algo así.",
+            "start": 42.237,
+            "end": 44.373
+          },
+          {
+            "text": "—Un enemigo —respondió Ester,",
+            "start": 44.756,
+            "end": 47.229
+          },
+          {
+            "text": "señalando directamente a Amán—",
+            "start": 47.298,
+            "end": 49.667
+          },
+          {
+            "text": "es este hombre malvado que está aquí.",
+            "start": 49.876,
+            "end": 52.569
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/ester-reina-5.mp3",
+        "cues": [
+          {
+            "text": "El rey, furioso al descubrir la traición,",
+            "start": 0,
+            "end": 3.053
+          },
+          {
+            "text": "revocó el plan de Amán y protegió a todo el pueblo",
+            "start": 3.228,
+            "end": 6.304
+          },
+          {
+            "text": "judío del reino, incluida su propia reina.",
+            "start": 6.351,
+            "end": 9.404
+          },
+          {
+            "text": "Lo que parecía una tragedia inevitable se transformó,",
+            "start": 9.497,
+            "end": 12.922
+          },
+          {
+            "text": "gracias a la valentía de una sola persona,",
+            "start": 13.038,
+            "end": 15.743
+          },
+          {
+            "text": "en salvación para todo un pueblo.",
+            "start": 15.778,
+            "end": 17.902
+          },
+          {
+            "text": "Desde entonces, cada año,",
+            "start": 17.984,
+            "end": 19.771
+          },
+          {
+            "text": "el pueblo judío celebra ese día,",
+            "start": 19.818,
+            "end": 22.047
+          },
+          {
+            "text": "recordando cómo Dios usó el coraje de Ester justo",
+            "start": 22.163,
+            "end": 25.437
+          },
+          {
+            "text": "en el momento en que más se necesitaba.",
+            "start": 25.472,
+            "end": 27.91
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/ester-reina-6.mp3",
+        "cues": [
+          {
+            "text": "Qué decisión tan valiente,",
+            "start": 0,
+            "end": 1.614
+          },
+          {
+            "text": "¿no? Ester pudo haberse quedado callada,",
+            "start": 1.649,
+            "end": 4.946
+          },
+          {
+            "text": "a salvo en el palacio —",
+            "start": 5.004,
+            "end": 6.606
+          },
+          {
+            "text": "pero eligió arriesgarse por su pueblo.",
+            "start": 6.653,
+            "end": 8.986
+          },
+          {
+            "text": "¿Alguna vez tuviste que ser valiente para ayudar",
+            "start": 9.497,
+            "end": 12.19
+          },
+          {
+            "text": "a alguien más?",
+            "start": 12.272,
+            "end": 13.328
+          }
+        ]
+      }
+    ]
+  },
+  "antes-de-dormir": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:40:26.661Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/antes-de-dormir-0.mp3",
+        "cues": [
+          {
+            "text": "El día ya terminó, y llegó el momento de descansar.",
+            "start": 0,
+            "end": 3.251
+          },
+          {
+            "text": "Antes de cerrar los ojos,",
+            "start": 3.402,
+            "end": 5.027
+          },
+          {
+            "text": "vamos a hacer una pausa juntos,",
+            "start": 5.074,
+            "end": 7.047
+          },
+          {
+            "text": "para agradecer por todo lo que vivimos hoy.",
+            "start": 7.117,
+            "end": 9.892
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-dormir-1.mp3",
+        "cues": [
+          {
+            "text": "Piensa en un momento lindo de hoy —",
+            "start": 0,
+            "end": 2.438
+          },
+          {
+            "text": "puede ser grande o chiquito: un abrazo,",
+            "start": 2.519,
+            "end": 5.677
+          },
+          {
+            "text": "un juego, una risa compartida.",
+            "start": 5.77,
+            "end": 8.557
+          },
+          {
+            "text": "Dios estuvo presente en cada uno de esos momentos,",
+            "start": 9.067,
+            "end": 12.632
+          },
+          {
+            "text": "aunque no lo hayas notado en su momento.",
+            "start": 12.806,
+            "end": 15.418
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-dormir-2.mp3",
+        "cues": [
+          {
+            "text": "Piensa también en las personas que te acompañaron",
+            "start": 0,
+            "end": 2.473
+          },
+          {
+            "text": "hoy — tu familia, tus amigos,",
+            "start": 2.519,
+            "end": 4.865
+          },
+          {
+            "text": "quienes te cuidaron. Ellos también son parte",
+            "start": 4.934,
+            "end": 7.535
+          },
+          {
+            "text": "de los regalos de este día.",
+            "start": 7.593,
+            "end": 9.381
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-dormir-3.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: gracias,",
+            "start": 0,
+            "end": 2.136
+          },
+          {
+            "text": "Dios, por este día. Gracias por cada momento",
+            "start": 2.159,
+            "end": 4.946
+          },
+          {
+            "text": "bueno, y también por los que fueron difíciles,",
+            "start": 4.992,
+            "end": 7.546
+          },
+          {
+            "text": "porque de todos aprendemos algo.",
+            "start": 7.581,
+            "end": 9.52
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-dormir-4.mp3",
+        "cues": [
+          {
+            "text": "Cuida mis sueños esta noche,",
+            "start": 0,
+            "end": 1.846
+          },
+          {
+            "text": "y cuida también a toda mi familia mientras dormimos.",
+            "start": 1.927,
+            "end": 5.248
+          },
+          {
+            "text": "Que descansemos tranquilos,",
+            "start": 5.399,
+            "end": 7.082
+          },
+          {
+            "text": "sabiendo que estás cerca,",
+            "start": 7.152,
+            "end": 8.638
+          },
+          {
+            "text": "incluso cuando ya no podamos sentirlo.",
+            "start": 8.707,
+            "end": 11.331
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-dormir-5.mp3",
+        "cues": [
+          {
+            "text": "Ahora, cierra los ojos despacio.",
+            "start": 0,
+            "end": 1.904
+          },
+          {
+            "text": "Respira hondo... y suelta el aire lentamente.",
+            "start": 2.113,
+            "end": 5.387
+          },
+          {
+            "text": "El día ya se cierra, en paz.",
+            "start": 5.631,
+            "end": 8.313
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-dormir-6.mp3",
+        "cues": [
+          {
+            "text": "Que descanses tranquilo.",
+            "start": 0,
+            "end": 1.498
+          },
+          {
+            "text": "Dios te cuida mientras duermes,",
+            "start": 1.672,
+            "end": 3.495
+          },
+          {
+            "text": "y va a seguir ahí, cuidándote,",
+            "start": 3.541,
+            "end": 5.596
+          },
+          {
+            "text": "hasta que llegue la mañana.",
+            "start": 5.631,
+            "end": 7.082
+          },
+          {
+            "text": "Buenas noches.",
+            "start": 7.291,
+            "end": 8.452
+          }
+        ]
+      }
+    ]
+  },
+  "dar-gracias": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:40:34.549Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/dar-gracias-0.mp3",
+        "cues": [
+          {
+            "text": "Hoy vamos a dedicar un momento a agradecer.",
+            "start": 0,
+            "end": 2.624
+          },
+          {
+            "text": "A veces el día pasa tan rápido que no nos detenemos",
+            "start": 2.798,
+            "end": 5.666
+          },
+          {
+            "text": "a notar todo lo bueno que ya tenemos.",
+            "start": 5.735,
+            "end": 8.359
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/dar-gracias-1.mp3",
+        "cues": [
+          {
+            "text": "Piensa en tres cosas buenas que te pasaron hoy,",
+            "start": 0,
+            "end": 2.554
+          },
+          {
+            "text": "por pequeñas que parezcan —",
+            "start": 2.589,
+            "end": 4.122
+          },
+          {
+            "text": "una comida rica, un juego divertido,",
+            "start": 4.238,
+            "end": 6.711
+          },
+          {
+            "text": "alguien que te hizo sonreír.",
+            "start": 6.827,
+            "end": 8.638
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/dar-gracias-2.mp3",
+        "cues": [
+          {
+            "text": "La gratitud no espera a que todo sea perfecto.",
+            "start": 0,
+            "end": 3.007
+          },
+          {
+            "text": "Se puede agradecer incluso en un día difícil,",
+            "start": 3.448,
+            "end": 6.304
+          },
+          {
+            "text": "si buscamos con atención los pequeños momentos",
+            "start": 6.42,
+            "end": 9.125
+          },
+          {
+            "text": "buenos.",
+            "start": 9.183,
+            "end": 9.938
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/dar-gracias-3.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: gracias,",
+            "start": 0,
+            "end": 2.334
+          },
+          {
+            "text": "Dios, por este nuevo día.",
+            "start": 2.357,
+            "end": 3.982
+          },
+          {
+            "text": "Gracias por mi familia,",
+            "start": 4.04,
+            "end": 5.503
+          },
+          {
+            "text": "que me cuida incondicionalmente,",
+            "start": 5.55,
+            "end": 7.488
+          },
+          {
+            "text": "y por cada persona que me acompaña.",
+            "start": 7.512,
+            "end": 9.892
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/dar-gracias-4.mp3",
+        "cues": [
+          {
+            "text": "Gracias también por las cosas simples: un techo,",
+            "start": 0,
+            "end": 2.914
+          },
+          {
+            "text": "comida, un lugar seguro donde dormir.",
+            "start": 2.949,
+            "end": 5.259
+          },
+          {
+            "text": "A veces damos por hecho lo que en realidad es",
+            "start": 5.41,
+            "end": 7.779
+          },
+          {
+            "text": "un regalo.",
+            "start": 7.895,
+            "end": 8.684
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/dar-gracias-5.mp3",
+        "cues": [
+          {
+            "text": "Dar gracias no cambia lo que pasó hoy,",
+            "start": 0,
+            "end": 2.368
+          },
+          {
+            "text": "pero cambia cómo lo miramos —",
+            "start": 2.392,
+            "end": 4.238
+          },
+          {
+            "text": "nos ayuda a ver todo lo bueno que ya tenemos,",
+            "start": 4.331,
+            "end": 6.966
+          },
+          {
+            "text": "en vez de solo lo que nos falta.",
+            "start": 7.024,
+            "end": 8.963
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/dar-gracias-6.mp3",
+        "cues": [
+          {
+            "text": "Que esta noche te acuestes agradecido,",
+            "start": 0,
+            "end": 2.31
+          },
+          {
+            "text": "sabiendo que mañana va a haber nuevas cosas por",
+            "start": 2.357,
+            "end": 5.108
+          },
+          {
+            "text": "las cuales dar gracias otra vez.",
+            "start": 5.166,
+            "end": 7.245
+          }
+        ]
+      }
+    ]
+  },
+  "cuando-tengo-miedo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:34:15.302Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-0.mp3",
+        "cues": [
+          {
+            "text": "El día ya terminó, y ahora estamos en este momento",
+            "start": 0,
+            "end": 3.181
+          },
+          {
+            "text": "tranquilo, solo nosotros.",
+            "start": 3.228,
+            "end": 5.213
+          },
+          {
+            "text": "Si hoy sentiste miedo —",
+            "start": 5.422,
+            "end": 7.326
+          },
+          {
+            "text": "de la oscuridad, de algo que pasó,",
+            "start": 7.442,
+            "end": 9.915
+          },
+          {
+            "text": "de algo que todavía no pasó —",
+            "start": 10.066,
+            "end": 12.098
+          },
+          {
+            "text": "quiero que sepas que está bien.",
+            "start": 12.144,
+            "end": 13.723
+          },
+          {
+            "text": "Todos, hasta los adultos,",
+            "start": 13.967,
+            "end": 15.79
+          },
+          {
+            "text": "sentimos miedo alguna vez.",
+            "start": 15.848,
+            "end": 17.786
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-1.mp3",
+        "cues": [
+          {
+            "text": "Vamos a respirar juntos,",
+            "start": 0,
+            "end": 1.637
+          },
+          {
+            "text": "despacio. Inhala... cuenta hasta tres...",
+            "start": 1.811,
+            "end": 5.805
+          },
+          {
+            "text": "y suelta el aire despacio,",
+            "start": 6.409,
+            "end": 8.173
+          },
+          {
+            "text": "como si estuvieras apagando una velita.",
+            "start": 8.348,
+            "end": 10.844
+          },
+          {
+            "text": "Una vez más: inhala...",
+            "start": 11.355,
+            "end": 13.677
+          },
+          {
+            "text": "y suelta. El miedo se hace un poquito más chico",
+            "start": 14.118,
+            "end": 17.81
+          },
+          {
+            "text": "cada vez que respiramos así.",
+            "start": 17.856,
+            "end": 19.644
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-2.mp3",
+        "cues": [
+          {
+            "text": "No hace falta que sepas explicar exactamente",
+            "start": 0,
+            "end": 3.019
+          },
+          {
+            "text": "qué es lo que te asusta.",
+            "start": 3.146,
+            "end": 4.76
+          },
+          {
+            "text": "A veces el miedo no tiene una forma clara,",
+            "start": 5.039,
+            "end": 8.243
+          },
+          {
+            "text": "y eso también está bien.",
+            "start": 8.417,
+            "end": 10.077
+          },
+          {
+            "text": "Lo que sí es cierto es esto: no estás solo enfrentándolo.",
+            "start": 10.286,
+            "end": 14.582
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-3.mp3",
+        "cues": [
+          {
+            "text": "Dios está cerca, incluso en los momentos en los",
+            "start": 0,
+            "end": 3.1
+          },
+          {
+            "text": "que no lo sentimos, incluso en la oscuridad,",
+            "start": 3.146,
+            "end": 6.118
+          },
+          {
+            "text": "incluso cuando todo parece más grande de lo que",
+            "start": 6.235,
+            "end": 9.067
+          },
+          {
+            "text": "es. Él no se aleja cuando tenemos miedo —",
+            "start": 9.183,
+            "end": 12.365
+          },
+          {
+            "text": "se queda más cerca todavía.",
+            "start": 12.516,
+            "end": 14.489
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-4.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orarle juntos: Dios,",
+            "start": 0,
+            "end": 2.531
+          },
+          {
+            "text": "hoy tuve miedo. Te pido que me des tu paz,",
+            "start": 2.554,
+            "end": 5.19
+          },
+          {
+            "text": "que me ayudes a sentirme seguro,",
+            "start": 5.306,
+            "end": 7.21
+          },
+          {
+            "text": "y que me recuerdes que no estoy solo,",
+            "start": 7.326,
+            "end": 9.369
+          },
+          {
+            "text": "ni ahora ni ninguna otra noche.",
+            "start": 9.485,
+            "end": 11.703
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-5.mp3",
+        "cues": [
+          {
+            "text": "Ayúdame a ser valiente no porque no tenga miedo,",
+            "start": 0,
+            "end": 2.67
+          },
+          {
+            "text": "sino porque sé que estás conmigo,",
+            "start": 2.74,
+            "end": 4.551
+          },
+          {
+            "text": "sosteniéndome, incluso cuando cierro los ojos.",
+            "start": 4.586,
+            "end": 7.663
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-6.mp3",
+        "cues": [
+          {
+            "text": "Y aunque a veces el miedo aparece de noche,",
+            "start": 0,
+            "end": 2.705
+          },
+          {
+            "text": "cuando estás solo en tu cuarto,",
+            "start": 2.728,
+            "end": 4.516
+          },
+          {
+            "text": "recuerda: las personas que te aman están cerca,",
+            "start": 4.667,
+            "end": 8.185
+          },
+          {
+            "text": "aunque estén en otra habitación.",
+            "start": 8.301,
+            "end": 10.194
+          },
+          {
+            "text": "Y Dios está todavía más cerca que eso.",
+            "start": 10.344,
+            "end": 13.328
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-tengo-miedo-7.mp3",
+        "cues": [
+          {
+            "text": "Ahora, cierra los ojos despacio.",
+            "start": 0,
+            "end": 2.426
+          },
+          {
+            "text": "El miedo se queda afuera,",
+            "start": 2.554,
+            "end": 4.191
+          },
+          {
+            "text": "esta noche. Aquí adentro,",
+            "start": 4.307,
+            "end": 6.339
+          },
+          {
+            "text": "contigo, solo hay calma.",
+            "start": 6.362,
+            "end": 8.464
+          },
+          {
+            "text": "Buenas noches.",
+            "start": 8.615,
+            "end": 9.845
+          }
+        ]
+      }
+    ]
+  },
+  "cuando-estoy-triste": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:40:42.892Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-0.mp3",
+        "cues": [
+          {
+            "text": "Si hoy estás triste, quiero que sepas algo importante:",
+            "start": 0,
+            "end": 3.68
+          },
+          {
+            "text": "está bien sentirlo. La tristeza no es algo que",
+            "start": 3.924,
+            "end": 7.512
+          },
+          {
+            "text": "hay que esconder o apurar a que se vaya.",
+            "start": 7.535,
+            "end": 9.799
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-1.mp3",
+        "cues": [
+          {
+            "text": "A veces la tristeza viene de algo que pasó,",
+            "start": 0,
+            "end": 2.659
+          },
+          {
+            "text": "y a veces llega sin que sepamos bien por qué.",
+            "start": 2.775,
+            "end": 5.271
+          },
+          {
+            "text": "De las dos formas, es una emoción real,",
+            "start": 5.387,
+            "end": 7.906
+          },
+          {
+            "text": "y merece espacio para sentirse.",
+            "start": 7.953,
+            "end": 10.124
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-2.mp3",
+        "cues": [
+          {
+            "text": "Dios está cerca de los que tienen el corazón",
+            "start": 0,
+            "end": 2.345
+          },
+          {
+            "text": "herido. No hace falta explicarle exactamente",
+            "start": 2.392,
+            "end": 5.422
+          },
+          {
+            "text": "qué te pasa — Él ya lo sabe,",
+            "start": 5.538,
+            "end": 7.593
+          },
+          {
+            "text": "y igual se queda cerca.",
+            "start": 7.709,
+            "end": 9.381
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-3.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: Dios,",
+            "start": 0,
+            "end": 2.194
+          },
+          {
+            "text": "ayúdame en este momento triste.",
+            "start": 2.345,
+            "end": 4.447
+          },
+          {
+            "text": "Lléname de tu paz, y ayúdame a sentir que no",
+            "start": 4.598,
+            "end": 7.488
+          },
+          {
+            "text": "estoy solo cargando esto.",
+            "start": 7.535,
+            "end": 9.334
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-4.mp3",
+        "cues": [
+          {
+            "text": "Ayúdame también a recordar que la tristeza no",
+            "start": 0,
+            "end": 2.612
+          },
+          {
+            "text": "dura para siempre — que después de los días grises,",
+            "start": 2.659,
+            "end": 5.747
+          },
+          {
+            "text": "la luz vuelve a aparecer,",
+            "start": 5.863,
+            "end": 7.477
+          },
+          {
+            "text": "aunque hoy cueste creerlo.",
+            "start": 7.535,
+            "end": 9.381
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-5.mp3",
+        "cues": [
+          {
+            "text": "Recuerda: siempre hay alguien que te quiere y",
+            "start": 0,
+            "end": 2.937
+          },
+          {
+            "text": "te acompaña, aunque en este momento la tristeza",
+            "start": 3.007,
+            "end": 6.618
+          },
+          {
+            "text": "haga que todo se sienta más solitario de lo que",
+            "start": 6.641,
+            "end": 9.183
+          },
+          {
+            "text": "realmente es.",
+            "start": 9.242,
+            "end": 10.403
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/cuando-estoy-triste-6.mp3",
+        "cues": [
+          {
+            "text": "Respira despacio... y permítete sentir esto,",
+            "start": 0,
+            "end": 3.297
+          },
+          {
+            "text": "sin apuro. Mañana es un nuevo día,",
+            "start": 3.425,
+            "end": 6.374
+          },
+          {
+            "text": "y hoy, esta noche, está bien simplemente descansar.",
+            "start": 6.548,
+            "end": 10.774
+          }
+        ]
+      }
+    ]
+  },
+  "antes-de-un-examen": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:40:51.178Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/antes-de-un-examen-0.mp3",
+        "cues": [
+          {
+            "text": "Sé que tienes un reto importante por delante.",
+            "start": 0,
+            "end": 2.403
+          },
+          {
+            "text": "Vamos a prepararnos juntos,",
+            "start": 2.496,
+            "end": 4.145
+          },
+          {
+            "text": "no con más estudio, sino con calma.",
+            "start": 4.261,
+            "end": 6.687
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-un-examen-1.mp3",
+        "cues": [
+          {
+            "text": "Ya estudiaste, ya te preparaste lo que pudiste.",
+            "start": 0,
+            "end": 3.146
+          },
+          {
+            "text": "Ahora, en este momento,",
+            "start": 3.297,
+            "end": 5.039
+          },
+          {
+            "text": "ya no se trata de aprender más —",
+            "start": 5.155,
+            "end": 7.059
+          },
+          {
+            "text": "se trata de confiar en lo que ya sabes.",
+            "start": 7.175,
+            "end": 9.567
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-un-examen-2.mp3",
+        "cues": [
+          {
+            "text": "Es normal sentir un poco de nervios antes de",
+            "start": 0,
+            "end": 2.252
+          },
+          {
+            "text": "algo importante. Eso no significa que te vaya",
+            "start": 2.334,
+            "end": 4.957
+          },
+          {
+            "text": "a ir mal — significa que te importa,",
+            "start": 4.981,
+            "end": 7.372
+          },
+          {
+            "text": "y eso está bien.",
+            "start": 7.523,
+            "end": 9.149
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-un-examen-3.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: Dios,",
+            "start": 0,
+            "end": 2.601
+          },
+          {
+            "text": "dame fuerza para enfrentar este momento con calma.",
+            "start": 2.67,
+            "end": 5.631
+          },
+          {
+            "text": "Ayúdame a recordar lo que aprendí,",
+            "start": 5.747,
+            "end": 7.709
+          },
+          {
+            "text": "y a confiar en mi propio esfuerzo.",
+            "start": 7.755,
+            "end": 10.031
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-un-examen-4.mp3",
+        "cues": [
+          {
+            "text": "Ayúdame también a no ser tan duro conmigo mismo",
+            "start": 0,
+            "end": 2.844
+          },
+          {
+            "text": "si algo no sale perfecto.",
+            "start": 2.902,
+            "end": 4.458
+          },
+          {
+            "text": "Lo que importa es haber hecho mi mejor esfuerzo,",
+            "start": 4.493,
+            "end": 7.279
+          },
+          {
+            "text": "no ser perfecto.",
+            "start": 7.361,
+            "end": 8.638
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-un-examen-5.mp3",
+        "cues": [
+          {
+            "text": "Pase lo que pase, ya hiciste la parte que te",
+            "start": 0,
+            "end": 2.74
+          },
+          {
+            "text": "tocaba: te preparaste.",
+            "start": 2.798,
+            "end": 4.272
+          },
+          {
+            "text": "Eso, por sí solo, ya es un logro,",
+            "start": 4.331,
+            "end": 6.885
+          },
+          {
+            "text": "sin importar el resultado.",
+            "start": 6.931,
+            "end": 8.638
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-un-examen-6.mp3",
+        "cues": [
+          {
+            "text": "Ahora, descansa. Un buen descanso te va a ayudar",
+            "start": 0,
+            "end": 3.738
+          },
+          {
+            "text": "más que repasar una vez más.",
+            "start": 3.855,
+            "end": 5.979
+          },
+          {
+            "text": "Confía, y descansa tranquilo.",
+            "start": 6.037,
+            "end": 8.545
+          }
+        ]
+      }
+    ]
+  },
+  "por-mi-familia": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:40:59.401Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/por-mi-familia-0.mp3",
+        "cues": [
+          {
+            "text": "Hoy vamos a dedicar este momento a las personas",
+            "start": 0,
+            "end": 2.752
+          },
+          {
+            "text": "que más amas — tu familia.",
+            "start": 2.81,
+            "end": 4.748
+          },
+          {
+            "text": "Las que están cerca todos los días,",
+            "start": 4.899,
+            "end": 7.291
+          },
+          {
+            "text": "y también las que viven lejos.",
+            "start": 7.442,
+            "end": 9.52
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/por-mi-familia-1.mp3",
+        "cues": [
+          {
+            "text": "Piensa en cada persona de tu familia,",
+            "start": 0,
+            "end": 2.113
+          },
+          {
+            "text": "una por una. Imagina su cara,",
+            "start": 2.287,
+            "end": 4.319
+          },
+          {
+            "text": "y piensa en algo que te guste de cada una de",
+            "start": 4.377,
+            "end": 6.896
+          },
+          {
+            "text": "ellas.",
+            "start": 6.989,
+            "end": 7.663
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/por-mi-familia-2.mp3",
+        "cues": [
+          {
+            "text": "Tener personas que te aman y te cuidan no es",
+            "start": 0,
+            "end": 2.635
+          },
+          {
+            "text": "algo que siempre pasa —",
+            "start": 2.717,
+            "end": 4.214
+          },
+          {
+            "text": "es un regalo. No todos lo tienen,",
+            "start": 4.389,
+            "end": 6.803
+          },
+          {
+            "text": "así que hoy vamos a agradecerlo especialmente.",
+            "start": 6.885,
+            "end": 9.845
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/por-mi-familia-3.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: Dios,",
+            "start": 0,
+            "end": 2.601
+          },
+          {
+            "text": "cuida a mi familia. Protege a cada una de las",
+            "start": 2.775,
+            "end": 5.445
+          },
+          {
+            "text": "personas que amo, y llena sus días de tu paz.",
+            "start": 5.515,
+            "end": 8.591
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/por-mi-familia-4.mp3",
+        "cues": [
+          {
+            "text": "Ayúdanos a cuidarnos entre nosotros,",
+            "start": 0,
+            "end": 2.276
+          },
+          {
+            "text": "a tener paciencia cuando sea difícil,",
+            "start": 2.345,
+            "end": 4.737
+          },
+          {
+            "text": "y a recordar siempre lo mucho que nos queremos,",
+            "start": 4.818,
+            "end": 7.581
+          },
+          {
+            "text": "incluso en los días complicados.",
+            "start": 7.628,
+            "end": 9.985
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/por-mi-familia-5.mp3",
+        "cues": [
+          {
+            "text": "Si hay alguien en tu familia que hoy necesita",
+            "start": 0,
+            "end": 2.612
+          },
+          {
+            "text": "algo especial — una oración,",
+            "start": 2.647,
+            "end": 4.737
+          },
+          {
+            "text": "un abrazo, una llamada —",
+            "start": 4.888,
+            "end": 6.954
+          },
+          {
+            "text": "llévalo también en tu corazón esta noche.",
+            "start": 7.036,
+            "end": 9.567
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/por-mi-familia-6.mp3",
+        "cues": [
+          {
+            "text": "Qué lindo es tener personas que te aman y te",
+            "start": 0,
+            "end": 2.415
+          },
+          {
+            "text": "cuidan. Que esta noche,",
+            "start": 2.461,
+            "end": 4.272
+          },
+          {
+            "text": "cada uno de ellos descanse tranquilo,",
+            "start": 4.423,
+            "end": 6.838
+          },
+          {
+            "text": "sabiendo que también los tienes presentes.",
+            "start": 6.896,
+            "end": 9.474
+          }
+        ]
+      }
+    ]
+  },
+  "antes-de-comer": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:41:06.782Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/antes-de-comer-0.mp3",
+        "cues": [
+          {
+            "text": "Antes de empezar a comer,",
+            "start": 0,
+            "end": 1.416
+          },
+          {
+            "text": "vamos a tomarnos un momento para agradecer por",
+            "start": 1.486,
+            "end": 3.959
+          },
+          {
+            "text": "esta comida y por poder compartirla en familia.",
+            "start": 4.005,
+            "end": 6.92
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comer-1.mp3",
+        "cues": [
+          {
+            "text": "Piensa en todo lo que hizo falta para que esta",
+            "start": 0,
+            "end": 2.496
+          },
+          {
+            "text": "comida llegue a la mesa —",
+            "start": 2.543,
+            "end": 4.005
+          },
+          {
+            "text": "el trabajo de quien la preparó,",
+            "start": 4.052,
+            "end": 5.7
+          },
+          {
+            "text": "y todo lo que Dios provee para que nunca nos",
+            "start": 5.747,
+            "end": 8.255
+          },
+          {
+            "text": "falte.",
+            "start": 8.324,
+            "end": 8.963
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comer-2.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: gracias,",
+            "start": 0,
+            "end": 2.357
+          },
+          {
+            "text": "Dios, por los alimentos que vamos a comer,",
+            "start": 2.38,
+            "end": 5.039
+          },
+          {
+            "text": "y por la posibilidad de compartirlos en familia,",
+            "start": 5.085,
+            "end": 7.999
+          },
+          {
+            "text": "todos juntos en esta mesa.",
+            "start": 8.115,
+            "end": 10.124
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comer-3.mp3",
+        "cues": [
+          {
+            "text": "Gracias también por las personas que están sentadas",
+            "start": 0,
+            "end": 2.647
+          },
+          {
+            "text": "con nosotros hoy. Comer juntos es un momento",
+            "start": 2.705,
+            "end": 5.399
+          },
+          {
+            "text": "simple, pero también es un regalo que no siempre",
+            "start": 5.468,
+            "end": 8.081
+          },
+          {
+            "text": "valoramos.",
+            "start": 8.115,
+            "end": 9.009
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comer-4.mp3",
+        "cues": [
+          {
+            "text": "Y si alguno de ustedes preparó esta comida hoy,",
+            "start": 0,
+            "end": 2.74
+          },
+          {
+            "text": "gracias especialmente —",
+            "start": 2.856,
+            "end": 4.447
+          },
+          {
+            "text": "cocinar para la familia es también una forma",
+            "start": 4.47,
+            "end": 7.129
+          },
+          {
+            "text": "de cuidar y de amar.",
+            "start": 7.175,
+            "end": 8.777
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comer-5.mp3",
+        "cues": [
+          {
+            "text": "Ahora sí, que lo disfruten.",
+            "start": 0,
+            "end": 1.695
+          },
+          {
+            "text": "Buen provecho, y que este momento en la mesa",
+            "start": 1.811,
+            "end": 4.354
+          },
+          {
+            "text": "sea de alegría compartida.",
+            "start": 4.435,
+            "end": 6.269
+          }
+        ]
+      }
+    ]
+  },
+  "antes-de-comenzar-el-dia": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-22T16:41:14.134Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-0.mp3",
+        "cues": [
+          {
+            "text": "¡Buenos días! Un nuevo día ya comenzó,",
+            "start": 0,
+            "end": 2.647
+          },
+          {
+            "text": "con cosas que todavía no sabemos qué van a ser",
+            "start": 2.705,
+            "end": 5.352
+          },
+          {
+            "text": "— y eso también puede ser algo lindo.",
+            "start": 5.468,
+            "end": 8.034
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-1.mp3",
+        "cues": [
+          {
+            "text": "Antes de salir a vivir este día,",
+            "start": 0,
+            "end": 1.846
+          },
+          {
+            "text": "vamos a tomarnos un momento para prepararnos,",
+            "start": 1.962,
+            "end": 4.551
+          },
+          {
+            "text": "no con prisa, sino con calma y buena energía.",
+            "start": 4.667,
+            "end": 7.755
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-2.mp3",
+        "cues": [
+          {
+            "text": "Piensa en algo que te gustaría que pase hoy —",
+            "start": 0,
+            "end": 2.403
+          },
+          {
+            "text": "puede ser grande o chiquito.",
+            "start": 2.438,
+            "end": 4.133
+          },
+          {
+            "text": "Y piensa también en cómo te gustaría tratar a",
+            "start": 4.168,
+            "end": 6.699
+          },
+          {
+            "text": "las personas que te encuentres.",
+            "start": 6.745,
+            "end": 8.591
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-3.mp3",
+        "cues": [
+          {
+            "text": "Vamos a orar juntos: gracias,",
+            "start": 0,
+            "end": 1.95
+          },
+          {
+            "text": "Dios, por este nuevo día.",
+            "start": 1.974,
+            "end": 3.448
+          },
+          {
+            "text": "Gracias por la oportunidad de empezar de nuevo,",
+            "start": 3.599,
+            "end": 6.026
+          },
+          {
+            "text": "sin importar cómo terminó el día de ayer.",
+            "start": 6.06,
+            "end": 8.545
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-4.mp3",
+        "cues": [
+          {
+            "text": "Ayúdame a ser amable con las personas que me",
+            "start": 0,
+            "end": 2.334
+          },
+          {
+            "text": "encuentre hoy, y también valiente frente a lo",
+            "start": 2.357,
+            "end": 4.946
+          },
+          {
+            "text": "que me dé un poco de miedo o me cueste.",
+            "start": 4.992,
+            "end": 7.57
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-5.mp3",
+        "cues": [
+          {
+            "text": "Hoy pueden pasar cosas lindas —",
+            "start": 0,
+            "end": 1.962
+          },
+          {
+            "text": "vamos a recibirlas con una buena actitud,",
+            "start": 2.02,
+            "end": 4.261
+          },
+          {
+            "text": "con los ojos abiertos para notarlas cuando aparezcan.",
+            "start": 4.296,
+            "end": 7.198
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/antes-de-comenzar-el-dia-6.mp3",
+        "cues": [
+          {
+            "text": "Ahora sí, ¡a disfrutar el día!",
+            "start": 0,
+            "end": 1.892
+          },
+          {
+            "text": "Que sea uno bueno, y si no lo es del todo,",
+            "start": 2.043,
+            "end": 4.435
+          },
+          {
+            "text": "que por lo menos tenga algunos buenos momentos.",
+            "start": 4.493,
+            "end": 7.245
+          }
+        ]
+      }
+    ]
+  }
+}

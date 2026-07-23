@@ -1,0 +1,23 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a young mother cartoon character (Mary), warm olive skin, simple pale blue head covering and robe, gentle tired but peaceful expression, cradling a swaddled newborn baby wrapped in warm cream cloth; a young father cartoon character (Joseph) kneeling close beside her, warm brown skin, simple earth-toned tunic, protective gentle posture, one hand resting near the manger,
+
+a humble wooden stable at night, straw scattered on the floor, a simple wooden manger holding the swaddled baby, one small oil lantern as the only light source,
+
+both parents looking down at the baby with soft wide eyes of quiet wonder, gentle emotional smiles, heads tilted toward the child, tender awe,
+
+warm lantern key light from the manger area, deep soft night-blue ambient fill outside the light's reach, warm golden rim light separating both characters from the dark stable background, hopeful intimate glowing atmosphere,
+
+portrait composition 3:4 ratio, both parents and the manger fill 60% of frame, simple stable background with 2-3 elements (straw, wooden beam, lantern), lower third has dark gradient space for text overlay, shallow depth of field background
