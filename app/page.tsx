@@ -305,7 +305,20 @@ export default function LandingPage() {
           display: flex;
           gap: 3vw;
           overflow-x: auto;
-          padding-bottom: 4px;
+          padding-bottom: 14px;
+          scrollbar-color: var(--l-gold-deep) var(--l-cream-line);
+          scrollbar-width: thin;
+        }
+        .story-grid::-webkit-scrollbar {
+          height: 5px;
+        }
+        .story-grid::-webkit-scrollbar-track {
+          background: var(--l-cream-line);
+          border-radius: 50px;
+        }
+        .story-grid::-webkit-scrollbar-thumb {
+          background: var(--l-gold-deep);
+          border-radius: 50px;
         }
         .story-card {
           display: flex;
@@ -672,7 +685,7 @@ export default function LandingPage() {
 
         <section className="steps-section">
           <div className="eyebrow">Así de simple</div>
-          <h2>Tres minutos, cada noche.</h2>
+          <h2>Tres pasos, ninguna complicación.</h2>
           <div className="steps">
             <div className="step">
               <div className="blob blob-a">
@@ -769,7 +782,7 @@ export default function LandingPage() {
         <section className="value-section">
           <div className="value-inner">
             <div className="blob blob-c glow-behind">
-              <Image src="/lumo-art/familia-bodegon-juguetes.png" alt="Una canasta de juguetes al pie de una ventana" fill sizes="(max-width: 860px) 90vw, 420px" />
+              <Image src="/lumo-art/familia-manta-sofa.png" alt="Una madre y su hijo abrazados bajo una manta" fill sizes="(max-width: 860px) 90vw, 420px" />
             </div>
             <div>
               <h2>

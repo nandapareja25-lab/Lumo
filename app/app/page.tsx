@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
-import { LumoThread } from "@/components/app/lumo-thread";
 import { ArtAsset } from "@/components/app/art-asset";
 import { MoodScene } from "@/components/scenes/mood-scene";
 import { PrayerPoster } from "@/components/app/prayer-poster";
@@ -118,15 +117,22 @@ export default function HomePage() {
           </Link>
         )}
 
-        {/* Historia del día — el ritual, full-bleed edge-to-edge (sin card ni margen) */}
-        <div className="image-text-overlay relative h-[480px] w-full">
+        {/* Historia del día — el ritual, full-bleed edge-to-edge (sin card ni margen). Scrim propio
+            (más fuerte que .image-text-overlay) porque acá siempre hay título + botón, no solo
+            un título corto — sin esto el botón terminaba tapando la cara del personaje según la
+            imagen del día (reporte de usuario, 2026-07-24). */}
+        <div className="relative h-[480px] w-full">
           <ArtAsset
             slug={`story-${story.id}`}
             alt={story.title}
             fallback={<MoodScene mood={story.scenes[0].mood} />}
             className="absolute inset-0"
           />
-          <div className="overlay-content absolute inset-x-0 bottom-0 flex flex-col items-center gap-4 p-6 pb-8 text-center">
+          <div
+            className="pointer-events-none absolute inset-0"
+            style={{ background: "linear-gradient(to bottom, transparent 30%, rgba(10,8,6,0.55) 58%, rgba(10,8,6,0.92) 100%)" }}
+          />
+          <div className="absolute inset-x-0 bottom-0 z-[1] flex flex-col items-center gap-4 p-6 pb-8 text-center">
             <span className="text-caption text-[#F3C878]">
               {doneToday ? "Ya compartieron esto esta noche" : "Esta noche"}
             </span>
@@ -196,28 +202,28 @@ export default function HomePage() {
         {/* Personajes — círculos con anillo del color de acento de cada uno (CLAUDE.md §5.2) */}
         <section className="flex flex-col gap-3">
           <h2 className="px-4 font-heading text-h2">Personajes</h2>
-          <div className="scrollbar-none flex gap-4 overflow-x-auto px-4 pb-1">
+          <div className="scrollbar-none flex gap-5 overflow-x-auto px-4 pb-1">
             {characters.map((c) => (
               <Link
                 key={c.id}
                 href={c.firstEpisode ? `/app/historia/${c.firstEpisode}` : "/app/explorar"}
-                className="flex w-16 shrink-0 flex-col items-center gap-1.5"
+                className="flex w-20 shrink-0 flex-col items-center gap-2"
               >
                 <div
-                  className="h-16 w-16 rounded-full p-[2.5px]"
+                  className="h-20 w-20 rounded-full p-[3px]"
                   style={{ background: `linear-gradient(135deg, ${c.paleta.acento}, #B9860F)` }}
                 >
                   <div className="h-full w-full overflow-hidden rounded-full bg-[#1C2E23]">
                     <Image
                       src={`/${c.referenciasAprobadas[0].replace(/^public\//, "")}`}
                       alt={c.nombre}
-                      width={64}
-                      height={64}
+                      width={80}
+                      height={80}
                       className="h-full w-full object-cover"
                     />
                   </div>
                 </div>
-                <span className="text-center text-[10.5px] font-bold text-[#6B5D4F]">{c.nombre.split(" (")[0]}</span>
+                <span className="text-center text-[11.5px] font-bold text-[#6B5D4F]">{c.nombre.split(" (")[0]}</span>
               </Link>
             ))}
           </div>
@@ -254,8 +260,6 @@ export default function HomePage() {
             </div>
           </section>
         )}
-
-        <LumoThread height={40} />
 
         {/* Oración del día — si hoy corresponde una */}
         {prayer && (
