@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { Pause, Play } from "lucide-react";
 import { AppState, readApp } from "@/lib/app-data";
 import { LumoThread } from "@/components/app/lumo-thread";
+import { LumoPortrait } from "@/components/app/lumo-portrait";
 
 function MemoryAudio({ src }: { src: string }) {
   const [playing, setPlaying] = useState(false);
@@ -46,8 +47,8 @@ export default function DiarioPage() {
   return (
     <main className="relative min-h-dvh bg-[#FAF3EE] text-[#2A1F17]">
       <div className="relative z-10 px-4 pb-10 pt-10">
-      <h1 className="font-heading text-2xl font-medium">Diario</h1>
-      <p className="mt-1 text-sm text-[#6B5A4A]">Los momentos que han compartido en familia.</p>
+      <h1 className="font-heading text-h1">Diario</h1>
+      <p className="mt-1 text-body text-[#6B5A4A]">Los momentos que han compartido en familia.</p>
       <LumoThread height={50} />
 
       {state.diaryEntries.length === 0 ? (
@@ -55,7 +56,8 @@ export default function DiarioPage() {
           className="flex flex-col items-center gap-3 rounded-2xl border border-[rgba(42,31,23,0.10)] bg-white p-8 text-center"
           style={{ boxShadow: "0 12px 30px -14px rgba(42,31,23,0.18)" }}
         >
-          <p className="max-w-xs text-sm text-[#6B5A4A]">
+          <LumoPortrait pose="lumo-frontal" size={56} />
+          <p className="max-w-xs text-body text-[#6B5A4A]">
             Aquí van a ir quedando los momentos que compartan en familia — una historia, una reflexión, un recuerdo.
           </p>
         </div>

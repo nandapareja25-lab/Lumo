@@ -31,9 +31,9 @@ const PASOS = [
 ];
 
 const CATALOGO = [
-  { label: "Aventuras que inspiran", img: "/lumo-art/story-david-goliat.png" },
-  { label: "Valores que acompañan", img: "/lumo-art/story-hijo-prodigo.png" },
-  { label: "Fe y esperanza para el corazón", img: "/lumo-art/story-jesus-tormenta.png" },
+  { label: "Aventuras que inspiran", img: "/lumo-art/story-david-goliat-v2_600.webp" },
+  { label: "Valores que acompañan", img: "/lumo-art/story-hijo-prodigo-v2_600.webp" },
+  { label: "Fe y esperanza para el corazón", img: "/lumo-art/story-jesus-tormenta-v2_600.webp" },
 ];
 
 const ANTES = ["¿Qué hacemos hoy?", "Silencio.", "Improvisación.", "Cansancio."];
@@ -153,20 +153,16 @@ export default function LandingPage() {
         <h2 className="mb-8 text-center font-heading text-[clamp(22px,5vw,28px)] font-medium">
           Todos los días termina igual.
         </h2>
-        <div className="mx-auto flex max-w-[420px] flex-col gap-4">
+        <div className="mx-auto flex max-w-[420px] flex-col gap-7">
           {PROBLEMA.map(({ icon: Icon, text }) => (
-            <div
-              key={text}
-              className="flex items-center gap-4 rounded-2xl border p-4"
-              style={{ borderColor: "rgba(42,31,23,0.10)", background: "#FFFFFF" }}
-            >
+            <div key={text} className="flex items-center gap-4">
               <span
-                className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full"
-                style={{ background: "rgba(184,121,31,0.10)" }}
+                className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full"
+                style={{ background: "rgba(232,163,61,0.12)" }}
               >
-                <Icon className="h-5 w-5" style={{ color: "#B8791F" }} />
+                <Icon className="h-5 w-5" style={{ color: "#E8A33D" }} />
               </span>
-              <p className="text-[15px]">{text}</p>
+              <p className="text-body text-balance">{text}</p>
             </div>
           ))}
         </div>

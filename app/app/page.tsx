@@ -65,10 +65,10 @@ export default function HomePage() {
       <div className="relative z-10 flex flex-col gap-8 pb-10 pt-6">
         <div className="flex items-center justify-between px-4">
           <div>
-            <h1 className="font-heading text-xl font-medium">
+            <h1 className="font-heading text-h1">
               ¡Hola{childName ? `, ${childName}` : ""}!
             </h1>
-            <p className="text-sm text-[#6B5A4A]">¿Qué podemos compartir hoy?</p>
+            <p className="text-body text-[#A89288]">¿Qué podemos compartir hoy?</p>
           </div>
           <LumoPortrait pose="lumo-frontal" size={36} />
         </div>
@@ -91,10 +91,10 @@ export default function HomePage() {
         {/* Continuar donde quedó — solo si hay un contenido real a medias */}
         {continuing && (
           <section className="flex flex-col gap-2 px-4">
-            <h2 className="font-heading text-lg font-medium">Continuar donde quedó</h2>
+            <h2 className="font-heading text-h2">Continuar donde quedó</h2>
             <Link
               href={`/reproducir/${continuing.id}`}
-              className="relative h-32 w-full overflow-hidden rounded-2xl shadow-sm"
+              className="image-text-overlay relative h-32 w-full overflow-hidden rounded-2xl shadow-sm"
             >
               <ArtAsset
                 slug={continuing.illustrationSlug}
@@ -102,9 +102,8 @@ export default function HomePage() {
                 fallback={<MoodScene mood={continuing.segments[0].mood} />}
                 className="absolute inset-0"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 p-4">
-                <h3 className="font-heading text-base font-semibold text-white text-balance">
+              <div className="overlay-content absolute inset-x-0 bottom-0 p-4">
+                <h3 className="font-heading text-h2 text-white text-balance">
                   {continuing.title}
                 </h3>
               </div>
@@ -112,38 +111,26 @@ export default function HomePage() {
           </section>
         )}
 
-        {/* Historia del día — el ritual, una sola escena, una sola acción */}
-        <div className="px-5">
-          <div
-            className="relative h-[440px] w-full overflow-hidden rounded-[28px]"
-            style={{ boxShadow: "0 24px 60px -20px rgba(42,31,23,0.35)" }}
-          >
-            <ArtAsset
-              slug={`story-${story.id}`}
-              alt={story.title}
-              fallback={<MoodScene mood={story.scenes[0].mood} />}
-              className="absolute inset-0"
-            />
-            <div
-              className="pointer-events-none absolute inset-0"
-              style={{
-                background:
-                  "linear-gradient(0deg, rgba(16,11,8,0.94) 0%, rgba(16,11,8,0.15) 45%, rgba(16,11,8,0) 65%)",
-              }}
-            />
-            <div className="absolute inset-x-0 bottom-0 flex flex-col items-center gap-4 p-6 text-center">
-              <span className="text-xs font-semibold uppercase tracking-wide text-[#F3C878]">
-                {doneToday ? "Ya compartieron esto esta noche" : "Esta noche"}
-              </span>
-              <h2 className="font-heading text-2xl font-medium text-balance text-white">{story.title}</h2>
-              <Link
-                href={doneToday ? `/app/historia/${story.id}` : `/reproducir/${story.id}`}
-                className="flex h-14 w-full max-w-xs items-center justify-center rounded-full text-base font-semibold"
-                style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }}
-              >
-                {doneToday ? "Volver a escuchar" : "Empezar"}
-              </Link>
-            </div>
+        {/* Historia del día — el ritual, full-bleed edge-to-edge (sin card ni margen) */}
+        <div className="image-text-overlay relative h-[480px] w-full">
+          <ArtAsset
+            slug={`story-${story.id}`}
+            alt={story.title}
+            fallback={<MoodScene mood={story.scenes[0].mood} />}
+            className="absolute inset-0"
+          />
+          <div className="overlay-content absolute inset-x-0 bottom-0 flex flex-col items-center gap-4 p-6 pb-8 text-center">
+            <span className="text-caption text-[#F3C878]">
+              {doneToday ? "Ya compartieron esto esta noche" : "Esta noche"}
+            </span>
+            <h2 className="font-heading text-display text-balance text-white">{story.title}</h2>
+            <Link
+              href={doneToday ? `/app/historia/${story.id}` : `/reproducir/${story.id}`}
+              className="flex h-14 w-full max-w-xs items-center justify-center rounded-full text-base font-semibold"
+              style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }}
+            >
+              {doneToday ? "Volver a escuchar" : "Empezar"}
+            </Link>
           </div>
         </div>
 
@@ -151,8 +138,8 @@ export default function HomePage() {
 
         {/* Versículo del día — quieto, sin tarjeta ni botón relleno */}
         <div className="px-4">
-          <p className="text-xs font-semibold uppercase tracking-wide text-[#6B5A4A]/80">Versículo del día</p>
-          <p className="mt-2 font-heading text-lg italic leading-snug text-balance">&ldquo;{verse.text}&rdquo;</p>
+          <p className="text-caption text-[#A89288]">Versículo del día</p>
+          <p className="mt-2 font-heading text-h2 italic leading-snug text-balance">&ldquo;{verse.text}&rdquo;</p>
           <p className="mt-1 text-xs text-[#6B5A4A]">{verse.reference}</p>
 
           {showReflection ? (
@@ -176,7 +163,7 @@ export default function HomePage() {
         {/* Oración del día — si hoy corresponde una */}
         {prayer && (
           <section className="flex flex-col gap-3">
-            <h2 className="px-4 font-heading text-lg font-medium">Oración del día</h2>
+            <h2 className="px-4 font-heading text-h2">Oración del día</h2>
             <div className="px-4">
               <PrayerPoster prayer={prayer} locked={isGated(state, prayer.id, "oracion")} />
             </div>
@@ -186,10 +173,10 @@ export default function HomePage() {
         {/* Una recomendación — la próxima historia real que no vivieron todavía */}
         {recommended && (
           <section className="flex flex-col gap-2 px-4">
-            <h2 className="font-heading text-lg font-medium">Para seguir descubriendo</h2>
+            <h2 className="font-heading text-h2">Para seguir descubriendo</h2>
             <Link
               href={`/app/historia/${recommended.id}`}
-              className="relative h-40 w-full overflow-hidden rounded-2xl shadow-sm"
+              className="image-text-overlay relative h-40 w-full overflow-hidden rounded-2xl shadow-sm"
             >
               <ArtAsset
                 slug={`story-${recommended.id}`}
@@ -197,12 +184,11 @@ export default function HomePage() {
                 fallback={<MoodScene mood={recommended.scenes[0].mood} />}
                 className="absolute inset-0"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-              <div className="absolute inset-x-0 bottom-0 p-4">
-                <h3 className="font-heading text-base font-semibold text-white text-balance">
+              <div className="overlay-content absolute inset-x-0 bottom-0 p-4">
+                <h3 className="font-heading text-h2 text-white text-balance">
                   {recommended.title}
                 </h3>
-                <p className="mt-0.5 text-xs text-white/80 text-balance">{recommended.subtitle}</p>
+                <p className="mt-0.5 text-body text-white/80 text-balance">{recommended.subtitle}</p>
               </div>
             </Link>
           </section>

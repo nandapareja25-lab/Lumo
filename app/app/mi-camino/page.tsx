@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { AppState, readApp } from "@/lib/app-data";
+import { LumoPortrait } from "@/components/app/lumo-portrait";
 
 /**
  * Mi Camino ya no es un dashboard de progreso — no responde "¿cómo va la familia?" sino
@@ -39,13 +41,23 @@ export default function MiCaminoPage() {
   return (
     <main className="relative min-h-dvh bg-[#FAF3EE] text-[#2A1F17]">
       <div className="relative z-10 flex flex-col px-4 pb-6 pt-10">
-      <h1 className="font-heading text-2xl font-medium">Mi camino</h1>
-      <p className="mt-1 text-sm text-[#6B5A4A]">El camino que han recorrido juntos.</p>
+      <h1 className="font-heading text-h1">Mi camino</h1>
+      <p className="mt-1 text-body text-[#6B5A4A]">El camino que han recorrido juntos.</p>
 
       {!hasStarted ? (
-        <p className="mt-16 max-w-[26ch] font-heading text-lg italic text-[#6B5A4A]">
-          Este camino todavía no empezó. Cuando quieran, va a estar aquí esperándolos.
-        </p>
+        <div className="mt-16 flex flex-col items-center gap-4 text-center">
+          <LumoPortrait pose="lumo-frontal" size={64} />
+          <p className="max-w-[26ch] font-heading text-h2 italic text-[#6B5A4A]">
+            Este camino todavía no empezó. Cuando quieran, va a estar aquí esperándolos.
+          </p>
+          <Link
+            href="/app/explorar"
+            className="mt-2 rounded-full px-5 py-2.5 text-sm font-semibold"
+            style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }}
+          >
+            Explorar historias
+          </Link>
+        </div>
       ) : (
         <div className="relative mt-14 pl-8">
           <div

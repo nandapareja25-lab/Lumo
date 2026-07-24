@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { motion } from "framer-motion";
 import { Home, Compass, Sparkles, NotebookPen, User } from "lucide-react";
 
 const ITEMS = [
@@ -30,11 +31,21 @@ export function BottomNav() {
             <Link
               key={href}
               href={href}
-              className="flex flex-col items-center gap-1 rounded-xl px-2.5 py-1.5 text-[9.5px] font-semibold"
+              className="relative flex flex-col items-center gap-1 rounded-xl px-3 py-1.5 text-[9.5px] font-semibold"
               style={{ color: active ? "#B8791F" : "#8A7A63" }}
             >
-              <Icon className="h-5 w-5" />
-              {label}
+              {active && (
+                <motion.span
+                  layoutId="bottom-nav-pill"
+                  className="absolute inset-0 rounded-xl"
+                  style={{ background: "rgba(232,163,61,0.14)" }}
+                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                />
+              )}
+              <span className="relative">
+                <Icon className="h-5 w-5" strokeWidth={active ? 2.3 : 1.8} />
+              </span>
+              <span className="relative">{label}</span>
             </Link>
           );
         })}

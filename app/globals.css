@@ -53,88 +53,87 @@
 }
 
 /*
- * Brand kit de Lumo v3 (ajustado a pedido del usuario) — "mundo mágico", no beige plano.
- * El fondo de la app es un escenario ilustrado fijo (components/app/ambient-background.tsx:
- * bosque, colinas, cielo, estrellas, luz entre hojas) — --background es solo el color de
- * respaldo debajo de esa capa. Las tarjetas son blanco cálido con buen contraste sobre el
- * escenario. Paleta: verde bosque profundo + salvia + azul cielo suave + dorado cálido vivo
- * (color de marca) + crema como apoyo menor.
+ * Brand kit de Lumo — identidad "Vigilia" (CLAUDE.md §9.1), único vigente. Reemplaza el
+ * "brand kit v3" verde-salvia anterior (pre-Vigilia) — esos tokens habían quedado sin
+ * actualizar aunque toda la UI real ya usaba el crema cálido a mano (bg-[#FAF3EE]), lo que
+ * dejaba estas variables como un sistema fantasma que nadie leía. Fondo crema cálido (nunca
+ * blanco puro), texto casi-negro cálido, dorado Lumo como acento.
  */
 :root {
-  --background: #E7EFEA;
-  --foreground: #1F3D2E;
-  --card: #FFFCF5;
-  --card-foreground: #1F3D2E;
-  --popover: #FFFCF5;
-  --popover-foreground: #1F3D2E;
-  --primary: #E0A438;
-  --primary-foreground: #2B1B05;
-  --secondary: #E3EEE1;
-  --secondary-foreground: #2A5C43;
-  --muted: #F2EEDF;
-  --muted-foreground: #5B6F60;
-  --accent: #DCEBF2;
-  --accent-foreground: #1F3D2E;
+  --background: #FAF3EE;
+  --foreground: #1A1410;
+  --card: #FFFFFF;
+  --card-foreground: #1A1410;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1410;
+  --primary: #E8A33D;
+  --primary-foreground: #1F1712;
+  --secondary: #F3E9DD;
+  --secondary-foreground: #6B5B52;
+  --muted: #F3E9DD;
+  --muted-foreground: #A89288;
+  --accent: #FBE8C8;
+  --accent-foreground: #1A1410;
   --growth: #4E9270;
   --growth-foreground: #FFFFFF;
   --sky: #6FA8C7;
   --sky-foreground: #FFFFFF;
   --destructive: #B5432E;
-  --border: rgba(31, 61, 46, 0.14);
-  --input: rgba(31, 61, 46, 0.16);
-  --ring: #E0A438;
-  --chart-1: #E0A438;
+  --border: rgba(26, 20, 16, 0.12);
+  --input: rgba(26, 20, 16, 0.16);
+  --ring: #E8A33D;
+  --chart-1: #E8A33D;
   --chart-2: #4E9270;
   --chart-3: #6FA8C7;
-  --chart-4: #1F3D2E;
+  --chart-4: #1A1410;
   --chart-5: #B5432E;
   --radius: 1rem;
-  --sidebar: #FFFCF5;
-  --sidebar-foreground: #1F3D2E;
-  --sidebar-primary: #E0A438;
-  --sidebar-primary-foreground: #2B1B05;
-  --sidebar-accent: #E3EEE1;
-  --sidebar-accent-foreground: #1F3D2E;
-  --sidebar-border: rgba(31, 61, 46, 0.14);
-  --sidebar-ring: #E0A438;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1A1410;
+  --sidebar-primary: #E8A33D;
+  --sidebar-primary-foreground: #1F1712;
+  --sidebar-accent: #F3E9DD;
+  --sidebar-accent-foreground: #1A1410;
+  --sidebar-border: rgba(26, 20, 16, 0.12);
+  --sidebar-ring: #E8A33D;
 }
 
 .dark {
-  --background: #E7EFEA;
-  --foreground: #1F3D2E;
-  --card: #FFFCF5;
-  --card-foreground: #1F3D2E;
-  --popover: #FFFCF5;
-  --popover-foreground: #1F3D2E;
-  --primary: #E0A438;
-  --primary-foreground: #2B1B05;
-  --secondary: #E3EEE1;
-  --secondary-foreground: #2A5C43;
-  --muted: #F2EEDF;
-  --muted-foreground: #5B6F60;
-  --accent: #DCEBF2;
-  --accent-foreground: #1F3D2E;
+  --background: #FAF3EE;
+  --foreground: #1A1410;
+  --card: #FFFFFF;
+  --card-foreground: #1A1410;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1410;
+  --primary: #E8A33D;
+  --primary-foreground: #1F1712;
+  --secondary: #F3E9DD;
+  --secondary-foreground: #6B5B52;
+  --muted: #F3E9DD;
+  --muted-foreground: #A89288;
+  --accent: #FBE8C8;
+  --accent-foreground: #1A1410;
   --growth: #4E9270;
   --growth-foreground: #FFFFFF;
   --sky: #6FA8C7;
   --sky-foreground: #FFFFFF;
   --destructive: #B5432E;
-  --border: rgba(31, 61, 46, 0.14);
-  --input: rgba(31, 61, 46, 0.16);
-  --ring: #E0A438;
-  --chart-1: #E0A438;
+  --border: rgba(26, 20, 16, 0.12);
+  --input: rgba(26, 20, 16, 0.16);
+  --ring: #E8A33D;
+  --chart-1: #E8A33D;
   --chart-2: #4E9270;
   --chart-3: #6FA8C7;
-  --chart-4: #1F3D2E;
+  --chart-4: #1A1410;
   --chart-5: #B5432E;
-  --sidebar: #FFFCF5;
-  --sidebar-foreground: #1F3D2E;
-  --sidebar-primary: #E0A438;
-  --sidebar-primary-foreground: #2B1B05;
-  --sidebar-accent: #E3EEE1;
-  --sidebar-accent-foreground: #1F3D2E;
-  --sidebar-border: rgba(31, 61, 46, 0.14);
-  --sidebar-ring: #E0A438;
+  --sidebar: #FFFFFF;
+  --sidebar-foreground: #1A1410;
+  --sidebar-primary: #E8A33D;
+  --sidebar-primary-foreground: #1F1712;
+  --sidebar-accent: #F3E9DD;
+  --sidebar-accent-foreground: #1A1410;
+  --sidebar-border: rgba(26, 20, 16, 0.12);
+  --sidebar-ring: #E8A33D;
 }
 
 @layer base {
@@ -158,4 +157,58 @@
 }
 .scrollbar-none::-webkit-scrollbar {
   display: none;
+}
+
+/*
+ * Escala tipográfica única — antes cada pantalla elegía tamaño/peso a mano y todo terminaba
+ * pesando parecido (auditoría visual 2026-07-24). 5 roles, del más grande al más chico.
+ * Usar SIEMPRE una de estas clases para título/subtítulo/cuerpo en vez de un tamaño suelto.
+ */
+.text-display {
+  font-size: clamp(28px, 6vw, 36px);
+  font-weight: 700;
+  line-height: 1.15;
+}
+.text-h1 {
+  font-size: clamp(22px, 5vw, 28px);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.text-h2 {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.text-body {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.text-caption {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1.4;
+}
+
+/*
+ * Overlay de texto sobre imagen — implementación única y reutilizable (antes cada card repetía
+ * su propio gradient a mano, de forma inconsistente). Nunca depender de que la imagen de fondo
+ * "por casualidad" sea oscura donde va el texto — este overlay se aplica siempre.
+ */
+.image-text-overlay {
+  position: relative;
+}
+.image-text-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 40%, rgba(16, 11, 8, 0.75) 100%);
+  border-radius: inherit;
+  pointer-events: none;
+}
+.image-text-overlay .overlay-content {
+  position: relative;
+  z-index: 1;
 }

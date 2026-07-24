@@ -7,6 +7,7 @@ import { StoryPoster } from "@/components/app/story-poster";
 import { PrayerPoster } from "@/components/app/prayer-poster";
 import { ArtAsset } from "@/components/app/art-asset";
 import { MoodScene } from "@/components/scenes/mood-scene";
+import { LumoPortrait } from "@/components/app/lumo-portrait";
 import { STORIES, StoryTag } from "@/lib/story-catalog";
 import { PRAYERS } from "@/lib/prayers";
 import { EXPLORE_FILTERS as FILTERS, EXPLORE_CATEGORY_CARDS as CATEGORY_CARDS, ExploreFilterId as FilterId } from "@/lib/explore-categories";
@@ -67,7 +68,7 @@ function ExplorarPageInner() {
     <main className="relative min-h-dvh bg-[#FAF3EE] text-[#2A1F17]">
       <div className="relative z-10 flex flex-col gap-6 pb-4 pt-6">
       <div className="px-4">
-        <h1 className="font-heading text-2xl font-medium">Explorar</h1>
+        <h1 className="font-heading text-h1">Explorar</h1>
         <div className="relative mt-3">
           <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#8A7A63]" />
           <input
@@ -81,7 +82,7 @@ function ExplorarPageInner() {
 
       {!searching && (
         <section className="flex flex-col gap-3">
-          <h2 className="px-4 font-heading text-lg font-medium">Oraciones</h2>
+          <h2 className="px-4 font-heading text-h2">Oraciones</h2>
           <div className="scrollbar-none flex gap-3 overflow-x-auto px-4 pb-1">
             {PRAYERS.map((p) => (
               <PrayerPoster key={p.id} prayer={p} locked={isGated(state, p.id, "oracion")} />
@@ -96,7 +97,7 @@ function ExplorarPageInner() {
             <button
               key={c.id}
               onClick={() => setFilter(c.id)}
-              className="relative h-28 overflow-hidden rounded-2xl text-left shadow-sm"
+              className="image-text-overlay relative h-28 overflow-hidden rounded-2xl text-left shadow-sm"
             >
               <ArtAsset
                 slug={c.slug}
@@ -104,8 +105,7 @@ function ExplorarPageInner() {
                 fallback={<MoodScene mood={c.mood} />}
                 className="absolute inset-0"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/10 to-transparent" />
-              <span className="absolute bottom-3 left-3 right-3 font-heading text-sm font-semibold text-white">
+              <span className="overlay-content absolute bottom-3 left-3 right-3 font-heading text-h2 text-white">
                 {c.label}
               </span>
             </button>
@@ -135,7 +135,7 @@ function ExplorarPageInner() {
       <div className="flex flex-col gap-4 px-4">
         {searching && prayers.length > 0 && (
           <section className="flex flex-col gap-3">
-            <h2 className="font-heading text-lg font-medium">Oraciones</h2>
+            <h2 className="font-heading text-h2">Oraciones</h2>
             <div className="scrollbar-none flex gap-3 overflow-x-auto pb-1">
               {prayers.map((p) => (
                 <PrayerPoster key={p.id} prayer={p} locked={isGated(state, p.id, "oracion")} />
@@ -144,10 +144,15 @@ function ExplorarPageInner() {
           </section>
         )}
 
-        {searching && <h2 className="font-heading text-lg font-medium">Historias</h2>}
+        {searching && <h2 className="font-heading text-h2">Historias</h2>}
 
         {stories.length === 0 && prayers.length === 0 ? (
-          <p className="text-sm text-[#6B5A4A]">No encontramos nada con esa búsqueda.</p>
+          <div className="flex flex-col items-center gap-3 py-12 text-center">
+            <LumoPortrait pose="lumo-frontal" size={56} />
+            <p className="max-w-[26ch] text-body text-[#6B5A4A]">
+              No encontramos nada con esa búsqueda. Prueba con otra palabra.
+            </p>
+          </div>
         ) : stories.length === 0 && searching ? null : (
           <div className="grid grid-cols-2 gap-3">
             {stories.map((story) => (
