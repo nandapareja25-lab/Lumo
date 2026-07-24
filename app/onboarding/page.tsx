@@ -32,7 +32,7 @@ export default function OnboardingPage() {
   }
 
   return (
-    <main className="relative min-h-dvh text-[#F6ECD9]">
+    <main className="relative min-h-dvh text-[#F2ECDF]">
       <WorldBackdrop src="/lumo-art/world-home.png" alt="Una casa cálida iluminada en una colina, de noche" />
       <div className="relative z-10 flex min-h-dvh flex-col px-4 py-6">
         <div className="mx-auto w-full max-w-sm">
@@ -45,18 +45,18 @@ export default function OnboardingPage() {
               <div className="flex flex-col items-center gap-5 text-center">
                 <LumoPortrait pose="lumo-volando" size={100} />
                 <h1 className="font-heading text-2xl font-medium text-balance">Bienvenidos a Lumo</h1>
-                <p className="text-sm text-[#C9BBA3]">¿Cómo se llama su hijo o hija?</p>
+                <p className="text-sm text-[rgba(242,236,223,0.66)]">¿Cómo se llama su hijo o hija?</p>
                 <input
                   value={childName}
                   onChange={(e) => setChildName(e.target.value)}
                   placeholder="Su nombre"
                   autoFocus
-                  className="h-12 w-full rounded-xl border border-[rgba(246,236,217,0.18)] bg-[rgba(246,236,217,0.04)] px-4 text-center text-base text-[#F6ECD9] outline-none placeholder:text-[#C9BBA3]/70 focus-visible:border-[#F3C878]"
+                  className="h-12 w-full rounded-xl border border-[rgba(242,236,223,0.18)] bg-[rgba(242,236,223,0.04)] px-4 text-center text-base text-[#F2ECDF] outline-none placeholder:text-[rgba(242,236,223,0.66)] focus-visible:border-[#FFD740]"
                 />
                 <button
                   disabled={!childName.trim()}
-                  className="h-13 w-full rounded-full text-base font-semibold text-[#1F1712] disabled:opacity-40"
-                  style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+                  className="h-13 w-full rounded-full text-base font-semibold text-[#3A2705] disabled:opacity-40"
+                  style={{ background: "linear-gradient(135deg, #FFD740, #F7C35C)" }}
                   onClick={() => {
                     writeOnboarding({ childName });
                     next();
@@ -84,12 +84,12 @@ function TodoListoStep({ childName }: { childName: string }) {
       <h1 className="font-heading text-2xl font-medium text-balance">
         {childName ? `${childName} los está esperando` : "Todo listo para empezar"}
       </h1>
-      <p className="text-[15px] text-[#C9BBA3]">
+      <p className="text-[15px] text-[rgba(242,236,223,0.66)]">
         Esta noche, elijan su primera historia y escúchenla juntos.
       </p>
       <button
-        className="h-14 w-full rounded-full text-base font-semibold text-[#1F1712]"
-        style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+        className="h-14 w-full rounded-full text-base font-semibold text-[#3A2705]"
+        style={{ background: "linear-gradient(135deg, #FFD740, #F7C35C)" }}
         onClick={() => router.push("/app")}
       >
         Entrar
