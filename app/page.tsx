@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Fredoka } from "next/font/google";
 import { LandingPricing } from "@/components/app/landing-pricing";
-import { ChromaKeyVideo } from "@/components/app/chroma-key-video";
 
 const fredoka = Fredoka({ subsets: ["latin"], weight: ["500", "600", "700"], variable: "--font-fredoka" });
 
@@ -502,100 +501,6 @@ export default function LandingPage() {
           position: relative;
           overflow: hidden;
         }
-        /* LUMO VOLANDO */
-        .lumo-firefly {
-          position: absolute;
-          left: 0;
-          top: 0;
-          width: 70px;
-          height: 88px;
-          z-index: 15;
-          pointer-events: none;
-          filter: drop-shadow(0 0 6px rgba(255, 215, 64, 0.35));
-          animation: lumo-glow-pulse 1.8s ease-in-out infinite;
-        }
-        @keyframes lumo-glow-pulse {
-          0%,
-          100% {
-            filter: drop-shadow(0 0 6px rgba(255, 215, 64, 0.35));
-          }
-          50% {
-            filter: drop-shadow(0 0 16px rgba(255, 215, 64, 0.65));
-          }
-        }
-        .lumo-firefly.hero-patrol {
-          animation:
-            lumo-glow-pulse 1.8s ease-in-out infinite,
-            lumo-patrol-hero 18s ease-in-out infinite;
-        }
-        @keyframes lumo-patrol-hero {
-          0% {
-            transform: translate(56vw, 58vh) rotate(-6deg);
-            opacity: 0;
-          }
-          6% {
-            opacity: 1;
-          }
-          20% {
-            transform: translate(70vw, 36vh) rotate(10deg);
-          }
-          38% {
-            transform: translate(50vw, 50vh) rotate(-12deg);
-          }
-          55% {
-            transform: translate(74vw, 64vh) rotate(6deg);
-          }
-          72% {
-            transform: translate(58vw, 40vh) rotate(-4deg);
-          }
-          90% {
-            transform: translate(66vw, 55vh) rotate(4deg);
-            opacity: 1;
-          }
-          100% {
-            transform: translate(56vw, 58vh) rotate(-6deg);
-            opacity: 0;
-          }
-        }
-        .lumo-firefly.closing-patrol {
-          animation:
-            lumo-glow-pulse 1.8s ease-in-out infinite,
-            lumo-patrol-closing 12s ease-in-out infinite;
-        }
-        @keyframes lumo-patrol-closing {
-          0% {
-            transform: translate(20vw, -10vh) rotate(-8deg) scale(0.9);
-            opacity: 0;
-          }
-          12% {
-            opacity: 1;
-          }
-          35% {
-            transform: translate(38vw, 4vh) rotate(6deg) scale(0.9);
-          }
-          60% {
-            transform: translate(28vw, -6vh) rotate(-10deg) scale(0.9);
-          }
-          85% {
-            transform: translate(34vw, 2vh) rotate(4deg) scale(0.9);
-            opacity: 1;
-          }
-          100% {
-            transform: translate(20vw, -10vh) rotate(-8deg) scale(0.9);
-            opacity: 0;
-          }
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .lumo-firefly {
-            animation: none !important;
-          }
-        }
-        @media (max-width: 640px) {
-          .lumo-firefly {
-            width: 52px;
-            height: 65px;
-          }
-        }
         .closing .blob {
           width: 170px;
           height: 170px;
@@ -635,14 +540,14 @@ export default function LandingPage() {
         /* COSTURAS — curva orgánica entre secciones en vez de un corte recto */
         .seam {
           position: relative;
-          height: 70px;
+          height: 110px;
         }
         .seam svg {
           position: absolute;
           bottom: -1px;
           left: 0;
           width: 100%;
-          height: 70px;
+          height: 110px;
           display: block;
         }
         @media (min-width: 860px) {
@@ -695,7 +600,6 @@ export default function LandingPage() {
 
       <div className="landing">
         <section className="hero">
-          <ChromaKeyVideo src="/video/lumo-flying-1.mp4" className="lumo-firefly hero-patrol" />
           <header>
             <div className="logo-dot" />
             <div className="logo-word">Lumo</div>
@@ -723,8 +627,8 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#132018" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,110 L0,55 Q720,-35 1440,55 L1440,110 Z" fill="#FBF5EC" />
           </svg>
         </div>
 
@@ -748,8 +652,8 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#FBF5EC" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#1C2E23" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,55 Q720,145 0,55 Z" fill="#1C2E23" />
           </svg>
         </div>
 
@@ -761,8 +665,8 @@ export default function LandingPage() {
         </div>
 
         <div className="seam" style={{ background: "#1C2E23" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,110 L0,55 Q720,-35 1440,55 L1440,110 Z" fill="#FBF5EC" />
           </svg>
         </div>
 
@@ -828,8 +732,8 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#FBF5EC" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#132018" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,55 Q720,145 0,55 Z" fill="#132018" />
           </svg>
         </div>
 
@@ -857,8 +761,8 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#132018" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,110 L0,55 Q720,-35 1440,55 L1440,110 Z" fill="#FBF5EC" />
           </svg>
         </div>
 
@@ -900,8 +804,8 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#FBF5EC" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#132018" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,55 Q720,145 0,55 Z" fill="#132018" />
           </svg>
         </div>
 
@@ -912,8 +816,8 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#132018" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,110 L0,55 Q720,-35 1440,55 L1440,110 Z" fill="#FBF5EC" />
           </svg>
         </div>
 
@@ -941,13 +845,12 @@ export default function LandingPage() {
         </section>
 
         <div className="seam" style={{ background: "#FBF5EC" }}>
-          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
-            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#132018" />
+          <svg viewBox="0 0 1440 110" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,55 Q720,145 0,55 Z" fill="#132018" />
           </svg>
         </div>
 
         <section className="closing">
-          <ChromaKeyVideo src="/video/lumo-flying-2.mp4" className="lumo-firefly closing-patrol" />
           <div className="blob blob-a glow-behind">
             <Image src="/lumo-art/familia-arropar-cama.png" alt="Un padre arropando a su hijo" fill sizes="170px" />
           </div>
