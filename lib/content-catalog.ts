@@ -25,7 +25,11 @@ export type ContentType =
   /** Historia original inspirada en valores — no tiene origen bíblico (colección "cuentos-con-valores"). */
   | "cuento"
   /** Frase breve y positiva (colección "afirmaciones"). */
-  | "afirmacion";
+  | "afirmacion"
+  /** Devocional diario atado a un pasaje específico del Evangelio (colección "evangelio-diario") —
+   * a diferencia de "devocional" (Reflexiones, valor genérico) siempre parte de un pasaje puntual,
+   * y tiene dos variantes de tono por día (`tone`), no una sola pieza (decisión 2026-07-24). */
+  | "evangelio";
 
 export type SceneMood = "family" | "book" | "prayer" | "diary" | "night" | "threshold";
 
@@ -101,7 +105,8 @@ export type LengthCategory =
   | "oracion-guiada" // 3-7 min
   | "momento-dormir" // 8-12 min
   | "devocional" // 5-8 min
-  | "episodio-serie"; // 2-5 min — episodios de Series (hábito diario)
+  | "episodio-serie" // 2-5 min — episodios de Series (hábito diario)
+  | "evangelio-diario"; // 2-3 min — Evangelio del día/noche
 
 export type ContentItem = {
   id: string;
@@ -136,6 +141,9 @@ export type ContentItem = {
   dailyChallenge?: string;
   /** Solo episodios de Series: el gancho de cierre ("Mañana descubrirás...") que invita a volver. */
   nextEpisodeHook?: string;
+  /** Solo contentType "evangelio": variante de tono del día — arranque/energía vs. cierre/calma.
+   * Dos entradas por día (mismo pasaje en `passages`, texto distinto), no una sola pieza. */
+  tone?: "manana" | "noche";
   /** Ilustraciones reales por escena (arquitectura 2026-07-23). Vacío/ausente = todavía solo
    * tiene la portada vía illustrationSlug — ver production/ILLUSTRATION-AUDIT.md. */
   illustrations?: Illustration[];

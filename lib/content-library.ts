@@ -16,7 +16,8 @@ export type CollectionId =
   | "cuentos-con-valores"
   | "reflexiones"
   | "afirmaciones"
-  | "series-especiales";
+  | "series-especiales"
+  | "evangelio-diario";
 
 export type Collection = {
   id: CollectionId;
@@ -71,6 +72,15 @@ export const COLLECTIONS: Collection[] = [
     description: "Frases breves y positivas para repetir en familia, agrupadas por tema.",
     contentType: "afirmacion",
     targetRange: "10 iniciales",
+  },
+  {
+    id: "evangelio-diario",
+    label: "Evangelio del día",
+    description:
+      "Devocional corto atado a un pasaje del Evangelio, con reflexión breve conectada a la vida cotidiana. " +
+      "Dos variantes por día — mañana (arranque/energía) y noche (cierre/calma) — no la misma pieza en ambos momentos.",
+    contentType: "evangelio",
+    targetRange: "sin producir todavía",
   },
   {
     id: "series-especiales",

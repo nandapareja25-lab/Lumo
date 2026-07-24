@@ -6125,5 +6125,1516 @@
         ]
       }
     ]
+  },
+  "vida-jesus-s1e1-buenas-noticias-en-belen": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-24T23:55:14.713Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/vida-jesus-s1e1-buenas-noticias-en-belen-0.mp3",
+        "cues": [
+          {
+            "text": "María y José llevaban varios días de camino cuando",
+            "start": 0,
+            "end": 3.309
+          },
+          {
+            "text": "por fin vieron a lo lejos los techos de Belén.",
+            "start": 3.367,
+            "end": 6.142
+          },
+          {
+            "text": "María ya casi no podía caminar —",
+            "start": 6.316,
+            "end": 8.557
+          },
+          {
+            "text": "el bebé que esperaba estaba por nacer en cualquier",
+            "start": 8.638,
+            "end": 11.192
+          },
+          {
+            "text": "momento — y José apuraba el paso,",
+            "start": 11.25,
+            "end": 14.129
+          },
+          {
+            "text": "buscando con la mirada un techo,",
+            "start": 14.199,
+            "end": 16.173
+          },
+          {
+            "text": "una habitación, cualquier lugar donde ella pudiera",
+            "start": 16.254,
+            "end": 19.307
+          },
+          {
+            "text": "descansar. Pero Belén estaba llena.",
+            "start": 19.354,
+            "end": 21.548
+          },
+          {
+            "text": "Había llegado gente de todas partes,",
+            "start": 21.583,
+            "end": 23.87
+          },
+          {
+            "text": "y en cada posada la respuesta era la misma: —Lo",
+            "start": 23.905,
+            "end": 26.796
+          },
+          {
+            "text": "siento. No queda lugar.",
+            "start": 26.854,
+            "end": 28.561
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e1-buenas-noticias-en-belen-1.mp3",
+        "cues": [
+          {
+            "text": "Ya caía la noche cuando un posadero,",
+            "start": 0,
+            "end": 2.264
+          },
+          {
+            "text": "viendo lo cansada que estaba María,",
+            "start": 2.31,
+            "end": 4.609
+          },
+          {
+            "text": "les ofreció lo único que tenía: un establo,",
+            "start": 4.702,
+            "end": 7.663
+          },
+          {
+            "text": "el lugar donde dormían los animales,",
+            "start": 7.709,
+            "end": 9.88
+          },
+          {
+            "text": "con paja en el suelo y el aire oliendo a heno.",
+            "start": 9.903,
+            "end": 12.829
+          },
+          {
+            "text": "No era lo que José había imaginado para esa noche.",
+            "start": 13.003,
+            "end": 15.94
+          },
+          {
+            "text": "Pero María solo asintió,",
+            "start": 16.056,
+            "end": 17.833
+          },
+          {
+            "text": "agradecida, y se acomodó como pudo entre la paja.",
+            "start": 17.891,
+            "end": 21.316
+          },
+          {
+            "text": "Y esa misma noche, rodeado de animales tranquilos",
+            "start": 21.408,
+            "end": 24.775
+          },
+          {
+            "text": "y de la luz suave de un candil,",
+            "start": 24.891,
+            "end": 26.807
+          },
+          {
+            "text": "nació Jesús. María lo envolvió en telas para",
+            "start": 26.958,
+            "end": 30.243
+          },
+          {
+            "text": "abrigarlo y lo recostó en un pesebre —",
+            "start": 30.29,
+            "end": 32.821
+          },
+          {
+            "text": "la caja de madera donde comían los animales —",
+            "start": 32.937,
+            "end": 35.677
+          },
+          {
+            "text": "porque no había ninguna cuna esperándolo.",
+            "start": 35.712,
+            "end": 38.15
+          },
+          {
+            "text": "El comienzo de la historia más grande jamás contada",
+            "start": 38.219,
+            "end": 41.11
+          },
+          {
+            "text": "empezaba ahí, en el lugar más sencillo de todos.",
+            "start": 41.168,
+            "end": 44.628
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e1-buenas-noticias-en-belen-2.mp3",
+        "cues": [
+          {
+            "text": "Esa misma noche, en las colinas cercanas,",
+            "start": 0,
+            "end": 2.856
+          },
+          {
+            "text": "unos pastores cuidaban sus ovejas bajo un cielo",
+            "start": 2.937,
+            "end": 5.805
+          },
+          {
+            "text": "lleno de estrellas. De pronto,",
+            "start": 5.828,
+            "end": 8.255
+          },
+          {
+            "text": "una luz enorme los rodeó,",
+            "start": 8.371,
+            "end": 10.031
+          },
+          {
+            "text": "y un ángel se les apareció.",
+            "start": 10.147,
+            "end": 11.819
+          },
+          {
+            "text": "Los pastores se asustaron y se cubrieron los",
+            "start": 12.202,
+            "end": 14.652
+          },
+          {
+            "text": "ojos. —No tengan miedo —les dijo el ángel—.",
+            "start": 14.768,
+            "end": 18.077
+          },
+          {
+            "text": "Les traigo una noticia que va a alegrar a todo",
+            "start": 18.228,
+            "end": 20.968
+          },
+          {
+            "text": "el mundo: hoy, en Belén,",
+            "start": 20.991,
+            "end": 23.023
+          },
+          {
+            "text": "nació el Salvador. Lo van a encontrar envuelto",
+            "start": 23.174,
+            "end": 25.972
+          },
+          {
+            "text": "en telas, recostado en un pesebre.",
+            "start": 26.018,
+            "end": 28.491
+          },
+          {
+            "text": "Y de repente, el cielo se llenó de más luces,",
+            "start": 28.549,
+            "end": 31.696
+          },
+          {
+            "text": "como si todas las estrellas cantaran juntas:",
+            "start": 31.731,
+            "end": 34.645
+          },
+          {
+            "text": "—¡Gloria a Dios, y paz en la tierra!",
+            "start": 34.761,
+            "end": 37.35
+          },
+          {
+            "text": "Los pastores no lo pensaron dos veces.",
+            "start": 37.675,
+            "end": 40.125
+          },
+          {
+            "text": "Dejaron a sus ovejas y corrieron hacia Belén,",
+            "start": 40.508,
+            "end": 43.352
+          },
+          {
+            "text": "tan rápido como sus piernas se lo permitían.",
+            "start": 43.503,
+            "end": 46.301
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e1-buenas-noticias-en-belen-3.mp3",
+        "cues": [
+          {
+            "text": "Encontraron a María, a José,",
+            "start": 0,
+            "end": 2.171
+          },
+          {
+            "text": "y al bebé, exactamente como el ángel había dicho.",
+            "start": 2.345,
+            "end": 5.735
+          },
+          {
+            "text": "Se quedaron ahí, mirando,",
+            "start": 5.909,
+            "end": 7.605
+          },
+          {
+            "text": "sin saber bien qué decir —",
+            "start": 7.651,
+            "end": 9.242
+          },
+          {
+            "text": "porque delante de ellos,",
+            "start": 9.323,
+            "end": 10.728
+          },
+          {
+            "text": "en un pesebre de un establo cualquiera,",
+            "start": 10.762,
+            "end": 13.003
+          },
+          {
+            "text": "estaba la noticia más grande que el mundo iba",
+            "start": 13.05,
+            "end": 15.801
+          },
+          {
+            "text": "a recibir jamás. María no dijo nada.",
+            "start": 15.824,
+            "end": 18.645
+          },
+          {
+            "text": "Solo miraba a su hijo,",
+            "start": 18.924,
+            "end": 20.364
+          },
+          {
+            "text": "y guardaba cada palabra de esa noche en su corazón,",
+            "start": 20.538,
+            "end": 23.58
+          },
+          {
+            "text": "para no olvidarla nunca.",
+            "start": 23.696,
+            "end": 25.402
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e1-buenas-noticias-en-belen-4.mp3",
+        "cues": [
+          {
+            "text": "¿No es increíble? La noticia más importante del",
+            "start": 0,
+            "end": 3.646
+          },
+          {
+            "text": "mundo no llegó a un palacio ni a la gente más",
+            "start": 3.704,
+            "end": 6.92
+          },
+          {
+            "text": "poderosa — llegó primero a unos pastores comunes,",
+            "start": 6.978,
+            "end": 10.728
+          },
+          {
+            "text": "en medio de la noche,",
+            "start": 10.774,
+            "end": 12.214
+          },
+          {
+            "text": "y a una familia que no tenía ni siquiera un lugar",
+            "start": 12.492,
+            "end": 15.65
+          },
+          {
+            "text": "donde quedarse. A veces las cosas más grandes",
+            "start": 15.708,
+            "end": 19.853
+          },
+          {
+            "text": "empiezan en los lugares más sencillos.",
+            "start": 19.934,
+            "end": 22.651
+          },
+          {
+            "text": "¿Alguna vez algo bueno te llegó de la forma que",
+            "start": 22.86,
+            "end": 25.53
+          },
+          {
+            "text": "menos esperabas?",
+            "start": 25.588,
+            "end": 26.889
+          }
+        ]
+      }
+    ]
+  },
+  "vida-jesus-s1e2-los-sabios-de-oriente": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-24T23:55:33.813Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/vida-jesus-s1e2-los-sabios-de-oriente-0.mp3",
+        "cues": [
+          {
+            "text": "Muy lejos de Belén, en tierras de oriente,",
+            "start": 0,
+            "end": 2.659
+          },
+          {
+            "text": "unos sabios pasaban las noches estudiando el",
+            "start": 2.74,
+            "end": 5.271
+          },
+          {
+            "text": "cielo. Conocían cada estrella,",
+            "start": 5.341,
+            "end": 7.616
+          },
+          {
+            "text": "cada patrón, cada señal —",
+            "start": 7.651,
+            "end": 9.555
+          },
+          {
+            "text": "y por eso, cuando una estrella completamente",
+            "start": 9.648,
+            "end": 12.283
+          },
+          {
+            "text": "nueva apareció una noche,",
+            "start": 12.33,
+            "end": 14.025
+          },
+          {
+            "text": "brillando distinta a todas las demás,",
+            "start": 14.06,
+            "end": 16.498
+          },
+          {
+            "text": "supieron que algo importante estaba pasando.",
+            "start": 16.544,
+            "end": 19.296
+          },
+          {
+            "text": "—Un rey nuevo ha nacido —dijo uno de ellos,",
+            "start": 19.621,
+            "end": 23.208
+          },
+          {
+            "text": "sin apartar los ojos del cielo—.",
+            "start": 23.243,
+            "end": 25.286
+          },
+          {
+            "text": "Uno que vale la pena ir a conocer.",
+            "start": 25.67,
+            "end": 27.713
+          },
+          {
+            "text": "No lo pensaron mucho tiempo.",
+            "start": 28.224,
+            "end": 29.919
+          },
+          {
+            "text": "Prepararon regalos dignos de un rey —",
+            "start": 30.093,
+            "end": 32.763
+          },
+          {
+            "text": "oro, incienso y mirra —",
+            "start": 32.972,
+            "end": 35.41
+          },
+          {
+            "text": "y emprendieron un viaje que iba a durar meses,",
+            "start": 35.584,
+            "end": 38.858
+          },
+          {
+            "text": "guiándose de noche por esa única estrella.",
+            "start": 39.033,
+            "end": 41.935
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e2-los-sabios-de-oriente-1.mp3",
+        "cues": [
+          {
+            "text": "El camino fue largo y cansador.",
+            "start": 0,
+            "end": 2.078
+          },
+          {
+            "text": "Cruzaron desiertos, ciudades,",
+            "start": 2.252,
+            "end": 4.621
+          },
+          {
+            "text": "ríos — y cuando por fin llegaron a Jerusalén,",
+            "start": 4.737,
+            "end": 7.93
+          },
+          {
+            "text": "preguntaron en el palacio del rey Herodes: —¿Dónde",
+            "start": 7.988,
+            "end": 11.691
+          },
+          {
+            "text": "está el rey de los judíos que acaba de nacer?",
+            "start": 11.738,
+            "end": 14.594
+          },
+          {
+            "text": "Vimos su estrella, y venimos a rendirle honor.",
+            "start": 14.977,
+            "end": 18.297
+          },
+          {
+            "text": "Herodes se inquietó al escuchar esto —",
+            "start": 18.808,
+            "end": 21.49
+          },
+          {
+            "text": "él mismo era rey, y no le gustaba la idea de",
+            "start": 21.664,
+            "end": 24.473
+          },
+          {
+            "text": "otro — pero disimuló su preocupación y les pidió,",
+            "start": 24.555,
+            "end": 28.177
+          },
+          {
+            "text": "con voz suave, que cuando encontraran al niño,",
+            "start": 28.247,
+            "end": 31.486
+          },
+          {
+            "text": "volvieran a contarle dónde estaba,",
+            "start": 31.66,
+            "end": 33.832
+          },
+          {
+            "text": "para él también ir a 'rendirle honor'.",
+            "start": 33.983,
+            "end": 36.305
+          },
+          {
+            "text": "Algo en su voz sonaba amable,",
+            "start": 36.63,
+            "end": 38.592
+          },
+          {
+            "text": "pero no se sentía del todo bien.",
+            "start": 38.638,
+            "end": 40.519
+          },
+          {
+            "text": "En realidad, Herodes tenía otros planes,",
+            "start": 40.844,
+            "end": 43.816
+          },
+          {
+            "text": "mucho menos amables. Los sabios no lo sabían",
+            "start": 43.967,
+            "end": 47.288
+          },
+          {
+            "text": "todavía. Siguieron su camino,",
+            "start": 47.346,
+            "end": 49.61
+          },
+          {
+            "text": "y la estrella, que no habían vuelto a ver desde",
+            "start": 49.726,
+            "end": 52.246
+          },
+          {
+            "text": "que entraron a la ciudad,",
+            "start": 52.304,
+            "end": 53.604
+          },
+          {
+            "text": "apareció otra vez — y esta vez se detuvo justo",
+            "start": 53.685,
+            "end": 56.948
+          },
+          {
+            "text": "encima de la casa donde estaban María y el niño.",
+            "start": 56.994,
+            "end": 60.14
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e2-los-sabios-de-oriente-2.mp3",
+        "cues": [
+          {
+            "text": "Los sabios entraron, y al ver al niño con su",
+            "start": 0,
+            "end": 2.763
+          },
+          {
+            "text": "madre, se arrodillaron y lo honraron.",
+            "start": 2.833,
+            "end": 5.399
+          },
+          {
+            "text": "Después de tantos meses de camino,",
+            "start": 5.526,
+            "end": 7.651
+          },
+          {
+            "text": "de tantas noches guiándose por una sola luz en",
+            "start": 7.709,
+            "end": 10.519
+          },
+          {
+            "text": "el cielo, por fin estaban ahí.",
+            "start": 10.588,
+            "end": 12.783
+          },
+          {
+            "text": "Abrieron sus cofres y le entregaron sus regalos:",
+            "start": 12.841,
+            "end": 16.022
+          },
+          {
+            "text": "oro, como a un rey; incienso,",
+            "start": 16.138,
+            "end": 18.808
+          },
+          {
+            "text": "como a alguien especial;",
+            "start": 18.866,
+            "end": 20.375
+          },
+          {
+            "text": "mirra, un perfume valioso.",
+            "start": 20.654,
+            "end": 22.686
+          },
+          {
+            "text": "María los recibió con una sonrisa callada,",
+            "start": 23.011,
+            "end": 25.53
+          },
+          {
+            "text": "sin terminar de entender del todo por qué unos",
+            "start": 25.577,
+            "end": 28.119
+          },
+          {
+            "text": "sabios de tan lejos habían viajado tanto solo",
+            "start": 28.142,
+            "end": 31.08
+          },
+          {
+            "text": "para conocer a su hijo.",
+            "start": 31.126,
+            "end": 32.694
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e2-los-sabios-de-oriente-3.mp3",
+        "cues": [
+          {
+            "text": "Los sabios no sabían exactamente qué iban a encontrar",
+            "start": 0,
+            "end": 3.262
+          },
+          {
+            "text": "al final del viaje — solo sabían que valía la",
+            "start": 3.32,
+            "end": 5.968
+          },
+          {
+            "text": "pena seguir esa estrella,",
+            "start": 6.026,
+            "end": 7.558
+          },
+          {
+            "text": "noche tras noche, sin rendirse.",
+            "start": 7.686,
+            "end": 10.182
+          },
+          {
+            "text": "Y cuando llegaron, no se guardaron lo mejor que",
+            "start": 10.565,
+            "end": 13.154
+          },
+          {
+            "text": "tenían: se lo dieron.",
+            "start": 13.201,
+            "end": 15.163
+          },
+          {
+            "text": "¿Alguna vez tuviste que ser paciente durante",
+            "start": 15.674,
+            "end": 18.007
+          },
+          {
+            "text": "mucho tiempo para lograr algo que de verdad te",
+            "start": 18.065,
+            "end": 20.364
+          },
+          {
+            "text": "importaba?",
+            "start": 20.399,
+            "end": 21.27
+          }
+        ]
+      }
+    ]
+  },
+  "vida-jesus-s1e3-el-nino-en-el-templo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-24T23:55:45.697Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/vida-jesus-s1e3-el-nino-en-el-templo-0.mp3",
+        "cues": [
+          {
+            "text": "Cada año, la familia de Jesús viajaba a Jerusalén",
+            "start": 0,
+            "end": 3.448
+          },
+          {
+            "text": "para la fiesta. Ese año,",
+            "start": 3.529,
+            "end": 5.979
+          },
+          {
+            "text": "Jesús ya tenía doce, y el viaje de vuelta a casa",
+            "start": 6.037,
+            "end": 9.683
+          },
+          {
+            "text": "se hizo en un grupo grande,",
+            "start": 9.776,
+            "end": 11.447
+          },
+          {
+            "text": "entre parientes y vecinos,",
+            "start": 11.482,
+            "end": 13.502
+          },
+          {
+            "text": "como siempre. María y José caminaron todo el",
+            "start": 13.572,
+            "end": 17.159
+          },
+          {
+            "text": "primer día sin darse cuenta de que Jesús no estaba",
+            "start": 17.217,
+            "end": 20.05
+          },
+          {
+            "text": "con ellos — cada uno pensaba que estaba con el",
+            "start": 20.108,
+            "end": 22.953
+          },
+          {
+            "text": "otro grupo. Cuando por fin se dieron cuenta,",
+            "start": 23.034,
+            "end": 25.843
+          },
+          {
+            "text": "el corazón se les detuvo un instante.",
+            "start": 25.902,
+            "end": 28.653
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e3-el-nino-en-el-templo-1.mp3",
+        "cues": [
+          {
+            "text": "Volvieron corriendo a Jerusalén,",
+            "start": 0,
+            "end": 1.962
+          },
+          {
+            "text": "buscando entre las calles,",
+            "start": 2.09,
+            "end": 3.622
+          },
+          {
+            "text": "preguntando a quien encontraran.",
+            "start": 3.704,
+            "end": 5.584
+          },
+          {
+            "text": "Recién al tercer día lo encontraron —",
+            "start": 5.759,
+            "end": 7.988
+          },
+          {
+            "text": "no perdido, no asustado,",
+            "start": 8.046,
+            "end": 9.706
+          },
+          {
+            "text": "sino sentado tranquilamente en el templo,",
+            "start": 9.752,
+            "end": 12.307
+          },
+          {
+            "text": "en medio de los maestros más sabios de la ciudad,",
+            "start": 12.376,
+            "end": 15.558
+          },
+          {
+            "text": "escuchando y haciendo preguntas.",
+            "start": 15.627,
+            "end": 18.042
+          },
+          {
+            "text": "Y todos los que lo oían se quedaban asombrados",
+            "start": 18.123,
+            "end": 21.13
+          },
+          {
+            "text": "de sus respuestas — no eran respuestas de un",
+            "start": 21.177,
+            "end": 23.905
+          },
+          {
+            "text": "chico de doce años cualquiera.",
+            "start": 23.963,
+            "end": 25.96
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e3-el-nino-en-el-templo-2.mp3",
+        "cues": [
+          {
+            "text": "—Hijo —le dijo María,",
+            "start": 0,
+            "end": 1.788
+          },
+          {
+            "text": "entre el alivio y el reto—,",
+            "start": 1.846,
+            "end": 3.75
+          },
+          {
+            "text": "¿por qué nos hiciste esto?",
+            "start": 3.773,
+            "end": 5.538
+          },
+          {
+            "text": "Tu padre y yo te buscamos angustiados.",
+            "start": 5.689,
+            "end": 8.278
+          },
+          {
+            "text": "—¿Por qué me buscaban?",
+            "start": 8.522,
+            "end": 9.961
+          },
+          {
+            "text": "—respondió Jesús, con calma—.",
+            "start": 10.077,
+            "end": 12.353
+          },
+          {
+            "text": "¿No sabían que tenía que estar en la casa de",
+            "start": 12.527,
+            "end": 14.977
+          },
+          {
+            "text": "mi Padre? Ni María ni José entendieron del todo",
+            "start": 15.023,
+            "end": 18.611
+          },
+          {
+            "text": "esa respuesta en ese momento.",
+            "start": 18.669,
+            "end": 20.491
+          },
+          {
+            "text": "Pero Jesús se levantó,",
+            "start": 20.7,
+            "end": 22.036
+          },
+          {
+            "text": "los siguió de vuelta a Nazaret sin más vueltas,",
+            "start": 22.152,
+            "end": 24.892
+          },
+          {
+            "text": "y siguió creciendo — en tamaño,",
+            "start": 25.008,
+            "end": 27.33
+          },
+          {
+            "text": "en sabiduría, y en el cariño de quienes lo conocían.",
+            "start": 27.504,
+            "end": 30.975
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e3-el-nino-en-el-templo-3.mp3",
+        "cues": [
+          {
+            "text": "A veces hacer una pregunta —una buena pregunta,",
+            "start": 0,
+            "end": 3.309
+          },
+          {
+            "text": "de esas que te hacen pensar de verdad—",
+            "start": 3.437,
+            "end": 5.759
+          },
+          {
+            "text": "es tan valioso como saber una respuesta.",
+            "start": 5.828,
+            "end": 8.789
+          },
+          {
+            "text": "Jesús no tenía miedo de preguntar,",
+            "start": 9.114,
+            "end": 11.645
+          },
+          {
+            "text": "ni los maestros más grandes le daban vergüenza.",
+            "start": 11.796,
+            "end": 14.977
+          },
+          {
+            "text": "¿Cuál es la pregunta que más ganas tienes de",
+            "start": 15.105,
+            "end": 17.926
+          },
+          {
+            "text": "hacerle a alguien esta semana?",
+            "start": 17.961,
+            "end": 20.201
+          }
+        ]
+      }
+    ]
+  },
+  "vida-jesus-s1e4-presentado-en-el-templo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-24T23:55:58.493Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/vida-jesus-s1e4-presentado-en-el-templo-0.mp3",
+        "cues": [
+          {
+            "text": "Cuando el bebé Jesús tenía apenas unas semanas,",
+            "start": 0,
+            "end": 3.111
+          },
+          {
+            "text": "María y José lo llevaron al templo,",
+            "start": 3.437,
+            "end": 5.793
+          },
+          {
+            "text": "como era costumbre, para presentarlo ante Dios.",
+            "start": 5.84,
+            "end": 8.707
+          },
+          {
+            "text": "Ahí vivía un anciano llamado Simeón.",
+            "start": 9.218,
+            "end": 11.703
+          },
+          {
+            "text": "Llevaba toda su vida esperando algo —",
+            "start": 12.028,
+            "end": 14.745
+          },
+          {
+            "text": "una promesa que le habían hecho hacía mucho:",
+            "start": 14.919,
+            "end": 17.507
+          },
+          {
+            "text": "que no moriría sin antes ver con sus propios",
+            "start": 17.949,
+            "end": 20.387
+          },
+          {
+            "text": "ojos al niño que Dios había prometido enviar.",
+            "start": 20.503,
+            "end": 23.266
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e4-presentado-en-el-templo-1.mp3",
+        "cues": [
+          {
+            "text": "Ese mismo día, algo lo llevó hasta el templo,",
+            "start": 0,
+            "end": 2.763
+          },
+          {
+            "text": "poco antes de que María y José llegaran.",
+            "start": 2.81,
+            "end": 5.236
+          },
+          {
+            "text": "Cuando los vio entrar con el bebé,",
+            "start": 5.352,
+            "end": 7.187
+          },
+          {
+            "text": "Simeón no dudó ni un segundo.",
+            "start": 7.256,
+            "end": 9.427
+          },
+          {
+            "text": "Caminó hacia ellos, y María,",
+            "start": 9.474,
+            "end": 11.656
+          },
+          {
+            "text": "sin conocerlo de nada,",
+            "start": 11.714,
+            "end": 13.073
+          },
+          {
+            "text": "le dejó tomar a su hijo en brazos.",
+            "start": 13.131,
+            "end": 15.221
+          },
+          {
+            "text": "Simeón sostuvo al bebé,",
+            "start": 15.279,
+            "end": 17.102
+          },
+          {
+            "text": "lo miró largamente, y sus ojos se llenaron de",
+            "start": 17.218,
+            "end": 20.062
+          },
+          {
+            "text": "lágrimas — no de tristeza,",
+            "start": 20.132,
+            "end": 22.21
+          },
+          {
+            "text": "sino del alivio de quien por fin ve cumplida",
+            "start": 22.291,
+            "end": 24.822
+          },
+          {
+            "text": "una espera de toda una vida.",
+            "start": 24.938,
+            "end": 27.028
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e4-presentado-en-el-templo-2.mp3",
+        "cues": [
+          {
+            "text": "—Ahora sí —dijo Simeón,",
+            "start": 0,
+            "end": 1.614
+          },
+          {
+            "text": "en voz baja, casi para sí mismo—",
+            "start": 1.649,
+            "end": 3.808
+          },
+          {
+            "text": "puedo descansar en paz.",
+            "start": 3.924,
+            "end": 5.608
+          },
+          {
+            "text": "Mis ojos ya vieron lo que esperaban ver.",
+            "start": 6.049,
+            "end": 8.603
+          },
+          {
+            "text": "María y José se quedaron sorprendidos de sus",
+            "start": 8.847,
+            "end": 11.564
+          },
+          {
+            "text": "palabras — un desconocido,",
+            "start": 11.622,
+            "end": 13.804
+          },
+          {
+            "text": "que nunca los había visto,",
+            "start": 13.92,
+            "end": 15.592
+          },
+          {
+            "text": "hablando de su hijo como si lo conociera de toda",
+            "start": 15.766,
+            "end": 18.495
+          },
+          {
+            "text": "la vida. Cerca de ahí,",
+            "start": 18.553,
+            "end": 20.875
+          },
+          {
+            "text": "otra anciana llamada Ana,",
+            "start": 21.026,
+            "end": 23.022
+          },
+          {
+            "text": "que vivía prácticamente en el templo orando día",
+            "start": 23.266,
+            "end": 26.122
+          },
+          {
+            "text": "tras día, se acercó también en ese mismo instante.",
+            "start": 26.169,
+            "end": 30.221
+          },
+          {
+            "text": "Al ver al niño, ella tampoco tuvo dudas —",
+            "start": 30.917,
+            "end": 33.785
+          },
+          {
+            "text": "y desde ese día, no paró de contarles a todos",
+            "start": 34.168,
+            "end": 37.384
+          },
+          {
+            "text": "los que conocía que ese bebé era el que tanto",
+            "start": 37.465,
+            "end": 40.507
+          },
+          {
+            "text": "habían esperado.",
+            "start": 40.542,
+            "end": 41.796
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e4-presentado-en-el-templo-3.mp3",
+        "cues": [
+          {
+            "text": "Simeón esperó años y años sin perder la esperanza",
+            "start": 0,
+            "end": 3.216
+          },
+          {
+            "text": "— y cuando por fin llegó su momento,",
+            "start": 3.332,
+            "end": 5.503
+          },
+          {
+            "text": "lo reconoció enseguida,",
+            "start": 5.631,
+            "end": 6.966
+          },
+          {
+            "text": "sin necesitar que nadie se lo explicara.",
+            "start": 7.117,
+            "end": 9.601
+          },
+          {
+            "text": "¿Hay algo que estás esperando con paciencia,",
+            "start": 9.985,
+            "end": 12.539
+          },
+          {
+            "text": "aunque todavía no sepas cuándo va a llegar?",
+            "start": 12.655,
+            "end": 15.186
+          }
+        ]
+      }
+    ]
+  },
+  "vida-jesus-s1e5-la-huida-a-egipto": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-24T23:56:07.642Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/vida-jesus-s1e5-la-huida-a-egipto-0.mp3",
+        "cues": [
+          {
+            "text": "Tiempo después de la visita de los sabios,",
+            "start": 0,
+            "end": 2.566
+          },
+          {
+            "text": "José tuvo un sueño. En ese sueño,",
+            "start": 2.589,
+            "end": 5.155
+          },
+          {
+            "text": "un ángel le advertía con urgencia: —Levántate.",
+            "start": 5.271,
+            "end": 8.626
+          },
+          {
+            "text": "Toma al niño y a su madre,",
+            "start": 8.661,
+            "end": 10.403
+          },
+          {
+            "text": "y huyan a Egipto. Herodes va a buscar al niño",
+            "start": 10.472,
+            "end": 13.584
+          },
+          {
+            "text": "para hacerle daño. José se despertó de golpe,",
+            "start": 13.63,
+            "end": 16.672
+          },
+          {
+            "text": "en medio de la noche,",
+            "start": 16.695,
+            "end": 18.054
+          },
+          {
+            "text": "con el corazón acelerado.",
+            "start": 18.112,
+            "end": 19.923
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e5-la-huida-a-egipto-1.mp3",
+        "cues": [
+          {
+            "text": "No esperó a que amaneciera.",
+            "start": 0,
+            "end": 1.718
+          },
+          {
+            "text": "No lo pensó dos veces.",
+            "start": 2.043,
+            "end": 3.599
+          },
+          {
+            "text": "Despertó a María, juntaron lo poco que tenían,",
+            "start": 3.773,
+            "end": 6.873
+          },
+          {
+            "text": "y esa misma noche, todavía oscura,",
+            "start": 6.989,
+            "end": 9.555
+          },
+          {
+            "text": "salieron de Belén rumbo a Egipto —",
+            "start": 9.729,
+            "end": 12.388
+          },
+          {
+            "text": "un lugar lejano, desconocido,",
+            "start": 12.504,
+            "end": 14.733
+          },
+          {
+            "text": "pero seguro. María sostenía al bebé contra su",
+            "start": 14.768,
+            "end": 17.67
+          },
+          {
+            "text": "pecho mientras el burro avanzaba despacio por",
+            "start": 17.728,
+            "end": 20.236
+          },
+          {
+            "text": "el camino, y José caminaba adelante,",
+            "start": 20.282,
+            "end": 22.837
+          },
+          {
+            "text": "mirando las estrellas para no perder el rumbo.",
+            "start": 22.883,
+            "end": 25.635
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e5-la-huida-a-egipto-2.mp3",
+        "cues": [
+          {
+            "text": "El viaje fue largo e incierto.",
+            "start": 0,
+            "end": 2.299
+          },
+          {
+            "text": "No sabían exactamente qué los esperaba en Egipto,",
+            "start": 2.624,
+            "end": 5.515
+          },
+          {
+            "text": "ni cuánto tiempo tendrían que quedarse ahí.",
+            "start": 5.596,
+            "end": 7.964
+          },
+          {
+            "text": "Pero se quedaron tranquilos,",
+            "start": 8.057,
+            "end": 9.59
+          },
+          {
+            "text": "sabiendo que estaban haciendo lo correcto para",
+            "start": 9.648,
+            "end": 11.923
+          },
+          {
+            "text": "proteger a su hijo. Y se quedaron en Egipto,",
+            "start": 11.97,
+            "end": 14.814
+          },
+          {
+            "text": "seguros, hasta que llegó el momento de volver",
+            "start": 14.965,
+            "end": 17.786
+          },
+          {
+            "text": "a casa.",
+            "start": 17.833,
+            "end": 18.576
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e5-la-huida-a-egipto-3.mp3",
+        "cues": [
+          {
+            "text": "José no dudó cuando entendió que su familia estaba",
+            "start": 0,
+            "end": 2.624
+          },
+          {
+            "text": "en peligro — actuó rápido,",
+            "start": 2.647,
+            "end": 4.423
+          },
+          {
+            "text": "aunque eso significara dejar todo atrás en medio",
+            "start": 4.516,
+            "end": 7.279
+          },
+          {
+            "text": "de la noche. ¿Alguna vez tuviste que tomar una",
+            "start": 7.326,
+            "end": 9.741
+          },
+          {
+            "text": "decisión rápida para cuidar a alguien que quieres?",
+            "start": 9.799,
+            "end": 12.539
+          }
+        ]
+      }
+    ]
+  },
+  "vida-jesus-s1e6-el-regreso-a-nazaret": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-24T23:56:17.095Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/vida-jesus-s1e6-el-regreso-a-nazaret-0.mp3",
+        "cues": [
+          {
+            "text": "Pasó el tiempo, y un día José tuvo otro sueño:",
+            "start": 0,
+            "end": 3.518
+          },
+          {
+            "text": "el peligro ya había pasado,",
+            "start": 3.599,
+            "end": 5.492
+          },
+          {
+            "text": "y era momento de volver.",
+            "start": 5.55,
+            "end": 7.117
+          },
+          {
+            "text": "Juntaron sus cosas una vez más,",
+            "start": 7.163,
+            "end": 9.369
+          },
+          {
+            "text": "y esta vez el camino de regreso se sintió distinto",
+            "start": 9.439,
+            "end": 12.806
+          },
+          {
+            "text": "— no había miedo ni apuro,",
+            "start": 12.841,
+            "end": 14.501
+          },
+          {
+            "text": "solo las ganas de por fin instalarse en algún",
+            "start": 14.547,
+            "end": 17.241
+          },
+          {
+            "text": "lugar.",
+            "start": 17.299,
+            "end": 17.926
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e6-el-regreso-a-nazaret-1.mp3",
+        "cues": [
+          {
+            "text": "En vez de volver a Belén,",
+            "start": 0,
+            "end": 1.614
+          },
+          {
+            "text": "José eligió un pueblo pequeño y tranquilo llamado",
+            "start": 1.66,
+            "end": 4.644
+          },
+          {
+            "text": "Nazaret. Ahí encontraron una casa sencilla,",
+            "start": 4.714,
+            "end": 8.046
+          },
+          {
+            "text": "con un patio de tierra y vecinos que pronto se",
+            "start": 8.139,
+            "end": 10.832
+          },
+          {
+            "text": "volvieron conocidos. Jesús,",
+            "start": 10.879,
+            "end": 13.526
+          },
+          {
+            "text": "que ya caminaba de la mano de su madre,",
+            "start": 13.618,
+            "end": 15.871
+          },
+          {
+            "text": "miró la casa nueva con esos mismos ojos curiosos",
+            "start": 15.987,
+            "end": 19.041
+          },
+          {
+            "text": "de siempre — como si cada lugar nuevo fuera una",
+            "start": 19.087,
+            "end": 22.047
+          },
+          {
+            "text": "pequeña aventura por descubrir.",
+            "start": 22.106,
+            "end": 24.428
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e6-el-regreso-a-nazaret-2.mp3",
+        "cues": [
+          {
+            "text": "Ahí, en Nazaret, Jesús creció como cualquier",
+            "start": 0,
+            "end": 2.984
+          },
+          {
+            "text": "otro niño del pueblo: jugando,",
+            "start": 3.042,
+            "end": 5.283
+          },
+          {
+            "text": "aprendiendo el oficio de su padre,",
+            "start": 5.317,
+            "end": 7.21
+          },
+          {
+            "text": "ayudando en la casa, haciendo amigos.",
+            "start": 7.256,
+            "end": 9.787
+          },
+          {
+            "text": "Nadie en el pueblo sabía todavía lo que ese niño",
+            "start": 9.868,
+            "end": 12.678
+          },
+          {
+            "text": "llegaría a hacer algún día.",
+            "start": 12.701,
+            "end": 14.466
+          },
+          {
+            "text": "Para sus vecinos, era simplemente el hijo del",
+            "start": 14.582,
+            "end": 17.264
+          },
+          {
+            "text": "carpintero — y eso, para José y María,",
+            "start": 17.311,
+            "end": 20.445
+          },
+          {
+            "text": "ya era motivo suficiente de alegría tranquila.",
+            "start": 20.573,
+            "end": 23.499
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/vida-jesus-s1e6-el-regreso-a-nazaret-3.mp3",
+        "cues": [
+          {
+            "text": "Después de tanto viaje,",
+            "start": 0,
+            "end": 1.451
+          },
+          {
+            "text": "de tanta incertidumbre,",
+            "start": 1.521,
+            "end": 2.949
+          },
+          {
+            "text": "lo que esta familia encontró al final no fue",
+            "start": 3.007,
+            "end": 5.468
+          },
+          {
+            "text": "algo grandioso — fue un hogar sencillo,",
+            "start": 5.526,
+            "end": 8.115
+          },
+          {
+            "text": "y eso les alcanzó para ser felices.",
+            "start": 8.208,
+            "end": 10.565
+          },
+          {
+            "text": "¿Qué es lo que hace que tu casa se sienta como",
+            "start": 10.612,
+            "end": 13.131
+          },
+          {
+            "text": "tu lugar seguro?",
+            "start": 13.177,
+            "end": 14.443
+          }
+        ]
+      }
+    ]
   }
 }
