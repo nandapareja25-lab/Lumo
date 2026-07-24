@@ -1,0 +1,32 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 45% of total body height (Lumo's canonical proportions),
+rounded compact body, no sharp angular shapes,
+large expressive eyes with visible white catchlight,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+Lumo, a small cartoon firefly character,
+oversized expressive eyes with double catchlight
+(white specular highlight plus warm golden reflection from own bioluminescence),
+dark forest-green compact rounded body,
+glowing bioluminescent abdomen emitting warm golden light (#FFD740),
+short rounded antennae with small golden ball tips,
+two pairs of translucent iridescent wings, wings fully spread mid-flap,
+Lumo's bioluminescent glow casts warm golden color bleeding on nearby surfaces,
+
+dynamic flying pose, three-quarter angle, body angled forward and slightly upward,
+mid-flight motion, joyful curious expression, one antenna trailing slightly behind from movement,
+
+soft trail of warm golden light particles behind Lumo suggesting motion and speed,
+a few small glowing dots fading out behind the flight path,
+
+transparent background, isolated character, no background elements, no ground, no shadow floor,
+generous empty margin around the character within the frame,
+
+square canvas, character centered but with room to spare on all sides for rotation,
+8k render, Pixar quality, soft rim light on wings and body edges, no cel-shading,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image
