@@ -198,5 +198,35 @@
     "url": "/lumo-art/prayer-antes-de-comenzar-el-dia-v2_600.webp",
     "prompt": "scripts/_prompts/prayer-antes-de-comenzar-el-dia-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
     "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "story-vida-jesus-s1e1-buenas-noticias-en-belen": {
+    "url": "/lumo-art/series-vida-jesus-s1e1-belen_600.webp",
+    "prompt": "scripts/_prompts/series-vida-jesus-s1e1-belen.txt",
+    "approvedAt": "2026-07-24T01:57:01.079193+00:00"
+  },
+  "story-vida-jesus-s1e2-los-sabios-de-oriente": {
+    "url": "/lumo-art/series-vida-jesus-s1e2-sabios_600.webp",
+    "prompt": "scripts/_prompts/series-vida-jesus-s1e2-sabios.txt",
+    "approvedAt": "2026-07-24T01:57:01.079193+00:00"
+  },
+  "story-vida-jesus-s1e3-el-nino-en-el-templo": {
+    "url": "/lumo-art/series-vida-jesus-s1e3-templo_600.webp",
+    "prompt": "scripts/_prompts/series-vida-jesus-s1e3-templo.txt",
+    "approvedAt": "2026-07-24T01:57:01.079193+00:00"
+  },
+  "story-vida-jesus-s1e4-presentado-en-el-templo": {
+    "url": "/lumo-art/series-vida-jesus-s1e4-simeon_600.webp",
+    "prompt": "scripts/_prompts/series-vida-jesus-s1e4-simeon.txt",
+    "approvedAt": "2026-07-24T01:57:01.079193+00:00"
+  },
+  "story-vida-jesus-s1e5-la-huida-a-egipto": {
+    "url": "/lumo-art/series-vida-jesus-s1e5-huida_600.webp",
+    "prompt": "scripts/_prompts/series-vida-jesus-s1e5-huida.txt",
+    "approvedAt": "2026-07-24T01:57:01.079193+00:00"
+  },
+  "story-vida-jesus-s1e6-el-regreso-a-nazaret": {
+    "url": "/lumo-art/series-vida-jesus-s1e6-nazaret_600.webp",
+    "prompt": "scripts/_prompts/series-vida-jesus-s1e6-nazaret.txt",
+    "approvedAt": "2026-07-24T01:57:01.079193+00:00"
   }
 }
