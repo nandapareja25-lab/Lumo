@@ -92,8 +92,16 @@ export const ACHIEVEMENTS = [
   },
 ] as const;
 
+/** Fecha de HOY en hora local (nunca UTC) — debe coincidir siempre con el criterio de
+ * `daysSince`, que también calcula la medianoche en hora local. Usar `toISOString()` acá
+ * causaba un desfasaje real de un día para usuarios en zonas horarias negativas (ej. UTC-3)
+ * durante la noche, generando un `daysSince` negativo y un índice inválido en `todaysStory`. */
 function todayISO(): string {
-  return new Date().toISOString().slice(0, 10);
+  const d = new Date();
+  const year = d.getFullYear();
+  const month = String(d.getMonth() + 1).padStart(2, "0");
+  const day = String(d.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
 }
 
 function daysSince(dateISO: string): number {
@@ -119,30 +127,40 @@ export function isTrialExpired(state: AppState): boolean {
 }
 
 function migrateFromOnboarding(state: AppState): AppState {
-  if (state.diaryEntries.length > 0) return state;
   const onboarding = readOnboarding();
-  if (!onboarding.diaryEntry && !onboarding.diaryAudio) return state;
+  let next = state;
 
-  const story = STORIES[0];
-  return {
-    ...state,
-    childName: onboarding.childName,
-    childAge: onboarding.childAge,
-    ritualNights: 1,
-    lastCompletedDate: todayISO(),
-    completedStoryIds: [story.id],
-    diaryEntries: [
-      {
-        id: "onboarding-1",
-        date: todayISO(),
-        storyId: story.id,
-        storyTitle: story.title,
-        question: story.reflectionQuestion,
-        answer: onboarding.diaryEntry,
-        audioUrl: onboarding.diaryAudio ?? null,
-      },
-    ],
-  };
+  // El onboarding actual (2 pasos: nombre → llegada) guarda el nombre en su propio store, no en
+  // AppState directamente — siempre hay que copiarlo acá, sin depender de que exista una entrada
+  // de diario (eso era del onboarding viejo de 6 pasos, ya no se fabrica un recuerdo de mentira).
+  if (!next.childName && onboarding.childName) {
+    next = { ...next, childName: onboarding.childName, childAge: onboarding.childAge };
+  }
+
+  // Compatibilidad con sesiones viejas del onboarding de 6 pasos, que sí fabricaban un primer
+  // recuerdo de Diario durante el onboarding mismo.
+  if (next.diaryEntries.length === 0 && (onboarding.diaryEntry || onboarding.diaryAudio)) {
+    const story = STORIES[0];
+    next = {
+      ...next,
+      ritualNights: 1,
+      lastCompletedDate: todayISO(),
+      completedStoryIds: [story.id],
+      diaryEntries: [
+        {
+          id: "onboarding-1",
+          date: todayISO(),
+          storyId: story.id,
+          storyTitle: story.title,
+          question: story.reflectionQuestion,
+          answer: onboarding.diaryEntry,
+          audioUrl: onboarding.diaryAudio ?? null,
+        },
+      ],
+    };
+  }
+
+  return next;
 }
 
 export function readApp(): AppState {
@@ -176,17 +194,23 @@ export function isRitualDoneToday(state: AppState): boolean {
  * ritual), para que sea la misma para toda la familia ese día, se use o no. Es la única historia
  * (junto con la Oración del Día) que queda fuera del candado durante la semana gratuita.
  */
+/** Módulo seguro — nunca negativo, aunque `daysSince` reciba una fecha guardada antes del
+ * fix de zona horaria y devuelva un valor negativo. */
+function safeIndex(dayIndex: number, length: number): number {
+  return ((dayIndex % length) + length) % length;
+}
+
 export function todaysStory(): Story {
   const state = readApp();
   const dayIndex = state.trialStartDate ? daysSince(state.trialStartDate) : 0;
-  return STORIES[dayIndex % STORIES.length];
+  return STORIES[safeIndex(dayIndex, STORIES.length)];
 }
 
 /** La Oración del Día — mismo criterio de rotación diaria que `todaysStory`. */
 export function todaysPrayerId(state: AppState): string {
   const prayers = getContentByType("oracion");
   const dayIndex = state.trialStartDate ? daysSince(state.trialStartDate) : 0;
-  return prayers[dayIndex % prayers.length].id;
+  return prayers[safeIndex(dayIndex, prayers.length)].id;
 }
 
 export function completeStory(
