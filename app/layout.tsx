@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
-import { AmbientBackground } from "@/components/app/ambient-background";
 import "./globals.css";
 
 /** Tipografía única sans-serif redondeada para toda la app (CLAUDE.md §9.3) — reemplaza a
@@ -28,8 +27,7 @@ export default function RootLayout({
       lang="es"
       className={`${nunito.variable} h-full antialiased`}
     >
-      <body className="min-h-dvh flex flex-col text-foreground">
-        <AmbientBackground />
+      <body className="min-h-dvh flex flex-col bg-[#FAF3EE] text-foreground">
         <div className="relative z-10 flex min-h-dvh flex-1 flex-col">{children}</div>
       </body>
     </html>
