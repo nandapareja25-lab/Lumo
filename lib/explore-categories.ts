@@ -1,12 +1,17 @@
 import type { SceneMood, StoryTag } from "./story-catalog";
 
-export type ExploreFilterId = "todo" | "antiguo" | "nuevo" | StoryTag;
+export type ExploreFilterId = "todo" | "antiguo" | "nuevo" | StoryTag | "series" | "musica";
 
-/** Compartido entre Explorar y Home — una sola fuente de verdad para las categorías reales. */
+/** Compartido entre Explorar y Home — una sola fuente de verdad para las categorías reales.
+ * "series" filtra por seriesId real (lib/story-catalog.ts, multiEpisodeSeries); "musica" hoy no
+ * tiene contenido producido — el pill existe (APP-REDISENO-INSTRUCCIONES.md §5) pero cae a un
+ * estado vacío honesto en vez de fabricar canciones que no existen. */
 export const EXPLORE_FILTERS: { id: ExploreFilterId; label: string }[] = [
   { id: "todo", label: "Todo" },
   { id: "antiguo", label: "Antiguo Testamento" },
   { id: "nuevo", label: "Nuevo Testamento" },
+  { id: "series", label: "Series" },
+  { id: "musica", label: "Música" },
   { id: "personajes", label: "Personajes" },
   { id: "milagros", label: "Milagros de Jesús" },
   { id: "mujeres", label: "Mujeres de la Biblia" },

@@ -18,10 +18,10 @@ export function BottomNav() {
 
   return (
     <nav
-      className="fixed inset-x-0 bottom-0 z-40 backdrop-blur"
+      className="fixed inset-x-0 bottom-0 z-40"
       style={{
-        borderTop: "1px solid rgba(42,31,23,0.10)",
-        background: "rgba(250,243,238,0.95)",
+        borderTop: "1px solid rgba(242,236,223,0.1)",
+        background: "#132018",
       }}
     >
       <div className="mx-auto flex max-w-md justify-around px-1 py-2">
@@ -32,20 +32,20 @@ export function BottomNav() {
               key={href}
               href={href}
               className="relative flex flex-col items-center gap-1 rounded-xl px-3 py-1.5 text-[9.5px] font-semibold"
-              style={{ color: active ? "#B8791F" : "#8A7A63" }}
+              style={{ color: active ? "#FFD740" : "rgba(242,236,223,0.5)" }}
             >
-              {active && (
-                <motion.span
-                  layoutId="bottom-nav-pill"
-                  className="absolute inset-0 rounded-xl"
-                  style={{ background: "rgba(232,163,61,0.14)" }}
-                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                />
-              )}
               <span className="relative">
                 <Icon className="h-5 w-5" strokeWidth={active ? 2.3 : 1.8} />
               </span>
               <span className="relative">{label}</span>
+              {active && (
+                <motion.span
+                  layoutId="bottom-nav-dot"
+                  className="absolute -top-0.5 left-1/2 h-[3px] w-[3px] -translate-x-1/2 rounded-full"
+                  style={{ background: "#FFD740", boxShadow: "0 0 6px 1px rgba(255,215,64,0.6)" }}
+                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                />
+              )}
             </Link>
           );
         })}

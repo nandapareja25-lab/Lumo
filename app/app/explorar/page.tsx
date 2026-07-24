@@ -8,7 +8,7 @@ import { PrayerPoster } from "@/components/app/prayer-poster";
 import { ArtAsset } from "@/components/app/art-asset";
 import { MoodScene } from "@/components/scenes/mood-scene";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
-import { STORIES, StoryTag } from "@/lib/story-catalog";
+import { STORIES, StoryTag, multiEpisodeSeries } from "@/lib/story-catalog";
 import { PRAYERS } from "@/lib/prayers";
 import { EXPLORE_FILTERS as FILTERS, EXPLORE_CATEGORY_CARDS as CATEGORY_CARDS, ExploreFilterId as FilterId } from "@/lib/explore-categories";
 import { AppState, isGated, readApp } from "@/lib/app-data";
@@ -47,13 +47,21 @@ function ExplorarPageInner() {
     }
   }, [searchParams]);
 
+  const seriesIds = useMemo(() => new Set(multiEpisodeSeries().flatMap((s) => s.episodes.map((e) => e.id))), []);
+
   const stories = useMemo(() => {
+    if (filter === "musica") return [];
     return STORIES.filter((s) => {
-      const matchesFilter = filter === "todo" || s.category === filter || s.tags.includes(filter as StoryTag);
+      const matchesFilter =
+        filter === "todo"
+          ? true
+          : filter === "series"
+            ? seriesIds.has(s.id)
+            : s.category === filter || s.tags.includes(filter as StoryTag);
       const matchesQuery = !q || s.title.toLowerCase().includes(q) || s.character.toLowerCase().includes(q);
       return matchesFilter && matchesQuery;
     });
-  }, [filter, q]);
+  }, [filter, q, seriesIds]);
 
   const prayers = useMemo(() => {
     if (!q) return PRAYERS;
@@ -65,17 +73,19 @@ function ExplorarPageInner() {
   if (!state) return null;
 
   return (
-    <main className="relative min-h-dvh bg-[#FAF3EE] text-[#2A1F17]">
+    <main className="relative min-h-dvh bg-[#FBF5EC] text-[#1C1712]">
+      <div className="bg-[#132018] px-4 pb-5 pt-6 text-[#F2ECDF]">
+        <h1 className="font-heading text-h1">Explorar</h1>
+      </div>
       <div className="relative z-10 flex flex-col gap-6 pb-4 pt-6">
       <div className="px-4">
-        <h1 className="font-heading text-h1">Explorar</h1>
-        <div className="relative mt-3">
-          <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#8A7A63]" />
+        <div className="relative">
+          <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#A3927F]" />
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar historias u oraciones…"
-            className="h-11 w-full rounded-full border border-[rgba(42,31,23,0.14)] bg-white pl-10 pr-4 text-sm text-[#2A1F17] outline-none placeholder:text-[#8A7A63]/70 focus-visible:border-[#B8791F]"
+            className="h-11 w-full rounded-full border border-[#ECDFCD] bg-white pl-10 pr-4 text-sm text-[#1C1712] outline-none placeholder:text-[#A3927F] focus-visible:border-[#B9860F]"
           />
         </div>
       </div>
@@ -122,8 +132,8 @@ function ExplorarPageInner() {
               className="shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition-colors"
               style={
                 filter === f.id
-                  ? { background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }
-                  : { background: "rgba(42,31,23,0.05)", color: "#6B5A4A" }
+                  ? { background: "linear-gradient(135deg, #FFD740, #F7C35C)", color: "#3A2705" }
+                  : { background: "transparent", border: "1.5px solid #ECDFCD", color: "#6B5D4F" }
               }
             >
               {f.label}
@@ -146,10 +156,17 @@ function ExplorarPageInner() {
 
         {searching && <h2 className="font-heading text-h2">Historias</h2>}
 
-        {stories.length === 0 && prayers.length === 0 ? (
+        {!searching && filter === "musica" ? (
           <div className="flex flex-col items-center gap-3 py-12 text-center">
             <LumoPortrait pose="lumo-frontal" size={56} />
-            <p className="max-w-[26ch] text-body text-[#6B5A4A]">
+            <p className="max-w-[26ch] text-body text-[#6B5D4F]">
+              Todavía no hay música disponible. Pronto vamos a sumar canciones para dormir.
+            </p>
+          </div>
+        ) : stories.length === 0 && prayers.length === 0 ? (
+          <div className="flex flex-col items-center gap-3 py-12 text-center">
+            <LumoPortrait pose="lumo-frontal" size={56} />
+            <p className="max-w-[26ch] text-body text-[#6B5D4F]">
               No encontramos nada con esa búsqueda. Prueba con otra palabra.
             </p>
           </div>

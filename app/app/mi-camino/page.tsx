@@ -39,10 +39,12 @@ export default function MiCaminoPage() {
   if (hasStarted) beats.push("Hoy siguen caminando juntos.");
 
   return (
-    <main className="relative min-h-dvh bg-[#FAF3EE] text-[#2A1F17]">
+    <main className="relative min-h-dvh bg-[#FBF5EC] text-[#1C1712]">
+      <div className="bg-[#132018] px-4 pb-5 pt-6 text-[#F2ECDF]">
+        <h1 className="font-heading text-h1">Mi camino</h1>
+        <p className="mt-1 text-body text-[rgba(242,236,223,0.66)]">El camino que han recorrido juntos.</p>
+      </div>
       <div className="relative z-10 flex flex-col px-4 pb-6 pt-10">
-      <h1 className="font-heading text-h1">Mi camino</h1>
-      <p className="mt-1 text-body text-[#6B5A4A]">El camino que han recorrido juntos.</p>
 
       {!hasStarted ? (
         <div className="mt-16 flex flex-col items-center gap-4 text-center">
