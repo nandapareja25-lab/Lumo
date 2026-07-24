@@ -10,6 +10,7 @@ import { MoodScene } from "@/components/scenes/mood-scene";
 import { PrayerPoster } from "@/components/app/prayer-poster";
 import { PRAYERS } from "@/lib/prayers";
 import { STORIES } from "@/lib/story-catalog";
+import { getContent } from "@/lib/content-catalog";
 import { todaysVerse } from "@/lib/verses";
 import {
   AppState,
@@ -18,6 +19,7 @@ import {
   isTrialExpired,
   markVerseRead,
   readApp,
+  recentInProgress,
   todaysPrayerId,
   todaysStory,
   trialDayNumber,
@@ -53,6 +55,11 @@ export default function HomePage() {
   // Recomendación: la primera historia real que todavía no vivieron, distinta a la de hoy.
   const recommended = STORIES.find((s) => s.id !== story.id && !state.completedStoryIds.includes(s.id));
 
+  // Continuar donde quedó — el contenido a medias más reciente, si existe.
+  const continuing = recentInProgress(state, 1)
+    .map((p) => getContent(p.contentId))
+    .find((c) => c !== undefined);
+
   return (
     <main className="relative min-h-dvh bg-[#FAF3EE] text-[#2A1F17]">
       <div className="relative z-10 flex flex-col gap-8 pb-10 pt-6">
@@ -79,6 +86,30 @@ export default function HomePage() {
               {expired ? "Ver Premium" : "Ver todas las historias"}
             </span>
           </Link>
+        )}
+
+        {/* Continuar donde quedó — solo si hay un contenido real a medias */}
+        {continuing && (
+          <section className="flex flex-col gap-2 px-4">
+            <h2 className="font-heading text-lg font-medium">Continuar donde quedó</h2>
+            <Link
+              href={`/reproducir/${continuing.id}`}
+              className="relative h-32 w-full overflow-hidden rounded-2xl shadow-sm"
+            >
+              <ArtAsset
+                slug={continuing.illustrationSlug}
+                alt={continuing.title}
+                fallback={<MoodScene mood={continuing.segments[0].mood} />}
+                className="absolute inset-0"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+              <div className="absolute inset-x-0 bottom-0 p-4">
+                <h3 className="font-heading text-base font-semibold text-white text-balance">
+                  {continuing.title}
+                </h3>
+              </div>
+            </Link>
+          </section>
         )}
 
         {/* Historia del día — el ritual, una sola escena, una sola acción */}

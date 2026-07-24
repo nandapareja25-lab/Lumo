@@ -9,12 +9,15 @@ import { CONTENT, getContent } from "@/lib/content-catalog";
 import { EpisodeIllustration } from "@/components/app/episode-illustration";
 import {
   AppState,
+  clearProgress,
   completeStory,
+  getProgress,
   isGated,
   isTrialExpired,
   markPrayerSaid,
   newlyReachedMilestone,
   readApp,
+  saveProgress,
 } from "@/lib/app-data";
 import { getStory } from "@/lib/story-catalog";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
@@ -64,13 +67,23 @@ export default function ReproducirPage() {
   const audioRef = useRef<HTMLAudioElement>(null);
   const musicRef = useRef<HTMLAudioElement>(null);
   const sfxRef = useRef<HTMLAudioElement>(null);
+  // Segundo desde donde reanudar, una sola vez, al cargar el segmento donde habían quedado.
+  const resumeTimeRef = useRef<number | null>(null);
+  const lastSaveRef = useRef(0);
 
   const scene = content?.segments[index];
   const isLast = content ? index === content.segments.length - 1 : false;
 
   useEffect(() => {
-    if (content) setPrayerSaid(readApp().prayersSaidIds.includes(content.id));
-    setAppState(readApp());
+    if (!content) return;
+    const state = readApp();
+    setPrayerSaid(state.prayersSaidIds.includes(content.id));
+    setAppState(state);
+    const progress = getProgress(state, content.id);
+    if (progress && progress.segmentIndex < content.segments.length) {
+      setIndex(progress.segmentIndex);
+      resumeTimeRef.current = progress.audioTime;
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [content?.id]);
 
@@ -159,6 +172,10 @@ export default function ReproducirPage() {
     if (realSegment.url && audioRef.current) {
       audioRef.current.src = realSegment.url;
       setCueText(realSegment.cues[0]?.text ?? "");
+      if (resumeTimeRef.current != null) {
+        audioRef.current.currentTime = resumeTimeRef.current;
+        resumeTimeRef.current = null;
+      }
       audioRef.current.play().catch(() => {});
     }
   }, [index, playing, audioSegments, finished, audioReady, scene]);
@@ -257,6 +274,14 @@ export default function ReproducirPage() {
 
   function handleTimeUpdate() {
     const time = audioRef.current?.currentTime ?? 0;
+
+    // Progreso real — guardado cada ~4s, no en cada tick de timeupdate (evita escrituras
+    // excesivas a localStorage). Se borra al terminar de verdad (ver goNext/onEnded más abajo).
+    if (content && time - lastSaveRef.current >= 4) {
+      lastSaveRef.current = time;
+      saveProgress(content.id, index, time);
+    }
+
     const cues = audioSegments?.[index]?.cues;
     if (!cues?.length) return;
     // En silencios entre frases (pausas naturales o "...") el tiempo no cae dentro de ningún
@@ -273,12 +298,15 @@ export default function ReproducirPage() {
     if (isLast) {
       audioRef.current?.pause();
       setFinished(true);
+      if (content) clearProgress(content.id);
       return;
     }
+    lastSaveRef.current = 0;
     setIndex((i) => Math.min(i + 1, content!.segments.length - 1));
   }
 
   function goPrev() {
+    lastSaveRef.current = 0;
     setIndex((i) => Math.max(i - 1, 0));
   }
 
@@ -520,8 +548,13 @@ export default function ReproducirPage() {
         ref={audioRef}
         onTimeUpdate={handleTimeUpdate}
         onEnded={() => {
-          if (!isLast) setIndex((i) => i + 1);
-          else setFinished(true);
+          if (!isLast) {
+            lastSaveRef.current = 0;
+            setIndex((i) => i + 1);
+          } else {
+            setFinished(true);
+            if (content) clearProgress(content.id);
+          }
         }}
       />
       <audio ref={musicRef} />

@@ -26,6 +26,16 @@ export type DiaryEntry = {
   audioUrl: string | null;
 };
 
+/** Progreso real de reproducción sin terminar — permite "Continuar donde quedó" y reanudación
+ * exacta en el reproductor. Se guarda mientras el contenido está a medias; se borra al
+ * terminarlo (ver `clearProgress`, llamado junto con `completeStory`/`markPrayerSaid`). */
+export type ContentProgress = {
+  contentId: string;
+  segmentIndex: number;
+  audioTime: number;
+  updatedAt: string; // ISO datetime completo, para ordenar "más reciente primero"
+};
+
 export const MILESTONES = [
   { noches: 1, titulo: "Primera noche", detalle: "La primera de muchas noches juntos" },
   { noches: 7, titulo: "Primera semana", detalle: "Una semana de fe en familia" },
@@ -48,6 +58,10 @@ export type AppState = {
   trialStartDate: string | null;
   /** Suscripción simulada (sin backend real todavía, Fase 8) — true desde que tocan "empezar" en Paywall. */
   hasAccess: boolean;
+  /** Progreso sin terminar por contenido, clave = contentId. Campo agregado 2026-07-24 — los
+   * estados guardados antes de esta fecha simplemente no lo tienen, y `readApp` lo completa con
+   * `{}` vía el merge con DEFAULT_STATE, sin romper nada existente. */
+  progress: Record<string, ContentProgress>;
 };
 
 const DEFAULT_STATE: AppState = {
@@ -63,6 +77,7 @@ const DEFAULT_STATE: AppState = {
   prayersSaidIds: [],
   trialStartDate: null,
   hasAccess: false,
+  progress: {},
 };
 
 export const ACHIEVEMENTS = [
@@ -236,6 +251,7 @@ export function completeStory(
     completedStoryIds: state.completedStoryIds.includes(story.id)
       ? state.completedStoryIds
       : [...state.completedStoryIds, story.id],
+    progress: withoutKey(state.progress, story.id),
   });
 }
 
@@ -288,7 +304,43 @@ export function markVerseRead(): AppState {
 export function markPrayerSaid(prayerId: string): AppState {
   const state = readApp();
   if (state.prayersSaidIds.includes(prayerId)) return state;
-  return writeApp({ prayersSaidIds: [...state.prayersSaidIds, prayerId] });
+  return writeApp({ prayersSaidIds: [...state.prayersSaidIds, prayerId], progress: withoutKey(state.progress, prayerId) });
+}
+
+function withoutKey<T>(record: Record<string, T>, key: string): Record<string, T> {
+  if (!(key in record)) return record;
+  const next = { ...record };
+  delete next[key];
+  return next;
+}
+
+/** Guarda en qué segundo/escena quedó un contenido sin terminar — llamar mientras se reproduce,
+ * no hace falta throttlear desde afuera (writeApp ya es una sola escritura a localStorage). */
+export function saveProgress(contentId: string, segmentIndex: number, audioTime: number): void {
+  const state = readApp();
+  writeApp({
+    progress: {
+      ...state.progress,
+      [contentId]: { contentId, segmentIndex, audioTime, updatedAt: new Date().toISOString() },
+    },
+  });
+}
+
+export function getProgress(state: AppState, contentId: string): ContentProgress | undefined {
+  return state.progress[contentId];
+}
+
+/** Se llama al terminar de verdad un contenido (historia u oración) — ya no es "a medias". */
+export function clearProgress(contentId: string): void {
+  const state = readApp();
+  writeApp({ progress: withoutKey(state.progress, contentId) });
+}
+
+/** Contenidos a medias, más reciente primero — para "Continuar donde quedó" / historial reciente. */
+export function recentInProgress(state: AppState, limit = 3): ContentProgress[] {
+  return Object.values(state.progress)
+    .sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))
+    .slice(0, limit);
 }
 
 /**
