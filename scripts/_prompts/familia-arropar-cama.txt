@@ -1,0 +1,34 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+rounded warm character design, no sharp angular shapes,
+large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+Father cartoon character, Pixar animation style, normal adult proportions (not heroic-cartoon),
+warm tender expression, soft catchlight in eyes, gentle affectionate smile,
+casual sweater, leaning over gently,
+
+Young son cartoon character, Pixar animation style,
+heroic-cartoon child proportions (head 35-40% of body height), eyes closed peacefully,
+content sleeping expression, tucked under a soft blanket,
+
+father tucking blanket around sleeping son, bedside lamp casting warm glow,
+simple bedroom with a nightstand and soft nightlight as background context (max 3 elements),
+
+tender peaceful mood, protective gentle posture,
+
+soft warm lamp key light from bedside, deep blue-indigo ambient fill representing night,
+gentle warm rim light on father's silhouette separating him from the dark background,
+
+medium shot, both figures fill 55% of frame, soft focus background,
+vertical composition, space in lower third for text overlay,
+
+8k render, Pixar quality, cinematic night lighting, no cel-shading,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image

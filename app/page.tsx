@@ -413,37 +413,6 @@ export default function LandingPage() {
           color: var(--l-ink);
           margin: 0;
         }
-        /* TESTIMONIAL */
-        .testimonial-section {
-          padding: 72px 24px;
-          background: var(--l-forest-deep);
-          text-align: center;
-        }
-        .testimonial-section .blob {
-          width: 100px;
-          height: 100px;
-          margin: 0 auto 28px;
-        }
-        .quote-mark {
-          font-family: var(--font-fredoka), sans-serif;
-          font-size: 56px;
-          color: var(--l-gold);
-          line-height: 0.4;
-          margin-bottom: 16px;
-        }
-        .testimonial-content blockquote {
-          font-family: var(--font-fredoka), sans-serif;
-          font-weight: 600;
-          font-size: 21px;
-          line-height: 1.42;
-          color: var(--l-on-forest);
-          margin: 0 0 18px;
-        }
-        .testimonial-content cite {
-          font-style: normal;
-          font-size: 13px;
-          color: var(--l-on-forest-soft);
-        }
         /* PRICING */
         .pricing-section {
           padding: 64px 24px;
@@ -780,17 +749,6 @@ export default function LandingPage() {
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section className="testimonial-section">
-          <div className="blob glow-behind">
-            <Image src="/lumo-art/familia-testimonio.png" alt="" fill sizes="100px" />
-          </div>
-          <div className="testimonial-content">
-            <div className="quote-mark">&ldquo;</div>
-            <blockquote>Lumo nos dio algo que no teníamos: un momento lindo, sin tener que inventarlo cada noche.</blockquote>
-            <cite>— Mamá de Sofía, 7 años</cite>
           </div>
         </section>
 

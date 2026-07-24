@@ -1,0 +1,35 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+rounded warm character design, no sharp angular shapes,
+large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+Father cartoon character, Pixar animation style, normal adult proportions (not heroic-cartoon),
+warm approachable face with short beard, soft catchlight in eyes, gentle focused smile,
+casual green sweater,
+
+Young son cartoon character, Pixar animation style,
+heroic-cartoon child proportions (head 35-40% of body height), oversized eyes with bright catchlight,
+curious joyful expression, orange pajama top,
+
+sitting together on a cozy sofa, father pointing at an open storybook,
+warm floor lamp and soft blanket as background context (max 3 elements),
+
+father's finger pointing at the page, son looking at the book with wonder,
+warm intimate evening mood,
+
+warm amber lamp light as key light, soft blue-toned shadow fill,
+gentle rim light from the lamp separating both from the background,
+
+medium-close shot, both figures fill 60% of frame, cozy living room slightly out of focus,
+vertical composition, space in lower third for text overlay,
+
+8k render, Pixar quality, cinematic warm lighting, no cel-shading,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image

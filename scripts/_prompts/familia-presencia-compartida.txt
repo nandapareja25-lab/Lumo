@@ -1,0 +1,35 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+rounded warm character design, no sharp angular shapes,
+large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+Mother cartoon character, Pixar animation style, normal adult proportions (not heroic-cartoon),
+warm approachable face, soft catchlight in eyes, gentle smile,
+soft knit cream sweater, hair in a loose bun,
+
+Young daughter cartoon character, Pixar animation style,
+heroic-cartoon child proportions (head 35-40% of body height), oversized eyes with bright catchlight,
+warm smile, cozy pajamas,
+
+sitting together on the floor of a warm living room, string lights and soft lamp glow,
+bookshelf and cushions as background context (max 3 elements),
+
+both looking at each other, mother listening with warm attention, daughter mid-conversation,
+soft gentle smile on both faces, relaxed intimate posture,
+
+warm golden hour key light from a nearby lamp, soft ambient fill,
+gentle warm rim light separating both from the background, cozy evening atmosphere,
+
+medium shot, both figures fill 55-60% of frame, shallow depth of field background,
+horizontal composition, space in lower third for text overlay,
+
+8k render, Pixar quality, cinematic warm lighting, no cel-shading,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image
