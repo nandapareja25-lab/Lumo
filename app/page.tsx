@@ -632,6 +632,19 @@ export default function LandingPage() {
           color: var(--l-on-forest);
           font-size: 16px;
         }
+        /* COSTURAS — curva orgánica entre secciones en vez de un corte recto */
+        .seam {
+          position: relative;
+          height: 70px;
+        }
+        .seam svg {
+          position: absolute;
+          bottom: -1px;
+          left: 0;
+          width: 100%;
+          height: 70px;
+          display: block;
+        }
         @media (min-width: 860px) {
           .hero-grid {
             flex-direction: row;
@@ -709,6 +722,12 @@ export default function LandingPage() {
           </div>
         </section>
 
+        <div className="seam" style={{ background: "#132018" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          </svg>
+        </div>
+
         <section className="day-section">
           <div className="eyebrow">Lo de siempre</div>
           <h2>Todos los días termina igual.</h2>
@@ -728,11 +747,23 @@ export default function LandingPage() {
           </div>
         </section>
 
+        <div className="seam" style={{ background: "#FBF5EC" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#1C2E23" />
+          </svg>
+        </div>
+
         <div className="break">
           <div className="blob blob-b glow-behind">
             <Image src="/lumo-art/familia-leyendo-juntos.png" alt="Un padre y su hijo leyendo un libro" fill sizes="180px" />
           </div>
           <p>Algunas conversaciones empiezan con una historia.</p>
+        </div>
+
+        <div className="seam" style={{ background: "#1C2E23" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          </svg>
         </div>
 
         <section className="steps-section">
@@ -796,6 +827,12 @@ export default function LandingPage() {
           </div>
         </section>
 
+        <div className="seam" style={{ background: "#FBF5EC" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#132018" />
+          </svg>
+        </div>
+
         <section className="compare-section">
           <div className="compare-grid">
             <div className="compare-col before">
@@ -818,6 +855,12 @@ export default function LandingPage() {
             </div>
           </div>
         </section>
+
+        <div className="seam" style={{ background: "#132018" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          </svg>
+        </div>
 
         <section className="value-section">
           <div className="value-inner">
@@ -856,11 +899,23 @@ export default function LandingPage() {
           </div>
         </section>
 
+        <div className="seam" style={{ background: "#FBF5EC" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#132018" />
+          </svg>
+        </div>
+
         <section className="pricing-section" id="precio">
           <div className="eyebrow on-forest">Un plan simple</div>
           <h2>Para familias reales.</h2>
           <LandingPricing />
         </section>
+
+        <div className="seam" style={{ background: "#132018" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,70 L0,30 Q720,-10 1440,30 L1440,70 Z" fill="#FBF5EC" />
+          </svg>
+        </div>
 
         <section className="faq-section">
           <div className="eyebrow">Preguntas frecuentes</div>
@@ -884,6 +939,12 @@ export default function LandingPage() {
             </details>
           </div>
         </section>
+
+        <div className="seam" style={{ background: "#FBF5EC" }}>
+          <svg viewBox="0 0 1440 70" preserveAspectRatio="none">
+            <path d="M0,0 L1440,0 L1440,40 Q720,80 0,40 Z" fill="#132018" />
+          </svg>
+        </div>
 
         <section className="closing">
           <ChromaKeyVideo src="/video/lumo-flying-2.mp4" className="lumo-firefly closing-patrol" />
