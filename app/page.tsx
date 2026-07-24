@@ -14,9 +14,13 @@ const REGISTRO_HREF = "/onboarding";
  * su brillo, CLAUDE.md §5.0), no la crema/dorado de la app interior. Alterna secciones --cream
  * (contenido racional: problema, pasos, historias, valor, FAQ) y --forest (contenido emocional:
  * quote breaks, comparación, testimonio, pricing, cierre) — encierra el arco día cansado → noche
- * de historia y oración → mañana siguiente. Imágenes reutilizadas tal cual (no regeneradas en
- * esta pasada) — solo cambia cómo se enmarcan (blob orgánico en vez de rectángulo).
- * No toca CLAUDE.md, el sistema de personajes ni generate-lumo-image.ts.
+ * de historia y oración → mañana siguiente. No toca CLAUDE.md, el sistema de personajes ni
+ * generate-lumo-image.ts.
+ *
+ * Las 5 fotos de familia (public/lumo-art/familia-*.png) se regeneraron el 2026-07-24 con el
+ * Master Block de LANDING-IMAGENES-PROMPTS.md, sobrescribiendo los mismos archivos. Si tu
+ * navegador todavía muestra la versión vieja, es caché local (confirmado: el servidor ya sirve
+ * el archivo nuevo) — recargar forzado (Ctrl/Cmd+Shift+R) lo resuelve, sin tocar código.
  */
 export default function LandingPage() {
   return (
