@@ -1,0 +1,26 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image — pure illustration only,
+
+a young queen cartoon character (Esther), ornate golden crown, deep rose-red royal gown with golden embroidery, calm courageous expression, standing tall and serene,
+
+a soft warm palace backdrop with minimal ornate detail, warm ambient light,
+
+the character's expression is serene quiet courage,
+
+warm ambient key light, soft neutral fill, warm golden rim light separating the character from the background, courageous hopeful atmosphere,
+
+WIDE portrait composition 3:4 ratio, the character comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept completely empty and plain for a text overlay to be added later in software, no text of any kind baked into the image,
+
+never show Lumo — this is a symbolic category cover, no text anywhere in the image

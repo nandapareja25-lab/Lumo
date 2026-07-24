@@ -1,0 +1,25 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+an elderly cartoon character (Noah), long white beard, sand-colored tunic with a green-toned traveling cloak, wooden staff in hand, slightly stooped posture, calm faithful expression, standing proudly beside the entrance of an enormous wooden ark; a pair of gentle animals (an elephant and a lion cub) walking in through the ramp behind him,
+
+golden late-afternoon sky with warm clouds, the massive wooden ark filling part of the background,
+
+Noah's expression is quiet unwavering faith, no doubt or fear,
+
+warm golden hour key light, soft neutral sky ambient fill, warm rim light separating Noah from the ark background, hopeful faithful atmosphere,
+
+WIDE portrait composition 3:4 ratio, Noah comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept clear for a text overlay,
+
+never show Lumo — this is a biblical narrative scene

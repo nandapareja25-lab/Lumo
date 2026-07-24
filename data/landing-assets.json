@@ -25,79 +25,79 @@
     "approvedAt": "2026-07-17T23:21:53.889Z"
   },
   "story-david-goliat": {
-    "url": "/lumo-art/story-david-goliat.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn joven pastor pequeño con una honda en la mano, de pie con valentía frente a la silueta lejana de un gigante, en un valle iluminado por un atardecer dorado.",
-    "approvedAt": "2026-07-17T23:54:17.893Z"
+    "url": "/lumo-art/story-david-goliat-v2_600.webp",
+    "prompt": "scripts/_prompts/story-david-goliat-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-noe-arca": {
-    "url": "/lumo-art/story-noe-arca.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn hombre bondadoso de barba blanca junto a un arca de madera enorme, con parejas de animales entrando en fila, bajo un cielo con nubes doradas.",
-    "approvedAt": "2026-07-17T23:54:35.649Z"
+    "url": "/lumo-art/story-noe-arca-v2_600.webp",
+    "prompt": "scripts/_prompts/story-noe-arca-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-buen-samaritano": {
-    "url": "/lumo-art/story-buen-samaritano.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real.\n\nPersonajes bíblicos: expresivos, cálidos, amigables, proporciones suaves y amigables para niños\n(nunca aterradores ni violentos). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nRostros y expresión (regla estricta): NUNCA ojos exageradamente grandes, pupilas sobredimensionadas,\nni expresión de sorpresa permanente (\"ojos de plato\") — es el defecto más común de ilustraciones\ngenéricas de IA. Ojos estilo Pixar, NO anime: más pequeños en proporción al rostro (nunca ocupan un\ntercio de la cara), párpado superior bien definido y algo caído/relajado (no un círculo perfecto\nsin párpado), poco blanco/esclerótica visible alrededor del iris (el párpado cubre parte superior\ndel ojo, rostro relajado, no completamente abierto mostrando blanco arriba y abajo), iris y pupila\nde tamaño proporcionado (nunca ocupando casi todo el ojo), mirada relajada y natural.\n\nESTA REGLA DE OJOS APLICA A TODOS LOS PERSONAJES DEL CUADRO SIN EXCEPCIÓN — protagonistas,\nsecundarios, niños y figuras de fondo por igual. Es un error común dibujar bien al protagonista\npero dejar a los niños/personajes de fondo con ojos redondos enormes tipo IA genérica; eso también\nes un fallo del estándar.\n\nLa emoción se transmite con actuación facial completa (cejas, mirada, boca, postura del cuerpo),\nnunca solo con los ojos abiertos. Expresiones sutiles y creíbles, distintas según el personaje y el\nmomento — nunca la misma cara de asombro repetida. Test obligatorio (aplicado a CADA rostro del\ncuadro, no solo al protagonista): si se tapa mentalmente la boca del personaje y solo con los ojos\nya parece asustado o en shock, la ilustración NO cumple el estándar. Actuación facial inspirada en\nPixar/Disney Animation, nunca caricaturesca ni anime. Anatomía consistente, sin distorsión de\nproporciones.\n\nComposición (regla de oro): esta es LA ÚNICA ilustración de todo el episodio — debe representar el\nmomento más icónico de la historia y funcionar como portada (Explorar/Home) Y como fondo durante\ntoda la reproducción del audio. Nivel de fotograma de película o portada de libro ilustrado premium\n— NUNCA un retrato/primer plano de personaje posando para la cámara. Mostrar la ACCIÓN PRINCIPAL\ncon profundidad de paisaje real (fondo, plano medio, primer plano), luz volumétrica y atmósfera,\npara que se entienda qué pasa con solo ver la imagen. Plano medio o general, nunca close-up de\nrostro. Encuadre pensado nativamente para VERTICAL (9:16), elementos distribuidos en profundidad.\n\nPROHIBIDO SIEMPRE:\n- Ojos sobredimensionados, pupilas exageradas o expresión de sorpresa permanente.\n- Primer plano/retrato posando sin mostrar la acción o el contexto de la escena.\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nMomento icónico a ilustrar:\nEl momento más icónico de la parábola: un samaritano arrodillado junto a un viajero herido, vendándole el brazo con ternura, en el camino rocoso y solitario entre Jerusalén y Jericó. Cerca, su burro cargado espera. El camino se extiende con profundidad entre colinas rocosas, luz cálida y dorada de atardecer iluminando la escena desde un costado. La emoción dominante es la compasión — se debe sentir con solo ver la imagen, antes de escuchar el audio.",
-    "approvedAt": "2026-07-20T00:25:14.188Z"
+    "url": "/lumo-art/story-buen-samaritano-v2_600.webp",
+    "prompt": "scripts/_prompts/story-buen-samaritano-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-moises-mar-rojo": {
-    "url": "/lumo-art/story-moises-mar-rojo.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn hombre mayor con un bastón en alto frente a un camino seco abierto entre dos enormes paredes de mar, con un grupo de personas cruzando con asombro, luz dorada brillando desde arriba.",
-    "approvedAt": "2026-07-17T23:55:08.764Z"
+    "url": "/lumo-art/story-moises-mar-rojo-v2_600.webp",
+    "prompt": "scripts/_prompts/story-moises-mar-rojo-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-hijo-prodigo": {
-    "url": "/lumo-art/story-hijo-prodigo.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn padre de mediana edad corriendo con los brazos abiertos para abrazar a un joven que vuelve a casa con ropa gastada, frente a una casa cálida iluminada al atardecer.",
-    "approvedAt": "2026-07-17T23:55:24.944Z"
+    "url": "/lumo-art/story-hijo-prodigo-v2_600.webp",
+    "prompt": "scripts/_prompts/story-hijo-prodigo-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-daniel-leones": {
-    "url": "/lumo-art/story-daniel-leones.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn joven sereno sentado dentro de un foso de piedra, rodeado de leones grandes pero tranquilos y dóciles, con un rayo de luz cálida entrando desde arriba.",
-    "approvedAt": "2026-07-17T23:55:41.317Z"
+    "url": "/lumo-art/story-daniel-leones-v2_600.webp",
+    "prompt": "scripts/_prompts/story-daniel-leones-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-jesus-tormenta": {
-    "url": "/lumo-art/story-jesus-tormenta.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUna figura serena de pie en una pequeña barca de madera en medio de un mar agitado, con la mano extendida con calma hacia las olas, mientras el cielo se abre con luz dorada.",
-    "approvedAt": "2026-07-17T23:55:59.539Z"
+    "url": "/lumo-art/story-jesus-tormenta-v2_600.webp",
+    "prompt": "scripts/_prompts/story-jesus-tormenta-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-jose-hermanos": {
-    "url": "/lumo-art/story-jose-hermanos.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn hombre joven con ropas finas y coloridas abrazando con calidez a sus hermanos mayores, en un ambiente de reconciliación cálido con luz dorada de atardecer.",
-    "approvedAt": "2026-07-17T23:56:15.344Z"
+    "url": "/lumo-art/story-jose-hermanos-v2_600.webp",
+    "prompt": "scripts/_prompts/story-jose-hermanos-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-ester-reina": {
-    "url": "/lumo-art/story-ester-reina.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUna joven reina con vestido elegante y corona sencilla, de pie con valentía y gracia frente a un trono, con luz cálida entrando por ventanas altas.",
-    "approvedAt": "2026-07-17T23:56:32.427Z"
+    "url": "/lumo-art/story-ester-reina-v2_600.webp",
+    "prompt": "scripts/_prompts/story-ester-reina-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "category-antiguo": {
-    "url": "/lumo-art/category-antiguo.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn arca de madera antigua flotando en el mar bajo un cielo dorado con animales asomándose, composición de portada de libro.",
-    "approvedAt": "2026-07-17T23:56:49.878Z"
+    "url": "/lumo-art/category-antiguo-v2_600.webp",
+    "prompt": "scripts/_prompts/category-antiguo-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "category-nuevo": {
-    "url": "/lumo-art/category-nuevo.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUna cruz de madera simple en una colina al atardecer, con luz cálida dorada detrás, composición serena de portada de libro.",
-    "approvedAt": "2026-07-17T23:57:06.953Z"
+    "url": "/lumo-art/category-nuevo-v2_600.webp",
+    "prompt": "scripts/_prompts/category-nuevo-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "category-personajes": {
-    "url": "/lumo-art/category-personajes.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUn grupo cálido de personajes bíblicos de distintas edades reunidos y sonriendo, con luz dorada suave, composición de portada de libro.",
-    "approvedAt": "2026-07-17T23:57:21.937Z"
+    "url": "/lumo-art/category-personajes-v2_600.webp",
+    "prompt": "scripts/_prompts/category-personajes-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "category-milagros": {
-    "url": "/lumo-art/category-milagros.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUna pequeña barca de pescadores en un mar en calma con una luz dorada brillante descendiendo del cielo, sensación de asombro.",
-    "approvedAt": "2026-07-17T23:57:36.298Z"
+    "url": "/lumo-art/category-milagros-v2_600.webp",
+    "prompt": "scripts/_prompts/category-milagros-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "category-mujeres": {
-    "url": "/lumo-art/category-mujeres.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nUna mujer bíblica valiente y serena, con vestimenta de la época, de pie con dignidad bajo una luz cálida, composición de portada de libro.",
-    "approvedAt": "2026-07-17T23:57:53.510Z"
+    "url": "/lumo-art/category-mujeres-v2_600.webp",
+    "prompt": "scripts/_prompts/category-mujeres-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "category-valores": {
-    "url": "/lumo-art/category-valores.png",
-    "prompt": "Estilo de render: render 3D estilo película animada infantil premium (calidad tipo largometraje\nanimado moderno) — NUNCA un dibujo vectorial plano ni clip-art. Volumen suave, iluminación cálida\ny cinematográfica, colores dorados/ámbar predominantes con acentos de azul cielo suave o verde\nsalvia, profundidad de campo real, composición de \"portada de libro ilustrado premium\".\n\nPersonajes bíblicos: expresivos, cálidos, amigables, con proporciones suaves y amigables para\nniños (nunca aterradores ni violentos, incluso en escenas de conflicto — mostrar el momento de\nesperanza/coraje, no la amenaza). Ropa y escenografía con inspiración histórica del Medio Oriente\nantiguo, sin ser hiperrealista.\n\nComposición: una escena central clara, protagonista bien iluminado, fondo con profundidad\n(desenfocado sutilmente), nunca texto ni letras dentro de la imagen.\n\nPROHIBIDO SIEMPRE:\n- Texto, letras, palabras o números dentro de la imagen.\n- Logos, marcas de agua, marcas comerciales.\n- Cualquier estilo reconocible de Disney, Pixar, Theo, Eden Kids Bible Stories, u otra IP protegida.\n- Violencia gráfica, imágenes de miedo o amenaza directa — todo debe sentirse seguro y esperanzador.\n\nEscena específica a ilustrar:\nDos manos sosteniendo con ternura un corazón brillante y cálido, ilustración suave y esperanzadora, sin texto.",
-    "approvedAt": "2026-07-17T23:58:10.999Z"
+    "url": "/lumo-art/category-valores-v2_600.webp",
+    "prompt": "scripts/_prompts/category-valores-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:12:25.769532+00:00"
   },
   "story-buen-samaritano-scene-0": {
     "url": "/lumo-art/story-buen-samaritano-scene-0.png",
@@ -158,5 +158,45 @@
     "url": "/lumo-art/pilot-storybook-cuando-tengo-miedo.png",
     "prompt": "PILOTO EXPERIMENTAL 2026-07-22 — libro ilustrado pintado, no forma parte del catalogo canonico todavia.",
     "approvedAt": "2026-07-22T00:00:00.000Z"
+  },
+  "prayer-antes-de-dormir": {
+    "url": "/lumo-art/prayer-antes-de-dormir-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-antes-de-dormir-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-dar-gracias": {
+    "url": "/lumo-art/prayer-dar-gracias-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-dar-gracias-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-cuando-tengo-miedo": {
+    "url": "/lumo-art/prayer-cuando-tengo-miedo-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-cuando-tengo-miedo-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-cuando-estoy-triste": {
+    "url": "/lumo-art/prayer-cuando-estoy-triste-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-cuando-estoy-triste-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-antes-de-un-examen": {
+    "url": "/lumo-art/prayer-antes-de-un-examen-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-antes-de-un-examen-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-por-mi-familia": {
+    "url": "/lumo-art/prayer-por-mi-familia-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-por-mi-familia-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-antes-de-comer": {
+    "url": "/lumo-art/prayer-antes-de-comer-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-antes-de-comer-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
+  },
+  "prayer-antes-de-comenzar-el-dia": {
+    "url": "/lumo-art/prayer-antes-de-comenzar-el-dia-v2_600.webp",
+    "prompt": "scripts/_prompts/prayer-antes-de-comenzar-el-dia-v2.txt (sistema unificado CLAUDE.md, 2026-07-23)",
+    "approvedAt": "2026-07-24T00:13:18.842926+00:00"
   }
 }

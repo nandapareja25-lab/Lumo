@@ -1,0 +1,26 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image — pure illustration only,
+
+a young queen cartoon character (Esther), ornate golden crown, deep rose-red royal gown with golden embroidery, standing tall with a calm confident chin slightly raised, relaxed composed eyebrows (not worried, not furrowed), a soft steady half-smile of quiet resolve, looking slightly off-camera with serene confidence — no fear, no anxiety, no worry visible anywhere in her expression,
+
+a grand royal palace hall, soft warm columns and drapery in the background,
+
+Esther's expression is serene unshaken courage, calm and composed, the opposite of frightened,
+
+warm royal hall key light, soft neutral ambient fill, warm golden rim light separating Esther from the background, courageous regal atmosphere,
+
+WIDE portrait composition 3:4 ratio, Esther comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept completely empty and plain for a text overlay to be added later in software, no text of any kind baked into the image,
+
+never show Lumo — this is a biblical narrative scene, no text anywhere in the image

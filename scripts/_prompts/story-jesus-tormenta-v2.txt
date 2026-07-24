@@ -1,0 +1,26 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+absolutely no text, no titles, no letters, no words, no typography, no captions anywhere in the image — pure illustration only,
+
+an adult cartoon character (Jesus), cream tunic with an indigo-blue mantle, standing calmly at the front of a small wooden boat with one hand raised toward the stormy sky, serene commanding expression; a couple of fisherman disciples crouched behind him in the boat, gripping the sides, amazed expressions,
+
+a stormy sea at dusk, dark clouds beginning to part, choppy waves calming beneath the boat,
+
+Jesus' expression is calm authority, the disciples' expression is amazed relief,
+
+a warm break of light through the parting clouds as the key light, deep cool blue-grey ambient fill from the stormy sea, warm golden rim light separating Jesus from the background, awe-inspiring calming atmosphere,
+
+WIDE portrait composition 3:4 ratio, all characters comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept completely empty and plain (dark water/sky only, no text, no props) for a text overlay to be added later in software,
+
+never show Lumo — this is a biblical narrative scene, no text anywhere in the image

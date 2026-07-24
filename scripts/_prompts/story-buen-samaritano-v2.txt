@@ -1,0 +1,25 @@
+3D cartoon render, Pixar animation studio quality,
+soft volumetric lighting, no cel-shading, no flat illustration, no 2D cartoon,
+subsurface scattering on organic surfaces,
+heroic cartoon proportions: head is 35-40% of total body height,
+rounded compact body, no sharp angular shapes,
+all characters have large expressive eyes with visible white catchlight,
+warm rim light separating every subject from the background,
+background is subordinate to subject: maximum 3 contextual elements,
+background slightly out of focus, most saturated color belongs to subject not background,
+8k render quality, high detail facial features, anatomically correct hands with clearly separated fingers,
+cinematic color grading, soft shadows, no hard edges,
+photorealistic texture quality within cartoon proportions,
+award-winning children's animation aesthetic,
+
+a traveler cartoon character (the good Samaritan), deep indigo traveling cloak, cream-colored cinch with cloth bandages, kneeling and gently wrapping a bandage around the arm of another man sitting on a stone path, genuine warm attentive expression, no pity or superiority,
+
+a dusty stone road with a small donkey resting nearby, warm late-afternoon light,
+
+the Samaritan's expression is genuine caring attention, the injured man's expression is quiet relief,
+
+warm afternoon sunlight key light, soft neutral ambient fill, warm rim light separating both characters from the road background, compassionate hopeful atmosphere,
+
+WIDE portrait composition 3:4 ratio, both characters comfortably within frame with generous margin on all sides, nobody cropped at any edge, the entire bottom third of the frame kept clear for a text overlay,
+
+never show Lumo — this is a biblical narrative scene

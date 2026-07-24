@@ -162,6 +162,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["1 Samuel 17:1–58"],
     language: "es",
     illustrationSlug: "story-david-goliat",
+    illustrations: [
+      {
+        id: "story-david-goliat-i1",
+        sceneId: "story-david-goliat",
+        order: 1,
+        narrativeMoment: "David enfrenta a Goliat con serena determinación.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-david-goliat-v2.txt",
+        characterVersions: { "david": "v2" },
+        image300: "/lumo-art/story-david-goliat-v2_300.webp",
+        image600: "/lumo-art/story-david-goliat-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -230,6 +243,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Génesis 6–9"],
     language: "es",
     illustrationSlug: "story-noe-arca",
+    illustrations: [
+      {
+        id: "story-noe-arca-i1",
+        sceneId: "story-noe-arca",
+        order: 1,
+        narrativeMoment: "Noé junto a la entrada del arca con los animales.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-noe-arca-v2.txt",
+        characterVersions: { "noe": "v2" },
+        image300: "/lumo-art/story-noe-arca-v2_300.webp",
+        image600: "/lumo-art/story-noe-arca-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -298,6 +324,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Lucas 10:25–37"],
     language: "es",
     illustrationSlug: "story-buen-samaritano",
+    illustrations: [
+      {
+        id: "story-buen-samaritano-i1",
+        sceneId: "story-buen-samaritano",
+        order: 1,
+        narrativeMoment: "El samaritano vendando al hombre herido en el camino.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-buen-samaritano-v2.txt",
+        characterVersions: { "buen-samaritano": "v2" },
+        image300: "/lumo-art/story-buen-samaritano-v2_300.webp",
+        image600: "/lumo-art/story-buen-samaritano-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -368,6 +407,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Éxodo 14:1–31"],
     language: "es",
     illustrationSlug: "story-moises-mar-rojo",
+    illustrations: [
+      {
+        id: "story-moises-mar-rojo-i1",
+        sceneId: "story-moises-mar-rojo",
+        order: 1,
+        narrativeMoment: "Moisés con el mar dividido y el pueblo cruzando.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-moises-mar-rojo-v2.txt",
+        characterVersions: { "moises": "v2" },
+        image300: "/lumo-art/story-moises-mar-rojo-v2_300.webp",
+        image600: "/lumo-art/story-moises-mar-rojo-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -442,6 +494,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Lucas 15:11–32"],
     language: "es",
     illustrationSlug: "story-hijo-prodigo",
+    illustrations: [
+      {
+        id: "story-hijo-prodigo-i1",
+        sceneId: "story-hijo-prodigo",
+        order: 1,
+        narrativeMoment: "El padre abraza con alegría al hijo que vuelve.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-hijo-prodigo-v2.txt",
+        characterVersions: { "padre-prodigo": "v2", "hijo-prodigo": "v2" },
+        image300: "/lumo-art/story-hijo-prodigo-v2_300.webp",
+        image600: "/lumo-art/story-hijo-prodigo-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -504,6 +569,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Daniel 6:1–28"],
     language: "es",
     illustrationSlug: "story-daniel-leones",
+    illustrations: [
+      {
+        id: "story-daniel-leones-i1",
+        sceneId: "story-daniel-leones",
+        order: 1,
+        narrativeMoment: "Daniel sereno en el foso de los leones.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-daniel-leones-v2.txt",
+        characterVersions: { "daniel": "v2" },
+        image300: "/lumo-art/story-daniel-leones-v2_300.webp",
+        image600: "/lumo-art/story-daniel-leones-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -566,6 +644,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Marcos 4:35–41"],
     language: "es",
     illustrationSlug: "story-jesus-tormenta",
+    illustrations: [
+      {
+        id: "story-jesus-tormenta-i1",
+        sceneId: "story-jesus-tormenta",
+        order: 1,
+        narrativeMoment: "Jesús calma la tormenta ante el asombro de los discípulos.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-jesus-tormenta-v2.txt",
+        characterVersions: { "jesus": "v2" },
+        image300: "/lumo-art/story-jesus-tormenta-v2_300.webp",
+        image600: "/lumo-art/story-jesus-tormenta-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -628,6 +719,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Génesis 37:1–36", "Génesis 45:1–28"],
     language: "es",
     illustrationSlug: "story-jose-hermanos",
+    illustrations: [
+      {
+        id: "story-jose-hermanos-i1",
+        sceneId: "story-jose-hermanos",
+        order: 1,
+        narrativeMoment: "José abraza con perdón a sus hermanos.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-jose-hermanos-v2.txt",
+        characterVersions: { "jose": "v2" },
+        image300: "/lumo-art/story-jose-hermanos-v2_300.webp",
+        image600: "/lumo-art/story-jose-hermanos-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
@@ -702,6 +806,19 @@ export const CONTENT: ContentItem[] = [
     passages: ["Ester 4–7"],
     language: "es",
     illustrationSlug: "story-ester-reina",
+    illustrations: [
+      {
+        id: "story-ester-reina-i1",
+        sceneId: "story-ester-reina",
+        order: 1,
+        narrativeMoment: "Ester con serena valentía en el palacio.",
+        approvalStatus: "approved",
+        promptFile: "scripts/_prompts/story-ester-reina-v2.txt",
+        characterVersions: { "ester": "v2" },
+        image300: "/lumo-art/story-ester-reina-v2_300.webp",
+        image600: "/lumo-art/story-ester-reina-v2_600.webp",
+      },
+    ],
     audioUrl: null,
     musicUrl: null,
     segments: [
