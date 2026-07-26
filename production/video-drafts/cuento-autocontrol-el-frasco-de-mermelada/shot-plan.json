@@ -1,0 +1,62 @@
+{
+  "contentId": "cuento-autocontrol-el-frasco-de-mermelada",
+  "notaDeAnalisis": "7 segmentos de guion reducidos a 6 momentos visuales distintos (segmentos 1 y 2 comparten el mismo escenario/personaje con solo un cambio de pose; el guia-cierre final no necesita arte nuevo, reutiliza el plano F). 2 escenarios (cocina, dormitorio) cubren las 6 escenas.",
+  "shots": [
+    {
+      "id": "shot-A",
+      "segmentIndexes": [0],
+      "resumen": "Nico de pie frente a la alacena de la cocina, mirando el frasco de mermelada con tentación, de tarde.",
+      "needs": [
+        { "type": "character", "characterId": "nino-nico", "pose": "de-pie-mirando-algo", "expression": "curiosidad", "lighting": "dia-calido" },
+        { "type": "background", "setting": "cocina", "mood": "family", "lighting": "dia-calido" }
+      ]
+    },
+    {
+      "id": "shot-B",
+      "segmentIndexes": [1],
+      "resumen": "Nico con la mano estirada hacia el frasco, conteniéndose justo a tiempo — mismo escenario.",
+      "needs": [
+        { "type": "character", "characterId": "nino-nico", "pose": "mano-estirada-conteniendose", "expression": "determinacion", "lighting": "dia-calido" },
+        { "type": "background", "setting": "cocina", "mood": "family", "lighting": "dia-calido" }
+      ]
+    },
+    {
+      "id": "shot-C",
+      "segmentIndexes": [2],
+      "resumen": "Nico en su cama, de noche, mirando el techo, pensativo — no puede dormir.",
+      "needs": [
+        { "type": "character", "characterId": "nino-nico", "pose": "acostado-mirando-arriba", "expression": "curiosidad", "lighting": "noche-fria" },
+        { "type": "background", "setting": "dormitorio", "mood": "diary", "lighting": "noche-fria" }
+      ]
+    },
+    {
+      "id": "shot-D",
+      "segmentIndexes": [3],
+      "resumen": "Nico sentado a la mesa de la cocina dibujando, de espaldas parcial al estante, concentrado.",
+      "needs": [
+        { "type": "character", "characterId": "nino-nico", "pose": "sentado-dibujando", "expression": "determinacion", "lighting": "dia-calido" },
+        { "type": "background", "setting": "cocina", "mood": "family", "lighting": "dia-calido" }
+      ]
+    },
+    {
+      "id": "shot-E",
+      "segmentIndexes": [4],
+      "resumen": "La abuela Rosa sentada en el borde de la cama de Nico, de noche, hablándole con ternura; Nico sorprendido y contento.",
+      "needs": [
+        { "type": "character", "characterId": "adulta-abuela-rosa", "pose": "sentada-hablando-tierno", "expression": "alegria", "lighting": "noche-fria" },
+        { "type": "character", "characterId": "nino-nico", "pose": "acostado-escuchando", "expression": "asombro", "lighting": "noche-fria" },
+        { "type": "background", "setting": "dormitorio", "mood": "diary", "lighting": "noche-fria" }
+      ]
+    },
+    {
+      "id": "shot-F",
+      "segmentIndexes": [5, 6],
+      "resumen": "Domingo: mesa familiar llena, la abuela destapa el frasco con ceremonia, Nico unta su tostada — resolución emocional del cuento (momento de mayor peso, CLAUDE.md §7.2). El guia-cierre (segmento 6) reutiliza este mismo plano, no necesita arte nuevo.",
+      "needs": [
+        { "type": "character", "characterId": "nino-nico", "pose": "sentado-a-la-mesa-feliz", "expression": "alegria", "lighting": "dia-calido" },
+        { "type": "character", "characterId": "adulta-abuela-rosa", "pose": "de-pie-sirviendo-ceremonia", "expression": "alegria", "lighting": "dia-calido" },
+        { "type": "background", "setting": "cocina", "mood": "family", "lighting": "dia-calido" }
+      ]
+    }
+  ]
+}

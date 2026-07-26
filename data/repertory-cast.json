@@ -1,0 +1,40 @@
+{
+  "characters": [
+    {
+      "id": "nino-nico",
+      "nombreEnElenco": "Nico",
+      "tipo": "nino",
+      "edadAparente": "7-8 años",
+      "descripcionCanonica": "Niño curioso y de buen corazón, pelo castaño corto y despeinado, mejillas redondas, sonrisa fácil.",
+      "rasgosVisuales": [
+        "pelo castaño corto, un mechón siempre parado adelante",
+        "ojos marrones grandes con catchlight doble",
+        "mejillas redondas, pecas leves"
+      ],
+      "vestuario": "remera celeste de manga corta, shorts marrón claro, zapatillas gastadas",
+      "paleta": { "primario": "#6FA0C4", "secundario": "#8A6A4E", "acento": "#E8A33D" },
+      "origen": "repertorio",
+      "notas": "Diseñado para reaparecer en futuros cuentos con otro nombre narrativo si hace falta — el diseño visual no está atado a 'Nico' como nombre, está atado a este perfil.",
+      "primeraAparicion": "cuento-autocontrol-el-frasco-de-mermelada",
+      "apariciones": []
+    },
+    {
+      "id": "adulta-abuela-rosa",
+      "nombreEnElenco": "Abuela Rosa",
+      "tipo": "adulta-mayor",
+      "edadAparente": "65-70 años",
+      "descripcionCanonica": "Abuela cálida y serena, pelo blanco recogido en un rodete simple, arrugas suaves alrededor de ojos sonrientes.",
+      "rasgosVisuales": [
+        "pelo blanco en rodete bajo, algunos mechones sueltos",
+        "ojos marrones cálidos, arrugas de sonrisa marcadas",
+        "manos con anillos simples, gestos suaves"
+      ],
+      "vestuario": "cárdigan tejido color durazno sobre vestido floreado simple, delantal de cocina",
+      "paleta": { "primario": "#D9A87A", "secundario": "#F3D8C7", "acento": "#B8791F" },
+      "origen": "repertorio",
+      "notas": "Igual que Nico — perfil visual reutilizable como 'la abuela' en otros cuentos, con el nombre narrativo que corresponda a cada historia.",
+      "primeraAparicion": "cuento-autocontrol-el-frasco-de-mermelada",
+      "apariciones": []
+    }
+  ]
+}
