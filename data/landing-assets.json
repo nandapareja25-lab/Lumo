@@ -228,5 +228,80 @@
     "url": "/lumo-art/series-vida-jesus-s1e6-nazaret_600.webp",
     "prompt": "scripts/_prompts/series-vida-jesus-s1e6-nazaret.txt",
     "approvedAt": "2026-07-24T01:57:01.079193+00:00"
+  },
+  "cuento-honestidad-vaso-roto": {
+    "url": "/lumo-art/cuento-honestidad-vaso-roto.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T16:55:37.060Z"
+  },
+  "cuento-generosidad-la-ultima-galleta": {
+    "url": "/lumo-art/cuento-generosidad-la-ultima-galleta.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T16:56:34.263Z"
+  },
+  "cuento-paciencia-la-semilla-que-tardaba": {
+    "url": "/lumo-art/cuento-paciencia-la-semilla-que-tardaba.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T16:57:31.714Z"
+  },
+  "cuento-perdon-el-barrilete-enredado": {
+    "url": "/lumo-art/cuento-perdon-el-barrilete-enredado.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T16:58:27.453Z"
+  },
+  "cuento-valentia-la-cueva-oscura": {
+    "url": "/lumo-art/cuento-valentia-la-cueva-oscura.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T16:59:24.367Z"
+  },
+  "cuento-gratitud-el-dia-que-no-vio-el-sol": {
+    "url": "/lumo-art/cuento-gratitud-el-dia-que-no-vio-el-sol.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:00:30.418Z"
+  },
+  "cuento-humildad-el-mejor-dibujante": {
+    "url": "/lumo-art/cuento-humildad-el-mejor-dibujante.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:01:34.964Z"
+  },
+  "cuento-perseverancia-la-bicicleta-sin-rueditas": {
+    "url": "/lumo-art/cuento-perseverancia-la-bicicleta-sin-rueditas.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:02:32.268Z"
+  },
+  "cuento-amabilidad-el-nuevo-de-la-clase": {
+    "url": "/lumo-art/cuento-amabilidad-el-nuevo-de-la-clase.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:03:29.700Z"
+  },
+  "cuento-trabajo-en-equipo-el-puente-de-piedras": {
+    "url": "/lumo-art/cuento-trabajo-en-equipo-el-puente-de-piedras.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:04:27.968Z"
+  },
+  "cuento-respeto-las-reglas-del-arenero": {
+    "url": "/lumo-art/cuento-respeto-las-reglas-del-arenero.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:05:26.962Z"
+  },
+  "cuento-autocontrol-el-frasco-de-mermelada": {
+    "url": "/lumo-art/cuento-autocontrol-el-frasco-de-mermelada.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:06:26.096Z"
+  },
+  "cuento-empatia-el-companero-triste": {
+    "url": "/lumo-art/cuento-empatia-el-companero-triste.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:07:22.481Z"
+  },
+  "cuento-responsabilidad-el-perro-que-dependia-de-mi": {
+    "url": "/lumo-art/cuento-responsabilidad-el-perro-que-dependia-de-mi.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:08:18.080Z"
+  },
+  "cuento-esperanza-el-arbol-caido": {
+    "url": "/lumo-art/cuento-esperanza-el-arbol-caido.png",
+    "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:09:16.288Z"
   }
 }

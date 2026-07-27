@@ -8,16 +8,17 @@ import { PrayerPoster } from "@/components/app/prayer-poster";
 import { ArtAsset } from "@/components/app/art-asset";
 import { MoodScene } from "@/components/scenes/mood-scene";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
-import { STORIES, StoryTag, multiEpisodeSeries } from "@/lib/story-catalog";
+import { STORIES, CUENTOS, StoryTag, multiEpisodeSeries } from "@/lib/story-catalog";
 import { PRAYERS } from "@/lib/prayers";
 import { EXPLORE_FILTERS as FILTERS, EXPLORE_CATEGORY_CARDS as CATEGORY_CARDS, ExploreFilterId as FilterId } from "@/lib/explore-categories";
 import { AppState, isGated, readApp } from "@/lib/app-data";
 
 /**
- * Solo el catálogo real de lanzamiento — Historias Bíblicas y Oraciones Guiadas, las dos
- * colecciones con contenido producido hoy. Nada de "Próximamente", conteos de episodios ni
- * categorías vacías: cuando exista una tercera colección real, aparece acá sola, sin haber
- * anunciado antes un espacio vacío (decisión explícita del usuario, 2026-07-20).
+ * Solo el catálogo real de lanzamiento — Historias Bíblicas, Oraciones Guiadas y Cuentos con
+ * valores, las tres colecciones con contenido producido hoy (2026-07-27: se sumaron los 15
+ * Cuentos con valores, guion+audio+ilustración completos). Nada de "Próximamente", conteos de
+ * episodios ni categorías vacías: cuando exista una colección nueva real, aparece acá sola, sin
+ * haber anunciado antes un espacio vacío (decisión explícita del usuario, 2026-07-20).
  */
 
 export default function ExplorarPage() {
@@ -49,15 +50,24 @@ function ExplorarPageInner() {
 
   const seriesIds = useMemo(() => new Set(multiEpisodeSeries().flatMap((s) => s.episodes.map((e) => e.id))), []);
 
+  // Historias bíblicas + Cuentos con valores, en un solo catálogo navegable — pero los pills
+  // específicos de la Biblia (personajes/milagros/mujeres/valores) nunca deben mezclar cuentos
+  // originales, aunque compartan el tag "valores" (ver nota en explore-categories.ts).
   const stories = useMemo(() => {
     if (filter === "musica") return [];
-    return STORIES.filter((s) => {
+    const bibleTagFilters: FilterId[] = ["personajes", "milagros", "mujeres", "valores"];
+    return [...STORIES, ...CUENTOS].filter((s) => {
+      const isCuento = s.category === "general";
       const matchesFilter =
         filter === "todo"
           ? true
-          : filter === "series"
-            ? seriesIds.has(s.id)
-            : s.category === filter || s.tags.includes(filter as StoryTag);
+          : filter === "cuento"
+            ? isCuento
+            : filter === "series"
+              ? seriesIds.has(s.id)
+              : bibleTagFilters.includes(filter)
+                ? !isCuento && s.tags.includes(filter as StoryTag)
+                : s.category === filter;
       const matchesQuery = !q || s.title.toLowerCase().includes(q) || s.character.toLowerCase().includes(q);
       return matchesFilter && matchesQuery;
     });

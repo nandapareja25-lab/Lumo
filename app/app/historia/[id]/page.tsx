@@ -34,7 +34,7 @@ export default function HistoriaCoverPage() {
     <main className="flex min-h-dvh flex-col bg-[#FAF3EE] text-[#2A1F17]">
       <div className="relative h-96 w-full">
         <ArtAsset
-          slug={`story-${story.id}`}
+          slug={story.id.startsWith("cuento-") ? story.id : `story-${story.id}`}
           alt={story.title}
           fallback={<MoodScene mood={story.scenes[0].mood} />}
           className="absolute inset-0"
@@ -70,7 +70,7 @@ export default function HistoriaCoverPage() {
             className="mb-3 inline-block rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase"
             style={{ background: "rgba(42,31,23,0.06)", color: "#6B5A4A" }}
           >
-            {story.category === "antiguo" ? "Antiguo Testamento" : "Nuevo Testamento"}
+            {story.category === "antiguo" ? "Antiguo Testamento" : story.category === "nuevo" ? "Nuevo Testamento" : "Cuento"}
           </span>
           <h1 className="font-heading text-2xl font-medium text-balance">{story.title}</h1>
           <p className="mt-1 text-[15px] text-[#6B5A4A]">{story.subtitle}</p>

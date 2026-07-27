@@ -20,8 +20,9 @@ export type Story = {
   title: string;
   subtitle: string;
   character: string;
-  category: "antiguo" | "nuevo";
-  faithTradition: "cristiana";
+  /** "general" = Cuentos con valores (sin origen bíblico) — no fuerza antiguo/nuevo testamento. */
+  category: "antiguo" | "nuevo" | "general";
+  faithTradition: "cristiana" | "general";
   tags: StoryTag[];
   scenes: StoryScene[];
   reflectionQuestion: string;
@@ -36,8 +37,8 @@ function toStory(c: ContentItem): Story {
     title: c.title,
     subtitle: c.subtitle,
     character: c.characters[0] ?? "",
-    category: c.category === "antiguo" ? "antiguo" : "nuevo",
-    faithTradition: "cristiana",
+    category: c.category,
+    faithTradition: c.category === "general" ? "general" : "cristiana",
     tags: c.tags,
     scenes: c.segments.map((s) => ({ caption: s.caption, mood: s.mood })),
     reflectionQuestion: c.conversationQuestions[0] ?? "",
@@ -48,8 +49,13 @@ function toStory(c: ContentItem): Story {
 
 export const STORIES: Story[] = CONTENT.filter((c) => c.contentType === "historia").map(toStory);
 
+/** Cuentos con valores — historias originales sin origen bíblico (colección "cuentos-con-valores").
+ * Separado de STORIES a propósito: no entran en la rotación diaria de "Historia del día" en Home
+ * (ver todaysStory() en app-data.ts) — son navegables desde Explorar, no parte del ritual diario. */
+export const CUENTOS: Story[] = CONTENT.filter((c) => c.contentType === "cuento").map(toStory);
+
 export function getStory(id: string): Story | undefined {
-  return STORIES.find((s) => s.id === id);
+  return STORIES.find((s) => s.id === id) ?? CUENTOS.find((s) => s.id === id);
 }
 
 /** Series con más de un episodio real publicado — la única fuente que le importa a la UI

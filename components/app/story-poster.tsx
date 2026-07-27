@@ -28,7 +28,7 @@ export function StoryPoster({ story, size = "medium", locked = false }: StoryPos
         className={`image-text-overlay relative ${width} ${height} overflow-hidden rounded-[12px] shadow-sm`}
       >
         <ArtAsset
-          slug={`story-${story.id}`}
+          slug={story.id.startsWith("cuento-") ? story.id : `story-${story.id}`}
           alt={story.title}
           fallback={<MoodScene mood={story.scenes[0].mood} />}
           className="absolute inset-0"
@@ -40,7 +40,7 @@ export function StoryPoster({ story, size = "medium", locked = false }: StoryPos
             </span>
           )}
           <span className="absolute left-3 top-3 rounded-full bg-white/15 px-2.5 py-1 text-caption text-white backdrop-blur-sm">
-            {story.category === "antiguo" ? "Antiguo Testamento" : "Nuevo Testamento"}
+            {story.category === "antiguo" ? "Antiguo Testamento" : story.category === "nuevo" ? "Nuevo Testamento" : "Cuento"}
           </span>
           <div className="absolute inset-x-0 bottom-0 p-4">
             <h3 className="font-heading text-h2 leading-tight text-white text-balance">
