@@ -413,43 +413,126 @@ export default function ReproducirPage() {
   }
 
   if (finished && !celebrationSeen) {
-    // Primera pantalla al terminar una historia/cuento: celebración pura, sin ninguna tarea
-    // todavía (ni pasaje, ni pregunta, ni formulario) — el usuario reportó que caer directo en
-    // "escriban su respuesta" apenas termina la escena se sentía como una tarea, no como un
-    // cierre cálido (2026-07-27). La reflexión y el guardado en el Diario siguen existiendo,
-    // un paso después de este.
+    // Primera pantalla al terminar una historia/cuento: celebración con forma de "logro", no un
+    // formulario. Usa solo datos que YA existen en el catálogo (title, description,
+    // conversationQuestions) — nada de contenido nuevo tipo "Fun Facts" inventado para la
+    // ocasión (2026-07-27). La reflexión y el guardado en el Diario siguen un paso después.
+    async function handleShare() {
+      const shareData = { title: content!.title, text: `Escuchamos "${content!.title}" en Lumo.` };
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+        } catch {
+          // el usuario canceló el share nativo — no es un error, no hacer nada
+        }
+      }
+    }
+
+    function handleReplay() {
+      lastSaveRef.current = 0;
+      setIndex(0);
+      setFinished(false);
+      setCelebrationSeen(false);
+      setPlaying(true);
+    }
+
     return (
-      <main className="flex min-h-dvh flex-col items-center justify-center gap-5 overflow-y-auto bg-[#FAF3EE] px-6 py-14 text-center text-[#2A1F17]">
+      <main className="flex min-h-dvh flex-col items-center gap-5 overflow-y-auto bg-[#FBF5EC] px-5 pb-10 pt-14 text-center text-[#1C1712]">
         <motion.div
           initial={{ scale: 0.6, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
+          className="rounded-full p-1"
+          style={{ boxShadow: "0 0 0 4px #FBF5EC, 0 0 24px 6px rgba(255,215,64,0.45)" }}
         >
-          <LumoPortrait pose="lumo-feliz" size={140} />
+          <LumoPortrait pose="lumo-feliz" size={110} />
         </motion.div>
+
+        <motion.div initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1, duration: 0.4 }}>
+          <p className="text-caption font-heading font-semibold" style={{ color: "#B9860F" }}>
+            ¡Felicitaciones!
+          </p>
+          <h1 className="mt-1 font-heading text-2xl font-semibold text-balance">
+            {isOracion ? "Oración completa" : "Historia completa"}
+          </h1>
+          <p className="mt-1 text-[15px] text-[#6B5D4F] text-balance">{content.title}</p>
+        </motion.div>
+
         <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.15, duration: 0.4 }}
+          transition={{ delay: 0.2, duration: 0.4 }}
+          className="flex w-full max-w-sm gap-3"
         >
-          <h1 className="font-heading text-2xl font-medium text-balance">
-            ¡Qué lindo momento compartieron!
-          </h1>
-          <p className="mt-2 max-w-xs text-[15px] text-[#6B5A4A] text-balance">
-            {content.title}
-          </p>
+          <button
+            onClick={handleShare}
+            className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full text-sm font-semibold"
+            style={{ background: "rgba(184,121,31,0.08)", color: "#B8791F" }}
+          >
+            Compartir
+          </button>
+          <button
+            onClick={() => setCelebrationSeen(true)}
+            className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full text-sm font-semibold"
+            style={{ background: "linear-gradient(135deg, #FFD740, #F7C35C)", color: "#3A2705" }}
+          >
+            Guardar momento
+          </button>
         </motion.div>
 
-        <motion.button
+        {content.description && (
+          <motion.div
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.3, duration: 0.4 }}
+            className="w-full max-w-sm rounded-2xl bg-white p-4 text-left"
+            style={{ boxShadow: "0 12px 30px -14px rgba(28,23,18,0.18)" }}
+          >
+            <p className="text-caption font-semibold" style={{ color: "#B9860F" }}>
+              Lo que compartieron
+            </p>
+            <p className="mt-2 text-[15px] leading-relaxed text-[#1C1712]">{content.description}</p>
+          </motion.div>
+        )}
+
+        {content.conversationQuestions[0] && (
+          <motion.div
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.4, duration: 0.4 }}
+            className="w-full max-w-sm rounded-2xl bg-white p-4 text-left"
+            style={{ boxShadow: "0 12px 30px -14px rgba(28,23,18,0.18)" }}
+          >
+            <p className="text-caption font-semibold" style={{ color: "#B9860F" }}>
+              Para conversar
+            </p>
+            <p className="mt-2 font-heading text-[15px] leading-relaxed text-[#1C1712]">
+              {content.conversationQuestions[0]}
+            </p>
+          </motion.div>
+        )}
+
+        <motion.div
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.3, duration: 0.4 }}
-          className="mt-4 h-14 w-full max-w-sm rounded-full text-base font-semibold"
-          style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }}
-          onClick={() => setCelebrationSeen(true)}
+          transition={{ delay: 0.5, duration: 0.4 }}
+          className="mt-2 flex w-full max-w-sm gap-3"
         >
-          Continuar
-        </motion.button>
+          <button
+            onClick={handleReplay}
+            className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full border text-sm font-semibold"
+            style={{ borderColor: "#ECDFCD", color: "#6B5D4F" }}
+          >
+            Escuchar de nuevo
+          </button>
+          <button
+            onClick={() => router.push("/app")}
+            className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full border text-sm font-semibold"
+            style={{ borderColor: "#ECDFCD", color: "#6B5D4F" }}
+          >
+            Inicio
+          </button>
+        </motion.div>
       </main>
     );
   }
