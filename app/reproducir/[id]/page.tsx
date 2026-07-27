@@ -63,6 +63,7 @@ export default function ReproducirPage() {
   const [momentAnswer, setMomentAnswer] = useState("");
   const [momentAudio, setMomentAudio] = useState<string | null>(null);
   const [momentSaved, setMomentSaved] = useState<ReturnType<typeof newlyReachedMilestone> | "done" | null>(null);
+  const [celebrationSeen, setCelebrationSeen] = useState(false);
   const [appState, setAppState] = useState<AppState | undefined>(undefined);
   const audioRef = useRef<HTMLAudioElement>(null);
   const musicRef = useRef<HTMLAudioElement>(null);
@@ -411,11 +412,53 @@ export default function ReproducirPage() {
     );
   }
 
+  if (finished && !celebrationSeen) {
+    // Primera pantalla al terminar una historia/cuento: celebración pura, sin ninguna tarea
+    // todavía (ni pasaje, ni pregunta, ni formulario) — el usuario reportó que caer directo en
+    // "escriban su respuesta" apenas termina la escena se sentía como una tarea, no como un
+    // cierre cálido (2026-07-27). La reflexión y el guardado en el Diario siguen existiendo,
+    // un paso después de este.
+    return (
+      <main className="flex min-h-dvh flex-col items-center justify-center gap-5 overflow-y-auto bg-[#FAF3EE] px-6 py-14 text-center text-[#2A1F17]">
+        <motion.div
+          initial={{ scale: 0.6, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={{ type: "spring", stiffness: 260, damping: 18 }}
+        >
+          <LumoPortrait pose="lumo-feliz" size={140} />
+        </motion.div>
+        <motion.div
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.15, duration: 0.4 }}
+        >
+          <h1 className="font-heading text-2xl font-medium text-balance">
+            ¡Qué lindo momento compartieron!
+          </h1>
+          <p className="mt-2 max-w-xs text-[15px] text-[#6B5A4A] text-balance">
+            {content.title}
+          </p>
+        </motion.div>
+
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.3, duration: 0.4 }}
+          className="mt-4 h-14 w-full max-w-sm rounded-full text-base font-semibold"
+          style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }}
+          onClick={() => setCelebrationSeen(true)}
+        >
+          Continuar
+        </motion.button>
+      </main>
+    );
+  }
+
   if (finished) {
     // Cierre de historia fusionado con la captura del diario — sin navegar a otra pantalla
-    // (misma idea que el cierre de Orar). La secuencia es una sola experiencia continua: pasaje →
-    // reflexión → guardar este momento → celebración. El usuario nunca "va al Diario"; guarda un
-    // momento, y ese momento aparece ahí después.
+    // (misma idea que el cierre de Orar). La secuencia es una sola experiencia continua:
+    // celebración → pasaje → reflexión → guardar este momento → cierre. El usuario nunca "va al
+    // Diario"; guarda un momento, y ese momento aparece ahí después.
     if (momentSaved) {
       const milestone = momentSaved === "done" ? null : momentSaved;
       return (
@@ -455,25 +498,33 @@ export default function ReproducirPage() {
 
     return (
       <main className="flex min-h-dvh flex-col items-center gap-5 overflow-y-auto bg-[#FAF3EE] px-6 pb-10 pt-14 text-center text-[#2A1F17]">
-        <BookOpen className="h-9 w-9 text-[#B8791F]" />
-        <div>
-          <p className="text-sm text-[#6B5A4A]">Esta historia está basada en</p>
-          <h1 className="mt-1 font-heading text-2xl font-medium text-balance">
-            {content.passages.join(" · ")}
-          </h1>
-          <p className="mt-3 max-w-xs text-sm text-[#6B5A4A] text-balance">
-            Esta historia está basada en las Escrituras. Te invitamos a leer el pasaje completo en familia.
-          </p>
-        </div>
-        {passageLink && (
-          <a
-            href={passageLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-semibold text-[#B8791F] underline underline-offset-4"
-          >
-            Leer el pasaje completo
-          </a>
+        {content.passages.length > 0 ? (
+          <>
+            <BookOpen className="h-9 w-9 text-[#B8791F]" />
+            <div>
+              <p className="text-sm text-[#6B5A4A]">Esta historia está basada en</p>
+              <h1 className="mt-1 font-heading text-2xl font-medium text-balance">
+                {content.passages.join(" · ")}
+              </h1>
+              <p className="mt-3 max-w-xs text-sm text-[#6B5A4A] text-balance">
+                Esta historia está basada en las Escrituras. Te invitamos a leer el pasaje completo en familia.
+              </p>
+            </div>
+            {passageLink && (
+              <a
+                href={passageLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-semibold text-[#B8791F] underline underline-offset-4"
+              >
+                Leer el pasaje completo
+              </a>
+            )}
+          </>
+        ) : (
+          // Cuentos con valores (sin origen bíblico) no tienen passages — no se inventa una
+          // referencia que no existe, se pasa directo a la reflexión.
+          <h1 className="mt-1 font-heading text-2xl font-medium text-balance">{content.title}</h1>
         )}
 
         {reflection && (
