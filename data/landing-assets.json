@@ -303,5 +303,75 @@
     "url": "/lumo-art/cuento-esperanza-el-arbol-caido.png",
     "prompt": "scripts/generate-cuentos-art.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
     "approvedAt": "2026-07-27T17:09:16.288Z"
+  },
+  "creacion-la-luz-y-la-vida": {
+    "url": "/lumo-art/creacion-la-luz-y-la-vida.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (revisado: vestimenta modesta, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:09:56.564Z"
+  },
+  "abraham-la-promesa-de-las-estrellas": {
+    "url": "/lumo-art/abraham-la-promesa-de-las-estrellas.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:07:25.200Z"
+  },
+  "jose-el-sonador": {
+    "url": "/lumo-art/jose-el-sonador.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:54:22.404Z"
+  },
+  "jose-en-egipto": {
+    "url": "/lumo-art/jose-en-egipto.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:55:16.445Z"
+  },
+  "moises-canasta-en-el-rio": {
+    "url": "/lumo-art/moises-canasta-en-el-rio.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:56:13.438Z"
+  },
+  "moises-la-zarza-que-ardia": {
+    "url": "/lumo-art/moises-la-zarza-que-ardia.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:57:06.369Z"
+  },
+  "david-el-pastor-elegido": {
+    "url": "/lumo-art/david-el-pastor-elegido.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:58:04.796Z"
+  },
+  "david-y-jonatan-amigos-leales": {
+    "url": "/lumo-art/david-y-jonatan-amigos-leales.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:59:02.244Z"
+  },
+  "daniel-el-horno-de-fuego": {
+    "url": "/lumo-art/daniel-el-horno-de-fuego.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T17:59:56.558Z"
+  },
+  "josue-los-muros-de-jerico": {
+    "url": "/lumo-art/josue-los-muros-de-jerico.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:01:01.772Z"
+  },
+  "rut-la-lealtad-de-rut": {
+    "url": "/lumo-art/rut-la-lealtad-de-rut.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:01:59.746Z"
+  },
+  "elias-la-vasija-que-nunca-se-vacio": {
+    "url": "/lumo-art/elias-la-vasija-que-nunca-se-vacio.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:02:56.959Z"
+  },
+  "elias-el-fuego-del-carmelo": {
+    "url": "/lumo-art/elias-el-fuego-del-carmelo.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:03:49.273Z"
+  },
+  "salomon-la-sabiduria-del-rey": {
+    "url": "/lumo-art/salomon-la-sabiduria-del-rey.png",
+    "prompt": "scripts/generate-historias-biblicas-2.mjs (sistema unificado CLAUDE.md, 2026-07-27)",
+    "approvedAt": "2026-07-27T18:04:47.836Z"
   }
 }

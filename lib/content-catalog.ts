@@ -2944,6 +2944,894 @@ export const CONTENT: ContentItem[] = [
     ],
     conversationQuestions: ["¿Alguna vez construiste algo con otros que solo no hubieras podido hacer?"],
   },
+  {
+    id: "creacion-la-luz-y-la-vida",
+    contentType: "historia",
+    title: "La luz y la vida",
+    subtitle: "El comienzo de todo lo que existe",
+    description:
+      "Antes de que hubiera un solo día, Dios crea el mundo entero con su palabra: la luz, el cielo, la tierra, los animales, y por último al primer hombre y la primera mujer.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "creacion",
+    episodeNumber: 10,
+    lengthCategory: "historia-epica",
+    durationSeconds: 393,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Adán", "Eva"],
+    tags: ["personajes"],
+    passages: ["Génesis 1-2"],
+    language: "es",
+    illustrationSlug: "creacion-la-luz-y-la-vida",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de que existiera el tiempo, antes de que hubiera un solo día o una sola noche, no había nada más que oscuridad y silencio total. No había tierra firme bajo ningún pie, ni un cielo azul sobre ninguna cabeza, ni una sola luz encendida en ningún rincón de aquella inmensidad. Solo agua oscura y profunda, cubriéndolo absolutamente todo, sin límites ni orillas.\n\nPero Dios estaba ahí, presente incluso en medio de tanta oscuridad. Su espíritu se movía suavemente sobre esas aguas, como el viento sobre un lago tranquilo, y en su corazón tenía un plan enorme y hermoso: iba a crear un mundo entero, con luz, con colores, con vida, desde la nada absoluta, solamente con el poder de su palabra.\n\nEntonces Dios dijo:\n\n—Que exista la luz.\n\nY la luz existió. Apareció de golpe, brillante y cálida, iluminando la oscuridad por primera vez en toda la historia. Dios separó la luz de la oscuridad, y a una la llamó día, y a la otra la llamó noche. Miró la luz y vio que era buena. Así terminó el primer día de todos los días que existirían jamás.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Al día siguiente, Dios separó las aguas de arriba de las aguas de abajo, y en el medio dejó un espacio inmenso y azul al que llamó cielo. Ese fue el segundo día.\n\nEl tercer día, Dios reunió toda el agua que cubría el mundo en un solo lugar, y por primera vez apareció la tierra seca y firme. Dios miró los mares y la tierra recién formados, y dijo que eran buenos.\n\nDespués, con solo su palabra, hizo brotar de la tierra pasto verde, árboles altísimos, flores de todos los colores imaginables, y plantas que daban frutos y semillas para seguir creciendo por siempre. El mundo, que hasta entonces había estado vacío y oscuro, ahora tenía color por todas partes, y cada semilla guardaba adentro la promesa de una planta nueva.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "El cuarto día, Dios puso luces en el cielo: un sol enorme y brillante para gobernar el día, y una luna suave y plateada para acompañar la noche. Alrededor de la luna esparció miles y miles de estrellas, tantas que nadie podría terminar de contarlas nunca. Esas luces servirían para marcar el paso de los días, de las estaciones y de los años que vendrían.\n\nDios miró el cielo entero, encendido de luz de un extremo al otro, y volvió a decir que era bueno. Y por primera vez, si alguien hubiera estado ahí para verlo, habría podido levantar la vista de noche y contemplar un cielo lleno de estrellas titilando en silencio.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "El quinto día, Dios llenó el agua y el aire de vida. De pronto los mares se llenaron de peces de todas las formas —diminutos y brillantes, enormes y silenciosos— y también de criaturas gigantes que nadaban en las profundidades. En el cielo aparecieron las primeras aves, y el aire se llenó de aleteos y de cantos que nadie había escuchado jamás.\n\nDios bendijo a todos esos animales y les dijo que se multiplicaran, que llenaran los mares y que llenaran el cielo entero. Y así fue: donde antes solo había silencio, ahora había vida moviéndose por todas partes, nadando, volando, cantando.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "El sexto día, Dios llenó también la tierra de animales: ganado que pastaba tranquilo, animales salvajes que corrían libres por los campos, e insectos pequeños que se escondían entre las hierbas. Cada uno con su propia forma de moverse, de comer, de vivir bajo el sol.\n\nPero entonces Dios hizo algo distinto a todo lo que había hecho antes. Dijo:\n\n—Hagamos al ser humano a nuestra imagen, semejante a nosotros.\n\nY formó al primer hombre con sus propias manos, del polvo de la tierra, y sopló en él aliento de vida. Ese hombre abrió los ojos por primera vez en un jardín lleno de árboles frondosos y de luz cálida. Su nombre sería Adán, el primer ser humano que existió.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Dios miró a Adán caminando solo entre los árboles del jardín, y vio que eso no estaba bien: el ser humano no había sido hecho para estar solo. Así que hizo dormir profundamente a Adán, y mientras dormía, tomó parte de su costado y con ella formó a la primera mujer, para que fuera su compañera, su igual, alguien con quien compartir cada amanecer.\n\nCuando Adán despertó y la vio, supo enseguida que ella era parte de él, hueso de sus huesos. Su nombre sería Eva, la primera mujer, la madre de todos los que vendrían después. Juntos, Adán y Eva caminaron por el jardín que Dios había preparado especialmente para ellos, maravillados por cada árbol, cada río, cada animal que se acercaba sin miedo.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Dios bendijo a Adán y a Eva, y les entregó todo lo que había creado: los animales para cuidar, las plantas para disfrutar, los frutos de cada árbol para comer, un jardín entero para cultivar juntos. Les dio la tarea más hermosa de todas: cuidar ese mundo recién nacido, y cuidarse el uno al otro con ternura.\n\nDios miró todo lo que había hecho —la luz, el cielo, la tierra, los mares, las plantas, los animales, y por último al hombre y a la mujer creados a su propia imagen— y vio que todo, absolutamente todo, era muy bueno.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Después de seis días llenos de creación, Dios descansó. No porque estuviera cansado, sino para mostrarnos algo importante: que después de crear, de trabajar, de dar todo lo que uno tiene, también hace falta parar, respirar y disfrutar en paz lo que se hizo. Por eso el séptimo día se volvió especial, un día de descanso y de gratitud.\n\nDios miró el mundo entero —la luz del sol, el susurro de las hojas, los animales durmiendo tranquilos, y a Adán y Eva caminando de la mano en su jardín— y descansó, feliz de lo que había hecho.\n\n¿Qué es lo que más te gusta hacer para descansar después de un día lleno de cosas?",
+      },
+    ],
+    conversationQuestions: ["¿Qué es lo que más te gusta hacer para descansar después de un día lleno de cosas?"],
+  },
+  {
+    id: "abraham-la-promesa-de-las-estrellas",
+    contentType: "historia",
+    title: "La promesa de las estrellas",
+    subtitle: "Confiar en algo que todavía no se puede ver",
+    description:
+      "Dios le pide a Abraham que deje su tierra y su familia para ir a un lugar desconocido, y le promete una descendencia tan numerosa como las estrellas del cielo, aunque él y Sara ya eran mayores.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "abraham",
+    episodeNumber: 11,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 326,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Abraham", "Sara"],
+    tags: ["valores"],
+    passages: ["Génesis 12", "Génesis 15"],
+    language: "es",
+    illustrationSlug: "abraham-la-promesa-de-las-estrellas",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Hace muchísimo tiempo, en una ciudad llamada Harán, vivía un hombre llamado Abraham junto a su esposa Sara. Ya eran mayores, habían vivido muchos años juntos, tenían rebaños grandes, sirvientes que los ayudaban, carpas cómodas y una vida tranquila y ordenada. Pero había algo que los entristecía profundamente, algo de lo que casi no hablaban entre ellos: nunca habían podido tener un hijo, y a esa altura de sus vidas, ya parecía imposible que eso cambiara.\n\nUn día, en medio de esa vida tranquila, sin ningún aviso, Dios le habló a Abraham con una orden que cambiaría todo lo que conocía:\n\n—Deja tu tierra, tu familia y la casa de tu padre, y ve a la tierra que yo te voy a mostrar.\n\nAbraham no sabía a dónde iba. Dios no le dio un mapa, ni un nombre de ciudad, ni una fecha de llegada. Solo le pidió que confiara y caminara, dejando atrás todo lo conocido.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Junto con esa orden tan grande, Dios le hizo una promesa todavía más grande:\n\n—Haré de ti una nación inmensa. Te bendeciré, y haré famoso tu nombre. Serás una bendición para todas las familias de la tierra.\n\nAbraham tenía setenta y cinco años cuando escuchó esas palabras. No tenía hijos, no tenía un lugar seguro a dónde ir, y la promesa de convertirse en una nación entera sonaba, para cualquiera que la escuchara desde afuera, casi imposible de creer. Y sin embargo, Abraham hizo algo que muy pocas personas se animarían a hacer: empacó todo lo que tenía, reunió a Sara, a su sobrino Lot, a sus sirvientes y a sus rebaños, y partió hacia lo desconocido, confiando únicamente en la palabra de un Dios al que apenas empezaba a conocer.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "El camino fue largo y no siempre fácil. Cruzaron desiertos secos bajo el sol más fuerte, montañas rocosas y ríos de aguas frías, armando y desarmando sus carpas cada noche, sin saber exactamente cuándo llegarían ni qué encontrarían al final del camino. Cada mañana significaba levantar todo de nuevo y seguir caminando hacia un destino que Abraham todavía no conocía.\n\nFinalmente, Dios los guió hasta la tierra de Canaán, y ahí, por primera vez desde que había salido de Harán, Dios le habló de nuevo a Abraham:\n\n—Esta es la tierra que te voy a dar a ti y a tu descendencia.\n\nAbraham construyó un altar en ese lugar para agradecerle a Dios por haberlo guiado hasta ahí. Pero pasaban los meses, y después los años, y Sara y él seguían sin tener el hijo que Dios les había prometido. Abraham empezaba a preguntarse, en silencio, cómo podría cumplirse una promesa tan grande si el tiempo seguía pasando sin ninguna señal.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Pasado un tiempo, Dios volvió a hablarle a Abraham en una visión, y le dijo que no tuviera miedo, que su recompensa sería muy grande. Pero Abraham, esta vez, le respondió con total honestidad lo que llevaba guardado en el corazón:\n\n—Señor, ¿qué me vas a dar, si yo sigo sin hijos? El que va a heredar todo lo que tengo es uno de mis sirvientes, porque tú no me has dado descendencia propia.\n\nNo era un reclamo enojado, sino la sinceridad de alguien cansado de esperar. Dios lo escuchó con paciencia, y le respondió con una claridad total:\n\n—Ese sirviente no será tu heredero. El que nazca de ti mismo, ese será tu heredero.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Para mostrarle que su palabra era segura, Dios sacó a Abraham fuera de su carpa, en medio de la noche, y le dijo:\n\n—Mira hacia el cielo, y cuenta las estrellas, si es que puedes contarlas.\n\nAbraham levantó la vista. El cielo estaba completamente cubierto de estrellas, miles y miles, brillando una junto a otra hasta donde alcanzaba la vista, sin un solo hueco de oscuridad entre ellas. Era imposible contarlas todas, por más que uno se esforzara toda la noche.\n\nEntonces Dios le dijo:\n\n—Así de numerosa será tu descendencia.\n\nAbraham era ya un hombre mayor, y Sara también. Humanamente hablando, no había ninguna forma de que esa promesa se cumpliera. Pero Abraham, parado bajo ese cielo inmenso lleno de estrellas, decidió creerle a Dios por completo. Y esa fe, esa confianza en una promesa que todavía no podía ver cumplida con sus propios ojos, fue lo que Dios más valoró de él, más que cualquier rebaño o cualquier riqueza que tuviera.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Abraham no vio esa promesa cumplida de inmediato. Tuvo que esperar, seguir confiando, seguir caminando de carpa en carpa sin tener todas las respuestas. Pero cada noche que miraba hacia arriba y encontraba el cielo cubierto de estrellas, recordaba que Dios le había prometido algo enorme, y que las promesas de Dios, aunque tarden en cumplirse, siempre se cumplen.\n\n¿Alguna vez tuviste que confiar en algo, aunque todavía no pudieras verlo cumplido?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez tuviste que confiar en algo, aunque todavía no pudieras verlo cumplido?"],
+  },
+  {
+    id: "jose-el-sonador",
+    contentType: "historia",
+    title: "José el soñador",
+    subtitle: "Cuando la envidia lastima a quien más quieres",
+    description:
+      "José recibe una túnica especial de su padre Jacob y tiene sueños que sus hermanos no logran soportar. Los celos crecen tanto que terminan vendiéndolo como esclavo rumbo a Egipto.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "jose",
+    episodeNumber: 12,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 330,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["José", "Jacob"],
+    tags: ["valores", "personajes"],
+    passages: ["Génesis 37"],
+    language: "es",
+    illustrationSlug: "jose-el-sonador",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Jacob tenía muchos hijos, pero había uno al que amaba de una manera especial: José. Quizás porque había nacido cuando Jacob ya era mayor, o quizás simplemente porque José tenía algo distinto, una mirada despierta, una forma particular de ver el mundo. Para mostrarle ese amor, Jacob le regaló una túnica hermosa, de colores, larga hasta los tobillos, muy distinta a la ropa sencilla de trabajo que usaban todos sus hermanos.\n\nEsa túnica, que para Jacob era simplemente una muestra de cariño hacia su hijo, para los hermanos de José se convirtió en una herida que crecía un poco más cada día. Cada vez que veían a José caminando con esa túnica puesta mientras ellos sudaban cuidando los rebaños, sentían con más fuerza que su padre lo prefería por sobre todos ellos juntos. Y esa herida, con el paso del tiempo, se transformó en un rencor cada vez más difícil de esconder.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Para empeorar las cosas, José tuvo un sueño y, sin medir bien las consecuencias de contarlo, se lo compartió a sus hermanos enseguida, casi con inocencia:\n\n—Soñé que estábamos atando manojos de trigo en el campo, y mi manojo se levantaba y quedaba de pie, mientras los de ustedes se inclinaban a su alrededor.\n\nSus hermanos lo escucharon en un silencio pesado, y ese silencio dolía más que cualquier grito.\n\n—¿Acaso crees que vas a reinar sobre nosotros? ¿Vas a gobernarnos? —le respondieron, cada vez más molestos, mirándolo con desconfianza.\n\nPoco después, José tuvo otro sueño parecido, todavía más grande: el sol, la luna y once estrellas se inclinaban ante él. Esta vez se lo contó incluso a su padre, delante de todos sus hermanos. Jacob lo reprendió con cariño, preguntándole si acaso él, su madre y sus hermanos iban a inclinarse ante José. Pero por dentro, Jacob guardó esas palabras, preguntándose en silencio qué podrían significar.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Un día, Jacob envió a José a buscar a sus hermanos, que estaban lejos, cuidando los rebaños cerca de Siquem y después en Dotán. Cuando lo vieron acercarse desde lejos, con su túnica de colores reconocible incluso a la distancia, algo terminó de romperse dentro de ellos.\n\n—Ahí viene el soñador —dijo uno con desprecio.\n\n—Vengan, matémoslo y arrojémoslo a un pozo. Después diremos que un animal salvaje lo devoró. Ya veremos entonces qué pasa con todos sus sueños —propuso otro, y varios asintieron.\n\nRubén, uno de los hermanos mayores, logró convencerlos de no matarlo directamente, sino de arrojarlo a un pozo seco, sin agua, con la idea secreta de volver más tarde y rescatarlo él mismo. Cuando José finalmente llegó hasta ellos, sonriendo sin sospechar nada, sus propios hermanos lo agarraron, le arrancaron la túnica de colores que tanto le habían envidiado, y lo arrojaron al fondo del pozo, dejándolo ahí abajo, solo, asustado y sin entender nada, mientras ellos se sentaban tranquilamente a comer.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Mientras comían, sin ninguna prisa por sacar a José del pozo, vieron pasar a lo lejos una caravana de mercaderes que iba camino a Egipto, cargada de especias y mercancías. Uno de los hermanos, Judá, tuvo entonces una idea distinta:\n\n—¿Qué ganamos matando a nuestro propio hermano y escondiendo su sangre? Mejor vendámoslo a estos mercaderes. Al fin y al cabo, sigue siendo nuestra propia sangre, y así no tenemos que matarlo con nuestras manos.\n\nLos demás estuvieron de acuerdo. Sacaron a José del pozo y lo vendieron como esclavo por veinte monedas de plata, sin que él pudiera hacer absolutamente nada para evitarlo. José vio alejarse a sus propios hermanos, cada vez más pequeños en el horizonte, mientras la caravana lo llevaba encadenado hacia un país desconocido, sin su familia, sin su túnica, sin nada de lo que conocía hasta ese día.\n\nLos hermanos, para cubrir lo que habían hecho, mancharon la túnica con sangre de un animal y se la llevaron a Jacob, dejándole creer que una fiera salvaje había despedazado a José. Jacob rasgó sus ropas y lloró desconsoladamente por su hijo durante muchos días, sin que nadie se atreviera a decirle la verdad.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "José llegó a Egipto completamente solo, encadenado, lejos de todo lo que conocía, tratado como esclavo por quienes deberían haberlo protegido más que nadie en el mundo. Podría haberse llenado de odio hacia sus hermanos para siempre. Pero incluso ahí, en medio de la injusticia más grande que le había tocado vivir, José no dejó que la amargura lo llenara por completo. En algún lugar de su corazón, guardaba la fe silenciosa de que Dios seguía con él, aunque en ese momento no hubiera ninguna señal visible de que las cosas fueran a mejorar.\n\n¿Qué harías tú si alguien cercano te tratara injustamente, como le pasó a José?",
+      },
+    ],
+    conversationQuestions: ["¿Qué harías tú si alguien cercano te tratara injustamente, como le pasó a José?"],
+  },
+  {
+    id: "jose-en-egipto",
+    contentType: "historia",
+    title: "José en Egipto",
+    subtitle: "La sabiduría que se guarda con paciencia",
+    description:
+      "Encarcelado injustamente en Egipto, José interpreta los sueños del Faraón sobre las vacas gordas y flacas, y es elevado a gobernador gracias a su sabiduría y su fidelidad.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "jose",
+    episodeNumber: 13,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 357,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["José", "Faraón"],
+    tags: ["valores", "personajes"],
+    passages: ["Génesis 39-41"],
+    language: "es",
+    illustrationSlug: "jose-en-egipto",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "En Egipto, José fue comprado por un oficial importante llamado Potifar, capitán de la guardia del Faraón, y aunque estaba lejos de su familia, de su idioma y de todo lo que conocía desde niño, trabajó con tanta honestidad y dedicación que Potifar terminó confiándole el cuidado de toda su casa y de todo lo que poseía. Dios estaba con José incluso en tierra extraña, y todo lo que él emprendía prosperaba de una manera que sorprendía a todos a su alrededor.\n\nPero un día, José fue acusado injustamente de algo que jamás había hecho, y sin ninguna oportunidad real de defenderse, terminó preso en la cárcel donde encerraban a los prisioneros del rey. De esclavo fiel y respetado pasó a prisionero, sin haber cometido ninguna falta verdadera. Podría haberse llenado de rabia y de desesperanza para siempre. Sin embargo, incluso encerrado entre esas paredes, José siguió siendo honesto y trabajador, y con el tiempo, hasta el jefe de la cárcel terminó confiando en él y poniéndolo a cargo de los demás presos.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En esa misma cárcel estaban presos, por haber disgustado al Faraón, dos de sus sirvientes más cercanos: su copero, encargado de servirle la bebida, y su panadero, encargado de su pan. Una noche, ambos tuvieron sueños extraños que los dejaron preocupados y con el rostro triste a la mañana siguiente. José, al notarlos angustiados, se acercó y les preguntó qué les pasaba, y ellos le contaron que habían soñado algo, pero que no había nadie ahí para explicarles el significado.\n\n—Las interpretaciones pertenecen a Dios —les dijo José—. Cuéntenme sus sueños.\n\nJosé escuchó con atención y les explicó lo que significaba cada uno: el copero sería liberado en tres días y volvería a servir al Faraón como antes, mientras que al panadero le esperaba un destino mucho más triste. Todo sucedió exactamente como José lo había anunciado. Antes de que el copero se fuera, José le pidió con humildad:\n\n—Cuando te vaya bien, acuérdate de mí, y háblale de mí al Faraón, para que me saque de este lugar.\n\nPero el copero, una vez libre y de vuelta en el palacio, se olvidó por completo de José, que siguió preso dos años más, sin ninguna noticia.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Dos años después, el Faraón tuvo un par de sueños que lo dejaron profundamente inquieto: en uno, siete vacas flacas y feas salían del río y se comían a siete vacas gordas y hermosas; en otro, siete espigas delgadas y quemadas por el viento se tragaban a siete espigas gruesas y llenas de grano. El Faraón despertó agitado ambas veces, y llamó a todos sus sabios y magos para que le explicaran qué significaban, pero ninguno pudo darle una respuesta que tuviera sentido.\n\nEntonces el copero, al escuchar la angustia del Faraón, de repente recordó a José, y avergonzado por haberse olvidado de él, le contó todo lo que había pasado en la cárcel dos años antes. El Faraón mandó llamar a José de inmediato. Lo sacaron de la cárcel, le afeitaron la barba, le cambiaron la ropa vieja por ropa digna, y lo llevaron ante el trono. El Faraón le dijo:\n\n—Escuché que tú puedes interpretar sueños.\n\nJosé respondió con humildad, sin adjudicarse ningún mérito propio:\n\n—No soy yo quien puede hacerlo, pero Dios le dará al Faraón una respuesta favorable.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "José escuchó los dos sueños del Faraón y le explicó su significado con total claridad: vendrían siete años de gran abundancia en toda la tierra de Egipto, con cosechas enormes como nunca antes se habían visto, seguidos después por siete años de un hambre tan terrible que borraría todo rastro de esa abundancia anterior. Después, sin que se lo pidieran, le dio también un consejo sabio:\n\n—Que el Faraón busque a alguien prudente y capaz, para guardar durante los años buenos una quinta parte de cada cosecha, y así tener alimento reservado cuando llegue el hambre.\n\nAl Faraón le pareció tan acertado ese consejo, y vio con tanta claridad que el espíritu de Dios estaba en José de una manera que no había visto en ningún otro hombre, que le dijo delante de todos sus funcionarios:\n\n—No hay nadie tan sabio y prudente como tú en todo Egipto. Quedarás a cargo de todo mi palacio y de todo mi pueblo, y solo yo, sentado en el trono, estaré por encima de ti.\n\nAsí, José, que había sido esclavo y luego prisionero olvidado, se convirtió de un día para el otro en gobernador de todo Egipto, con apenas treinta años de edad.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Durante los siete años buenos, José recorrió Egipto guardando grano en cada ciudad, en cantidades tan enormes que dejaron de medirlo, como la arena del mar. Y cuando llegó el hambre, exactamente como él había anunciado años atrás, Egipto tuvo alimento de sobra gracias a su previsión, mientras países enteros a su alrededor sufrían hambre severa. Todo lo que José había vivido —la esclavitud, la cárcel, el olvido del copero, los años de espera sin ninguna señal— terminó teniendo un sentido al final, aunque durante mucho tiempo, mientras lo estaba viviendo, no lo pareciera en absoluto.\n\n¿Alguna vez algo difícil que viviste terminó sirviendo para algo bueno más adelante?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez algo difícil que viviste terminó sirviendo para algo bueno más adelante?"],
+  },
+  {
+    id: "moises-canasta-en-el-rio",
+    contentType: "historia",
+    title: "La canasta en el río",
+    subtitle: "El coraje de una madre y una promesa escondida",
+    description:
+      "Para salvar a su bebé de una orden cruel del Faraón, una madre hebrea lo esconde en una canasta entre los juncos del río Nilo, y confía su destino a las aguas.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "moises",
+    episodeNumber: 14,
+    lengthCategory: "historia-epica",
+    durationSeconds: 396,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Moisés", "Faraón"],
+    tags: ["valores", "personajes"],
+    passages: ["Éxodo 2"],
+    language: "es",
+    illustrationSlug: "moises-canasta-en-el-rio",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Muchos años después de que José muriera, el pueblo hebreo se había multiplicado tanto en Egipto que un nuevo Faraón, que ya no recordaba todo el bien que José había hecho por aquel país, empezó a tenerles miedo. Eran tantos, pensaba el Faraón mirando los campos llenos de familias hebreas, que algún día podrían aliarse con algún enemigo y rebelarse contra Egipto.\n\nPara controlarlos, los obligó a trabajar como esclavos, construyendo ciudades enteras bajo el sol más duro, cargando ladrillos de barro desde el amanecer hasta bien entrada la noche, sin descanso. Pero como ni siquiera así dejaban de multiplicarse y de crecer en número, el Faraón dio una orden todavía más terrible y cruel: que todo bebé varón hebreo que naciera fuera arrojado al río Nilo para que muriera ahí mismo.\n\nFue justo en medio de ese miedo y de esa crueldad que nació un niño en una familia hebrea de la tribu de Leví, un bebé sano y hermoso, hijo de una madre que, desde el primer instante en que lo tuvo en brazos, supo que tenía que protegerlo, costara lo que costara, aunque para eso tuviera que desafiar la orden del hombre más poderoso de todo Egipto.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "La madre del niño lo escondió durante tres meses enteros, conteniendo el aliento cada vez que escuchaba pasos cerca de su casa, tapando su llanto con mantas y con sus propios brazos, viviendo con el corazón acelerado día tras día, sabiendo que un solo descuido podía costarle la vida a su hijo. Pero llegó un momento en que esconderlo ya no era suficiente: el niño crecía, sus llantos se hacían más fuertes y más difíciles de silenciar, y esconder a un bebé que crece cada semana un poco más es cada vez más complicado.\n\nEntonces esa madre, en lugar de rendirse o entregar a su hijo a su suerte, tuvo una idea valiente y llena de ingenio. Tejió con sus propias manos una canasta hecha de juncos del río, entrelazando cada fibra con paciencia, y la cubrió por fuera con una mezcla de brea y asfalto, para que ni una sola gota de agua pudiera filtrarse adentro. Con manos temblorosas pero decididas, colocó a su bebé dentro de esa canasta, lo abrigó lo mejor que pudo con telas suaves, y llevó la canasta cargada en brazos hasta la orilla del río Nilo, ese mismo río que el Faraón había convertido en instrumento de muerte para los niños hebreos.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Con cuidado, la madre escondió la canasta entre los juncos altos que crecían junto a la orilla, en un lugar donde el agua era tranquila y no arrastraría la canasta hacia la corriente fuerte del centro del río. Le pidió a su hija mayor, la hermana del bebé, que se quedara escondida un poco más lejos, entre los arbustos, vigilando en silencio qué pasaría con su hermanito, lista para correr y avisarle apenas ocurriera algo.\n\nLa madre se alejó despacio, con el corazón partido en dos, sin saber si volvería a ver a su hijo con vida alguna vez. Había hecho todo lo que estaba en sus manos: lo había cuidado en secreto durante meses, lo había escondido, había construido para él, con paciencia y con amor, un refugio flotante capaz de resistir el agua. Ahora ya no quedaba nada más que hacer, solo confiar, esperar, y tener fe en que ese mismo río, que para tantas otras familias había sido instrumento de muerte, se convirtiera esta vez, para su propio hijo, en el camino hacia la vida.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Poco después, la hija del Faraón bajó al río a bañarse, como solía hacer, acompañada de varias de sus sirvientas. Mientras caminaba por la orilla, algo llamó de pronto su atención entre los juncos: una pequeña canasta, meciéndose suavemente sobre el agua tranquila. Intrigada, mandó a una de sus sirvientas a buscarla y traerla, y cuando finalmente la destaparon con cuidado, encontraron dentro a un bebé llorando, sano y hermoso.\n\nLa hija del Faraón sintió compasión de inmediato al verlo, y entendió enseguida que debía ser uno de los niños hebreos que su propio padre había ordenado matar. Sin embargo, en lugar de obedecer esa orden cruel, tomó una decisión en ese mismo instante, ahí mismo, junto al río:\n\n—Es uno de los niños hebreos —dijo, mirando al bebé en sus brazos—, y voy a criarlo como si fuera mío.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Justo en ese momento, la hermana del bebé, que había estado observando escondida todo el tiempo, se acercó con valentía y le preguntó a la hija del Faraón:\n\n—¿Quiere que le busque una nodriza hebrea para que críe al niño por usted?\n\nLa hija del Faraón aceptó, y la niña corrió a buscar a su propia madre, sin decir que era su madre. Así, de una manera que nadie hubiera imaginado, la madre del bebé terminó criando a su propio hijo en su casa, con la protección directa de la familia del Faraón, recibiendo incluso un pago por hacerlo.\n\nCuando el niño creció un poco más, su madre lo llevó ante la hija del Faraón, quien lo adoptó como su propio hijo y le puso un nombre: Moisés, que significa sacado de las aguas, porque lo había sacado del río.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "El mismo río que el Faraón había pensado usar para hacer desaparecer a los niños hebreos para siempre, terminó siendo justamente el lugar donde Moisés fue salvado y encontró, sin buscarla, una nueva familia dentro del propio palacio del rey. El coraje de una madre que no se rindió ante una orden imposible, y la valentía tranquila de una hermana que no dejó de cuidar a su hermanito ni un segundo mientras flotaba entre los juncos, fueron el comienzo silencioso de una historia mucho más grande: la de un niño que, muchos años más tarde, guiaría a todo su pueblo hacia la libertad.\n\n¿Qué crees que sintió esa madre al dejar la canasta con su bebé flotando en el río, confiando en que todo saldría bien?",
+      },
+    ],
+    conversationQuestions: ["¿Qué crees que sintió esa madre al dejar la canasta con su bebé flotando en el río, confiando en que todo saldría bien?"],
+  },
+  {
+    id: "moises-la-zarza-que-ardia",
+    contentType: "historia",
+    title: "La zarza que ardía",
+    subtitle: "Un fuego que no se apagaba, y un llamado que Moisés no esperaba",
+    description:
+      "Moisés, ya adulto y pastor en el desierto de Madián, se encuentra con una zarza que arde sin consumirse y escucha un llamado que cambiará el rumbo de su vida.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "moises",
+    episodeNumber: 15,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 378,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Moisés"],
+    tags: ["personajes", "valores"],
+    passages: ["Éxodo 3"],
+    language: "es",
+    illustrationSlug: "moises-la-zarza-que-ardia",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "En el desierto de Madián, lejos de los palacios de Egipto donde había crecido, Moisés se había convertido en pastor. Cada día llevaba las ovejas de su suegro Jetro por caminos de piedra y arbustos secos, buscando pasto entre las rocas y sombra bajo los pocos árboles que encontraba en el camino. Habían pasado muchos años desde que había huido de Egipto, y ya se sentía otro hombre: uno tranquilo, callado, que ya no esperaba que su vida cambiara de nuevo.\n\nConocía cada sendero de esas montañas, cada pozo de agua, cada lugar donde el rebaño podía descansar sin peligro. Su vida era simple, repetida, sin sobresaltos.\n\nPero esa mañana, guiando el rebaño más allá de lo acostumbrado, hasta las faldas del monte Horeb, algo llamó su atención entre los matorrales.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Una zarza ardía con un fuego intenso, las llamas subían altas y brillantes, envolviendo cada rama... pero las ramas no se quemaban. Ni una hoja se ennegrecía, ni un tallo se retorcía por el calor, ni una sola rama caía convertida en cenizas. El fuego seguía ahí, vivo, ardiendo sin consumir nada, como si el tiempo se hubiera detenido justo en esa planta.\n\nMoisés se detuvo con el cayado todavía en la mano, mirando fijo, tratando de entender lo que veía.\n\n—Voy a acercarme a ver esta escena tan extraña —se dijo—. ¿Cómo puede ser que la zarza arda y no se consuma?\n\nApenas dio unos pasos hacia el fuego, dejando atrás al rebaño, una voz lo detuvo en seco, llamándolo por su nombre desde el centro mismo de las llamas.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "—¡Moisés, Moisés! No te acerques más. Quítate las sandalias de los pies, porque el lugar donde estás parado es tierra santa.\n\nMoisés se detuvo de golpe, con el corazón latiendo fuerte, y se cubrió el rostro con las manos, porque tuvo miedo de mirar directamente hacia la luz.\n\n—Yo soy el Dios de tu padre —dijo la voz, calmada pero firme—, el Dios de Abraham, el Dios de Isaac y el Dios de Jacob.\n\nMoisés escuchó cada palabra en silencio, sin atreverse a interrumpir.\n\n—He visto bien la aflicción de mi pueblo en Egipto —continuó la voz—. He escuchado su clamor a causa de sus capataces, y conozco sus angustias. He bajado para librarlos de la mano de los egipcios y para llevarlos a una tierra buena y espaciosa, una tierra donde fluye leche y miel.\n\nY entonces llegó la parte que Moisés no esperaba escuchar.\n\n—Por eso, ahora ve. Yo te envío ante el Faraón, para que saques de Egipto a mi pueblo, a los hijos de Israel.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Moisés sintió que el suelo se movía bajo sus pies, aunque en realidad no se había movido ni un centímetro.\n\n—¿Quién soy yo —preguntó, casi en un susurro— para presentarme ante el Faraón, y para sacar de Egipto a los hijos de Israel? Yo ya no soy nadie importante. Solo soy un pastor, en medio del desierto, cuidando ovejas que ni siquiera son mías.\n\nNo dijo en voz alta que tenía miedo, pero lo tenía. Recordaba bien por qué había tenido que huir de Egipto tantos años atrás, y no se sentía capaz de volver, mucho menos de enfrentar al hombre más poderoso de toda la tierra, rodeado de su ejército y de su palacio.\n\nLa respuesta llegó calmada, sin apuro, como quien ya conocía esa pregunta antes de que se la hicieran.\n\n—Yo estaré contigo. Y esta será la señal de que soy yo quien te envía: cuando hayas sacado al pueblo de Egipto, servirán a Dios en este mismo monte donde estás ahora.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Aun así, Moisés seguía dudando, buscando una razón más para no ir.\n\n—Si voy ante los hijos de Israel y les digo: el Dios de sus padres me envió a ustedes, y ellos me preguntan cuál es su nombre, ¿qué les voy a responder?\n\n—Diles que YO SOY EL QUE SOY me ha enviado a ustedes —respondió la voz desde el fuego que no se apagaba—. Este es mi nombre para siempre, y así me recordarán de generación en generación.\n\nMoisés se quedó en silencio un largo momento, mirando las llamas que seguían ardiendo sin consumir nada, exactamente igual que al principio, como si el fuego pudiera esperar toda la vida sin cansarse.\n\nNo sabía todavía cómo iba a hacerlo, ni qué palabras usaría frente al Faraón, ni si el pueblo le iba a creer después de tantos años de silencio. Pero algo dentro de él, algo que no sentía hacía mucho tiempo, empezó a moverse otra vez: la posibilidad de que su vida todavía tuviera un propósito más grande que cuidar ovejas en el desierto.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Con las sandalias todavía en la mano, Moisés se quedó mirando el camino que tenía por delante: de vuelta hacia el rebaño, de vuelta hacia la casa de Jetro, y después, tarde o temprano, de vuelta hacia Egipto.\n\nNo tenía todas las respuestas. No sabía exactamente qué palabras iba a decir, ni cómo reaccionaría el Faraón, ni si los hijos de Israel confiarían en un hombre que se había ido de entre ellos hacía tanto tiempo. Pero llevaba consigo algo que no tenía esa misma mañana, antes de ver la zarza arder: la promesa de que no iba a caminar ese camino solo.\n\nSe puso las sandalias, tomó su cayado, y silbó para juntar al rebaño disperso entre las rocas. El sol seguía subiendo sobre el desierto de Madián, como cualquier otro día. Pero para Moisés, ya nada iba a ser exactamente igual.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué momento tan grande para Moisés, ¿no? Sintiéndose tan pequeño, tan poco preparado, y aun así, escuchado y acompañado en medio del desierto.\n\n¿Alguna vez sentiste que algo era demasiado grande para ti, y necesitaste que alguien te dijera: no vas a estar solo?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez sentiste que algo era demasiado grande para ti, y necesitaste que alguien te dijera: no vas a estar solo?"],
+  },
+  {
+    id: "david-el-pastor-elegido",
+    contentType: "historia",
+    title: "El pastor elegido",
+    subtitle: "El más joven, el que nadie llamó primero, era el elegido de Dios",
+    description:
+      "El profeta Samuel llega a la casa de Isaí para ungir al próximo rey de Israel, pero el elegido no es quien todos hubieran imaginado.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "david",
+    episodeNumber: 16,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 318,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["David", "Samuel", "Isaí"],
+    tags: ["personajes", "valores"],
+    passages: ["1 Samuel 16"],
+    language: "es",
+    illustrationSlug: "david-el-pastor-elegido",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "El profeta Samuel estaba triste. El rey Saúl, el primer rey de Israel, se había apartado del camino que Dios le había señalado, y Dios le dijo a Samuel algo que lo dejó pensando por varios días: ya había elegido a un nuevo rey para Israel, uno que todavía ni siquiera sabía que lo sería.\n\n—¿Hasta cuándo llorarás por Saúl, si yo ya lo he desechado para que no reine sobre Israel? —le dijo Dios—. Llena tu cuerno de aceite y ve. Te envío a Isaí de Belén, porque de entre sus hijos me he provisto de un rey.\n\nSamuel obedeció, aunque el viaje lo llenaba de nervios: ir a ungir a un nuevo rey mientras el anterior seguía sentado en el trono no era cosa sencilla ni segura, y por eso Dios mismo le indicó cómo disimular el motivo real de su visita.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Cuando Samuel llegó a Belén, los ancianos del pueblo salieron a recibirlo temblando, preguntándole si venía en son de paz. Samuel los tranquilizó, y mandó llamar a Isaí y a sus hijos para un sacrificio, invitándolos a todos a presentarse ante él, purificados para la ocasión.\n\nEl primero en pasar fue Eliab, el mayor de los hermanos: alto, fuerte, con una presencia que imponía respeto solo con mirarlo, con el porte de quien parece nacido para llevar una corona.\n\n—Seguro que este es el elegido de Dios que tengo delante de mí —pensó Samuel, casi seguro de su respuesta.\n\nPero Dios le habló en ese mismo instante, con una claridad que no dejaba lugar a ninguna duda.\n\n—No mires su apariencia ni lo alto de su estatura, porque yo lo he rechazado. Dios no mira las cosas como las mira el hombre; el hombre mira lo que está delante de sus ojos, pero Dios mira el corazón.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Uno por uno, los hijos de Isaí fueron pasando frente a Samuel: Abinadab, después Sama, y así varios más, todos fuertes, todos con aspecto de guerreros capaces, todos con la clase de presencia que uno esperaría en un futuro rey.\n\nPero después de cada uno de ellos, Samuel escuchaba la misma respuesta clara en su corazón: tampoco es este.\n\nSiete hijos de Isaí pasaron frente a él esa tarde, y con los siete llegó la misma señal de que no.\n\n—¿Son estos todos los hijos que tienes? —preguntó Samuel a Isaí, un poco confundido, porque estaba seguro de que Dios ya le había mostrado que el elegido se encontraba en esa misma casa, entre esa misma familia.\n\n—Todavía queda el menor —respondió Isaí, casi como si no valiera la pena mencionarlo—, pero está en el campo, cuidando las ovejas.\n\nNadie en la casa había pensado siquiera en llamarlo para una ceremonia tan importante.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "—Manda a buscarlo —dijo Samuel, sin dudar—. No nos sentaremos a la mesa hasta que él llegue aquí.\n\nAsí que alguien salió corriendo hacia el campo, y poco después apareció David: el más joven de todos sus hermanos, con las manos todavía marcadas por el trabajo de pastorear, con la piel curtida por el sol y el viento, con ojos brillantes y despiertos.\n\nNadie en esa casa lo hubiera elegido primero. Era el que cuidaba las ovejas, el que se quedaba afuera mientras los demás se preparaban para las ocasiones importantes, el que ni siquiera habían llamado hasta que no quedó otra opción.\n\nPero en cuanto David entró, todavía con el olor del campo encima, Dios le habló a Samuel una vez más, sin ninguna duda esta vez.\n\n—Levántate y úngelo, porque este es.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Samuel tomó el cuerno de aceite y ungió a David en medio de sus hermanos, tal como Dios se lo había ordenado. Y desde ese día en adelante, el Espíritu de Dios vino sobre David con poder, de una manera completamente nueva.\n\nDavid no se convirtió en rey esa misma tarde. No hubo trono esperándolo, ni corona, ni ejército aclamando su nombre en las calles de Belén. Cuando terminó la ceremonia, lo más probable es que haya vuelto al campo otra vez, con sus ovejas, con su honda, con las mismas tareas silenciosas de siempre, como si nada hubiera cambiado a los ojos de los demás.\n\nPero algo había cambiado, aunque nadie más lo notara todavía: Dios ya sabía quién era David, mucho antes de que el resto del mundo llegara a saberlo también. Y esa elección, hecha en silencio, en medio del campo y lejos de cualquier trono, sería el comienzo de una historia que Israel entero recordaría para siempre.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué distinto hubiera sido todo si Samuel se hubiera quedado solo con lo que veían sus ojos, ¿no crees? David estaba ahí, en el campo, todo el tiempo, esperando sin saberlo.\n\n¿Qué cosas de ti crees que Dios ve, aunque los demás todavía no las noten?",
+      },
+    ],
+    conversationQuestions: ["¿Qué cosas de ti crees que Dios ve, aunque los demás todavía no las noten?"],
+  },
+  {
+    id: "david-y-jonatan-amigos-leales",
+    contentType: "historia",
+    title: "David y Jonatán, amigos leales",
+    subtitle: "Una amistad tan fuerte que resistió incluso al miedo de un rey",
+    description:
+      "El príncipe Jonatán y el joven David forman una amistad tan profunda que Jonatán arriesga su propio lugar en el palacio para proteger a su amigo.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "david",
+    episodeNumber: 17,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 330,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["David", "Jonatán", "Saúl"],
+    tags: ["personajes", "valores"],
+    passages: ["1 Samuel 18-20"],
+    language: "es",
+    illustrationSlug: "david-y-jonatan-amigos-leales",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Después de que David venciera al gigante Goliat delante de todo el ejército, su nombre empezó a sonar por cada rincón de Israel. La gente cantaba canciones sobre su valentía en las calles, y eso, en lugar de alegrar al rey Saúl, empezó a llenarlo de una sospecha oscura y creciente: temía que David terminara quitándole el trono algún día.\n\nPero hubo alguien en el palacio que vio a David de una manera completamente distinta: Jonatán, el propio hijo del rey Saúl, el príncipe que por derecho de nacimiento debía heredar la corona algún día.\n\nDesde el primer momento en que hablaron, algo se unió entre ellos, una amistad tan fuerte que la historia la recordaría para siempre. Las Escrituras dicen que el alma de Jonatán quedó ligada con la de David, y que lo amó como a sí mismo. Para sellar esa amistad, Jonatán hizo algo que nadie esperaba: se quitó su propio manto, su espada, su arco y su cinturón, y se los entregó a David, como quien dice sin palabras: lo que es mío, también es tuyo.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Con el paso del tiempo, la sospecha de Saúl se convirtió en algo peligroso de verdad. Empezó a mirar a David con enojo cada vez que lo veía triunfar, y más de una vez intentó hacerle daño, incluso dentro de su propio palacio, incluso mientras David tocaba música para calmarlo.\n\nJonatán se encontraba en medio de una situación muy difícil: David era su mejor amigo, el hombre a quien más admiraba, pero Saúl era su padre y también su rey. Elegir un lado significaba arriesgar mucho, quizás todo.\n\nAun así, Jonatán habló con su padre, tratando de defender a David con toda la calma que pudo reunir.\n\n—Que el rey no peque contra su siervo David —le dijo—, porque él no ha pecado contra ti, y todo lo que ha hecho te ha beneficiado mucho. Arriesgó su propia vida cuando venció al filisteo, y tú mismo te alegraste al verlo. ¿Por qué entonces pecarías contra sangre inocente, matando a David sin causa?\n\nPor un tiempo, Saúl escuchó, hizo un juramento de no hacerle daño, y las cosas parecieron calmarse otra vez.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Pero la paz no duró demasiado. El enojo de Saúl volvió, más fuerte que antes, y David tuvo que huir de la corte para salvar su propia vida. Antes de escapar del todo, se encontró con Jonatán en el campo, escondidos entre los sembrados, y le confesó la verdad de lo que sentía.\n\n—Tu padre sabe bien que soy tu amigo, y por eso habrá pensado: que no lo sepa Jonatán, para que no se entristezca. Pero te juro, como el Señor vive y como tu alma vive, que hay solo un paso entre la muerte y yo.\n\nJonatán le respondió sin dudarlo ni un instante.\n\n—Todo lo que tu alma diga, lo haré por ti.\n\nIdearon entonces una señal secreta con flechas, algo que solo ellos dos pudieran entender, para que Jonatán pudiera avisarle a David si era seguro quedarse cerca o si debía huir de inmediato, sin que nadie más en el palacio lo notara.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Cuando llegó el día acordado, Jonatán salió al campo con su arco, como si solo fuera a practicar tiro con un muchacho que lo ayudaba, mientras David esperaba escondido detrás de una roca, con el corazón latiendo con fuerza en el pecho.\n\nJonatán disparó las flechas más allá de donde estaba su ayudante, y le gritó las palabras que ya tenían acordadas: la señal de peligro. El muchacho no entendió nada, pero David, escondido, entendió el mensaje completo: debía huir, y esta vez, lejos de verdad.\n\nAntes de separarse, se encontraron una última vez, apenas el muchacho se había ido. Se abrazaron y lloraron juntos, sabiendo que no sería fácil volver a verse pronto.\n\n—Ve en paz —le dijo Jonatán—, porque hemos jurado los dos, en el nombre del Señor, diciendo: que Él estará entre tú y yo, y entre mi descendencia y la tuya, para siempre.\n\nJonatán, con todo el derecho de ser el próximo rey de Israel, eligió proteger a su amigo antes que proteger su propia posición en el palacio.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "David se fue esa noche hacia el desierto, huyendo de un peligro real y concreto, pero llevándose consigo algo que ninguna amenaza podía quitarle: la certeza de tener un amigo verdadero, alguien que había arriesgado su lugar en el palacio, y hasta la relación con su propio padre, con tal de hacer lo correcto por él.\n\nCon el tiempo, tal como Dios lo había planeado desde que David era apenas un pastor ungido en secreto, terminaría convirtiéndose en rey de Israel. Pero nunca olvidó a Jonatán, ni la lealtad que le había mostrado en los momentos más difíciles, cuando hubiera sido mucho más fácil, y mucho más seguro, mirar para otro lado.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué amistad tan valiente la de Jonatán, ¿no? Eligió cuidar a su amigo aunque eso significara arriesgar mucho de lo suyo.\n\n¿Qué harías tú por un amigo, aunque te costara algo importante?",
+      },
+    ],
+    conversationQuestions: ["¿Qué harías tú por un amigo, aunque te costara algo importante?"],
+  },
+  {
+    id: "daniel-el-horno-de-fuego",
+    contentType: "historia",
+    title: "El horno de fuego",
+    subtitle: "Tres amigos que no se inclinaron, aunque el fuego los esperaba",
+    description:
+      "Sadrac, Mesac y Abednego se niegan a inclinarse ante la estatua de oro del rey Nabucodonosor, incluso cuando la amenaza es un horno de fuego ardiente.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "daniel",
+    episodeNumber: 18,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 342,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Sadrac", "Mesac", "Abednego", "Nabucodonosor"],
+    tags: ["personajes", "valores"],
+    passages: ["Daniel 3"],
+    language: "es",
+    illustrationSlug: "daniel-el-horno-de-fuego",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "En Babilonia, muy lejos de su tierra natal, vivían tres jóvenes llamados Sadrac, Mesac y Abednego. Eran amigos de Daniel, y como él, habían sido llevados desde Israel para servir en el palacio del rey Nabucodonosor. Con el tiempo, gracias a su sabiduría y su buen manejo de los asuntos del reino, el rey los había puesto a cargo de provincias importantes en toda Babilonia.\n\nUn día, el rey Nabucodonosor mandó construir una enorme estatua de oro, tan alta como un edificio de varios pisos, y la hizo levantar en la llanura de Dura, para que se viera desde lejos, brillando bajo el sol.\n\nDespués reunió a gobernadores, jueces, tesoreros y funcionarios de todo el reino, y dio una orden que se escuchó fuerte y clara sobre toda la llanura, repetida por heraldos en distintos idiomas.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "—Cuando escuchen el sonido de la música —anunció el heraldo del rey, a viva voz—, de la flauta, el arpa y todos los demás instrumentos, todos deberán inclinarse y adorar la estatua de oro que el rey ha levantado. Y cualquiera que no se incline será arrojado de inmediato a un horno de fuego ardiente.\n\nSonó la música, y toda la llanura se llenó de gente inclinándose ante la estatua dorada al mismo tiempo, como una ola enorme que caía de golpe sobre la tierra.\n\nTodos, excepto tres. Sadrac, Mesac y Abednego se quedaron de pie, firmes entre la multitud arrodillada, visibles para cualquiera que mirara, porque solo adoraban al Dios verdadero, y no iban a inclinarse ante ninguna estatua, sin importar de qué material brillante estuviera hecha.\n\nAlgunos hombres los vieron enseguida y corrieron a contárselo al rey, con no poca alegría de poder acusarlos.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Nabucodonosor se llenó de furia al escuchar la noticia y mandó traer a los tres jóvenes ante él de inmediato.\n\n—¿Es verdad que ustedes no sirven a mis dioses ni se inclinan ante la estatua de oro que he levantado? —preguntó, dándoles todavía una última oportunidad—. Si no se inclinan en cuanto suene la música, serán arrojados de inmediato al horno de fuego ardiente. ¿Y qué dios podrá librarlos de mis manos después de eso?\n\nSadrac, Mesac y Abednego respondieron sin titubear ni un segundo, con una calma que sorprendió a todos los presentes en la sala del trono.\n\n—No necesitamos responderte sobre este asunto. Si nuestro Dios, a quien servimos, quiere librarnos, puede librarnos del horno de fuego ardiente, y de tus manos, oh rey, puede librarnos. Pero aunque no lo hiciera, queremos que sepas que no serviremos a tus dioses, ni nos inclinaremos ante la estatua de oro que has levantado.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "El rey se puso tan furioso que su rostro cambió por completo, y ordenó calentar el horno siete veces más de lo normal, más de lo que jamás se había calentado antes. Mandó atar a los tres jóvenes con toda su ropa puesta, sus mantos, sus turbantes, y arrojarlos adentro sin esperar ni un momento más. El fuego era tan intenso que los soldados más fuertes del rey, los que los llevaron hasta la boca del horno, cayeron sin vida por el calor apenas se acercaron.\n\nSadrac, Mesac y Abednego cayeron atados dentro de las llamas, ante los ojos de todo el reino reunido.\n\nPero el rey, que miraba de pie, muy cerca, se puso de golpe muy nervioso, y le preguntó algo a sus consejeros que nadie supo responder al principio, mirando fijo hacia el fuego.\n\n—¿No eran tres los hombres que atamos y arrojamos en medio del fuego? Miren, yo veo cuatro hombres, sueltos, caminando en medio del fuego, sin ningún daño. Y el aspecto del cuarto es semejante a un hijo de los dioses.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "El rey se acercó, todavía asombrado, a la puerta misma del horno ardiente y llamó a los tres jóvenes por su nombre, en voz alta, para que lo escucharan sobre el rugido del fuego.\n\n—¡Sadrac, Mesac, Abednego, siervos del Dios Altísimo, salgan de ahí, vengan aquí!\n\nLos tres salieron caminando del horno con calma, y todos los gobernadores, jueces y consejeros del reino se acercaron a mirar de cerca, sin poder creer lo que veían: el fuego no había tocado sus cuerpos en ningún lugar, ni un solo cabello de su cabeza estaba quemado, su ropa seguía intacta, y ni siquiera olían a humo, como si acabaran de salir de dar un paseo.\n\n—Bendito sea el Dios de Sadrac, Mesac y Abednego —dijo el rey delante de toda su corte reunida—, que envió a su ángel y libró a sus siervos que confiaron en él, que desobedecieron la orden del rey y entregaron sus cuerpos antes que servir o adorar a ningún otro dios que no fuera el suyo.\n\nDespués de eso, el rey emitió un nuevo decreto en honor a ese Dios, y ascendió todavía más a los tres jóvenes dentro de la provincia de Babilonia.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué valentía la de esos tres amigos, sosteniéndose firmes en lo que creían, incluso sin saber todavía cómo terminaría la historia.\n\n¿Alguna vez tuviste que sostener algo en lo que creías, aunque fuera difícil o diera un poco de miedo?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez tuviste que sostener algo en lo que creías, aunque fuera difícil o diera un poco de miedo?"],
+  },
+  {
+    id: "josue-los-muros-de-jerico",
+    contentType: "historia",
+    title: "Los muros de Jericó",
+    subtitle: "Un plan que no tenía sentido, hasta que las murallas cayeron",
+    description:
+      "Josué lidera al pueblo de Israel para tomar la ciudad amurallada de Jericó, siguiendo una instrucción tan inusual como poderosa.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "josue",
+    episodeNumber: 19,
+    lengthCategory: "historia-epica",
+    durationSeconds: 404,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Josué"],
+    tags: ["personajes", "valores"],
+    passages: ["Josué 6"],
+    language: "es",
+    illustrationSlug: "josue-los-muros-de-jerico",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Después de la muerte de Moisés, Josué se había convertido en el nuevo líder del pueblo de Israel, y ahora, después de tantos años de camino por el desierto, estaban por fin frente a la tierra que Dios les había prometido desde hacía tanto tiempo. Pero entre ellos y esa tierra había un obstáculo enorme: la ciudad de Jericó, rodeada por murallas altísimas y gruesas, cerrada por completo desde adentro.\n\nNadie entraba, nadie salía. Los habitantes de Jericó, atemorizados por todo lo que habían escuchado sobre el pueblo de Israel y su Dios, habían cerrado la ciudad con todo el cuidado posible, y vigilaban desde lo alto de sus torres día y noche.\n\nEntonces Dios le habló a Josué con una instrucción que no se parecía a ningún plan de batalla que él hubiera conocido antes.\n\n—Mira, yo he entregado en tus manos a Jericó, a su rey y a sus hombres de guerra. Ahora, rodearán la ciudad todos los hombres de guerra, dándole una vuelta completa alrededor. Así lo harán durante seis días.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "La orden seguía, y cada parte era más extraña que la anterior, tanto que algunos debieron preguntarse si habían entendido bien.\n\n—Siete sacerdotes llevarán siete trompetas de cuerno de carnero delante del arca del pacto. El séptimo día, rodearán la ciudad siete veces, y los sacerdotes tocarán las trompetas sin descanso. Cuando toquen con un toque prolongado, y ustedes escuchen ese sonido de la trompeta, todo el pueblo gritará a gran voz, y el muro de la ciudad caerá derrumbado, y el pueblo subirá cada uno derecho hacia adelante.\n\nJosué reunió a los sacerdotes y a los hombres de guerra y les explicó el plan completo, exactamente tal como Dios se lo había dado, sin cambiar una sola palabra. No había espadas chocando contra murallas, no había torres de asalto, no había escaleras ni arietes para derribar puertas. Solo caminar, en silencio absoluto, día tras día, alrededor de una ciudad que no dejaba de mirarlos con recelo.\n\n—Nadie grite, ni levante la voz, ni salga ninguna palabra de su boca —ordenó Josué—, hasta el día que yo les diga: griten. Entonces, y solo entonces, gritarán.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Y así comenzó. El primer día, el pueblo de Israel marchó una vez alrededor de Jericó, con el arca al frente, los sacerdotes tocando sus trompetas sin parar, y el resto del pueblo caminando detrás, sin decir una sola palabra. Desde las murallas, los habitantes de Jericó miraban esa procesión silenciosa y extraña, sin entender bien qué estaba pasando, sin saber si debían prepararse para un ataque inminente o simplemente seguir esperando.\n\nEl segundo día, ocurrió lo mismo. Y el tercero también. Y el cuarto, otra vez igual: una vuelta completa, las trompetas, el silencio, y la vuelta al campamento.\n\nDebe haber sido extraño para muchos dentro del pueblo de Israel: caminar en círculos, en silencio total, alrededor de una ciudad cerrada, sin ver ningún resultado todavía después de tantos días. Nada de lo que hacían se parecía a lo que cualquier ejército del mundo hubiera hecho para tomar una ciudad amurallada tan fuerte.\n\nPero seguían caminando, día tras día, confiando en la palabra que Josué les había transmitido de parte de Dios, aunque no entendieran del todo el porqué. Ningún soldado israelita levantaba su espada, ningún arquero tensaba su arco; solo el sonido constante de las trompetas y el ruido de tantos pies caminando juntos sobre la tierra seca alrededor de la ciudad.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Llegó el quinto día, y después el sexto, y la rutina se repitió exactamente igual que los días anteriores: una vuelta completa alrededor de la ciudad, las trompetas sonando sin parar, el silencio total del pueblo marchando, y después, de vuelta al campamento a esperar el día siguiente, sin ninguna señal de que algo estuviera por cambiar.\n\nPor fin llegó el séptimo día. Esa mañana, muy temprano, al despuntar el alba, Josué se levantó y reunió al pueblo con una instrucción distinta a todas las anteriores.\n\n—Hoy no darán solo una vuelta. Hoy rodearán la ciudad siete veces, sin detenerse.\n\nAsí que el pueblo comenzó a marchar apenas salió el sol: una vuelta, después otra, después otra más. Los habitantes de Jericó, desde lo alto de sus murallas, ya debían estar agotados de tanto esperar un ataque que nunca llegaba de la forma que ellos conocían y temían. Y sin embargo, ahí seguía Israel, dando vuelta tras vuelta, siempre en el mismo silencio profundo de los seis días anteriores.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Al completar la séptima vuelta de ese último día, los sacerdotes tocaron sus trompetas con un sonido largo y prolongado, distinto a todos los toques anteriores, un sonido que se sintió en cada rincón de la llanura. Y entonces llegó el momento que Josué había anunciado desde el principio.\n\n—¡Griten! —ordenó, con toda la fuerza de su voz—. Porque el Señor les ha entregado la ciudad.\n\nTodo el pueblo, junto, al mismo tiempo, gritó con todas sus fuerzas, un solo grito enorme que se elevó sobre la llanura entera.\n\nY las murallas de Jericó, esas murallas que habían parecido imposibles de vencer durante generaciones enteras, se derrumbaron ahí mismo, cayendo hacia adentro con un estruendo inmenso, abriendo el camino directo hacia la ciudad completa.\n\nNadie había tocado una piedra con sus propias manos. Nadie había usado una sola arma contra el muro durante esos siete días. Solo habían caminado, en silencio, confiando en una instrucción que no tenía ninguna lógica militar conocida, hasta que llegó, por fin, el momento exacto de gritar.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué manera tan distinta de ganar una batalla, ¿no? Sin espadas, sin ataques, solo caminando en silencio y confiando, hasta el momento justo.\n\n¿Alguna vez tuviste que confiar en una instrucción que no entendías del todo, solo porque venía de alguien en quien confiabas?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez tuviste que confiar en una instrucción que no entendías del todo, solo porque venía de alguien en quien confiabas?"],
+  },
+  {
+    id: "rut-la-lealtad-de-rut",
+    contentType: "historia",
+    title: "Rut y el amor que no se rinde",
+    subtitle: "Una promesa que cruzó fronteras",
+    description:
+      "En tiempos difíciles, una joven decide no abandonar a quien más la necesita, y ese amor la lleva a un destino que ella no podía imaginar.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "rut",
+    episodeNumber: 20,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 296,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Rut", "Noemí", "Booz"],
+    tags: ["mujeres"],
+    passages: ["Rut 1-4"],
+    language: "es",
+    illustrationSlug: "rut-la-lealtad-de-rut",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Hace mucho tiempo, en la tierra de Israel, hubo una época de hambre muy fuerte. No llovía, la tierra no daba frutos, y muchas familias tuvieron que buscar comida en otros lugares.\n\nUna mujer llamada Noemí, junto a su esposo y sus dos hijos, dejó su pueblo, Belén, y se fue a vivir a la tierra de Moab, donde sí había alimento. Con el tiempo, sus hijos crecieron y se casaron: uno con una joven llamada Orfa, y el otro con una joven llamada Rut.\n\nPero la vida trajo tristezas. Primero murió el esposo de Noemí. Años después, murieron también sus dos hijos. Así, Noemí quedó sola con sus dos nueras, en una tierra que no era la suya.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Cuando Noemí supo que en Belén ya había vuelto a llover y la cosecha era buena otra vez, decidió regresar a su tierra. Les dijo a Rut y a Orfa:\n\n—Vuelvan cada una a la casa de su madre. Ya no tengo nada que ofrecerles. Que Dios sea bueno con ustedes, como ustedes lo fueron conmigo.\n\nOrfa, llorando, abrazó a Noemí y volvió a su familia. Pero Rut no se movió. Se quedó de pie, firme, mirando a la mujer que había sido su suegra y que ahora estaba completamente sola.\n\n—No me pidas que te deje —le dijo Rut—. Adondequiera que tú vayas, iré yo; donde tú vivas, viviré yo. Tu pueblo será mi pueblo, y tu Dios será mi Dios.\n\nNoemí entendió que no había forma de convencerla. Juntas emprendieron el camino a Belén.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Llegaron a Belén justo cuando comenzaba la cosecha de cebada. El pueblo entero se sorprendió al ver regresar a Noemí, ahora acompañada de una joven extranjera.\n\nNo tenían dinero ni tierras propias, así que Rut le propuso a Noemí algo sencillo:\n\n—Déjame ir a los campos a recoger las espigas que los cosechadores dejan caer. Así conseguiremos algo de comer.\n\nNoemí aceptó, y Rut salió temprano esa mañana, sin saber a qué campo se dirigía. Por costumbre, los que trabajaban en la cosecha dejaban caer algunas espigas a propósito para que los más necesitados pudieran recogerlas.\n\nEl campo donde Rut terminó recogiendo espigas, sin saberlo, pertenecía a un hombre llamado Booz, pariente del esposo que Noemí había perdido.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Booz llegó a supervisar su campo y notó a la joven que trabajaba sin descanso, recogiendo espigas bajo el sol.\n\n—¿De quién es esa joven? —preguntó.\n\nSus trabajadores le contaron que era la nuera de Noemí, la que había venido de Moab y no había querido abandonarla.\n\nBooz se acercó a Rut y le habló con amabilidad:\n\n—Quédate aquí, en mi campo, y trabaja junto a mis mujeres. Les he dicho a los jóvenes que no te molesten. Y cuando tengas sed, bebe del agua que ellos sacan.\n\nRut se inclinó, sorprendida, y preguntó por qué era tan bueno con ella, siendo una extranjera. Booz respondió que ya había escuchado cómo había dejado su tierra por cuidar a Noemí, y que esperaba que Dios le recompensara esa lealtad.\n\nEse día, Booz ordenó que dejaran caer espigas extra a propósito, para que Rut recogiera más de lo necesario.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Cuando Rut volvió a casa esa noche con los brazos llenos, Noemí no podía creerlo.\n\n—¿En el campo de quién trabajaste? —preguntó.\n\n—En el campo de un hombre llamado Booz —respondió Rut.\n\nNoemí sonrió por primera vez en mucho tiempo. Booz era pariente cercano de su familia, y según la costumbre de esa época, un pariente así podía casarse con la viuda de la familia para protegerla y darle un futuro.\n\nCon el paso de los días, y siguiendo las costumbres de su pueblo, Booz decidió tomar a Rut como esposa. Se presentó ante los ancianos del pueblo y asumió la responsabilidad de cuidar tanto de ella como de Noemí, uniendo para siempre a esta familia que el dolor casi había deshecho.\n\nCon el tiempo, Rut y Booz tuvieron un hijo. Y Noemí, que había llegado a Belén sintiéndose completamente vacía, ahora sostenía a su nieto en los brazos, rodeada otra vez de familia.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué historia tan bonita, ¿no? Rut podría haberse quedado en su propia tierra, con su propia gente, empezando de nuevo. Pero eligió quedarse al lado de Noemí, aunque eso significara dejarlo todo atrás.\n\nA veces el amor de familia no depende de la sangre, sino de la decisión de quedarse, de cuidar al otro incluso cuando es difícil.\n\n¿Alguna vez elegiste quedarte junto a alguien, aunque fuera más fácil irte?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez elegiste quedarte junto a alguien, aunque fuera más fácil irte?"],
+  },
+  {
+    id: "elias-la-vasija-que-nunca-se-vacio",
+    contentType: "historia",
+    title: "La vasija que nunca se vació",
+    subtitle: "Compartir lo último que queda",
+    description:
+      "En medio de una sequía terrible, una viuda con casi nada para comer decide compartir lo poco que le queda, confiando en la promesa de un profeta.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "elias",
+    episodeNumber: 21,
+    lengthCategory: "historia-corta",
+    durationSeconds: 292,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Elías", "la viuda de Sarepta", "el hijo de la viuda"],
+    tags: ["valores"],
+    passages: ["1 Reyes 17"],
+    language: "es",
+    illustrationSlug: "elias-la-vasija-que-nunca-se-vacio",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Durante muchos meses no cayó ni una gota de lluvia sobre la tierra. Los ríos se secaron, los pastos se pusieron amarillos, y la gente comenzó a pasar hambre en muchos pueblos.\n\nAntes de todo esto, el profeta Elías se había escondido junto a un arroyo, donde bebía agua y unos cuervos le traían pan y carne cada mañana y cada tarde, por orden de Dios. Pero con el tiempo, hasta ese arroyo se secó por completo.\n\nEntonces Dios le habló otra vez y le dijo que se levantara y caminara hasta un pueblo llamado Sarepta, junto al mar. Allí, le explicó, una viuda lo recibiría y le daría de comer.\n\nElías no preguntó cómo sería posible que una viuda, generalmente la persona con menos recursos de todo un pueblo, pudiera alimentar a alguien más. Simplemente se puso en camino y caminó durante varios días bajo el sol, con la garganta seca, como casi todos en esa tierra reseca.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Al llegar a las puertas de Sarepta, Elías vio a una mujer inclinada junto al camino, recogiendo ramitas secas del suelo. Era la viuda de la que Dios le había hablado, aunque ella todavía no lo sabía.\n\n—Por favor, tráeme un poco de agua para beber —le pidió Elías, acercándose despacio.\n\nLa mujer, sin conocerlo, se dispuso a ir a buscarla. Pero antes de que se alejara, Elías agregó:\n\n—Tráeme también, si puedes, un pedazo de pan.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "La mujer se detuvo en seco y lo miró con los ojos llenos de tristeza.\n\n—Te juro, por el Dios que sirves, que no tengo nada preparado —le dijo—. Solo me queda un puñado de harina en la vasija y un poco de aceite en el jarro. Estaba juntando esta leña para encender el fuego, cocinar lo último que tengo, comerlo junto a mi hijo... y después, esperar lo que venga. Ya no nos queda más comida.\n\nLo dijo sin dramatismo, como quien ya se había resignado. No era una mujer que pedía lástima, sino una madre que había hecho cuentas y sabía exactamente cuánto tiempo de vida le quedaba a su despensa: ninguno.\n\nSu hijo estaba cerca, jugando sin saber lo que se hablaba, sin entender todavía que esa sería, según pensaba su madre, una de las últimas comidas que compartirían juntos.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Elías la escuchó con calma, y lo que le respondió sonaba casi imposible de cumplir:\n\n—No tengas miedo. Ve, y prepara la comida tal como pensabas hacerlo. Pero primero, hazme a mí un panecillo pequeño con lo que tienes, y tráemelo. Después, cocina para ti y para tu hijo.\n\nLa mujer lo miró sin entender cómo podía pedirle eso, si ni siquiera alcanzaba para su propia familia. Elías continuó, mirándola directo a los ojos:\n\n—Así dice el Dios de Israel: la harina de tu vasija no se acabará, ni el aceite de tu jarro se agotará, hasta el día en que la lluvia vuelva a caer sobre esta tierra.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "La viuda pudo haberse negado. Pudo haber pensado que lo más sensato era guardar esa última comida para ella y su hijo, y no compartirla con un desconocido. Pero decidió confiar en las palabras de Elías, y fue a preparar el panecillo tal como él se lo había pedido.\n\nY sucedió algo que ella no esperaba: después de darle de comer a Elías, todavía quedaba harina en la vasija. Todavía quedaba aceite en el jarro.\n\nAl día siguiente, volvió a cocinar, y la harina alcanzó otra vez. Al otro día, también. Y así, mientras la sequía seguía secando la tierra a su alrededor, esa vasija y ese jarro nunca se vaciaron del todo. Cada mañana había exactamente lo necesario para ese día — ni un poco más, ni un poco menos.\n\nElías se quedó viviendo en esa casa por un buen tiempo, y todos los días se repetía el mismo pequeño milagro silencioso: la harina alcanzaba, el aceite alcanzaba, y una familia que había estado a punto de quedarse sin nada, seguía comiendo cada día.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué difícil habrá sido para esa mujer compartir lo último que tenía, sin saber siquiera si mañana habría algo más. Pero eligió dar, justo cuando parecía que no le quedaba nada.\n\nA veces pensamos que primero hay que tener de sobra para recién ahí poder compartir. Esta historia nos recuerda que se puede dar incluso desde lo poco, confiando en que no estamos solos para enfrentar lo que falta.\n\n¿Alguna vez compartiste algo tuyo aunque sentías que no te sobraba mucho?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez compartiste algo tuyo aunque sentías que no te sobraba mucho?"],
+  },
+  {
+    id: "elias-el-fuego-del-carmelo",
+    contentType: "historia",
+    title: "El fuego que cayó del cielo",
+    subtitle: "Una fe que no necesita gritar",
+    description:
+      "Elías desafía a cientos de profetas falsos en la cima de un monte, para mostrarle a todo un pueblo quién es el verdadero Dios.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "elias",
+    episodeNumber: 22,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 305,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["Elías", "el rey Acab", "los profetas de Baal"],
+    tags: ["valores"],
+    passages: ["1 Reyes 18"],
+    language: "es",
+    illustrationSlug: "elias-el-fuego-del-carmelo",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Durante tres años seguidos no había llovido en la tierra de Israel. Los campos estaban secos, los animales morían de sed, y el pueblo sufría una de las sequías más largas que se recordaban.\n\nEn esa época, muchas personas en Israel habían dejado de confiar en Dios y adoraban a un ídolo llamado Baal, siguiendo el ejemplo del rey Acab y su esposa. El profeta Elías, que llevaba tiempo escondido, se presentó de pronto ante el rey.\n\n—Reúne a todo Israel en el monte Carmelo —le dijo Elías—, y trae también a los cuatrocientos cincuenta profetas de Baal. Es hora de que el pueblo vea, de una vez por todas, a quién debe seguir de verdad.\n\nEl rey, sorprendido, mandó llamar a todos. Y así, gente de todos los rincones de Israel comenzó a subir hacia la cima del monte.",
+      },
+      {
+        role: "narracion",
+        mood: "threshold",
+        caption:
+          "Cuando todos estuvieron reunidos, Elías se paró frente a la multitud y habló con voz firme:\n\n—¿Hasta cuándo van a estar indecisos entre dos caminos? Si el Dios verdadero es el Señor, síganlo a él. Y si es Baal, síganlo a él.\n\nNadie respondió una palabra. Elías propuso entonces una prueba muy simple: prepararían dos altares, uno para los profetas de Baal y otro para él, cada uno con leña y un toro sobre ella, pero sin encender el fuego. Cada grupo pediría a su dios que enviara fuego del cielo para quemar la ofrenda.\n\n—El dios que responda con fuego —dijo Elías— ese es el verdadero Dios.\n\nToda la multitud, incluidos los profetas de Baal, aceptó la prueba. Parecía justa, y todos querían por fin una respuesta clara.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Los profetas de Baal prepararon su altar primero, colocaron su toro sobre la leña, y comenzaron a clamar a su ídolo desde la mañana.\n\n—¡Baal, respóndenos! —gritaban una y otra vez, dando vueltas alrededor del altar.\n\nPasaron las horas y no ocurrió nada. Ni una chispa, ni un sonido, solo silencio. Al mediodía, gritaban todavía más fuerte, saltando y golpeándose, tal como acostumbraban en sus rituales, pero el cielo seguía en silencio.\n\nElías los observaba sin apuro, y en algún momento les dijo, casi con humor, que gritaran más fuerte, porque tal vez su dios estaba pensando, o de viaje, o quizás dormido y había que despertarlo.\n\nSiguieron gritando hasta la tarde. Nadie respondió. Nada se movió. El altar seguía frío, la leña intacta, y el toro tal como lo habían dejado por la mañana.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Cuando llegó la hora de la ofrenda de la tarde, Elías llamó a la gente a que se acercara. Reparó un altar antiguo hecho con doce piedras, una por cada una de las tribus de Israel, colocó la leña, y sobre ella puso su toro.\n\nDespués hizo algo que sorprendió a todos: mandó cavar una zanja alrededor del altar y pidió que trajeran agua, mucha agua, algo casi imposible de conseguir en medio de una sequía tan larga. Ordenó que la vertieran sobre la ofrenda y la leña, no una vez, sino tres veces, hasta que el agua corriera y llenara por completo la zanja.\n\nNadie entendía por qué alguien haría más difícil su propia prueba. Pero Elías quería que quedara clarísimo, sin lugar a dudas, que lo que estaba por pasar no tenía ninguna explicación humana.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Con todo empapado, Elías se acercó al altar y oró, sin gritos, sin saltos, con una sola frase pausada:\n\n—Señor, que hoy se sepa que tú eres Dios en Israel, y que yo soy tu siervo. Respóndeme, para que este pueblo sepa que tú eres el Dios verdadero, y que tú vuelves a traerlos a ti.\n\nEn ese mismo instante, cayó fuego del cielo. No fue una chispa pequeña: el fuego consumió el toro, la leña, las piedras del altar, e incluso el polvo del suelo, y secó hasta la última gota de agua que quedaba en la zanja.\n\nToda la multitud, que había esperado en silencio todo el día, cayó de rodillas al ver lo que había pasado.\n\n—¡El Señor es Dios! —gritaron—. ¡El Señor es el Dios verdadero!",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué distinto fue todo, ¿no? Los profetas de Baal gritaron desde la mañana hasta la tarde, saltando y desesperándose, y no pasó nada. Elías solo dijo unas pocas palabras, con calma, confiando en que sería escuchado, y el fuego cayó al instante.\n\nA veces creemos que hay que gritar mucho, o hacer un gran show, para que nos tomen en serio o para sentirnos seguros de algo. Pero la verdadera fe no necesita gritar: puede quedarse tranquila incluso cuando todos a su alrededor dudan.\n\n¿Alguna vez tuviste que mantenerte firme en algo que creías, aunque otros no te creyeran?",
+      },
+    ],
+    conversationQuestions: ["¿Alguna vez tuviste que mantenerte firme en algo que creías, aunque otros no te creyeran?"],
+  },
+  {
+    id: "salomon-la-sabiduria-del-rey",
+    contentType: "historia",
+    title: "El rey que pidió sabiduría",
+    subtitle: "Una decisión que reveló un corazón de madre",
+    description:
+      "El joven rey Salomón recibe la oportunidad de pedirle a Dios lo que quiera, y su elección se pone a prueba cuando debe resolver un conflicto entre dos mujeres.",
+    category: "antiguo",
+    collectionId: "historias-biblicas",
+    seriesId: "salomon",
+    episodeNumber: 23,
+    lengthCategory: "historia-estandar",
+    durationSeconds: 307,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: ["el rey Salomón", "dos mujeres", "un bebé"],
+    tags: ["valores"],
+    passages: ["1 Reyes 3"],
+    language: "es",
+    illustrationSlug: "salomon-la-sabiduria-del-rey",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Cuando Salomón se convirtió en rey de Israel, era todavía muy joven, y sabía que tenía por delante una tarea enorme: gobernar a todo un pueblo, tomar decisiones justas, resolver conflictos difíciles entre personas que confiaban en él.\n\nSu padre, el rey David, había gobernado durante muchos años, y ahora esa responsabilidad caía sobre los hombros de un rey que apenas comenzaba. Salomón amaba a Dios y quería gobernar bien, pero sentía que todavía le faltaba mucho por aprender.\n\nUna noche, mientras dormía, Dios se le apareció en un sueño y le dijo:\n\n—Pídeme lo que quieras que te dé.\n\nCualquier persona en su lugar habría pensado de inmediato en riquezas, en un ejército poderoso, o en una vida larga y cómoda. Salomón, en cambio, se quedó pensando en su pueblo, en todas las personas que dependían de sus decisiones.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "Salomón respondió a Dios con humildad:\n\n—Tú has puesto a tu siervo como rey, aunque soy todavía joven y no sé bien cómo actuar en muchas cosas. Y ahora estoy en medio de un pueblo enorme. Por eso, dame un corazón que sepa escuchar, capaz de distinguir entre el bien y el mal, para poder gobernar a esta gente con justicia.\n\nA Dios le agradó mucho esa petición. Le dijo a Salomón:\n\n—Porque no pediste riquezas, ni una vida larga, ni la muerte de tus enemigos, sino sabiduría para gobernar con justicia, te doy lo que pediste: un corazón sabio y entendido, como nadie tuvo antes que tú ni tendrá después. Y además, te doy también riquezas y honra, aunque no las pediste.\n\nSalomón despertó de ese sueño sabiendo que algo en él había cambiado.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "No pasó mucho tiempo antes de que esa sabiduría fuera puesta a prueba. Dos mujeres que vivían en la misma casa llegaron ante el rey pidiendo justicia, cada una cargando una historia dolorosa.\n\n—Mi señor —dijo la primera—, esta mujer y yo vivimos juntas. Las dos tuvimos un bebé casi al mismo tiempo. Pero una noche, mientras dormíamos, el hijo de ella murió. Y mientras yo dormía, ella tomó a mi hijo, se lo llevó a su lado, y puso a su hijo muerto junto a mí. Cuando me desperté para darle de comer al mío, me di cuenta de que ese bebé no era el mío.\n\n—¡No es cierto! —interrumpió la otra mujer—. El niño que vive es el mío, y el que murió es el de ella.\n\nAsí siguieron discutiendo frente al rey, cada una asegurando que el bebé que seguía con vida era suyo, y ninguna estaba dispuesta a ceder. No había nadie más que hubiera visto lo ocurrido esa noche, así que era la palabra de una contra la palabra de la otra.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Salomón las escuchó con atención, sin apuro, mientras el pequeño lloraba en los brazos de una de ellas. No había testigos, no había forma de comprobar con certeza quién decía la verdad.\n\nEntonces el rey dio una orden que dejó a todos en silencio:\n\n—Tráiganme una espada.\n\nLos sirvientes trajeron la espada y se la entregaron. Salomón la sostuvo frente a las dos mujeres y dijo:\n\n—Ya que ninguna quiere ceder, partan al niño vivo en dos, y denle una mitad a cada una.\n\nNadie en la sala entendía todavía que esa orden no era en serio. Era una manera de descubrir, en un instante, cuál de las dos mujeres amaba de verdad a ese bebé.",
+      },
+      {
+        role: "narracion",
+        mood: "family",
+        caption:
+          "La reacción de las dos mujeres fue completamente distinta. Una de ellas guardó silencio, aceptando la propuesta sin oponerse. Pero la otra, con el corazón partido de angustia, gritó:\n\n—¡No, mi señor! ¡Por favor, no lo maten! Denle el niño a ella, entero, con tal de que viva.\n\nEn ese mismo instante, Salomón supo la verdad. Se dirigió a sus sirvientes y dijo:\n\n—Entreguen el niño vivo a la mujer que pidió que no lo mataran. Ella es la verdadera madre.\n\nTodo Israel se enteró de la decisión que había tomado su joven rey, y comprendieron que la sabiduría que Dios le había dado era real: no una sabiduría de libros ni de discursos, sino una que sabía reconocer, incluso en medio de la confusión, dónde estaba el amor verdadero.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Qué manera tan inesperada de descubrir la verdad, ¿no? Salomón no necesitó pruebas ni testigos: solo observó quién estaba dispuesta a renunciar a lo que más quería, con tal de protegerlo.\n\nA veces la sabiduría no se trata de saber muchas cosas, sino de saber mirar con atención lo que hay en el corazón de las personas, y resolver los problemas pensando primero en el amor.\n\n¿Qué crees que hace falta para resolver un problema pensando primero en cuidar a los demás?",
+      },
+    ],
+    conversationQuestions: ["¿Qué crees que hace falta para resolver un problema pensando primero en cuidar a los demás?"],
+  },
 ];
 
 export function getContent(id: string): ContentItem | undefined {
