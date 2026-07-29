@@ -25595,5 +25595,3730 @@
         ]
       }
     ]
+  },
+  "evangelio-manana-aves-del-cielo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:47:52.487Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-manana-aves-del-cielo-0.mp3",
+        "cues": [
+          {
+            "text": "En el Evangelio de Mateo,",
+            "start": 0,
+            "end": 1.753
+          },
+          {
+            "text": "Jesús está hablando con un grupo grande de personas,",
+            "start": 1.788,
+            "end": 4.888
+          },
+          {
+            "text": "en una colina, al aire libre.",
+            "start": 4.923,
+            "end": 7.001
+          },
+          {
+            "text": "En un momento se detiene y señala algo que pasa",
+            "start": 7.152,
+            "end": 10.623
+          },
+          {
+            "text": "todos los días delante de sus ojos,",
+            "start": 10.716,
+            "end": 13.259
+          },
+          {
+            "text": "algo tan común que casi nadie se detiene a mirarlo:",
+            "start": 13.317,
+            "end": 16.915
+          },
+          {
+            "text": "las aves. Miren las aves del cielo,",
+            "start": 17.124,
+            "end": 20.213
+          },
+          {
+            "text": "les dice. No siembran,",
+            "start": 20.329,
+            "end": 22.244
+          },
+          {
+            "text": "no cosechan, no guardan comida en graneros ni",
+            "start": 22.326,
+            "end": 25.437
+          },
+          {
+            "text": "en despensas, y sin embargo el Padre que está",
+            "start": 25.472,
+            "end": 28.514
+          },
+          {
+            "text": "en el cielo las alimenta cada día,",
+            "start": 28.549,
+            "end": 31.231
+          },
+          {
+            "text": "sin que ellas hagan nada para asegurarlo.",
+            "start": 31.347,
+            "end": 34.272
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-aves-del-cielo-1.mp3",
+        "cues": [
+          {
+            "text": "Después hace una pregunta que suena simple,",
+            "start": 0,
+            "end": 2.566
+          },
+          {
+            "text": "pero que cambia todo: ¿acaso ustedes no valen",
+            "start": 2.601,
+            "end": 5.55
+          },
+          {
+            "text": "mucho más que ellas? Un pajarito no tiene forma",
+            "start": 5.608,
+            "end": 8.638
+          },
+          {
+            "text": "de planear el desayuno de mañana,",
+            "start": 8.684,
+            "end": 10.716
+          },
+          {
+            "text": "no puede guardar semillas para el invierno como",
+            "start": 10.786,
+            "end": 13.305
+          },
+          {
+            "text": "una ardilla, y aun así amanece,",
+            "start": 13.375,
+            "end": 15.929
+          },
+          {
+            "text": "canta, vuela de rama en rama,",
+            "start": 15.964,
+            "end": 18.054
+          },
+          {
+            "text": "y termina encontrando su alimento.",
+            "start": 18.088,
+            "end": 20.167
+          },
+          {
+            "text": "Si Dios se ocupa así de un ser tan pequeño y",
+            "start": 20.213,
+            "end": 23.162
+          },
+          {
+            "text": "tan sencillo, ¿cuánto más se va a ocupar de un",
+            "start": 23.232,
+            "end": 26.134
+          },
+          {
+            "text": "niño, que puede pensar,",
+            "start": 26.18,
+            "end": 27.887
+          },
+          {
+            "text": "hablar, reír y contar lo que le pasa?",
+            "start": 27.91,
+            "end": 30.79
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-aves-del-cielo-2.mp3",
+        "cues": [
+          {
+            "text": "Hoy, al empezar el día,",
+            "start": 0,
+            "end": 1.695
+          },
+          {
+            "text": "puede que aparezcan preocupaciones grandes o",
+            "start": 1.811,
+            "end": 4.331
+          },
+          {
+            "text": "chiquitas: una prueba difícil,",
+            "start": 4.389,
+            "end": 6.769
+          },
+          {
+            "text": "un partido importante,",
+            "start": 6.943,
+            "end": 8.406
+          },
+          {
+            "text": "algo nuevo que da un poco de nervios,",
+            "start": 8.557,
+            "end": 10.797
+          },
+          {
+            "text": "un cambio que todavía no se entiende del todo.",
+            "start": 10.971,
+            "end": 13.804
+          },
+          {
+            "text": "Está bien sentir eso,",
+            "start": 13.978,
+            "end": 15.697
+          },
+          {
+            "text": "no hay nada de malo en preocuparse un poco.",
+            "start": 15.813,
+            "end": 18.17
+          },
+          {
+            "text": "Pero antes de cargar con todo ese peso solo,",
+            "start": 18.495,
+            "end": 21.258
+          },
+          {
+            "text": "en la cabeza, dando vueltas,",
+            "start": 21.293,
+            "end": 23.429
+          },
+          {
+            "text": "se puede recordar a los pájaros de esta historia:",
+            "start": 23.545,
+            "end": 26.378
+          },
+          {
+            "text": "hay Alguien que ya está cuidando el camino,",
+            "start": 26.703,
+            "end": 29.13
+          },
+          {
+            "text": "incluso antes de que uno se levante de la cama",
+            "start": 29.281,
+            "end": 31.904
+          },
+          {
+            "text": "esta mañana.",
+            "start": 31.962,
+            "end": 33.112
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-aves-del-cielo-3.mp3",
+        "cues": [
+          {
+            "text": "No se trata de dejar de esforzarse,",
+            "start": 0,
+            "end": 2.31
+          },
+          {
+            "text": "ni de quedarse sin hacer nada esperando que todo",
+            "start": 2.392,
+            "end": 4.818
+          },
+          {
+            "text": "se resuelva solo. Los pájaros también se mueven,",
+            "start": 4.876,
+            "end": 8.046
+          },
+          {
+            "text": "buscan, vuelan de un lado a otro durante el día.",
+            "start": 8.162,
+            "end": 11.285
+          },
+          {
+            "text": "La diferencia está en cómo lo hacen: sin esa",
+            "start": 11.494,
+            "end": 14.802
+          },
+          {
+            "text": "angustia pesada que a veces se instala en el",
+            "start": 14.826,
+            "end": 17.252
+          },
+          {
+            "text": "pecho desde temprano.",
+            "start": 17.322,
+            "end": 18.529
+          },
+          {
+            "text": "Se puede estudiar para la prueba,",
+            "start": 18.599,
+            "end": 20.352
+          },
+          {
+            "text": "prepararse para el partido,",
+            "start": 20.387,
+            "end": 21.919
+          },
+          {
+            "text": "animarse frente a lo nuevo,",
+            "start": 21.966,
+            "end": 23.533
+          },
+          {
+            "text": "y aun así, en el fondo,",
+            "start": 23.591,
+            "end": 25.275
+          },
+          {
+            "text": "sentir esa calma de saber que no todo depende",
+            "start": 25.333,
+            "end": 28.351
+          },
+          {
+            "text": "únicamente de uno mismo.",
+            "start": 28.467,
+            "end": 30.279
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-aves-del-cielo-4.mp3",
+        "cues": [
+          {
+            "text": "Muchas veces la angustia de la mañana viene de",
+            "start": 0,
+            "end": 2.995
+          },
+          {
+            "text": "imaginar lo peor antes de que pase,",
+            "start": 3.042,
+            "end": 5.41
+          },
+          {
+            "text": "de anticipar problemas que ni siquiera existen",
+            "start": 5.457,
+            "end": 8.034
+          },
+          {
+            "text": "todavía. Jesús invitaba a mirar el mundo de otra",
+            "start": 8.081,
+            "end": 11.575
+          },
+          {
+            "text": "manera: con confianza,",
+            "start": 11.622,
+            "end": 13.317
+          },
+          {
+            "text": "con la certeza de que el mismo cuidado que sostiene",
+            "start": 13.386,
+            "end": 16.405
+          },
+          {
+            "text": "a un pájaro en pleno vuelo,",
+            "start": 16.44,
+            "end": 18.158
+          },
+          {
+            "text": "sin que se caiga, sostiene también a cada persona",
+            "start": 18.216,
+            "end": 21.177
+          },
+          {
+            "text": "en su día a día, aunque no siempre se note a",
+            "start": 21.212,
+            "end": 23.812
+          },
+          {
+            "text": "simple vista.",
+            "start": 23.882,
+            "end": 24.939
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-aves-del-cielo-5.mp3",
+        "cues": [
+          {
+            "text": "Antes de salir a tu día,",
+            "start": 0,
+            "end": 1.486
+          },
+          {
+            "text": "respira hondo un segundo y piensa en los pájaros",
+            "start": 1.695,
+            "end": 4.748
+          },
+          {
+            "text": "que vuelan tranquilos ahí afuera.",
+            "start": 4.807,
+            "end": 6.792
+          },
+          {
+            "text": "No hace falta resolver todo desde ya,",
+            "start": 7.396,
+            "end": 9.892
+          },
+          {
+            "text": "ni cargar solo con cada preocupación.",
+            "start": 10.101,
+            "end": 12.585
+          },
+          {
+            "text": "¿Qué es una cosa de hoy que podrías soltar un",
+            "start": 12.736,
+            "end": 15.546
+          },
+          {
+            "text": "poco, confiando en que va a estar bien?",
+            "start": 15.604,
+            "end": 18.251
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-noche-aves-del-cielo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:48:10.952Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-noche-aves-del-cielo-0.mp3",
+        "cues": [
+          {
+            "text": "Cuando termina el día,",
+            "start": 0,
+            "end": 1.347
+          },
+          {
+            "text": "a veces la cabeza sigue dando vueltas con todo",
+            "start": 1.44,
+            "end": 3.994
+          },
+          {
+            "text": "lo que pasó, o ya empieza a adelantarse a lo",
+            "start": 4.04,
+            "end": 6.583
+          },
+          {
+            "text": "que viene mañana: una tarea sin terminar,",
+            "start": 6.618,
+            "end": 9.218
+          },
+          {
+            "text": "algo que quedó pendiente,",
+            "start": 9.334,
+            "end": 10.832
+          },
+          {
+            "text": "una duda que no se resolvió.",
+            "start": 10.948,
+            "end": 12.783
+          },
+          {
+            "text": "Por eso vale la pena volver,",
+            "start": 12.875,
+            "end": 14.524
+          },
+          {
+            "text": "antes de dormir, a algo que Jesús dijo mirando",
+            "start": 14.617,
+            "end": 17.566
+          },
+          {
+            "text": "el cielo, en medio de una charla tranquila con",
+            "start": 17.601,
+            "end": 20.155
+          },
+          {
+            "text": "la gente que lo escuchaba: miren las aves,",
+            "start": 20.213,
+            "end": 22.918
+          },
+          {
+            "text": "no siembran ni cosechan,",
+            "start": 22.988,
+            "end": 24.486
+          },
+          {
+            "text": "y el Padre las alimenta.",
+            "start": 24.602,
+            "end": 26.239
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-aves-del-cielo-1.mp3",
+        "cues": [
+          {
+            "text": "Los pájaros no se quedan despiertos toda la noche",
+            "start": 0,
+            "end": 3.053
+          },
+          {
+            "text": "calculando de dónde va a salir la comida de mañana,",
+            "start": 3.123,
+            "end": 6.258
+          },
+          {
+            "text": "ni se angustian pensando en lo que todavía no",
+            "start": 6.374,
+            "end": 8.998
+          },
+          {
+            "text": "pasó. Simplemente descansan,",
+            "start": 9.067,
+            "end": 11.505
+          },
+          {
+            "text": "se acomodan en su nido,",
+            "start": 11.68,
+            "end": 13.224
+          },
+          {
+            "text": "y confían, aunque ni siquiera lo sepan,",
+            "start": 13.317,
+            "end": 15.917
+          },
+          {
+            "text": "en un cuidado que nunca falla.",
+            "start": 16.068,
+            "end": 18.135
+          },
+          {
+            "text": "Jesús usó ese ejemplo tan chiquito y tan cotidiano",
+            "start": 18.309,
+            "end": 21.722
+          },
+          {
+            "text": "para decir algo enorme: si Dios no se olvida",
+            "start": 21.781,
+            "end": 24.637
+          },
+          {
+            "text": "ni siquiera de un pajarito en una rama,",
+            "start": 24.683,
+            "end": 27.051
+          },
+          {
+            "text": "mucho menos se va a olvidar de ti esta noche.",
+            "start": 27.144,
+            "end": 29.954
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-aves-del-cielo-2.mp3",
+        "cues": [
+          {
+            "text": "Esta noche, si quedó alguna preocupación dando",
+            "start": 0,
+            "end": 3.1
+          },
+          {
+            "text": "vueltas —una tarea, un problema con un amigo,",
+            "start": 3.146,
+            "end": 7.012
+          },
+          {
+            "text": "algo que salió distinto a lo esperado,",
+            "start": 7.338,
+            "end": 9.648
+          },
+          {
+            "text": "una palabra que no debió decirse—",
+            "start": 9.973,
+            "end": 12.516
+          },
+          {
+            "text": "se puede dejar ahí, como quien deja una mochila",
+            "start": 12.759,
+            "end": 15.743
+          },
+          {
+            "text": "pesada en el piso antes de acostarse.",
+            "start": 15.801,
+            "end": 18.379
+          },
+          {
+            "text": "Mañana va a seguir ahí si hace falta pensarlo",
+            "start": 18.82,
+            "end": 21.362
+          },
+          {
+            "text": "con más calma, pero por ahora,",
+            "start": 21.409,
+            "end": 23.406
+          },
+          {
+            "text": "con la luz apagada y la casa en silencio,",
+            "start": 23.557,
+            "end": 26.099
+          },
+          {
+            "text": "es momento de descansar tranquilo,",
+            "start": 26.25,
+            "end": 28.572
+          },
+          {
+            "text": "como esas aves que ya duermen sin ninguna preocupación.",
+            "start": 28.746,
+            "end": 32.369
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-aves-del-cielo-3.mp3",
+        "cues": [
+          {
+            "text": "Puede ayudar imaginar la escena tal como la describió",
+            "start": 0,
+            "end": 3.332
+          },
+          {
+            "text": "Jesús: un pájaro pequeño,",
+            "start": 3.379,
+            "end": 5.457
+          },
+          {
+            "text": "acurrucado en su nido,",
+            "start": 5.538,
+            "end": 7.024
+          },
+          {
+            "text": "con los ojos cerrados,",
+            "start": 7.082,
+            "end": 8.533
+          },
+          {
+            "text": "sin ninguna lista de pendientes dándole vueltas",
+            "start": 8.661,
+            "end": 11.656
+          },
+          {
+            "text": "en la cabeza. Esa imagen tan simple sirve como",
+            "start": 11.726,
+            "end": 15.604
+          },
+          {
+            "text": "recordatorio antes de dormir: si ese cuidado",
+            "start": 15.685,
+            "end": 18.762
+          },
+          {
+            "text": "alcanza para un ser tan chiquito que ni siquiera",
+            "start": 18.808,
+            "end": 21.641
+          },
+          {
+            "text": "sabe que está siendo cuidado,",
+            "start": 21.711,
+            "end": 23.464
+          },
+          {
+            "text": "con mucha más razón alcanza para cada niño que",
+            "start": 23.545,
+            "end": 26.959
+          },
+          {
+            "text": "hoy se está por dormir en su cama,",
+            "start": 27.017,
+            "end": 29.153
+          },
+          {
+            "text": "confiado y tranquilo.",
+            "start": 29.211,
+            "end": 31.068
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-aves-del-cielo-4.mp3",
+        "cues": [
+          {
+            "text": "A veces cuesta soltar los pensamientos justo",
+            "start": 0,
+            "end": 2.926
+          },
+          {
+            "text": "antes de dormir, sobre todo si el día trajo algo",
+            "start": 2.984,
+            "end": 6.037
+          },
+          {
+            "text": "difícil. En esos momentos ayuda repetir,",
+            "start": 6.084,
+            "end": 9.532
+          },
+          {
+            "text": "casi como una frase para acompañarse: si Dios",
+            "start": 9.648,
+            "end": 12.922
+          },
+          {
+            "text": "cuida de las aves sin que ellas hagan nada para",
+            "start": 12.992,
+            "end": 15.592
+          },
+          {
+            "text": "merecerlo, hoy también me cuida a mí,",
+            "start": 15.638,
+            "end": 18.1
+          },
+          {
+            "text": "mientras cierro los ojos y me quedo dormido,",
+            "start": 18.146,
+            "end": 20.758
+          },
+          {
+            "text": "sin necesidad de vigilar nada yo mismo.",
+            "start": 20.851,
+            "end": 23.823
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-aves-del-cielo-5.mp3",
+        "cues": [
+          {
+            "text": "Antes de cerrar los ojos,",
+            "start": 0,
+            "end": 1.533
+          },
+          {
+            "text": "piensa en algo pequeño que te haya salido bien",
+            "start": 1.579,
+            "end": 4.087
+          },
+          {
+            "text": "hoy, sin que lo hayas planeado del todo,",
+            "start": 4.145,
+            "end": 6.548
+          },
+          {
+            "text": "casi de casualidad. ¿Quién crees que estuvo cuidando",
+            "start": 6.641,
+            "end": 10.147
+          },
+          {
+            "text": "ese detalle mientras tú ni te dabas cuenta?",
+            "start": 10.217,
+            "end": 12.864
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-manana-luz-del-mundo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:48:28.393Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-manana-luz-del-mundo-0.mp3",
+        "cues": [
+          {
+            "text": "En el Evangelio de Mateo,",
+            "start": 0,
+            "end": 1.637
+          },
+          {
+            "text": "Jesús les dice a quienes lo escuchan algo que",
+            "start": 1.707,
+            "end": 4.586
+          },
+          {
+            "text": "suena como un título muy grande,",
+            "start": 4.632,
+            "end": 6.548
+          },
+          {
+            "text": "casi difícil de creer: ustedes son la luz del",
+            "start": 6.618,
+            "end": 10.298
+          },
+          {
+            "text": "mundo. Una ciudad construida sobre un cerro no",
+            "start": 10.368,
+            "end": 13.642
+          },
+          {
+            "text": "se puede esconder, dice,",
+            "start": 13.7,
+            "end": 15.627
+          },
+          {
+            "text": "se ve desde lejos aunque uno no quiera,",
+            "start": 15.836,
+            "end": 18.379
+          },
+          {
+            "text": "y nadie enciende una lámpara para después taparla",
+            "start": 18.553,
+            "end": 21.339
+          },
+          {
+            "text": "con un cajón o esconderla debajo de la cama.",
+            "start": 21.386,
+            "end": 24.288
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-luz-del-mundo-1.mp3",
+        "cues": [
+          {
+            "text": "Al contrario: la lámpara se pone en un lugar",
+            "start": 0,
+            "end": 2.868
+          },
+          {
+            "text": "alto, sobre la mesa o en un rincón visible,",
+            "start": 2.937,
+            "end": 6.002
+          },
+          {
+            "text": "para que alumbre a todos los que están en la",
+            "start": 6.026,
+            "end": 8.266
+          },
+          {
+            "text": "casa, no solo a un rincón.",
+            "start": 8.324,
+            "end": 10.414
+          },
+          {
+            "text": "Y después llega la parte más concreta de la enseñanza:",
+            "start": 10.565,
+            "end": 13.955
+          },
+          {
+            "text": "que brille así su luz delante de todos,",
+            "start": 14.002,
+            "end": 16.521
+          },
+          {
+            "text": "para que vean sus buenas obras y reconozcan algo",
+            "start": 16.556,
+            "end": 19.354
+          },
+          {
+            "text": "bueno detrás de ellas.",
+            "start": 19.401,
+            "end": 21.015
+          },
+          {
+            "text": "No habla de brillar por brillar,",
+            "start": 21.456,
+            "end": 23.545
+          },
+          {
+            "text": "ni de que todos miren a uno,",
+            "start": 23.696,
+            "end": 25.589
+          },
+          {
+            "text": "sino de que un gesto bueno,",
+            "start": 25.705,
+            "end": 27.342
+          },
+          {
+            "text": "hecho con el corazón,",
+            "start": 27.412,
+            "end": 28.782
+          },
+          {
+            "text": "se note de verdad y sirva para ayudar a otros.",
+            "start": 28.874,
+            "end": 32.369
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-luz-del-mundo-2.mp3",
+        "cues": [
+          {
+            "text": "Eso puede pasar hoy mismo,",
+            "start": 0,
+            "end": 1.649
+          },
+          {
+            "text": "y no hace falta que sea algo enorme ni que lo",
+            "start": 1.718,
+            "end": 3.994
+          },
+          {
+            "text": "vea todo el mundo. Compartir algo sin que lo",
+            "start": 4.04,
+            "end": 6.954
+          },
+          {
+            "text": "pidan, ayudar a alguien que se cayó en el patio,",
+            "start": 7.012,
+            "end": 10.112
+          },
+          {
+            "text": "invitar a jugar al que suele quedar afuera del",
+            "start": 10.205,
+            "end": 12.643
+          },
+          {
+            "text": "grupo, decir gracias o perdón cuando corresponde.",
+            "start": 12.701,
+            "end": 16.185
+          },
+          {
+            "text": "Ese tipo de gestos son pequeñas luces,",
+            "start": 16.219,
+            "end": 18.634
+          },
+          {
+            "text": "casi invisibles a simple vista,",
+            "start": 18.681,
+            "end": 20.712
+          },
+          {
+            "text": "pero a veces alcanzan para cambiarle el día entero",
+            "start": 20.736,
+            "end": 23.836
+          },
+          {
+            "text": "a otra persona que lo necesitaba justo en ese",
+            "start": 23.894,
+            "end": 26.668
+          },
+          {
+            "text": "momento.",
+            "start": 26.726,
+            "end": 27.446
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-luz-del-mundo-3.mp3",
+        "cues": [
+          {
+            "text": "Es como cuando se enciende una sola vela en un",
+            "start": 0,
+            "end": 2.577
+          },
+          {
+            "text": "cuarto oscuro: no hace falta un montón de luces",
+            "start": 2.624,
+            "end": 5.712
+          },
+          {
+            "text": "para que el cuarto deje de estar a oscuras,",
+            "start": 5.782,
+            "end": 8.139
+          },
+          {
+            "text": "alcanza con una. De la misma manera,",
+            "start": 8.185,
+            "end": 10.855
+          },
+          {
+            "text": "no hace falta ser el más simpático de la clase,",
+            "start": 10.971,
+            "end": 13.955
+          },
+          {
+            "text": "ni el más aplaudido, para ser luz para alguien.",
+            "start": 14.025,
+            "end": 17.101
+          },
+          {
+            "text": "A veces basta con notar a la persona que está",
+            "start": 17.159,
+            "end": 19.47
+          },
+          {
+            "text": "triste en un rincón, y acercarse simplemente",
+            "start": 19.528,
+            "end": 22.419
+          },
+          {
+            "text": "para hacerle compañía un rato.",
+            "start": 22.477,
+            "end": 24.474
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-luz-del-mundo-4.mp3",
+        "cues": [
+          {
+            "text": "También puede pasar que uno mismo se sienta apagado",
+            "start": 0,
+            "end": 2.844
+          },
+          {
+            "text": "algún día, sin muchas ganas de brillar.",
+            "start": 2.879,
+            "end": 5.399
+          },
+          {
+            "text": "Eso también es parte de ser humano,",
+            "start": 5.724,
+            "end": 7.767
+          },
+          {
+            "text": "y no hay que exigirse demasiado en esos momentos.",
+            "start": 7.941,
+            "end": 11.029
+          },
+          {
+            "text": "Pero incluso en un día así,",
+            "start": 11.355,
+            "end": 13.119
+          },
+          {
+            "text": "un gesto pequeño —una sonrisa aunque sea forzada,",
+            "start": 13.328,
+            "end": 16.939
+          },
+          {
+            "text": "un gracias dicho con sinceridad—",
+            "start": 17.148,
+            "end": 19.76
+          },
+          {
+            "text": "alcanza para mantener esa luz prendida,",
+            "start": 20.004,
+            "end": 22.569
+          },
+          {
+            "text": "aunque sea con la llama bajita.",
+            "start": 22.813,
+            "end": 24.938
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-luz-del-mundo-5.mp3",
+        "cues": [
+          {
+            "text": "Hoy vas a cruzarte con varias personas: en tu",
+            "start": 0,
+            "end": 2.995
+          },
+          {
+            "text": "casa, en la escuela, en la calle,",
+            "start": 3.053,
+            "end": 5.573
+          },
+          {
+            "text": "en el recreo. ¿A quién te gustaría regalarle",
+            "start": 5.608,
+            "end": 8.998
+          },
+          {
+            "text": "una luz hoy, aunque sea chiquita,",
+            "start": 9.056,
+            "end": 11.471
+          },
+          {
+            "text": "con un gesto que quizás nadie más note?",
+            "start": 11.505,
+            "end": 14.118
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-noche-luz-del-mundo": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:48:46.868Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-0.mp3",
+        "cues": [
+          {
+            "text": "Antes de dormir es un buen momento para repasar",
+            "start": 0,
+            "end": 2.833
+          },
+          {
+            "text": "el día con calma, sin apuro,",
+            "start": 2.879,
+            "end": 4.969
+          },
+          {
+            "text": "recordando cómo fue todo desde la mañana.",
+            "start": 5.097,
+            "end": 7.674
+          },
+          {
+            "text": "Y hay una frase de Jesús que sirve justo para",
+            "start": 7.825,
+            "end": 10.379
+          },
+          {
+            "text": "eso: ustedes son la luz del mundo.",
+            "start": 10.461,
+            "end": 13.235
+          },
+          {
+            "text": "Una ciudad en lo alto de un cerro no se puede",
+            "start": 13.444,
+            "end": 16.672
+          },
+          {
+            "text": "ocultar por más que se quiera,",
+            "start": 16.719,
+            "end": 18.507
+          },
+          {
+            "text": "y nadie enciende una lámpara solamente para esconderla",
+            "start": 18.553,
+            "end": 21.734
+          },
+          {
+            "text": "debajo de algo.",
+            "start": 21.781,
+            "end": 23.035
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-1.mp3",
+        "cues": [
+          {
+            "text": "Jesús pedía que esa luz brillara delante de todos,",
+            "start": 0,
+            "end": 3.17
+          },
+          {
+            "text": "a través de las buenas obras,",
+            "start": 3.204,
+            "end": 5.039
+          },
+          {
+            "text": "no para que lo vieran y lo aplaudieran a uno,",
+            "start": 5.097,
+            "end": 7.523
+          },
+          {
+            "text": "sino para que a través de ese gesto se notara",
+            "start": 7.639,
+            "end": 10.298
+          },
+          {
+            "text": "algo más grande y bueno detrás,",
+            "start": 10.356,
+            "end": 12.481
+          },
+          {
+            "text": "algo que vale la pena imitar.",
+            "start": 12.527,
+            "end": 14.466
+          },
+          {
+            "text": "Cada día trae oportunidades chiquitas de ser",
+            "start": 14.675,
+            "end": 17.415
+          },
+          {
+            "text": "esa luz: una palabra amable en el momento justo,",
+            "start": 17.473,
+            "end": 20.898
+          },
+          {
+            "text": "una ayuda que nadie pidió,",
+            "start": 21.107,
+            "end": 22.778
+          },
+          {
+            "text": "una sonrisa cuando el otro más lo necesitaba,",
+            "start": 22.987,
+            "end": 25.867
+          },
+          {
+            "text": "incluso un silencio paciente en vez de una respuesta",
+            "start": 26.041,
+            "end": 29.292
+          },
+          {
+            "text": "brusca.",
+            "start": 29.338,
+            "end": 30.093
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-2.mp3",
+        "cues": [
+          {
+            "text": "Antes de cerrar los ojos,",
+            "start": 0,
+            "end": 1.625
+          },
+          {
+            "text": "se puede pensar con tranquilidad: ¿hubo algún",
+            "start": 1.672,
+            "end": 4.876
+          },
+          {
+            "text": "momento hoy en que mi luz brilló un poquito,",
+            "start": 4.923,
+            "end": 7.512
+          },
+          {
+            "text": "aunque haya sido chico?",
+            "start": 7.663,
+            "end": 9.183
+          },
+          {
+            "text": "Tal vez fue compartir algo sin que lo pidieran,",
+            "start": 9.88,
+            "end": 12.655
+          },
+          {
+            "text": "escuchar de verdad a alguien,",
+            "start": 12.771,
+            "end": 14.617
+          },
+          {
+            "text": "o simplemente estar de buen humor cuando otro",
+            "start": 14.791,
+            "end": 17.369
+          },
+          {
+            "text": "lo necesitaba cerca. Y si no hubo ese momento",
+            "start": 17.427,
+            "end": 20.364
+          },
+          {
+            "text": "hoy, no importa, porque mañana es una nueva oportunidad",
+            "start": 20.387,
+            "end": 24.033
+          },
+          {
+            "text": "para encenderla otra vez,",
+            "start": 24.079,
+            "end": 25.902
+          },
+          {
+            "text": "sin apuro.",
+            "start": 26.018,
+            "end": 26.935
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-3.mp3",
+        "cues": [
+          {
+            "text": "Una lamparita no se enoja consigo misma los días",
+            "start": 0,
+            "end": 3.135
+          },
+          {
+            "text": "en que ilumina menos,",
+            "start": 3.216,
+            "end": 4.598
+          },
+          {
+            "text": "ni se apaga para siempre por una sola noche opaca.",
+            "start": 4.679,
+            "end": 7.953
+          },
+          {
+            "text": "Simplemente sigue ahí,",
+            "start": 8.231,
+            "end": 9.927
+          },
+          {
+            "text": "lista para volver a brillar apenas se la necesite.",
+            "start": 10.101,
+            "end": 13.41
+          },
+          {
+            "text": "Con esa misma paciencia se puede pensar en uno",
+            "start": 13.735,
+            "end": 16.382
+          },
+          {
+            "text": "mismo antes de dormir: no hace falta ser una",
+            "start": 16.44,
+            "end": 19.227
+          },
+          {
+            "text": "luz enorme todos los días,",
+            "start": 19.296,
+            "end": 21.2
+          },
+          {
+            "text": "alcanza con seguir intentándolo,",
+            "start": 21.258,
+            "end": 23.325
+          },
+          {
+            "text": "una vez tras otra, sin cansarse.",
+            "start": 23.395,
+            "end": 25.867
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-4.mp3",
+        "cues": [
+          {
+            "text": "Antes de dormir también vale la pena agradecer",
+            "start": 0,
+            "end": 2.601
+          },
+          {
+            "text": "las luces de otras personas que brillaron hoy",
+            "start": 2.67,
+            "end": 5.027
+          },
+          {
+            "text": "para uno: alguien que ayudó sin que se lo pidieran,",
+            "start": 5.097,
+            "end": 8.22
+          },
+          {
+            "text": "alguien que hizo reír en un momento difícil,",
+            "start": 8.336,
+            "end": 10.96
+          },
+          {
+            "text": "alguien que simplemente estuvo cerca cuando hacía",
+            "start": 11.134,
+            "end": 13.722
+          },
+          {
+            "text": "falta compañía. Esas luces ajenas también merecen",
+            "start": 13.792,
+            "end": 17.449
+          },
+          {
+            "text": "ser recordadas antes de cerrar los ojos.",
+            "start": 17.519,
+            "end": 20.387
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-5.mp3",
+        "cues": [
+          {
+            "text": "Toda la casa duerme envuelta en la misma idea",
+            "start": 0,
+            "end": 2.752
+          },
+          {
+            "text": "sencilla: la luz no se guarda para uno mismo,",
+            "start": 2.821,
+            "end": 6.153
+          },
+          {
+            "text": "se comparte, se presta,",
+            "start": 6.246,
+            "end": 8.15
+          },
+          {
+            "text": "se regala sin que se gaste por eso.",
+            "start": 8.231,
+            "end": 10.542
+          },
+          {
+            "text": "Y mañana, con el sol nuevo,",
+            "start": 10.588,
+            "end": 12.55
+          },
+          {
+            "text": "va a haber otra oportunidad entera para volver",
+            "start": 12.62,
+            "end": 15.383
+          },
+          {
+            "text": "a encenderla, un poquito más brillante que hoy",
+            "start": 15.418,
+            "end": 18.088
+          },
+          {
+            "text": "si se puede.",
+            "start": 18.135,
+            "end": 19.133
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-luz-del-mundo-6.mp3",
+        "cues": [
+          {
+            "text": "Pensando en todo tu día,",
+            "start": 0,
+            "end": 1.567
+          },
+          {
+            "text": "desde que te levantaste hasta ahora,",
+            "start": 1.625,
+            "end": 3.587
+          },
+          {
+            "text": "¿hubo un momento en que fuiste luz para alguien,",
+            "start": 3.611,
+            "end": 6.385
+          },
+          {
+            "text": "aunque en ese instante no te dieras cuenta de",
+            "start": 6.455,
+            "end": 8.545
+          },
+          {
+            "text": "lo que estabas haciendo?",
+            "start": 8.591,
+            "end": 9.892
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-manana-dejen-que-los-ninos-vengan": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:49:05.467Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-0.mp3",
+        "cues": [
+          {
+            "text": "En el Evangelio de Marcos,",
+            "start": 0,
+            "end": 1.66
+          },
+          {
+            "text": "unas familias le traían sus niños a Jesús para",
+            "start": 1.753,
+            "end": 4.528
+          },
+          {
+            "text": "que los tocara y los bendijera,",
+            "start": 4.574,
+            "end": 6.525
+          },
+          {
+            "text": "como se hacía en esos tiempos con las personas",
+            "start": 6.594,
+            "end": 9.114
+          },
+          {
+            "text": "importantes. Pero los discípulos,",
+            "start": 9.195,
+            "end": 11.564
+          },
+          {
+            "text": "pensando que Jesús estaba ocupado con asuntos",
+            "start": 11.598,
+            "end": 14.164
+          },
+          {
+            "text": "más serios, con adultos que necesitaban respuestas",
+            "start": 14.246,
+            "end": 17.288
+          },
+          {
+            "text": "urgentes, empezaron a decirles a esas familias",
+            "start": 17.346,
+            "end": 20.736
+          },
+          {
+            "text": "que no molestaran, que se fueran,",
+            "start": 20.805,
+            "end": 22.849
+          },
+          {
+            "text": "que ese no era momento para niños.",
+            "start": 22.965,
+            "end": 25.449
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-1.mp3",
+        "cues": [
+          {
+            "text": "Cuando Jesús vio lo que estaba pasando,",
+            "start": 0,
+            "end": 2.287
+          },
+          {
+            "text": "se puso serio, casi enojado,",
+            "start": 2.368,
+            "end": 4.4
+          },
+          {
+            "text": "y les dijo algo que sorprendió a todos los que",
+            "start": 4.458,
+            "end": 6.861
+          },
+          {
+            "text": "estaban ahí: dejen que los niños vengan a mí,",
+            "start": 6.885,
+            "end": 10.066
+          },
+          {
+            "text": "no se lo impidan, porque el reino de Dios es",
+            "start": 10.182,
+            "end": 12.562
+          },
+          {
+            "text": "de quienes son como ellos.",
+            "start": 12.608,
+            "end": 14.222
+          },
+          {
+            "text": "Después los abrazó uno por uno,",
+            "start": 14.466,
+            "end": 16.602
+          },
+          {
+            "text": "puso sus manos sobre cada niño,",
+            "start": 16.648,
+            "end": 18.645
+          },
+          {
+            "text": "y los bendijo con calma,",
+            "start": 18.68,
+            "end": 20.213
+          },
+          {
+            "text": "sin apuro, como si tuviera todo el tiempo del",
+            "start": 20.259,
+            "end": 22.906
+          },
+          {
+            "text": "mundo justo para ellos.",
+            "start": 22.964,
+            "end": 24.613
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-2.mp3",
+        "cues": [
+          {
+            "text": "Para Jesús, ningún niño era demasiado chico,",
+            "start": 0,
+            "end": 3.344
+          },
+          {
+            "text": "demasiado ruidoso, demasiado inquieto,",
+            "start": 3.413,
+            "end": 6.026
+          },
+          {
+            "text": "o poco importante como para acercarse a él.",
+            "start": 6.095,
+            "end": 8.812
+          },
+          {
+            "text": "Todo lo contrario: los recibió con los brazos",
+            "start": 8.87,
+            "end": 11.308
+          },
+          {
+            "text": "abiertos, con una sonrisa,",
+            "start": 11.378,
+            "end": 13.282
+          },
+          {
+            "text": "como si fueran justo las personas que él más",
+            "start": 13.317,
+            "end": 15.802
+          },
+          {
+            "text": "quería tener cerca ese día,",
+            "start": 15.848,
+            "end": 17.659
+          },
+          {
+            "text": "más incluso que los adultos que esperaban su",
+            "start": 17.775,
+            "end": 20.086
+          },
+          {
+            "text": "atención.",
+            "start": 20.121,
+            "end": 20.991
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-3.mp3",
+        "cues": [
+          {
+            "text": "Esa escena queda como un recordatorio para siempre:",
+            "start": 0,
+            "end": 3.146
+          },
+          {
+            "text": "no hace falta ser grande,",
+            "start": 3.587,
+            "end": 5.248
+          },
+          {
+            "text": "ni saber hablar perfecto,",
+            "start": 5.329,
+            "end": 6.92
+          },
+          {
+            "text": "ni entender todas las respuestas,",
+            "start": 7.036,
+            "end": 9.311
+          },
+          {
+            "text": "para acercarse a Jesús.",
+            "start": 9.369,
+            "end": 11.099
+          },
+          {
+            "text": "Alcanza con ser exactamente como se es,",
+            "start": 11.54,
+            "end": 14.362
+          },
+          {
+            "text": "con las mismas ganas de un niño que corre a los",
+            "start": 14.454,
+            "end": 16.985
+          },
+          {
+            "text": "brazos de alguien que lo quiere,",
+            "start": 17.055,
+            "end": 18.761
+          },
+          {
+            "text": "sin pedir permiso ni disculparse por acercarse.",
+            "start": 18.877,
+            "end": 22.337
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-4.mp3",
+        "cues": [
+          {
+            "text": "Esta historia también dice algo sobre cómo mirar",
+            "start": 0,
+            "end": 2.81
+          },
+          {
+            "text": "a los demás niños: si Jesús los trató con tanto",
+            "start": 2.856,
+            "end": 6.118
+          },
+          {
+            "text": "cariño y paciencia, sin apuro para atender a",
+            "start": 6.177,
+            "end": 9.369
+          },
+          {
+            "text": "cada uno, vale la pena tratar así también a un",
+            "start": 9.427,
+            "end": 12.701
+          },
+          {
+            "text": "hermano menor, a un primo chiquito,",
+            "start": 12.725,
+            "end": 15.197
+          },
+          {
+            "text": "o a cualquier niño que parezca molestar.",
+            "start": 15.441,
+            "end": 17.833
+          },
+          {
+            "text": "Nadie es demasiado chico para merecer tiempo",
+            "start": 18.344,
+            "end": 20.968
+          },
+          {
+            "text": "y atención de verdad.",
+            "start": 21.026,
+            "end": 22.477
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-5.mp3",
+        "cues": [
+          {
+            "text": "Cada vez que un adulto se agacha para escuchar",
+            "start": 0,
+            "end": 2.717
+          },
+          {
+            "text": "de verdad a un niño, sin apuro,",
+            "start": 2.786,
+            "end": 5.294
+          },
+          {
+            "text": "sin mirar el reloj, está repitiendo un poco esa",
+            "start": 5.341,
+            "end": 8.348
+          },
+          {
+            "text": "misma escena del Evangelio.",
+            "start": 8.44,
+            "end": 10.263
+          },
+          {
+            "text": "Y cada vez que un niño se acerca sin miedo a",
+            "start": 10.344,
+            "end": 13.073
+          },
+          {
+            "text": "contar algo que le importa,",
+            "start": 13.142,
+            "end": 14.664
+          },
+          {
+            "text": "también está haciendo lo que esas familias hicieron",
+            "start": 14.71,
+            "end": 17.59
+          },
+          {
+            "text": "aquel día: acercarse con confianza,",
+            "start": 17.659,
+            "end": 20.248
+          },
+          {
+            "text": "sin dudar de ser bien recibido.",
+            "start": 20.341,
+            "end": 22.384
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-dejen-que-los-ninos-vengan-6.mp3",
+        "cues": [
+          {
+            "text": "Saber que a Jesús siempre le importó tener cerca",
+            "start": 0,
+            "end": 2.705
+          },
+          {
+            "text": "a los niños, sin importar la edad ni lo que otros",
+            "start": 2.728,
+            "end": 5.433
+          },
+          {
+            "text": "dijeran, ¿cómo te hace sentir empezar así el",
+            "start": 5.468,
+            "end": 7.93
+          },
+          {
+            "text": "día de hoy?",
+            "start": 7.988,
+            "end": 8.824
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-noche-dejen-que-los-ninos-vengan": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:49:23.009Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-0.mp3",
+        "cues": [
+          {
+            "text": "Hay una escena del Evangelio de Marcos que es",
+            "start": 0,
+            "end": 2.624
+          },
+          {
+            "text": "linda para recordar antes de dormir,",
+            "start": 2.717,
+            "end": 4.888
+          },
+          {
+            "text": "con la casa ya en silencio.",
+            "start": 4.934,
+            "end": 6.757
+          },
+          {
+            "text": "Unas familias llevaban a sus niños para que Jesús",
+            "start": 6.873,
+            "end": 9.764
+          },
+          {
+            "text": "los bendijera, pero los discípulos,",
+            "start": 9.822,
+            "end": 12.19
+          },
+          {
+            "text": "creyendo que no era el momento adecuado,",
+            "start": 12.214,
+            "end": 14.582
+          },
+          {
+            "text": "trataban de alejarlos,",
+            "start": 14.64,
+            "end": 16.045
+          },
+          {
+            "text": "como si los niños no pudieran acercarse a alguien",
+            "start": 16.091,
+            "end": 18.657
+          },
+          {
+            "text": "tan importante.",
+            "start": 18.715,
+            "end": 19.783
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-1.mp3",
+        "cues": [
+          {
+            "text": "Jesús no estuvo de acuerdo para nada,",
+            "start": 0,
+            "end": 2.136
+          },
+          {
+            "text": "y se lo hizo saber de inmediato.",
+            "start": 2.183,
+            "end": 4.098
+          },
+          {
+            "text": "Dejen que los niños vengan a mí,",
+            "start": 4.168,
+            "end": 5.956
+          },
+          {
+            "text": "dijo, no se lo impidan,",
+            "start": 6.014,
+            "end": 7.593
+          },
+          {
+            "text": "porque de ellos es el reino de Dios.",
+            "start": 7.651,
+            "end": 10.054
+          },
+          {
+            "text": "Y ahí mismo, sin apuro,",
+            "start": 10.112,
+            "end": 11.842
+          },
+          {
+            "text": "sin mirar el reloj, los tomó en sus brazos y",
+            "start": 11.912,
+            "end": 14.756
+          },
+          {
+            "text": "puso sus manos sobre cada uno para bendecirlos,",
+            "start": 14.837,
+            "end": 17.879
+          },
+          {
+            "text": "uno por uno, como cerrando ese día con un gesto",
+            "start": 17.995,
+            "end": 20.909
+          },
+          {
+            "text": "tranquilo de cariño.",
+            "start": 20.956,
+            "end": 22.384
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-2.mp3",
+        "cues": [
+          {
+            "text": "Esa misma calma se puede sentir hoy,",
+            "start": 0,
+            "end": 2.438
+          },
+          {
+            "text": "antes de dormir: la certeza tranquila de que",
+            "start": 2.461,
+            "end": 5.317
+          },
+          {
+            "text": "a Jesús siempre le importaron los niños,",
+            "start": 5.352,
+            "end": 7.848
+          },
+          {
+            "text": "sin excepción, sin condiciones,",
+            "start": 7.883,
+            "end": 10.252
+          },
+          {
+            "text": "y que ese cariño no cambia según lo bien o mal",
+            "start": 10.286,
+            "end": 13.119
+          },
+          {
+            "text": "que haya salido el día de hoy.",
+            "start": 13.201,
+            "end": 14.965
+          },
+          {
+            "text": "Con esa idea en la cabeza,",
+            "start": 15,
+            "end": 16.602
+          },
+          {
+            "text": "con esa imagen de los brazos abiertos,",
+            "start": 16.649,
+            "end": 18.948
+          },
+          {
+            "text": "ya se puede descansar en paz,",
+            "start": 19.064,
+            "end": 20.701
+          },
+          {
+            "text": "sabiendo que uno también hubiera sido bienvenido",
+            "start": 20.782,
+            "end": 23.359
+          },
+          {
+            "text": "en esa fila.",
+            "start": 23.406,
+            "end": 24.288
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-3.mp3",
+        "cues": [
+          {
+            "text": "Los discípulos, esa vez,",
+            "start": 0,
+            "end": 1.858
+          },
+          {
+            "text": "se equivocaron pensando que había personas más",
+            "start": 1.927,
+            "end": 4.598
+          },
+          {
+            "text": "importantes que atender primero.",
+            "start": 4.679,
+            "end": 6.594
+          },
+          {
+            "text": "Pero Jesús mostró con su propia actitud que nunca",
+            "start": 6.711,
+            "end": 9.915
+          },
+          {
+            "text": "fue así, que un niño cansado después de un día",
+            "start": 9.973,
+            "end": 12.98
+          },
+          {
+            "text": "largo, con sueño y con ganas de un abrazo,",
+            "start": 13.05,
+            "end": 15.987
+          },
+          {
+            "text": "siempre tuvo un lugar especial y reservado en",
+            "start": 16.103,
+            "end": 18.68
+          },
+          {
+            "text": "su corazón, sin necesidad de hacer nada para",
+            "start": 18.727,
+            "end": 21.548
+          },
+          {
+            "text": "merecerlo.",
+            "start": 21.595,
+            "end": 22.57
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-4.mp3",
+        "cues": [
+          {
+            "text": "Vale la pena quedarse con la imagen final de",
+            "start": 0,
+            "end": 2.345
+          },
+          {
+            "text": "esa historia: no un Jesús apurado ni distraído,",
+            "start": 2.403,
+            "end": 5.782
+          },
+          {
+            "text": "sino uno que se toma su tiempo para bendecir",
+            "start": 5.898,
+            "end": 8.348
+          },
+          {
+            "text": "a cada niño, sin saltar a ninguno,",
+            "start": 8.394,
+            "end": 10.704
+          },
+          {
+            "text": "sin apurar el abrazo.",
+            "start": 10.762,
+            "end": 12.086
+          },
+          {
+            "text": "Esa misma paciencia, esa misma atención completa,",
+            "start": 12.121,
+            "end": 15.58
+          },
+          {
+            "text": "es la que se puede sentir esta noche antes de",
+            "start": 15.65,
+            "end": 17.902
+          },
+          {
+            "text": "cerrar los ojos.",
+            "start": 17.937,
+            "end": 19.179
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-5.mp3",
+        "cues": [
+          {
+            "text": "Quizás hoy hubo un momento en que alguien no",
+            "start": 0,
+            "end": 2.078
+          },
+          {
+            "text": "tuvo tiempo para escuchar,",
+            "start": 2.125,
+            "end": 3.553
+          },
+          {
+            "text": "o pareció distraído justo cuando hacía falta",
+            "start": 3.704,
+            "end": 6.316
+          },
+          {
+            "text": "su atención. Eso pasa,",
+            "start": 6.362,
+            "end": 8.313
+          },
+          {
+            "text": "los adultos también se cansan y a veces se apuran",
+            "start": 8.429,
+            "end": 11.18
+          },
+          {
+            "text": "de más. Pero la promesa de este pasaje sigue",
+            "start": 11.227,
+            "end": 14.28
+          },
+          {
+            "text": "firme: siempre hay un lugar reservado,",
+            "start": 14.35,
+            "end": 16.799
+          },
+          {
+            "text": "con los brazos abiertos,",
+            "start": 16.834,
+            "end": 18.343
+          },
+          {
+            "text": "esperando sin apuro y sin condiciones.",
+            "start": 18.378,
+            "end": 20.99
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-dejen-que-los-ninos-vengan-6.mp3",
+        "cues": [
+          {
+            "text": "Si pudieras acercarte a Jesús esta noche como",
+            "start": 0,
+            "end": 2.531
+          },
+          {
+            "text": "esos niños de la historia,",
+            "start": 2.577,
+            "end": 4.005
+          },
+          {
+            "text": "sin apuro y sin que nadie te dijera que no,",
+            "start": 4.063,
+            "end": 6.838
+          },
+          {
+            "text": "¿qué te gustaría contarle sobre tu día?",
+            "start": 6.861,
+            "end": 9.195
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-manana-regla-de-oro": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:49:41.142Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-0.mp3",
+        "cues": [
+          {
+            "text": "En el Evangelio de Lucas,",
+            "start": 0,
+            "end": 1.521
+          },
+          {
+            "text": "Jesús resume en una sola frase algo que ayuda",
+            "start": 1.556,
+            "end": 4.737
+          },
+          {
+            "text": "a llevarse bien con casi cualquier persona,",
+            "start": 4.772,
+            "end": 7.639
+          },
+          {
+            "text": "en cualquier lugar: traten a los demás como quieren",
+            "start": 7.697,
+            "end": 10.844
+          },
+          {
+            "text": "que los traten a ustedes.",
+            "start": 10.902,
+            "end": 12.341
+          },
+          {
+            "text": "Es una frase corta, fácil de recordar incluso",
+            "start": 12.388,
+            "end": 15.581
+          },
+          {
+            "text": "de memoria, pero que pide algo grande y no siempre",
+            "start": 15.639,
+            "end": 18.669
+          },
+          {
+            "text": "fácil: pensar primero en el otro antes de actuar.",
+            "start": 18.727,
+            "end": 22.384
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-1.mp3",
+        "cues": [
+          {
+            "text": "No dice traten bien solo a quien los trata bien",
+            "start": 0,
+            "end": 3.042
+          },
+          {
+            "text": "a ustedes, porque eso,",
+            "start": 3.123,
+            "end": 4.853
+          },
+          {
+            "text": "aclara Jesús, hasta las personas menos generosas",
+            "start": 4.923,
+            "end": 8.429
+          },
+          {
+            "text": "lo hacen sin esfuerzo.",
+            "start": 8.58,
+            "end": 10.286
+          },
+          {
+            "text": "La idea va mucho más allá de devolver favores:",
+            "start": 10.67,
+            "end": 13.827
+          },
+          {
+            "text": "se trata de elegir la amabilidad primero,",
+            "start": 13.978,
+            "end": 16.8
+          },
+          {
+            "text": "sin esperar a ver qué hace el otro antes,",
+            "start": 16.869,
+            "end": 19.458
+          },
+          {
+            "text": "incluso cuando nadie está mirando ni va a enterarse.",
+            "start": 19.516,
+            "end": 22.755
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-2.mp3",
+        "cues": [
+          {
+            "text": "Hoy, antes de reaccionar frente a algo que puede",
+            "start": 0,
+            "end": 2.868
+          },
+          {
+            "text": "molestar —un empujón sin querer,",
+            "start": 2.914,
+            "end": 5.236
+          },
+          {
+            "text": "una broma pesada, una pelea por un juguete o",
+            "start": 5.41,
+            "end": 8.591
+          },
+          {
+            "text": "por quién elige el juego,",
+            "start": 8.649,
+            "end": 10.182
+          },
+          {
+            "text": "un comentario que cae mal—",
+            "start": 10.333,
+            "end": 11.947
+          },
+          {
+            "text": "se puede hacer una pausa cortita,",
+            "start": 12.063,
+            "end": 14.129
+          },
+          {
+            "text": "de apenas un segundo,",
+            "start": 14.303,
+            "end": 16.033
+          },
+          {
+            "text": "y preguntarse: ¿me gustaría que me lo hicieran",
+            "start": 16.184,
+            "end": 19.226
+          },
+          {
+            "text": "así a mí? Esa pregunta,",
+            "start": 19.296,
+            "end": 21.304
+          },
+          {
+            "text": "tan simple y tan chiquita,",
+            "start": 21.351,
+            "end": 23.115
+          },
+          {
+            "text": "cambia por completo cómo se responde después.",
+            "start": 23.162,
+            "end": 26.192
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-3.mp3",
+        "cues": [
+          {
+            "text": "Esta regla también funciona al revés,",
+            "start": 0,
+            "end": 2.345
+          },
+          {
+            "text": "como recordatorio para cuando uno mismo tiene",
+            "start": 2.392,
+            "end": 5.236
+          },
+          {
+            "text": "ganas de molestar a alguien o de dejarlo afuera",
+            "start": 5.283,
+            "end": 8.081
+          },
+          {
+            "text": "de un juego. Antes de hacerlo,",
+            "start": 8.139,
+            "end": 10.077
+          },
+          {
+            "text": "se puede pensar cómo se sentiría uno si le pasara",
+            "start": 10.194,
+            "end": 13.201
+          },
+          {
+            "text": "lo mismo, si fuera uno el que queda afuera,",
+            "start": 13.247,
+            "end": 15.918
+          },
+          {
+            "text": "el que recibe la broma,",
+            "start": 15.976,
+            "end": 17.334
+          },
+          {
+            "text": "o el que no es invitado.",
+            "start": 17.415,
+            "end": 18.878
+          },
+          {
+            "text": "Esa misma pregunta, mirada desde el otro lado,",
+            "start": 18.959,
+            "end": 22.048
+          },
+          {
+            "text": "ayuda a frenar antes de lastimar sin querer.",
+            "start": 22.117,
+            "end": 24.985
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-4.mp3",
+        "cues": [
+          {
+            "text": "Esta manera de tratar a los demás no depende",
+            "start": 0,
+            "end": 2.752
+          },
+          {
+            "text": "de que el otro la aplique primero.",
+            "start": 2.81,
+            "end": 4.656
+          },
+          {
+            "text": "Aunque alguien no sea amable,",
+            "start": 4.772,
+            "end": 6.444
+          },
+          {
+            "text": "uno puede elegir serlo igual,",
+            "start": 6.525,
+            "end": 8.603
+          },
+          {
+            "text": "sin esperar nada a cambio.",
+            "start": 8.684,
+            "end": 10.495
+          },
+          {
+            "text": "Con el tiempo, ese tipo de trato amable,",
+            "start": 10.542,
+            "end": 13.235
+          },
+          {
+            "text": "sostenido incluso cuando cuesta,",
+            "start": 13.293,
+            "end": 15.255
+          },
+          {
+            "text": "suele contagiarse y cambiar poco a poco la forma",
+            "start": 15.313,
+            "end": 18.646
+          },
+          {
+            "text": "en que un grupo entero se trata entre sí.",
+            "start": 18.669,
+            "end": 21.13
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-5.mp3",
+        "cues": [
+          {
+            "text": "En la escuela, en la casa,",
+            "start": 0,
+            "end": 1.881
+          },
+          {
+            "text": "en el equipo de deporte,",
+            "start": 1.927,
+            "end": 3.402
+          },
+          {
+            "text": "siempre hay alguien que puede empezar a cambiar",
+            "start": 3.518,
+            "end": 5.77
+          },
+          {
+            "text": "el clima del grupo con una sola decisión: tratar",
+            "start": 5.817,
+            "end": 8.893
+          },
+          {
+            "text": "bien primero, sin esperar a que otro dé el primer",
+            "start": 8.951,
+            "end": 11.598
+          },
+          {
+            "text": "paso. Esa persona puede ser cualquiera,",
+            "start": 11.68,
+            "end": 14.28
+          },
+          {
+            "text": "incluso un niño, incluso hoy mismo,",
+            "start": 14.327,
+            "end": 17.044
+          },
+          {
+            "text": "en cualquiera de esos lugares.",
+            "start": 17.078,
+            "end": 18.994
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-regla-de-oro-6.mp3",
+        "cues": [
+          {
+            "text": "Pensando en tu día de hoy,",
+            "start": 0,
+            "end": 1.707
+          },
+          {
+            "text": "en la escuela o en tu casa,",
+            "start": 1.741,
+            "end": 3.715
+          },
+          {
+            "text": "¿en qué momento vas a poder aplicar esa pregunta",
+            "start": 3.738,
+            "end": 6.56
+          },
+          {
+            "text": "tan simple: me gustaría que me lo hicieran a",
+            "start": 6.641,
+            "end": 9.16
+          },
+          {
+            "text": "mí?",
+            "start": 9.207,
+            "end": 9.66
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-noche-regla-de-oro": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:49:59.494Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-0.mp3",
+        "cues": [
+          {
+            "text": "Antes de dormir es un buen momento para repasar",
+            "start": 0,
+            "end": 2.508
+          },
+          {
+            "text": "con calma cómo tratamos a los demás durante el",
+            "start": 2.577,
+            "end": 5.236
+          },
+          {
+            "text": "día, sin culpa, solo para aprender un poco más.",
+            "start": 5.294,
+            "end": 8.835
+          },
+          {
+            "text": "Jesús, en el Evangelio de Lucas,",
+            "start": 9.044,
+            "end": 11.389
+          },
+          {
+            "text": "dejó una frase que sirve como espejo,",
+            "start": 11.459,
+            "end": 13.769
+          },
+          {
+            "text": "fácil de recordar cada noche: traten a los demás",
+            "start": 13.944,
+            "end": 17.043
+          },
+          {
+            "text": "como quieren que los traten a ustedes.",
+            "start": 17.101,
+            "end": 19.319
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-1.mp3",
+        "cues": [
+          {
+            "text": "Esa frase no busca hacer sentir mal a nadie,",
+            "start": 0,
+            "end": 2.786
+          },
+          {
+            "text": "invita a pensar con honestidad.",
+            "start": 3.17,
+            "end": 5.201
+          },
+          {
+            "text": "No hace falta ser perfecto para intentarlo cada",
+            "start": 6.014,
+            "end": 8.777
+          },
+          {
+            "text": "día: alcanza con recordar,",
+            "start": 8.824,
+            "end": 11.204
+          },
+          {
+            "text": "antes de dormir, algún momento del día en que",
+            "start": 11.413,
+            "end": 14.733
+          },
+          {
+            "text": "se pudo elegir ser amable,",
+            "start": 14.791,
+            "end": 16.544
+          },
+          {
+            "text": "y con revisar con calma si eso fue realmente",
+            "start": 16.788,
+            "end": 19.993
+          },
+          {
+            "text": "lo que pasó, o si faltó un poco de esfuerzo en",
+            "start": 20.039,
+            "end": 22.849
+          },
+          {
+            "text": "ese instante.",
+            "start": 22.965,
+            "end": 24.01
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-2.mp3",
+        "cues": [
+          {
+            "text": "Y si hoy no salió del todo bien —si hubo un enojo",
+            "start": 0,
+            "end": 3.077
+          },
+          {
+            "text": "grande, una respuesta brusca,",
+            "start": 3.123,
+            "end": 5.224
+          },
+          {
+            "text": "un momento en que no se pensó en el otro y solo",
+            "start": 5.399,
+            "end": 8.127
+          },
+          {
+            "text": "se pensó en uno mismo—",
+            "start": 8.173,
+            "end": 9.659
+          },
+          {
+            "text": "no pasa absolutamente nada.",
+            "start": 9.729,
+            "end": 11.807
+          },
+          {
+            "text": "Mañana es una nueva oportunidad,",
+            "start": 12.19,
+            "end": 14.431
+          },
+          {
+            "text": "otra vez desde cero, para intentarlo de nuevo,",
+            "start": 14.605,
+            "end": 17.647
+          },
+          {
+            "text": "tratando a los demás exactamente como a uno le",
+            "start": 17.798,
+            "end": 20.63
+          },
+          {
+            "text": "gustaría ser tratado en esa misma situación.",
+            "start": 20.677,
+            "end": 23.637
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-3.mp3",
+        "cues": [
+          {
+            "text": "Esta frase de Jesús no distingue entre amigos",
+            "start": 0,
+            "end": 3.135
+          },
+          {
+            "text": "y desconocidos, ni entre quien cae bien y quien",
+            "start": 3.204,
+            "end": 6.084
+          },
+          {
+            "text": "cae mal. Vale para todos por igual: el hermano",
+            "start": 6.153,
+            "end": 9.81
+          },
+          {
+            "text": "con el que uno pelea seguido,",
+            "start": 9.88,
+            "end": 11.889
+          },
+          {
+            "text": "el compañero difícil de la clase,",
+            "start": 12.005,
+            "end": 14.362
+          },
+          {
+            "text": "hasta la persona que uno recién conoce.",
+            "start": 14.385,
+            "end": 16.963
+          },
+          {
+            "text": "Pensar en cómo a uno le gustaría ser tratado",
+            "start": 17.021,
+            "end": 19.714
+          },
+          {
+            "text": "ayuda a tratar mejor incluso a quien menos ganas",
+            "start": 19.795,
+            "end": 22.86
+          },
+          {
+            "text": "dan de tratar bien.",
+            "start": 22.93,
+            "end": 24.335
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-4.mp3",
+        "cues": [
+          {
+            "text": "No es necesario llevar la cuenta exacta de cuántas",
+            "start": 0,
+            "end": 2.914
+          },
+          {
+            "text": "veces se cumplió esta regla en el día,",
+            "start": 2.995,
+            "end": 5.283
+          },
+          {
+            "text": "como si fuera un examen para aprobar.",
+            "start": 5.317,
+            "end": 7.477
+          },
+          {
+            "text": "Se trata más bien de ir tomando conciencia,",
+            "start": 7.593,
+            "end": 10.217
+          },
+          {
+            "text": "poco a poco, noche tras noche,",
+            "start": 10.263,
+            "end": 12.527
+          },
+          {
+            "text": "de que cada trato con otra persona es una oportunidad",
+            "start": 12.585,
+            "end": 16.01
+          },
+          {
+            "text": "de practicar algo que,",
+            "start": 16.034,
+            "end": 17.392
+          },
+          {
+            "text": "con el tiempo, se vuelve más natural y menos",
+            "start": 17.427,
+            "end": 20.213
+          },
+          {
+            "text": "esforzado.",
+            "start": 20.283,
+            "end": 21.13
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-5.mp3",
+        "cues": [
+          {
+            "text": "Antes de dormir, conviene ser generoso con uno",
+            "start": 0,
+            "end": 2.914
+          },
+          {
+            "text": "mismo también. Si hoy costó aplicar esta regla,",
+            "start": 2.972,
+            "end": 6.478
+          },
+          {
+            "text": "mañana sigue siendo una nueva oportunidad,",
+            "start": 6.571,
+            "end": 9.172
+          },
+          {
+            "text": "sin castigo ni reproche de más.",
+            "start": 9.265,
+            "end": 11.343
+          },
+          {
+            "text": "Total la misma regla de oro también pide tratarse",
+            "start": 11.587,
+            "end": 14.652
+          },
+          {
+            "text": "a uno mismo con esa paciencia que se le pide",
+            "start": 14.698,
+            "end": 17.31
+          },
+          {
+            "text": "para con los demás, sin exigirse más de lo que",
+            "start": 17.357,
+            "end": 20.248
+          },
+          {
+            "text": "se le pediría a un amigo querido.",
+            "start": 20.294,
+            "end": 22.523
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-regla-de-oro-6.mp3",
+        "cues": [
+          {
+            "text": "Pensando en todo tu día,",
+            "start": 0,
+            "end": 1.498
+          },
+          {
+            "text": "desde la mañana hasta ahora,",
+            "start": 1.649,
+            "end": 3.32
+          },
+          {
+            "text": "sin apuro y con calma,",
+            "start": 3.379,
+            "end": 4.865
+          },
+          {
+            "text": "¿hubo algún momento en que trataste a alguien",
+            "start": 4.981,
+            "end": 7.477
+          },
+          {
+            "text": "tal como te gustaría que te trataran a ti mismo,",
+            "start": 7.593,
+            "end": 10.263
+          },
+          {
+            "text": "aunque haya sido un gesto chiquito?",
+            "start": 10.356,
+            "end": 12.353
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-manana-amense-los-unos-a-los-otros": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:17.695Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-0.mp3",
+        "cues": [
+          {
+            "text": "En el Evangelio de Juan,",
+            "start": 0,
+            "end": 1.521
+          },
+          {
+            "text": "durante la última cena que compartió con sus",
+            "start": 1.579,
+            "end": 4.075
+          },
+          {
+            "text": "amigos más cercanos, sabiendo que se acercaba",
+            "start": 4.133,
+            "end": 7.07
+          },
+          {
+            "text": "un momento difícil, Jesús les deja un mandamiento",
+            "start": 7.117,
+            "end": 10.159
+          },
+          {
+            "text": "nuevo: que se amen los unos a los otros,",
+            "start": 10.217,
+            "end": 12.875
+          },
+          {
+            "text": "así como yo los he amado.",
+            "start": 12.945,
+            "end": 14.64
+          },
+          {
+            "text": "No pide solamente llevarse bien o no pelear,",
+            "start": 14.698,
+            "end": 17.763
+          },
+          {
+            "text": "pide amar de verdad, del mismo modo profundo",
+            "start": 17.798,
+            "end": 20.654
+          },
+          {
+            "text": "en que él mismo amaba a cada uno.",
+            "start": 20.701,
+            "end": 22.895
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-1.mp3",
+        "cues": [
+          {
+            "text": "Y aclara algo importante,",
+            "start": 0,
+            "end": 1.579
+          },
+          {
+            "text": "casi como una señal secreta: en eso,",
+            "start": 1.753,
+            "end": 4.551
+          },
+          {
+            "text": "dice, van a reconocer que son mis seguidores,",
+            "start": 4.702,
+            "end": 8.022
+          },
+          {
+            "text": "en que se tienen amor entre ustedes.",
+            "start": 8.15,
+            "end": 10.472
+          },
+          {
+            "text": "No en usar ciertas palabras especiales,",
+            "start": 10.797,
+            "end": 13.34
+          },
+          {
+            "text": "ni en hacer ciertos gestos religiosos,",
+            "start": 13.514,
+            "end": 16.022
+          },
+          {
+            "text": "sino en cómo se tratan de verdad,",
+            "start": 16.196,
+            "end": 18.216
+          },
+          {
+            "text": "todos los días, incluso en los momentos en que",
+            "start": 18.332,
+            "end": 21.072
+          },
+          {
+            "text": "no es nada fácil hacerlo.",
+            "start": 21.142,
+            "end": 23.081
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-2.mp3",
+        "cues": [
+          {
+            "text": "Amar así no es solo sentir cariño cuando todo",
+            "start": 0,
+            "end": 2.612
+          },
+          {
+            "text": "va bien y nadie molesta.",
+            "start": 2.67,
+            "end": 4.307
+          },
+          {
+            "text": "Es elegir ser paciente con un hermano que fastidia",
+            "start": 4.423,
+            "end": 7.477
+          },
+          {
+            "text": "sin parar, compartir algo aunque cueste un poco",
+            "start": 7.535,
+            "end": 10.379
+          },
+          {
+            "text": "soltarlo, perdonar rápido después de una pelea",
+            "start": 10.426,
+            "end": 13.351
+          },
+          {
+            "text": "sin guardar rencor. Ese tipo de amor se construye",
+            "start": 13.41,
+            "end": 16.405
+          },
+          {
+            "text": "poquito a poco, con decisiones chiquitas repetidas",
+            "start": 16.475,
+            "end": 19.679
+          },
+          {
+            "text": "cada día, no solo con sentimientos que van y",
+            "start": 19.737,
+            "end": 22.233
+          },
+          {
+            "text": "vienen.",
+            "start": 22.28,
+            "end": 22.848
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-3.mp3",
+        "cues": [
+          {
+            "text": "Jesús no dijo amen solo a quienes son fáciles",
+            "start": 0,
+            "end": 3.111
+          },
+          {
+            "text": "de amar, ni amen únicamente cuando tengan ganas.",
+            "start": 3.17,
+            "end": 6.85
+          },
+          {
+            "text": "Dijo que se amaran como él amó,",
+            "start": 6.943,
+            "end": 8.975
+          },
+          {
+            "text": "y él amó incluso a quienes lo trataron mal,",
+            "start": 9.091,
+            "end": 11.738
+          },
+          {
+            "text": "incluso en los momentos más difíciles.",
+            "start": 11.819,
+            "end": 14.512
+          },
+          {
+            "text": "Eso da una pista clara: el amor de verdad no",
+            "start": 14.594,
+            "end": 17.798
+          },
+          {
+            "text": "depende del humor del día,",
+            "start": 17.856,
+            "end": 19.47
+          },
+          {
+            "text": "es una decisión que se puede tomar aunque cueste,",
+            "start": 19.528,
+            "end": 22.546
+          },
+          {
+            "text": "una y otra vez.",
+            "start": 22.663,
+            "end": 24.195
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-4.mp3",
+        "cues": [
+          {
+            "text": "Este mandamiento nuevo no vino con una lista",
+            "start": 0,
+            "end": 2.45
+          },
+          {
+            "text": "de excepciones ni de condiciones especiales.",
+            "start": 2.508,
+            "end": 5.375
+          },
+          {
+            "text": "Se aplica en la casa,",
+            "start": 5.584,
+            "end": 6.966
+          },
+          {
+            "text": "con hermanos y padres,",
+            "start": 7.024,
+            "end": 8.649
+          },
+          {
+            "text": "en la escuela, con compañeros y maestros,",
+            "start": 8.696,
+            "end": 11.447
+          },
+          {
+            "text": "y también con quien todavía no se conoce bien.",
+            "start": 11.494,
+            "end": 14.419
+          },
+          {
+            "text": "Empezar el día con esa idea en la cabeza ayuda",
+            "start": 14.628,
+            "end": 17.484
+          },
+          {
+            "text": "a elegir el amor primero,",
+            "start": 17.507,
+            "end": 18.947
+          },
+          {
+            "text": "antes que el enojo o la indiferencia.",
+            "start": 19.063,
+            "end": 21.501
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-5.mp3",
+        "cues": [
+          {
+            "text": "Se puede pensar en este mandamiento como una",
+            "start": 0,
+            "end": 2.438
+          },
+          {
+            "text": "brújula para todo el día: cada vez que aparezca",
+            "start": 2.485,
+            "end": 5.492
+          },
+          {
+            "text": "la duda de cómo actuar frente a alguien,",
+            "start": 5.538,
+            "end": 7.953
+          },
+          {
+            "text": "la pregunta que sirve de guía es simple,",
+            "start": 8.069,
+            "end": 10.53
+          },
+          {
+            "text": "¿esto que estoy por hacer se parece al amor con",
+            "start": 10.809,
+            "end": 13.259
+          },
+          {
+            "text": "el que Jesús ama? Esa sola pregunta ayuda a elegir",
+            "start": 13.328,
+            "end": 17.334
+          },
+          {
+            "text": "mejor, una y otra vez,",
+            "start": 17.392,
+            "end": 19.029
+          },
+          {
+            "text": "sin necesidad de reglas más complicadas.",
+            "start": 19.122,
+            "end": 21.734
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-amense-los-unos-a-los-otros-6.mp3",
+        "cues": [
+          {
+            "text": "Hoy vas a tener varias oportunidades de elegir",
+            "start": 0,
+            "end": 2.74
+          },
+          {
+            "text": "amar con hechos concretos,",
+            "start": 2.786,
+            "end": 4.516
+          },
+          {
+            "text": "no solo con palabras bonitas.",
+            "start": 4.69,
+            "end": 6.687
+          },
+          {
+            "text": "¿Con quién te gustaría intentarlo primero,",
+            "start": 6.838,
+            "end": 9.16
+          },
+          {
+            "text": "ni bien tengas la ocasión?",
+            "start": 9.276,
+            "end": 11.099
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-noche-amense-los-unos-a-los-otros": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:35.802Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-0.mp3",
+        "cues": [
+          {
+            "text": "Antes de cerrar el día es lindo volver a algo",
+            "start": 0,
+            "end": 2.682
+          },
+          {
+            "text": "que Jesús dijo en una de las noches más importantes",
+            "start": 2.728,
+            "end": 6.072
+          },
+          {
+            "text": "de su vida, compartiendo la última cena con sus",
+            "start": 6.107,
+            "end": 8.882
+          },
+          {
+            "text": "amigos más cercanos, sabiendo bien lo que se",
+            "start": 8.94,
+            "end": 11.517
+          },
+          {
+            "text": "avecinaba: les doy un mandamiento nuevo,",
+            "start": 11.54,
+            "end": 14.187
+          },
+          {
+            "text": "que se amen los unos a los otros,",
+            "start": 14.245,
+            "end": 16.231
+          },
+          {
+            "text": "como yo los he amado a ustedes.",
+            "start": 16.277,
+            "end": 18.437
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-1.mp3",
+        "cues": [
+          {
+            "text": "Ese amor, explicó con calma,",
+            "start": 0,
+            "end": 2.322
+          },
+          {
+            "text": "iba a ser la señal más clara de quiénes eran",
+            "start": 2.473,
+            "end": 5.283
+          },
+          {
+            "text": "sus seguidores de verdad: no un símbolo especial,",
+            "start": 5.341,
+            "end": 8.557
+          },
+          {
+            "text": "ni una palabra mágica,",
+            "start": 8.673,
+            "end": 10.24
+          },
+          {
+            "text": "sino el amor real y concreto entre ellos,",
+            "start": 10.356,
+            "end": 13.305
+          },
+          {
+            "text": "en lo cotidiano, en lo de todos los días.",
+            "start": 13.328,
+            "end": 16.324
+          },
+          {
+            "text": "Amar así no siempre es fácil,",
+            "start": 16.765,
+            "end": 18.797
+          },
+          {
+            "text": "sobre todo en un día largo,",
+            "start": 19.18,
+            "end": 20.887
+          },
+          {
+            "text": "cansado, o con algún roce que quedó sin resolver",
+            "start": 21.13,
+            "end": 24.602
+          },
+          {
+            "text": "del todo.",
+            "start": 24.671,
+            "end": 25.449
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-2.mp3",
+        "cues": [
+          {
+            "text": "Por eso, antes de dormir,",
+            "start": 0,
+            "end": 2.171
+          },
+          {
+            "text": "se puede pensar con calma y sin apuro: ¿logré",
+            "start": 2.287,
+            "end": 5.352
+          },
+          {
+            "text": "hoy amar con hechos, aunque sea en algo chiquito",
+            "start": 5.375,
+            "end": 8.173
+          },
+          {
+            "text": "y silencioso que nadie notó?",
+            "start": 8.22,
+            "end": 10.054
+          },
+          {
+            "text": "Y si en algún momento costó más de la cuenta,",
+            "start": 10.379,
+            "end": 13.084
+          },
+          {
+            "text": "si el cansancio ganó,",
+            "start": 13.142,
+            "end": 14.501
+          },
+          {
+            "text": "mañana siempre hay una nueva oportunidad para",
+            "start": 14.652,
+            "end": 17.369
+          },
+          {
+            "text": "decidir amar otra vez,",
+            "start": 17.415,
+            "end": 18.831
+          },
+          {
+            "text": "un poquito mejor que hoy,",
+            "start": 18.959,
+            "end": 20.352
+          },
+          {
+            "text": "sin necesidad de ser perfecto.",
+            "start": 20.434,
+            "end": 22.431
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-3.mp3",
+        "cues": [
+          {
+            "text": "Amar no siempre se siente como algo lindo o cómodo.",
+            "start": 0,
+            "end": 3.379
+          },
+          {
+            "text": "A veces se parece más a aguantar un enojo sin",
+            "start": 3.622,
+            "end": 6.536
+          },
+          {
+            "text": "contestar mal, a ceder en algo que uno quería",
+            "start": 6.594,
+            "end": 9.543
+          },
+          {
+            "text": "para sí mismo, o a acompañar a alguien en un",
+            "start": 9.601,
+            "end": 12.388
+          },
+          {
+            "text": "mal momento sin saber bien qué decir.",
+            "start": 12.446,
+            "end": 15.082
+          },
+          {
+            "text": "Todo eso también es amor,",
+            "start": 15.233,
+            "end": 17.032
+          },
+          {
+            "text": "del mismo tipo que Jesús pidió esa noche a sus",
+            "start": 17.102,
+            "end": 19.76
+          },
+          {
+            "text": "amigos más cercanos.",
+            "start": 19.819,
+            "end": 21.502
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-4.mp3",
+        "cues": [
+          {
+            "text": "Esta noche, antes de dormir,",
+            "start": 0,
+            "end": 1.916
+          },
+          {
+            "text": "también se puede recordar que el amor no es solo",
+            "start": 2.032,
+            "end": 4.748
+          },
+          {
+            "text": "tarea de uno. Los demás también están tratando",
+            "start": 4.807,
+            "end": 7.546
+          },
+          {
+            "text": "de amar, muchas veces sin decirlo,",
+            "start": 7.605,
+            "end": 9.683
+          },
+          {
+            "text": "con gestos chiquitos que a veces pasan desapercibidos:",
+            "start": 9.718,
+            "end": 12.922
+          },
+          {
+            "text": "un abrazo, una ayuda con la tarea,",
+            "start": 13.003,
+            "end": 15.394
+          },
+          {
+            "text": "una paciencia extra en un momento difícil del",
+            "start": 15.51,
+            "end": 18.285
+          },
+          {
+            "text": "día.",
+            "start": 18.355,
+            "end": 18.947
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-5.mp3",
+        "cues": [
+          {
+            "text": "Cerrar los ojos pensando en ese mandamiento nuevo",
+            "start": 0,
+            "end": 3.17
+          },
+          {
+            "text": "deja una sensación distinta a la de simplemente",
+            "start": 3.286,
+            "end": 6.327
+          },
+          {
+            "text": "repasar lo que salió bien o mal.",
+            "start": 6.385,
+            "end": 8.673
+          },
+          {
+            "text": "Es más bien una invitación tranquila para mañana:",
+            "start": 9.276,
+            "end": 12.109
+          },
+          {
+            "text": "seguir intentando amar como Jesús amó,",
+            "start": 12.26,
+            "end": 14.872
+          },
+          {
+            "text": "sin exigirse la perfección,",
+            "start": 14.954,
+            "end": 16.846
+          },
+          {
+            "text": "sabiendo que cada intento cuenta,",
+            "start": 16.904,
+            "end": 18.947
+          },
+          {
+            "text": "aunque sea imperfecto.",
+            "start": 19.028,
+            "end": 20.456
+          },
+          {
+            "text": "Esa misma noche, mientras la casa duerme en calma,",
+            "start": 20.491,
+            "end": 23.638
+          },
+          {
+            "text": "ese mandamiento sigue vigente,",
+            "start": 23.696,
+            "end": 25.704
+          },
+          {
+            "text": "esperando pacientemente a mañana para ponerse",
+            "start": 25.762,
+            "end": 28.653
+          },
+          {
+            "text": "otra vez en práctica.",
+            "start": 28.734,
+            "end": 30.186
+          }
+        ]
+      },
+      {
+        "url": "/lumo-audio/evangelio-noche-amense-los-unos-a-los-otros-6.mp3",
+        "cues": [
+          {
+            "text": "Repasando tu día completo,",
+            "start": 0,
+            "end": 1.695
+          },
+          {
+            "text": "con calma antes de dormir,",
+            "start": 1.73,
+            "end": 3.297
+          },
+          {
+            "text": "¿hubo un momento en que decidiste amar a alguien",
+            "start": 3.32,
+            "end": 5.898
+          },
+          {
+            "text": "con un gesto concreto,",
+            "start": 5.956,
+            "end": 7.338
+          },
+          {
+            "text": "aunque no tuvieras muchas ganas al principio",
+            "start": 7.384,
+            "end": 9.741
+          },
+          {
+            "text": "de hacerlo?",
+            "start": 9.787,
+            "end": 10.681
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-manana-pidan-y-se-les-dara": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:40.544Z",
+    "segments": [
+      {
+        "url": "/lumo-audio/evangelio-manana-pidan-y-se-les-dara-0.mp3",
+        "cues": [
+          {
+            "text": "En el Evangelio de Mateo,",
+            "start": 0,
+            "end": 1.579
+          },
+          {
+            "text": "Jesús anima a quienes lo escuchan a acercarse",
+            "start": 1.602,
+            "end": 4.005
+          },
+          {
+            "text": "a Dios sin miedo ni vergüenza,",
+            "start": 4.052,
+            "end": 5.886
+          },
+          {
+            "text": "como quien se acerca a alguien de mucha confianza:",
+            "start": 5.968,
+            "end": 8.719
+          },
+          {
+            "text": "pidan, y se les dará;",
+            "start": 8.835,
+            "end": 10.414
+          },
+          {
+            "text": "busquen, y encontrarán;",
+            "start": 10.565,
+            "end": 12.307
+          },
+          {
+            "text": "llamen, y se les abrirá la puerta.",
+            "start": 12.458,
+            "end": 14.652
+          },
+          {
+            "text": "Tres verbos simples, pedir,",
+            "start": 14.861,
+            "end": 16.939
+          },
+          {
+            "text": "buscar, llamar, que hablan todos de lo mismo:",
+            "start": 17.114,
+            "end": 20.55
+          },
+          {
+            "text": "animarse a acercarse sin dudar.",
+            "start": 20.666,
+            "end": 23.035
+          }
+        ]
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": "/lumo-audio/evangelio-manana-pidan-y-se-les-dara-6.mp3",
+        "cues": [
+          {
+            "text": "Si hoy pudieras pedirle a Dios una sola cosa,",
+            "start": 0,
+            "end": 2.694
+          },
+          {
+            "text": "sin vergüenza y con toda la confianza del mundo,",
+            "start": 2.81,
+            "end": 5.782
+          },
+          {
+            "text": "como quien habla con alguien que lo quiere de",
+            "start": 5.817,
+            "end": 7.837
+          },
+          {
+            "text": "verdad, ¿qué le pedirías?",
+            "start": 7.883,
+            "end": 9.752
+          }
+        ]
+      }
+    ]
+  },
+  "evangelio-noche-pidan-y-se-les-dara": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:41.344Z",
+    "segments": [
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      }
+    ]
+  },
+  "meditacion-calma-antes-de-dormir": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:41.999Z",
+    "segments": [
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      }
+    ]
+  },
+  "meditacion-miedo-a-la-oscuridad": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:42.837Z",
+    "segments": [
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      }
+    ]
+  },
+  "meditacion-gratitud-del-dia": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:43.611Z",
+    "segments": [
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      }
+    ]
+  },
+  "meditacion-paz-cuando-estoy-nervioso": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:44.298Z",
+    "segments": [
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      }
+    ]
+  },
+  "meditacion-descansar-en-el-amor-de-dios": {
+    "provider": "elevenlabs",
+    "generatedAt": "2026-07-28T15:50:45.345Z",
+    "segments": [
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      },
+      {
+        "url": null,
+        "cues": []
+      }
+    ]
   }
 }

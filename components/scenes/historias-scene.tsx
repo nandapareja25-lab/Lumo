@@ -23,7 +23,7 @@ export function HistoriasScene() {
           style={{ transformOrigin: "50px 42px" }}
           transition={{ duration: 4, repeat: reduceMotion ? 0 : Infinity, ease: "easeInOut" }}
         >
-          <path d="M50 30 L28 36 L28 46 L50 40 Z" fill="#2A1F17" />
+          <path d="M50 30 L28 36 L28 46 L50 40 Z" fill="#2D2A26" />
           <path d="M50 30 L72 36 L72 46 L50 40 Z" fill="#3A2A1E" />
         </motion.g>
 

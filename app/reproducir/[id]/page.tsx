@@ -4,7 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
-import { BookOpen, Check, Heart, Pause, Play, SkipBack, SkipForward, X } from "lucide-react";
+import { BookOpen, Check, Heart, Pause, Play, RotateCcw, RotateCw, SkipForward, X } from "lucide-react";
 import { CONTENT, getContent } from "@/lib/content-catalog";
 import { EpisodeIllustration } from "@/components/app/episode-illustration";
 import {
@@ -19,7 +19,6 @@ import {
   readApp,
   saveProgress,
 } from "@/lib/app-data";
-import { getStory } from "@/lib/story-catalog";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
 import { VoiceRecorder } from "@/components/app/voice-recorder";
 import type { AudioSegment } from "@/app/api/content-audio/route";
@@ -51,11 +50,23 @@ export default function ReproducirPage() {
   const router = useRouter();
   const content = getContent(id);
   const isOracion = content?.contentType === "oracion";
+  const isEvangelio = content?.contentType === "evangelio";
+  const isMeditacion = content?.contentType === "meditacion";
+  const gateType = isOracion ? "oracion" : isEvangelio ? "evangelio" : isMeditacion ? "meditacion" : "historia";
+  const kindLabel = isOracion
+    ? "Oración guiada"
+    : isEvangelio
+      ? "Evangelio del día"
+      : isMeditacion
+        ? "Meditación guiada"
+        : "Historia narrada";
 
   const [index, setIndex] = useState(0);
   const [playing, setPlaying] = useState(true);
   const [audioSegments, setAudioSegments] = useState<AudioSegment[] | null | undefined>(undefined);
   const [cueText, setCueText] = useState("");
+  const [currentTime, setCurrentTime] = useState(0);
+  const [tab, setTab] = useState<"narracion" | "leer" | "actividades">("narracion");
   const [finished, setFinished] = useState(false);
   const [audioLibrary, setAudioLibrary] = useState<AudioLibrary | null>(null);
   const [prayerSaid, setPrayerSaid] = useState(false);
@@ -201,11 +212,39 @@ export default function ReproducirPage() {
   const reflection = content?.segments.find((s) => s.role === "guia-cierre")?.caption;
 
   // A dónde vuelve el usuario al cerrar — cada tipo de contenido tiene su propia pantalla de origen.
-  const exitHref = isOracion ? "/app/orar" : `/app/historia/${id}`;
+  const exitHref = isOracion
+    ? "/app/orar"
+    : isEvangelio || isMeditacion
+      ? "/app"
+      : `/app/historia/${id}`;
 
   function formatMinutes(seconds: number) {
     const minutes = Math.max(1, Math.round(seconds / 60));
     return `${minutes} min`;
+  }
+
+  function formatClock(seconds: number) {
+    const total = Math.max(0, Math.round(seconds));
+    const m = Math.floor(total / 60);
+    const s = total % 60;
+    return `${m}:${String(s).padStart(2, "0")}`;
+  }
+
+  // Duración de cada segmento estimada por el último cue (no hay duration explícito en el
+  // registro de audio) — alcanza para una barra de progreso continua entre segmentos.
+  const segmentDurations = useMemo(
+    () => (audioSegments ?? []).map((s) => (s.cues.length ? s.cues[s.cues.length - 1].end : 0)),
+    [audioSegments],
+  );
+  const totalDuration = segmentDurations.reduce((a, b) => a + b, 0);
+  const elapsedBeforeSegment = segmentDurations.slice(0, index).reduce((a, b) => a + b, 0);
+  const elapsed = elapsedBeforeSegment + currentTime;
+
+  function seek(deltaSeconds: number) {
+    const audio = audioRef.current;
+    if (!audio) return;
+    const segmentDuration = segmentDurations[index] || audio.duration || 0;
+    audio.currentTime = Math.min(Math.max(audio.currentTime + deltaSeconds, 0), segmentDuration);
   }
 
   function handleMarkPrayerSaid() {
@@ -216,21 +255,21 @@ export default function ReproducirPage() {
 
   if (!content || !scene) {
     return (
-      <main className="flex min-h-dvh items-center justify-center bg-[#FAF3EE] px-4 text-center">
-        <p className="text-[#6B5A4A]">No encontramos este contenido.</p>
+      <main className="flex min-h-dvh items-center justify-center bg-[#FDFCF9] px-4 text-center">
+        <p className="text-[#5A564F]">No encontramos este contenido.</p>
       </main>
     );
   }
 
   if (appState === undefined) {
-    return <main className="min-h-dvh bg-[#FAF3EE]" />;
+    return <main className="min-h-dvh bg-[#FDFCF9]" />;
   }
 
   // Onboarding → Home → una historia completa, gratis. Cualquier otra historia, o cualquier
   // oración, requiere Paywall — salvo que ya sea suscriptora o ya la hayan vivido antes.
-  if (isGated(appState, content.id, isOracion ? "oracion" : "historia")) {
+  if (isGated(appState, content.id, gateType)) {
     return (
-      <main className="relative flex min-h-dvh flex-col overflow-hidden bg-[#100B08]">
+      <main className="relative flex min-h-dvh flex-col overflow-hidden bg-[#1A1836]">
         <EpisodeIllustration
           content={content}
           segmentIndex={0}
@@ -241,7 +280,7 @@ export default function ReproducirPage() {
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(0deg, #100B08 0%, rgba(16,11,8,0.6) 45%, rgba(16,11,8,0.25) 100%)",
+              "linear-gradient(0deg, #1A1836 0%, rgba(16,11,8,0.6) 45%, rgba(16,11,8,0.25) 100%)",
           }}
         />
         <button
@@ -252,8 +291,8 @@ export default function ReproducirPage() {
           <X className="h-5 w-5" />
         </button>
         <div className="relative z-10 mt-auto flex flex-col items-center gap-3 px-6 pb-14 text-center">
-          <span className="text-xs font-semibold uppercase tracking-wide text-[#F3C878]">
-            {isOracion ? "Oración guiada" : "Historia narrada"}
+          <span className="text-xs font-semibold uppercase tracking-wide text-[#F7C948]">
+            {kindLabel}
           </span>
           <h1 className="font-heading text-xl font-medium text-white text-balance">{content.title}</h1>
           <p className="max-w-xs text-sm text-[#C9BBA3] text-balance">
@@ -263,8 +302,8 @@ export default function ReproducirPage() {
           </p>
           <Link
             href="/paywall"
-            className="flex h-14 w-full max-w-xs items-center justify-center rounded-full text-base font-semibold text-[#1F1712]"
-            style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+            className="flex h-14 w-full max-w-xs items-center justify-center rounded-full text-base font-semibold text-[#2D2A26]"
+            style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)" }}
           >
             Ver planes
           </Link>
@@ -275,6 +314,7 @@ export default function ReproducirPage() {
 
   function handleTimeUpdate() {
     const time = audioRef.current?.currentTime ?? 0;
+    setCurrentTime(time);
 
     // Progreso real — guardado cada ~4s, no en cada tick de timeupdate (evita escrituras
     // excesivas a localStorage). Se borra al terminar de verdad (ver goNext/onEnded más abajo).
@@ -313,7 +353,7 @@ export default function ReproducirPage() {
 
   // Todavía cargando el registro de audio — evita mostrar "pendiente" por un instante falso.
   if (audioSegments === undefined) {
-    return <main className="min-h-dvh bg-[#FAF3EE]" />;
+    return <main className="min-h-dvh bg-[#FDFCF9]" />;
   }
 
   if (!audioReady && !finished) {
@@ -321,14 +361,14 @@ export default function ReproducirPage() {
     // ni una pantalla rota. Misma calidad visual que el reproductor: portada, título y duración,
     // más un mensaje que se siente como una promesa ("va a estar") en vez de un aviso de error.
     return (
-      <main className="relative flex min-h-dvh flex-col overflow-hidden bg-[#100B08]">
+      <main className="relative flex min-h-dvh flex-col overflow-hidden bg-[#1A1836]">
         <EpisodeIllustration
           content={content}
           segmentIndex={0}
           mood={content.segments[0].mood}
           className="absolute inset-0"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#100B08] via-[#100B08]/40 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1A1836] via-[#1A1836]/40 to-transparent" />
         <button
           onClick={() => router.push(exitHref)}
           aria-label="Cerrar"
@@ -337,8 +377,8 @@ export default function ReproducirPage() {
           <X className="h-5 w-5" />
         </button>
         <div className="relative z-10 mt-auto flex flex-col items-center gap-3 px-6 pb-14 text-center">
-          <span className="text-xs font-semibold uppercase tracking-wide text-[#F3C878]">
-            {isOracion ? "Oración guiada" : "Historia narrada"}
+          <span className="text-xs font-semibold uppercase tracking-wide text-[#F7C948]">
+            {kindLabel}
           </span>
           <h1 className="font-heading text-xl font-medium text-white text-balance">{content.title}</h1>
           <span className="rounded-full border border-[rgba(246,236,217,0.2)] bg-black/20 px-3 py-1 text-xs text-white/80 backdrop-blur-sm">
@@ -359,18 +399,18 @@ export default function ReproducirPage() {
     // diario (eso es propio de las historias) — solo un momento de silencio, la pregunta para
     // conversar y la posibilidad de marcar que la rezaron hoy.
     return (
-      <main className="flex min-h-dvh flex-col items-center justify-center gap-6 overflow-y-auto bg-[#FAF3EE] px-6 py-14 text-center text-[#2A1F17]">
-        <div className="h-3 w-3 rounded-full bg-[#B8791F] shadow-[0_0_18px_5px_rgba(184,121,31,0.35)]" />
+      <main className="flex min-h-dvh flex-col items-center justify-center gap-6 overflow-y-auto bg-[#FDFCF9] px-6 py-14 text-center text-[#2D2A26]">
+        <div className="h-3 w-3 rounded-full bg-[#B8912A] shadow-[0_0_18px_5px_rgba(184,121,31,0.35)]" />
 
         <div>
           <h1 className="font-heading text-2xl font-medium text-balance">{content.title}</h1>
           {content.passages.length > 0 && (
-            <p className="mt-2 text-xs text-[#6B5A4A]">Inspirado en {content.passages.join(" · ")}</p>
+            <p className="mt-2 text-xs text-[#5A564F]">Inspirado en {content.passages.join(" · ")}</p>
           )}
         </div>
 
         {reflection && (
-          <p className="max-w-xs font-heading text-[17px] italic leading-relaxed text-[#2A1F17]/90 text-balance">
+          <p className="max-w-xs font-heading text-[17px] italic leading-relaxed text-[#2D2A26]/90 text-balance">
             {reflection.split("\n\n")[0]}
           </p>
         )}
@@ -389,9 +429,9 @@ export default function ReproducirPage() {
           disabled={prayerSaid}
           className="mt-2 flex h-14 w-full max-w-sm items-center justify-center gap-2 rounded-full text-base font-semibold transition-colors disabled:opacity-90"
           style={{
-            background: prayerSaid ? "transparent" : "linear-gradient(180deg, #F3C878, #F0B860)",
+            background: prayerSaid ? "transparent" : "linear-gradient(180deg, #F7C948, #F5A300)",
             border: prayerSaid ? "1px solid rgba(42,31,23,0.22)" : "none",
-            color: prayerSaid ? "#2A1F17" : "#1F1712",
+            color: prayerSaid ? "#2D2A26" : "#2D2A26",
           }}
         >
           {prayerSaid ? (
@@ -405,7 +445,7 @@ export default function ReproducirPage() {
           )}
         </button>
 
-        <Link href="/app/orar" className="text-sm text-[#6B5A4A] underline underline-offset-4">
+        <Link href="/app/orar" className="text-sm text-[#5A564F] underline underline-offset-4">
           Volver a Orar
         </Link>
       </main>
@@ -437,25 +477,25 @@ export default function ReproducirPage() {
     }
 
     return (
-      <main className="flex min-h-dvh flex-col items-center gap-5 overflow-y-auto bg-[#FBF5EC] px-5 pb-10 pt-14 text-center text-[#1C1712]">
+      <main className="flex min-h-dvh flex-col items-center gap-5 overflow-y-auto bg-[#FDFCF9] px-5 pb-10 pt-14 text-center text-[#2D2A26]">
         <motion.div
           initial={{ scale: 0.6, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ type: "spring", stiffness: 260, damping: 18 }}
           className="rounded-full p-1"
-          style={{ boxShadow: "0 0 0 4px #FBF5EC, 0 0 24px 6px rgba(255,215,64,0.45)" }}
+          style={{ boxShadow: "0 0 0 4px #FDFCF9, 0 0 24px 6px rgba(255,215,64,0.45)" }}
         >
           <LumoPortrait pose="lumo-feliz" size={110} />
         </motion.div>
 
         <motion.div initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.1, duration: 0.4 }}>
-          <p className="text-caption font-heading font-semibold" style={{ color: "#B9860F" }}>
+          <p className="text-caption font-heading font-semibold" style={{ color: "#B8912A" }}>
             ¡Felicitaciones!
           </p>
           <h1 className="mt-1 font-heading text-2xl font-semibold text-balance">
             {isOracion ? "Oración completa" : "Historia completa"}
           </h1>
-          <p className="mt-1 text-[15px] text-[#6B5D4F] text-balance">{content.title}</p>
+          <p className="mt-1 text-[15px] text-[#5A564F] text-balance">{content.title}</p>
         </motion.div>
 
         <motion.div
@@ -467,14 +507,14 @@ export default function ReproducirPage() {
           <button
             onClick={handleShare}
             className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full text-sm font-semibold"
-            style={{ background: "rgba(184,121,31,0.08)", color: "#B8791F" }}
+            style={{ background: "rgba(184,121,31,0.08)", color: "#B8912A" }}
           >
             Compartir
           </button>
           <button
             onClick={() => setCelebrationSeen(true)}
             className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full text-sm font-semibold"
-            style={{ background: "linear-gradient(135deg, #FFD740, #F7C35C)", color: "#3A2705" }}
+            style={{ background: "linear-gradient(135deg, #F5B800, #F7C35C)", color: "#2D2A26" }}
           >
             Guardar momento
           </button>
@@ -488,10 +528,10 @@ export default function ReproducirPage() {
             className="w-full max-w-sm rounded-2xl bg-white p-4 text-left"
             style={{ boxShadow: "0 12px 30px -14px rgba(28,23,18,0.18)" }}
           >
-            <p className="text-caption font-semibold" style={{ color: "#B9860F" }}>
+            <p className="text-caption font-semibold" style={{ color: "#B8912A" }}>
               Lo que compartieron
             </p>
-            <p className="mt-2 text-[15px] leading-relaxed text-[#1C1712]">{content.description}</p>
+            <p className="mt-2 text-[15px] leading-relaxed text-[#2D2A26]">{content.description}</p>
           </motion.div>
         )}
 
@@ -503,10 +543,10 @@ export default function ReproducirPage() {
             className="w-full max-w-sm rounded-2xl bg-white p-4 text-left"
             style={{ boxShadow: "0 12px 30px -14px rgba(28,23,18,0.18)" }}
           >
-            <p className="text-caption font-semibold" style={{ color: "#B9860F" }}>
+            <p className="text-caption font-semibold" style={{ color: "#B8912A" }}>
               Para conversar
             </p>
-            <p className="mt-2 font-heading text-[15px] leading-relaxed text-[#1C1712]">
+            <p className="mt-2 font-heading text-[15px] leading-relaxed text-[#2D2A26]">
               {content.conversationQuestions[0]}
             </p>
           </motion.div>
@@ -521,14 +561,14 @@ export default function ReproducirPage() {
           <button
             onClick={handleReplay}
             className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full border text-sm font-semibold"
-            style={{ borderColor: "#ECDFCD", color: "#6B5D4F" }}
+            style={{ borderColor: "#EFEDE8", color: "#5A564F" }}
           >
             Escuchar de nuevo
           </button>
           <button
             onClick={() => router.push("/app")}
             className="flex h-12 flex-1 items-center justify-center gap-2 rounded-full border text-sm font-semibold"
-            style={{ borderColor: "#ECDFCD", color: "#6B5D4F" }}
+            style={{ borderColor: "#EFEDE8", color: "#5A564F" }}
           >
             Inicio
           </button>
@@ -545,12 +585,12 @@ export default function ReproducirPage() {
     if (momentSaved) {
       const milestone = momentSaved === "done" ? null : momentSaved;
       return (
-        <main className="flex min-h-dvh flex-col items-center justify-center gap-5 overflow-y-auto bg-[#FAF3EE] px-6 py-14 text-center text-[#2A1F17]">
+        <main className="flex min-h-dvh flex-col items-center justify-center gap-5 overflow-y-auto bg-[#FDFCF9] px-6 py-14 text-center text-[#2D2A26]">
           <LumoPortrait pose="lumo-feliz" size={milestone ? 150 : 110} />
           <h1 className="font-heading text-2xl font-medium text-balance">
             {milestone ? `¡Hito alcanzado: ${milestone.titulo}!` : "Este momento ya forma parte de su Diario."}
           </h1>
-          <p className="max-w-xs text-[15px] text-[#6B5A4A]">
+          <p className="max-w-xs text-[15px] text-[#5A564F]">
             {milestone ? milestone.detalle + "." : "Van a poder volver a encontrarlo cuando quieran."}
           </p>
 
@@ -561,16 +601,16 @@ export default function ReproducirPage() {
               style={{ boxShadow: "0 12px 30px -14px rgba(42,31,23,0.18)" }}
             >
               <span>
-                <span className="block text-xs text-[#6B5A4A]">Seguir escuchando</span>
+                <span className="block text-xs text-[#5A564F]">Seguir escuchando</span>
                 <span className="font-heading text-base font-medium">{related.title}</span>
               </span>
-              <SkipForward className="h-5 w-5 text-[#B8791F]" />
+              <SkipForward className="h-5 w-5 text-[#B8912A]" />
             </Link>
           )}
 
           <button
-            className="mt-2 h-14 w-full max-w-sm rounded-full text-base font-semibold text-[#1F1712]"
-            style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+            className="mt-2 h-14 w-full max-w-sm rounded-full text-base font-semibold text-[#2D2A26]"
+            style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)" }}
             onClick={() => router.push("/app")}
           >
             Volver al inicio
@@ -580,16 +620,16 @@ export default function ReproducirPage() {
     }
 
     return (
-      <main className="flex min-h-dvh flex-col items-center gap-5 overflow-y-auto bg-[#FAF3EE] px-6 pb-10 pt-14 text-center text-[#2A1F17]">
+      <main className="flex min-h-dvh flex-col items-center gap-5 overflow-y-auto bg-[#FDFCF9] px-6 pb-10 pt-14 text-center text-[#2D2A26]">
         {content.passages.length > 0 ? (
           <>
-            <BookOpen className="h-9 w-9 text-[#B8791F]" />
+            <BookOpen className="h-9 w-9 text-[#B8912A]" />
             <div>
-              <p className="text-sm text-[#6B5A4A]">Esta historia está basada en</p>
+              <p className="text-sm text-[#5A564F]">Esta historia está basada en</p>
               <h1 className="mt-1 font-heading text-2xl font-medium text-balance">
                 {content.passages.join(" · ")}
               </h1>
-              <p className="mt-3 max-w-xs text-sm text-[#6B5A4A] text-balance">
+              <p className="mt-3 max-w-xs text-sm text-[#5A564F] text-balance">
                 Esta historia está basada en las Escrituras. Te invitamos a leer el pasaje completo en familia.
               </p>
             </div>
@@ -598,7 +638,7 @@ export default function ReproducirPage() {
                 href={passageLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm font-semibold text-[#B8791F] underline underline-offset-4"
+                className="text-sm font-semibold text-[#B8912A] underline underline-offset-4"
               >
                 Leer el pasaje completo
               </a>
@@ -611,7 +651,7 @@ export default function ReproducirPage() {
         )}
 
         {reflection && (
-          <p className="max-w-sm font-heading text-[17px] italic leading-relaxed text-[#2A1F17]/90 text-balance">
+          <p className="max-w-sm font-heading text-[17px] italic leading-relaxed text-[#2D2A26]/90 text-balance">
             {reflection.split("\n\n")[0]}
           </p>
         )}
@@ -630,13 +670,13 @@ export default function ReproducirPage() {
         <div className="flex w-full max-w-sm gap-6 border-b border-[rgba(42,31,23,0.10)] pb-0 text-sm font-semibold">
           <button
             onClick={() => setMomentMode("voz")}
-            className={`border-b pb-2 transition-colors ${momentMode === "voz" ? "border-[#B8791F] text-[#2A1F17]" : "border-transparent text-[#6B5A4A]"}`}
+            className={`border-b pb-2 transition-colors ${momentMode === "voz" ? "border-[#B8912A] text-[#2D2A26]" : "border-transparent text-[#5A564F]"}`}
           >
             Con la voz
           </button>
           <button
             onClick={() => setMomentMode("texto")}
-            className={`border-b pb-2 transition-colors ${momentMode === "texto" ? "border-[#B8791F] text-[#2A1F17]" : "border-transparent text-[#6B5A4A]"}`}
+            className={`border-b pb-2 transition-colors ${momentMode === "texto" ? "border-[#B8912A] text-[#2D2A26]" : "border-transparent text-[#5A564F]"}`}
           >
             Escribiendo
           </button>
@@ -652,7 +692,7 @@ export default function ReproducirPage() {
               rows={4}
               placeholder="Escriban su respuesta…"
               autoFocus
-              className="w-full rounded-xl border border-[rgba(42,31,23,0.14)] bg-white p-3 text-sm text-[#2A1F17] outline-none placeholder:text-[#6B5A4A]/70 focus-visible:border-[#B8791F]"
+              className="w-full rounded-xl border border-[rgba(42,31,23,0.14)] bg-white p-3 text-sm text-[#2D2A26] outline-none placeholder:text-[#5A564F]/70 focus-visible:border-[#B8912A]"
             />
           )}
         </div>
@@ -660,12 +700,14 @@ export default function ReproducirPage() {
         <button
           disabled={!momentAnswer.trim() && !momentAudio}
           className="mt-2 h-14 w-full max-w-sm rounded-full text-base font-semibold disabled:opacity-40"
-          style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)", color: "#1F1712" }}
+          style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)", color: "#2D2A26" }}
           onClick={() => {
-            const story = getStory(id);
-            if (!story) return;
             const before = readApp().ritualNights;
-            completeStory(story, momentAnswer.trim(), momentAudio);
+            completeStory(
+              { id: content.id, title: content.title, reflectionQuestion: content.conversationQuestions[0] ?? "" },
+              momentAnswer.trim(),
+              momentAudio,
+            );
             const milestone = newlyReachedMilestone(before, before + 1);
             setMomentSaved(milestone ?? "done");
           }}
@@ -677,7 +719,10 @@ export default function ReproducirPage() {
   }
 
   return (
-    <main className="relative min-h-dvh overflow-hidden bg-[#100B08]">
+    <main
+      className="relative flex min-h-dvh flex-col items-center gap-5 overflow-y-auto px-5 pb-10 pt-6"
+      style={{ background: "var(--night-gradient)" }}
+    >
       <audio
         ref={audioRef}
         onTimeUpdate={handleTimeUpdate}
@@ -694,93 +739,113 @@ export default function ReproducirPage() {
       <audio ref={musicRef} />
       <audio ref={sfxRef} />
 
-      <EpisodeIllustration
-        content={content}
-        segmentIndex={index}
-        mood={scene.mood}
-        animated
-        className="absolute inset-0"
-      />
+      <div className="flex w-full max-w-sm items-center justify-end">
+        <button
+          onClick={() => {
+            audioRef.current?.pause();
+            musicRef.current?.pause();
+            router.push(exitHref);
+          }}
+          aria-label="Cerrar"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white"
+        >
+          <X className="h-5 w-5" />
+        </button>
+      </div>
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-black/40" />
-
-      <button
-        onClick={() => {
-          audioRef.current?.pause();
-          musicRef.current?.pause();
-          router.push(exitHref);
-        }}
-        aria-label="Cerrar"
-        className="absolute right-4 top-6 z-10 flex h-11 w-11 items-center justify-center rounded-full bg-black/30 text-white backdrop-blur-sm"
+      {/* Imagen dentro de una card con esquinas redondeadas — no a pantalla completa. */}
+      <div
+        className="relative aspect-[4/5] w-full max-w-sm shrink-0 overflow-hidden rounded-[28px]"
+        style={{ boxShadow: "0 20px 50px -20px rgba(0,0,0,0.5)" }}
       >
-        <X className="h-5 w-5" />
-      </button>
+        <EpisodeIllustration
+          content={content}
+          segmentIndex={index}
+          mood={scene.mood}
+          animated
+          className="absolute inset-0"
+        />
+      </div>
 
-      {isOracion ? (
-        // Progreso continuo, no por escenas — una oración es un solo momento que fluye, no una
-        // sucesión de escenas que "marcar" una por una.
-        <div className="absolute left-4 right-4 top-6 z-10 h-[3px] overflow-hidden rounded-full bg-white/20">
+      <div className="w-full max-w-sm text-center text-white">
+        <h1 className="font-heading text-h2 leading-snug text-balance">{content.title}</h1>
+        {content.passages.length > 0 && (
+          <p className="mt-1 text-[13px] text-white/60">{content.passages.join(" · ")}</p>
+        )}
+      </div>
+
+      <div className="w-full max-w-sm">
+        <div className="h-1.5 overflow-hidden rounded-full bg-white/15">
           <div
-            className="h-full rounded-full bg-[#F3C878] transition-[width] duration-500 ease-out"
-            style={{ width: `${((index + 1) / content.segments.length) * 100}%` }}
+            className="h-full rounded-full bg-[#F5B800] transition-[width] duration-300 ease-out"
+            style={{ width: totalDuration > 0 ? `${Math.min(100, (elapsed / totalDuration) * 100)}%` : "0%" }}
           />
         </div>
-      ) : (
-        <div className="absolute left-4 right-4 top-6 z-10 flex justify-center gap-1.5">
-          {content.segments.map((_, i) => (
-            <span
-              key={i}
-              className={`h-1 flex-1 rounded-full ${i <= index ? "bg-white" : "bg-white/30"}`}
-            />
-          ))}
+        <div className="mt-1.5 flex justify-between text-[11px] text-white/50">
+          <span>{formatClock(elapsed)}</span>
+          <span>{formatClock(totalDuration)}</span>
         </div>
-      )}
+      </div>
 
-      <div className="absolute inset-x-0 bottom-0 z-10 flex flex-col gap-6 px-6 pb-10">
-        <AnimatePresence mode="wait">
-          {cueText && (
-            <motion.p
-              key={cueText}
-              initial={{ opacity: 0, y: 6 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: isOracion ? 0.45 : 0.2 }}
-              className={
-                isOracion
-                  ? "text-center font-heading text-xl italic leading-relaxed text-white text-balance"
-                  : "text-center text-lg font-medium leading-snug text-white text-balance"
-              }
-            >
-              {cueText}
-            </motion.p>
-          )}
-        </AnimatePresence>
+      <div className="flex items-center justify-center gap-7">
+        <button
+          onClick={() => seek(-10)}
+          aria-label="Retroceder 10 segundos"
+          className="flex h-11 w-11 items-center justify-center rounded-full text-white/80"
+        >
+          <RotateCcw className="h-5 w-5" />
+        </button>
+        <button
+          onClick={() => setPlaying((p) => !p)}
+          aria-label={playing ? "Pausar" : "Reproducir"}
+          className="flex h-16 w-16 items-center justify-center rounded-full text-[#2D2A26]"
+          style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)", boxShadow: "var(--shadow-button)" }}
+        >
+          {playing ? <Pause className="h-6 w-6" /> : <Play className="h-6 w-6" />}
+        </button>
+        <button
+          onClick={() => seek(10)}
+          aria-label="Avanzar 10 segundos"
+          className="flex h-11 w-11 items-center justify-center rounded-full text-white/80"
+        >
+          <RotateCw className="h-5 w-5" />
+        </button>
+      </div>
 
-        <div className="flex items-center justify-center gap-6">
+      {/* Tabs — Narración (default), Leer (pasaje/texto real), Actividades (estado vacío honesto). */}
+      <div className="flex w-full max-w-sm justify-center gap-6 border-b border-white/10 pb-0 text-sm font-bold">
+        {(["narracion", "leer", "actividades"] as const).map((t) => (
           <button
-            onClick={goPrev}
-            disabled={index === 0}
-            aria-label="Escena anterior"
-            className="flex h-11 w-11 items-center justify-center rounded-full text-white/80 disabled:opacity-30"
+            key={t}
+            onClick={() => setTab(t)}
+            className={`border-b-2 pb-2.5 transition-colors ${
+              tab === t ? "border-[#F5B800] text-white" : "border-transparent text-white/50"
+            }`}
           >
-            <SkipBack className="h-5 w-5" />
+            {t === "narracion" ? "Narración" : t === "leer" ? "Leer" : "Actividades"}
           </button>
-          <button
-            onClick={() => setPlaying((p) => !p)}
-            aria-label={playing ? "Pausar" : "Reproducir"}
-            className="flex h-16 w-16 items-center justify-center rounded-full text-foreground"
-            style={isOracion ? { background: "linear-gradient(180deg, #F3C878, #F0B860)" } : { background: "#fff" }}
-          >
-            {playing ? <Pause className="h-6 w-6" /> : <Play className="h-6 w-6" />}
-          </button>
-          <button
-            onClick={goNext}
-            aria-label="Siguiente escena"
-            className="flex h-11 w-11 items-center justify-center rounded-full text-white/80"
-          >
-            <SkipForward className="h-5 w-5" />
-          </button>
-        </div>
+        ))}
+      </div>
+
+      <div className="w-full max-w-sm">
+        {tab === "leer" && (
+          <div className="rounded-[20px] bg-white/8 p-4 text-[14px] leading-relaxed text-white/85">
+            {passageLink && (
+              <a href={passageLink} target="_blank" rel="noopener noreferrer" className="mb-3 block font-bold text-[#F5B800] underline underline-offset-4">
+                Leer el pasaje completo
+              </a>
+            )}
+            <p className="whitespace-pre-line">{scene.caption}</p>
+          </div>
+        )}
+        {tab === "actividades" && (
+          <div className="flex flex-col items-center gap-2 rounded-[20px] bg-white/8 p-6 text-center">
+            <LumoPortrait pose="lumo-frontal" size={44} />
+            <p className="max-w-[26ch] text-[13px] text-white/70">
+              Todavía no hay actividades para esta historia. Muy pronto.
+            </p>
+          </div>
+        )}
       </div>
     </main>
   );

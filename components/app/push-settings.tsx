@@ -72,7 +72,7 @@ export function PushSettings() {
     >
       <div>
         <p className="font-heading text-base font-medium">Avisos de Lumo</p>
-        <p className="text-xs text-[#6B5A4A]">
+        <p className="text-xs text-[#5A564F]">
           Invitaciones tranquilas, nunca recordatorios insistentes. Pueden desactivarlas cuando quieran.
         </p>
       </div>
@@ -81,8 +81,8 @@ export function PushSettings() {
         <button
           onClick={enable}
           disabled={status === "loading" || status === "denied"}
-          className="self-start rounded-full px-4 py-2 text-sm font-semibold text-[#1F1712] disabled:opacity-50"
-          style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+          className="self-start rounded-full px-4 py-2 text-sm font-semibold text-[#2D2A26] disabled:opacity-50"
+          style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)" }}
         >
           {status === "loading"
             ? "Activando…"
@@ -96,13 +96,13 @@ export function PushSettings() {
             <label key={c.id} className="flex items-start justify-between gap-3 text-sm">
               <span>
                 <span className="font-medium">{c.label}</span>
-                <span className="block text-xs text-[#6B5A4A]">{c.description}</span>
+                <span className="block text-xs text-[#5A564F]">{c.description}</span>
               </span>
               <input
                 type="checkbox"
                 checked={preferences[c.id]}
                 onChange={() => togglePreference(c.id)}
-                className="mt-1 h-4 w-4 shrink-0 accent-[#E8A33D]"
+                className="mt-1 h-4 w-4 shrink-0 accent-[#F5B800]"
               />
             </label>
           ))}

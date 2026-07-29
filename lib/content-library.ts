@@ -17,7 +17,8 @@ export type CollectionId =
   | "reflexiones"
   | "afirmaciones"
   | "series-especiales"
-  | "evangelio-diario";
+  | "evangelio-diario"
+  | "meditaciones-guiadas";
 
 export type Collection = {
   id: CollectionId;
@@ -80,6 +81,15 @@ export const COLLECTIONS: Collection[] = [
       "Devocional corto atado a un pasaje del Evangelio, con reflexión breve conectada a la vida cotidiana. " +
       "Dos variantes por día — mañana (arranque/energía) y noche (cierre/calma) — no la misma pieza en ambos momentos.",
     contentType: "evangelio",
+    targetRange: "sin producir todavía",
+  },
+  {
+    id: "meditaciones-guiadas",
+    label: "Meditaciones",
+    description:
+      "Meditaciones guiadas de 8-12 minutos para relajarse antes de dormir — ritmo lento, pausas, " +
+      "respiración e imaginería sensorial, con la presencia de Dios como fondo de calma, no como lección.",
+    contentType: "meditacion",
     targetRange: "sin producir todavía",
   },
   {

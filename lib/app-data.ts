@@ -1,7 +1,7 @@
 "use client";
 
 import { readOnboarding } from "./onboarding-store";
-import { STORIES, Story, getStory } from "./story-catalog";
+import { STORIES, Story, StoryTag, getStory } from "./story-catalog";
 import { getContentByType } from "./content-catalog";
 
 /**
@@ -215,10 +215,25 @@ function safeIndex(dayIndex: number, length: number): number {
   return ((dayIndex % length) + length) % length;
 }
 
+/** Solo "valores" de FocusArea mapea hoy a un StoryTag real — "fe"/"gratitud"/"historias"/
+ * "musica"/"rutinas" se guardan igual (dato real, ver lib/onboarding-store.ts) pero no tienen
+ * tag/contenido propio todavía, así que caen con gracia a la rotación normal en vez de fabricar
+ * un filtro que no representa nada real. */
+const FOCUS_TO_STORY_TAG: Partial<Record<ReturnType<typeof readOnboarding>["focusArea"] & string, StoryTag>> = {
+  valores: "valores",
+};
+
+/** La Historia del Día rota entre TODAS las historias por defecto; si en el onboarding eligieron
+ * un "qué desea fortalecer" con tag real (arriba), rota solo entre las que tienen ese tag — mismo
+ * patrón que el filtro por `tone` de `todaysEvangelioId`, un uso real del dato guardado. */
 export function todaysStory(): Story {
   const state = readApp();
   const dayIndex = state.trialStartDate ? daysSince(state.trialStartDate) : 0;
-  return STORIES[safeIndex(dayIndex, STORIES.length)];
+  const focusArea = readOnboarding().focusArea;
+  const tag = focusArea ? FOCUS_TO_STORY_TAG[focusArea] : undefined;
+  const pool = tag ? STORIES.filter((s) => s.tags.includes(tag)) : STORIES;
+  const source = pool.length > 0 ? pool : STORIES;
+  return source[safeIndex(dayIndex, source.length)];
 }
 
 /** La Oración del Día — mismo criterio de rotación diaria que `todaysStory`. */
@@ -228,8 +243,18 @@ export function todaysPrayerId(state: AppState): string {
   return prayers[safeIndex(dayIndex, prayers.length)].id;
 }
 
+/** El Evangelio del Día — mismo pasaje rota una vez por día calendario (como `todaysStory`), y
+ * la variante de tono (mañana/noche) se elige según la hora local del dispositivo, no el día. */
+export function todaysEvangelioId(state: AppState): string {
+  const evangelios = getContentByType("evangelio");
+  const tone = new Date().getHours() < 18 ? "manana" : "noche";
+  const ofTone = evangelios.filter((e) => e.tone === tone);
+  const dayIndex = state.trialStartDate ? daysSince(state.trialStartDate) : 0;
+  return ofTone[safeIndex(dayIndex, ofTone.length)].id;
+}
+
 export function completeStory(
-  story: Story,
+  story: Pick<Story, "id" | "title" | "reflectionQuestion">,
   answer: string,
   audioUrl: string | null = null,
 ): AppState {
@@ -266,12 +291,19 @@ export function unlockAccess(): AppState {
  * Día están destrancadas, cambian cada día calendario. Al terminar la semana, incluso la Historia
  * del Día queda bloqueada y aparece Paywall. `hasAccess` (suscriptora) siempre desbloquea todo.
  */
-export function isGated(state: AppState, contentId: string, contentType: "historia" | "oracion"): boolean {
+export function isGated(
+  state: AppState,
+  contentId: string,
+  contentType: "historia" | "oracion" | "evangelio" | "meditacion",
+): boolean {
   if (state.hasAccess) return false;
+  // Evangelio del día es un gancho diario gratuito, sin candado — igual que el versículo del día.
+  if (contentType === "evangelio") return false;
   if (isTrialExpired(state)) return true;
   if (contentType === "historia") {
     return todaysStory().id !== contentId;
   }
+  if (contentType === "meditacion") return true;
   return todaysPrayerId(state) !== contentId;
 }
 

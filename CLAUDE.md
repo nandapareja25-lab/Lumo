@@ -165,7 +165,11 @@ elementos narrativos importantes; el gradient oscuro va ahí, de transparente a 
 
 ### 5.0 Lumo (personaje principal)
 
-Ficha completa en `characters/lumo.md`. Slug: `lumo`. Color de acento: `#FFD740`.
+> **Rebrand "Estrella" (2026-07-28):** Lumo pasa de luciérnaga a estrella sonriente — mismo
+> nombre, misma voz, misma personalidad, solo cambia el diseño ilustrado. Ver `characters/lumo.md`
+> para la ficha completa y la lista "NUNCA" vigente.
+
+Ficha completa en `characters/lumo.md`. Slug: `lumo`. Color de acento: `#F6C945`.
 
 ### 5.1 Character Card Format
 
@@ -292,20 +296,35 @@ jesus_circle_default_200x200.webp
 
 ### 9.1 Paleta de la UI (independiente de las ilustraciones)
 
+> **Rebrand "Estrella" (2026-07-28)** — reemplaza por completo la paleta "Vigilia"
+> (crema/dorado oscuro) de abajo. Fuente de verdad técnica: `app/globals.css` `:root`.
+
 ```
-BACKGROUND PRINCIPAL:  #FAF3EE  (crema cálido — NUNCA blanco puro #FFFFFF)
+BACKGROUND PRINCIPAL:  #FFFDF7  (blanco cálido — NUNCA blanco puro #FFFFFF)
 SURFACE / CARDS:       #FFFFFF  (blanco solo en cards, no en backgrounds)
-TEXTO PRIMARIO:        #1A1410  (casi negro cálido, nunca negro puro)
-TEXTO SECUNDARIO:      #6B5B52  (gris cálido)
-TEXTO MUTED:           #A89288  (para labels, captions)
+TEXTO PRIMARIO:        #10204A  (azul marino casi-negro, nunca negro puro)
+TEXTO SECUNDARIO:      #4A5578  (azul grisáceo)
+TEXTO MUTED:           #6B7189  (para labels, captions)
 
-ACENTO PRIMARIO:       #E8A33D  (dorado Lumo — ya en uso, se mantiene)
-ACENTO SECUNDARIO:     #B8791F  (dorado oscuro para texto sobre claro — ya en uso)
+ACENTO PRIMARIO:       #F6C945  (amarillo miel — color de Lumo)
+ACENTO SECUNDARIO:     #B8912A  (dorado oscuro para texto sobre claro)
+
+COLORES DE APOYO (jerarquía y categorías — nunca como fondo de pantalla completo):
+CELESTE:               #5BB9FF
+MENTA:                 #8EE4AF
+LAVANDA:               #B39DFF
 ```
 
-> **Regla:** el background crema `#FAF3EE` se usa en TODAS las pantallas de navegación
-> (reemplaza a `#FAFAF8`, usado hasta el 2026-07-22). Las ilustraciones traen su propio
-> color. La UI nunca compite.
+> **Regla:** el background blanco cálido `#FFFDF7` se usa en TODAS las pantallas de navegación.
+> Los 3 colores de apoyo (celeste/menta/lavanda) sirven para diferenciar categorías, chips y
+> estados — máximo estos 4 colores de acento en total, nunca "arcoíris" desordenado. Las
+> ilustraciones traen su propio color. La UI nunca compite.
+>
+> Paleta anterior "Vigilia" (histórica, ya no vigente):
+> ```
+> BACKGROUND: #FAF3EE · TEXTO PRIMARIO: #1A1410 · TEXTO SECUNDARIO: #6B5B52
+> TEXTO MUTED: #A89288 · ACENTO PRIMARIO: #E8A33D · ACENTO SECUNDARIO: #B8791F
+> ```
 
 ### 9.2 Border radius del sistema
 
@@ -378,3 +397,9 @@ en la UI principal.
 recortaron las keywords en inglés duplicadas (§2.4, §3.2) para que vivan en un solo lugar.
 Actualizar este archivo cuando se definan nuevos personajes, se cambien tokens de color, o se
 ajusten las reglas de producción.*
+
+*Versión 2.0 (2026-07-28) — Rebrand "Estrella": Lumo pasa de luciérnaga a estrella sonriente
+(§5.0, ficha completa reescrita en `characters/lumo.md`) y la paleta de UI cambia por completo
+a blanco cálido/azul marino/amarillo miel con celeste-menta-lavanda de apoyo (§9.1). Tipografía
+(§9.3) y radios (§9.2) sin cambios. Onboarding pasa de 2 a 6 pasos + pantalla final. La paleta
+"Vigilia" y el diseño de luciérnaga quedan descontinuados — no coexisten con este rebrand.*

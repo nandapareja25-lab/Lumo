@@ -36,7 +36,7 @@ export function SceneBackdrop({ children, className, height }: SceneBackdropProp
       style={{
         ...(height ? { height } : {}),
         background:
-          "radial-gradient(ellipse 90% 70% at 50% 30%, #2A1F17 0%, #140D0A 75%)",
+          "radial-gradient(ellipse 90% 70% at 50% 30%, #2D2A26 0%, #140D0A 75%)",
       }}
       aria-hidden="true"
     >

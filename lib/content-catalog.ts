@@ -3832,6 +3832,1163 @@ export const CONTENT: ContentItem[] = [
     ],
     conversationQuestions: ["¿Qué crees que hace falta para resolver un problema pensando primero en cuidar a los demás?"],
   },
+  {
+    id: "evangelio-manana-aves-del-cielo",
+    contentType: "evangelio",
+    title: "Ni un pajarito se le olvida",
+    subtitle: "Un motivo para no cargar solo con las preocupaciones de hoy",
+    description: "Un vistazo breve a Mateo 6:26 para empezar el día confiando en que Dios cuida de ti.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "manana",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 184,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Mateo 6:26"],
+    language: "es",
+    illustrationSlug: "evangelio-manana-aves-del-cielo",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En el Evangelio de Mateo, Jesús está hablando con un grupo grande de personas, en una colina, al aire libre. En un momento se detiene y señala algo que pasa todos los días delante de sus ojos, algo tan común que casi nadie se detiene a mirarlo: las aves. Miren las aves del cielo, les dice. No siembran, no cosechan, no guardan comida en graneros ni en despensas, y sin embargo el Padre que está en el cielo las alimenta cada día, sin que ellas hagan nada para asegurarlo.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Después hace una pregunta que suena simple, pero que cambia todo: ¿acaso ustedes no valen mucho más que ellas? Un pajarito no tiene forma de planear el desayuno de mañana, no puede guardar semillas para el invierno como una ardilla, y aun así amanece, canta, vuela de rama en rama, y termina encontrando su alimento. Si Dios se ocupa así de un ser tan pequeño y tan sencillo, ¿cuánto más se va a ocupar de un niño, que puede pensar, hablar, reír y contar lo que le pasa?",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Hoy, al empezar el día, puede que aparezcan preocupaciones grandes o chiquitas: una prueba difícil, un partido importante, algo nuevo que da un poco de nervios, un cambio que todavía no se entiende del todo. Está bien sentir eso, no hay nada de malo en preocuparse un poco. Pero antes de cargar con todo ese peso solo, en la cabeza, dando vueltas, se puede recordar a los pájaros de esta historia: hay Alguien que ya está cuidando el camino, incluso antes de que uno se levante de la cama esta mañana.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "No se trata de dejar de esforzarse, ni de quedarse sin hacer nada esperando que todo se resuelva solo. Los pájaros también se mueven, buscan, vuelan de un lado a otro durante el día. La diferencia está en cómo lo hacen: sin esa angustia pesada que a veces se instala en el pecho desde temprano. Se puede estudiar para la prueba, prepararse para el partido, animarse frente a lo nuevo, y aun así, en el fondo, sentir esa calma de saber que no todo depende únicamente de uno mismo.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Muchas veces la angustia de la mañana viene de imaginar lo peor antes de que pase, de anticipar problemas que ni siquiera existen todavía. Jesús invitaba a mirar el mundo de otra manera: con confianza, con la certeza de que el mismo cuidado que sostiene a un pájaro en pleno vuelo, sin que se caiga, sostiene también a cada persona en su día a día, aunque no siempre se note a simple vista.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Antes de salir a tu día, respira hondo un segundo y piensa en los pájaros que vuelan tranquilos ahí afuera. No hace falta resolver todo desde ya, ni cargar solo con cada preocupación. ¿Qué es una cosa de hoy que podrías soltar un poco, confiando en que va a estar bien?",
+      },
+    ],
+    conversationQuestions: ["Antes de salir a tu día, respira hondo un segundo y piensa en los pájaros que vuelan tranquilos ahí afuera. No hace falta resolver todo desde ya, ni cargar solo con cada preocupación. ¿Qué es una cosa de hoy que podrías soltar un poco, confiando en que va a estar bien?"],
+  },
+
+  {
+    id: "evangelio-noche-aves-del-cielo",
+    contentType: "evangelio",
+    title: "Como las aves, en paz",
+    subtitle: "Una manera tranquila de soltar las preocupaciones antes de dormir",
+    description: "Un cierre de día breve inspirado en Mateo 6:26, para descansar sabiendo que Dios cuida de ti.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "noche",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 168,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Mateo 6:26"],
+    language: "es",
+    illustrationSlug: "evangelio-noche-aves-del-cielo",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Cuando termina el día, a veces la cabeza sigue dando vueltas con todo lo que pasó, o ya empieza a adelantarse a lo que viene mañana: una tarea sin terminar, algo que quedó pendiente, una duda que no se resolvió. Por eso vale la pena volver, antes de dormir, a algo que Jesús dijo mirando el cielo, en medio de una charla tranquila con la gente que lo escuchaba: miren las aves, no siembran ni cosechan, y el Padre las alimenta.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Los pájaros no se quedan despiertos toda la noche calculando de dónde va a salir la comida de mañana, ni se angustian pensando en lo que todavía no pasó. Simplemente descansan, se acomodan en su nido, y confían, aunque ni siquiera lo sepan, en un cuidado que nunca falla. Jesús usó ese ejemplo tan chiquito y tan cotidiano para decir algo enorme: si Dios no se olvida ni siquiera de un pajarito en una rama, mucho menos se va a olvidar de ti esta noche.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Esta noche, si quedó alguna preocupación dando vueltas —una tarea, un problema con un amigo, algo que salió distinto a lo esperado, una palabra que no debió decirse— se puede dejar ahí, como quien deja una mochila pesada en el piso antes de acostarse. Mañana va a seguir ahí si hace falta pensarlo con más calma, pero por ahora, con la luz apagada y la casa en silencio, es momento de descansar tranquilo, como esas aves que ya duermen sin ninguna preocupación.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Puede ayudar imaginar la escena tal como la describió Jesús: un pájaro pequeño, acurrucado en su nido, con los ojos cerrados, sin ninguna lista de pendientes dándole vueltas en la cabeza. Esa imagen tan simple sirve como recordatorio antes de dormir: si ese cuidado alcanza para un ser tan chiquito que ni siquiera sabe que está siendo cuidado, con mucha más razón alcanza para cada niño que hoy se está por dormir en su cama, confiado y tranquilo.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "A veces cuesta soltar los pensamientos justo antes de dormir, sobre todo si el día trajo algo difícil. En esos momentos ayuda repetir, casi como una frase para acompañarse: si Dios cuida de las aves sin que ellas hagan nada para merecerlo, hoy también me cuida a mí, mientras cierro los ojos y me quedo dormido, sin necesidad de vigilar nada yo mismo.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Antes de cerrar los ojos, piensa en algo pequeño que te haya salido bien hoy, sin que lo hayas planeado del todo, casi de casualidad. ¿Quién crees que estuvo cuidando ese detalle mientras tú ni te dabas cuenta?",
+      },
+    ],
+    conversationQuestions: ["Antes de cerrar los ojos, piensa en algo pequeño que te haya salido bien hoy, sin que lo hayas planeado del todo, casi de casualidad. ¿Quién crees que estuvo cuidando ese detalle mientras tú ni te dabas cuenta?"],
+  },
+
+  {
+    id: "evangelio-manana-luz-del-mundo",
+    contentType: "evangelio",
+    title: "Ser luz hoy",
+    subtitle: "Una manera de empezar el día buscando iluminar a alguien más",
+    description: "Un vistazo breve a Mateo 5:14-16 sobre ser luz para los demás con gestos pequeños.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "manana",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 160,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Mateo 5:14-16"],
+    language: "es",
+    illustrationSlug: "evangelio-manana-luz-del-mundo",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En el Evangelio de Mateo, Jesús les dice a quienes lo escuchan algo que suena como un título muy grande, casi difícil de creer: ustedes son la luz del mundo. Una ciudad construida sobre un cerro no se puede esconder, dice, se ve desde lejos aunque uno no quiera, y nadie enciende una lámpara para después taparla con un cajón o esconderla debajo de la cama.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Al contrario: la lámpara se pone en un lugar alto, sobre la mesa o en un rincón visible, para que alumbre a todos los que están en la casa, no solo a un rincón. Y después llega la parte más concreta de la enseñanza: que brille así su luz delante de todos, para que vean sus buenas obras y reconozcan algo bueno detrás de ellas. No habla de brillar por brillar, ni de que todos miren a uno, sino de que un gesto bueno, hecho con el corazón, se note de verdad y sirva para ayudar a otros.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Eso puede pasar hoy mismo, y no hace falta que sea algo enorme ni que lo vea todo el mundo. Compartir algo sin que lo pidan, ayudar a alguien que se cayó en el patio, invitar a jugar al que suele quedar afuera del grupo, decir gracias o perdón cuando corresponde. Ese tipo de gestos son pequeñas luces, casi invisibles a simple vista, pero a veces alcanzan para cambiarle el día entero a otra persona que lo necesitaba justo en ese momento.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Es como cuando se enciende una sola vela en un cuarto oscuro: no hace falta un montón de luces para que el cuarto deje de estar a oscuras, alcanza con una. De la misma manera, no hace falta ser el más simpático de la clase, ni el más aplaudido, para ser luz para alguien. A veces basta con notar a la persona que está triste en un rincón, y acercarse simplemente para hacerle compañía un rato.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "También puede pasar que uno mismo se sienta apagado algún día, sin muchas ganas de brillar. Eso también es parte de ser humano, y no hay que exigirse demasiado en esos momentos. Pero incluso en un día así, un gesto pequeño —una sonrisa aunque sea forzada, un gracias dicho con sinceridad— alcanza para mantener esa luz prendida, aunque sea con la llama bajita.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Hoy vas a cruzarte con varias personas: en tu casa, en la escuela, en la calle, en el recreo. ¿A quién te gustaría regalarle una luz hoy, aunque sea chiquita, con un gesto que quizás nadie más note?",
+      },
+    ],
+    conversationQuestions: ["Hoy vas a cruzarte con varias personas: en tu casa, en la escuela, en la calle, en el recreo. ¿A quién te gustaría regalarle una luz hoy, aunque sea chiquita, con un gesto que quizás nadie más note?"],
+  },
+
+  {
+    id: "evangelio-noche-luz-del-mundo",
+    contentType: "evangelio",
+    title: "La luz que brilló hoy",
+    subtitle: "Un repaso tranquilo de los momentos en que fuiste luz para alguien",
+    description: "Un cierre de día breve inspirado en Mateo 5:14-16, para reconocer la luz que diste hoy.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "noche",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 171,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Mateo 5:14-16"],
+    language: "es",
+    illustrationSlug: "evangelio-noche-luz-del-mundo",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de dormir es un buen momento para repasar el día con calma, sin apuro, recordando cómo fue todo desde la mañana. Y hay una frase de Jesús que sirve justo para eso: ustedes son la luz del mundo. Una ciudad en lo alto de un cerro no se puede ocultar por más que se quiera, y nadie enciende una lámpara solamente para esconderla debajo de algo.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Jesús pedía que esa luz brillara delante de todos, a través de las buenas obras, no para que lo vieran y lo aplaudieran a uno, sino para que a través de ese gesto se notara algo más grande y bueno detrás, algo que vale la pena imitar. Cada día trae oportunidades chiquitas de ser esa luz: una palabra amable en el momento justo, una ayuda que nadie pidió, una sonrisa cuando el otro más lo necesitaba, incluso un silencio paciente en vez de una respuesta brusca.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de cerrar los ojos, se puede pensar con tranquilidad: ¿hubo algún momento hoy en que mi luz brilló un poquito, aunque haya sido chico? Tal vez fue compartir algo sin que lo pidieran, escuchar de verdad a alguien, o simplemente estar de buen humor cuando otro lo necesitaba cerca. Y si no hubo ese momento hoy, no importa, porque mañana es una nueva oportunidad para encenderla otra vez, sin apuro.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Una lamparita no se enoja consigo misma los días en que ilumina menos, ni se apaga para siempre por una sola noche opaca. Simplemente sigue ahí, lista para volver a brillar apenas se la necesite. Con esa misma paciencia se puede pensar en uno mismo antes de dormir: no hace falta ser una luz enorme todos los días, alcanza con seguir intentándolo, una vez tras otra, sin cansarse.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de dormir también vale la pena agradecer las luces de otras personas que brillaron hoy para uno: alguien que ayudó sin que se lo pidieran, alguien que hizo reír en un momento difícil, alguien que simplemente estuvo cerca cuando hacía falta compañía. Esas luces ajenas también merecen ser recordadas antes de cerrar los ojos.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Toda la casa duerme envuelta en la misma idea sencilla: la luz no se guarda para uno mismo, se comparte, se presta, se regala sin que se gaste por eso. Y mañana, con el sol nuevo, va a haber otra oportunidad entera para volver a encenderla, un poquito más brillante que hoy si se puede.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Pensando en todo tu día, desde que te levantaste hasta ahora, ¿hubo un momento en que fuiste luz para alguien, aunque en ese instante no te dieras cuenta de lo que estabas haciendo?",
+      },
+    ],
+    conversationQuestions: ["Pensando en todo tu día, desde que te levantaste hasta ahora, ¿hubo un momento en que fuiste luz para alguien, aunque en ese instante no te dieras cuenta de lo que estabas haciendo?"],
+  },
+
+  {
+    id: "evangelio-manana-dejen-que-los-ninos-vengan",
+    contentType: "evangelio",
+    title: "Nunca demasiado chico",
+    subtitle: "Empezar el día sabiendo que a Jesús siempre le importaste",
+    description: "Un vistazo breve a Marcos 10:13-16 sobre el lugar especial que Jesús reserva para los niños.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "manana",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 163,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Marcos 10:13-16"],
+    language: "es",
+    illustrationSlug: "evangelio-manana-dejen-que-los-ninos-vengan",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En el Evangelio de Marcos, unas familias le traían sus niños a Jesús para que los tocara y los bendijera, como se hacía en esos tiempos con las personas importantes. Pero los discípulos, pensando que Jesús estaba ocupado con asuntos más serios, con adultos que necesitaban respuestas urgentes, empezaron a decirles a esas familias que no molestaran, que se fueran, que ese no era momento para niños.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Cuando Jesús vio lo que estaba pasando, se puso serio, casi enojado, y les dijo algo que sorprendió a todos los que estaban ahí: dejen que los niños vengan a mí, no se lo impidan, porque el reino de Dios es de quienes son como ellos. Después los abrazó uno por uno, puso sus manos sobre cada niño, y los bendijo con calma, sin apuro, como si tuviera todo el tiempo del mundo justo para ellos.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Para Jesús, ningún niño era demasiado chico, demasiado ruidoso, demasiado inquieto, o poco importante como para acercarse a él. Todo lo contrario: los recibió con los brazos abiertos, con una sonrisa, como si fueran justo las personas que él más quería tener cerca ese día, más incluso que los adultos que esperaban su atención.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Esa escena queda como un recordatorio para siempre: no hace falta ser grande, ni saber hablar perfecto, ni entender todas las respuestas, para acercarse a Jesús. Alcanza con ser exactamente como se es, con las mismas ganas de un niño que corre a los brazos de alguien que lo quiere, sin pedir permiso ni disculparse por acercarse.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Esta historia también dice algo sobre cómo mirar a los demás niños: si Jesús los trató con tanto cariño y paciencia, sin apuro para atender a cada uno, vale la pena tratar así también a un hermano menor, a un primo chiquito, o a cualquier niño que parezca molestar. Nadie es demasiado chico para merecer tiempo y atención de verdad.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Cada vez que un adulto se agacha para escuchar de verdad a un niño, sin apuro, sin mirar el reloj, está repitiendo un poco esa misma escena del Evangelio. Y cada vez que un niño se acerca sin miedo a contar algo que le importa, también está haciendo lo que esas familias hicieron aquel día: acercarse con confianza, sin dudar de ser bien recibido.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Saber que a Jesús siempre le importó tener cerca a los niños, sin importar la edad ni lo que otros dijeran, ¿cómo te hace sentir empezar así el día de hoy?",
+      },
+    ],
+    conversationQuestions: ["Saber que a Jesús siempre le importó tener cerca a los niños, sin importar la edad ni lo que otros dijeran, ¿cómo te hace sentir empezar así el día de hoy?"],
+  },
+
+  {
+    id: "evangelio-noche-dejen-que-los-ninos-vengan",
+    contentType: "evangelio",
+    title: "Un lugar en sus brazos",
+    subtitle: "Una manera de terminar el día sintiéndose siempre bienvenido",
+    description: "Un cierre de día breve inspirado en Marcos 10:13-16, recordando que Jesús siempre recibe a los niños.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "noche",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 158,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Marcos 10:13-16"],
+    language: "es",
+    illustrationSlug: "evangelio-noche-dejen-que-los-ninos-vengan",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Hay una escena del Evangelio de Marcos que es linda para recordar antes de dormir, con la casa ya en silencio. Unas familias llevaban a sus niños para que Jesús los bendijera, pero los discípulos, creyendo que no era el momento adecuado, trataban de alejarlos, como si los niños no pudieran acercarse a alguien tan importante.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Jesús no estuvo de acuerdo para nada, y se lo hizo saber de inmediato. Dejen que los niños vengan a mí, dijo, no se lo impidan, porque de ellos es el reino de Dios. Y ahí mismo, sin apuro, sin mirar el reloj, los tomó en sus brazos y puso sus manos sobre cada uno para bendecirlos, uno por uno, como cerrando ese día con un gesto tranquilo de cariño.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Esa misma calma se puede sentir hoy, antes de dormir: la certeza tranquila de que a Jesús siempre le importaron los niños, sin excepción, sin condiciones, y que ese cariño no cambia según lo bien o mal que haya salido el día de hoy. Con esa idea en la cabeza, con esa imagen de los brazos abiertos, ya se puede descansar en paz, sabiendo que uno también hubiera sido bienvenido en esa fila.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Los discípulos, esa vez, se equivocaron pensando que había personas más importantes que atender primero. Pero Jesús mostró con su propia actitud que nunca fue así, que un niño cansado después de un día largo, con sueño y con ganas de un abrazo, siempre tuvo un lugar especial y reservado en su corazón, sin necesidad de hacer nada para merecerlo.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Vale la pena quedarse con la imagen final de esa historia: no un Jesús apurado ni distraído, sino uno que se toma su tiempo para bendecir a cada niño, sin saltar a ninguno, sin apurar el abrazo. Esa misma paciencia, esa misma atención completa, es la que se puede sentir esta noche antes de cerrar los ojos.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Quizás hoy hubo un momento en que alguien no tuvo tiempo para escuchar, o pareció distraído justo cuando hacía falta su atención. Eso pasa, los adultos también se cansan y a veces se apuran de más. Pero la promesa de este pasaje sigue firme: siempre hay un lugar reservado, con los brazos abiertos, esperando sin apuro y sin condiciones.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Si pudieras acercarte a Jesús esta noche como esos niños de la historia, sin apuro y sin que nadie te dijera que no, ¿qué te gustaría contarle sobre tu día?",
+      },
+    ],
+    conversationQuestions: ["Si pudieras acercarte a Jesús esta noche como esos niños de la historia, sin apuro y sin que nadie te dijera que no, ¿qué te gustaría contarle sobre tu día?"],
+  },
+
+  {
+    id: "evangelio-manana-regla-de-oro",
+    contentType: "evangelio",
+    title: "Tratar como te gustaría",
+    subtitle: "Una pregunta sencilla para empezar bien el día con los demás",
+    description: "Un vistazo breve a Lucas 6:31, la Regla de Oro, para pensar en el otro antes de actuar.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "manana",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 159,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Lucas 6:31"],
+    language: "es",
+    illustrationSlug: "evangelio-manana-regla-de-oro",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En el Evangelio de Lucas, Jesús resume en una sola frase algo que ayuda a llevarse bien con casi cualquier persona, en cualquier lugar: traten a los demás como quieren que los traten a ustedes. Es una frase corta, fácil de recordar incluso de memoria, pero que pide algo grande y no siempre fácil: pensar primero en el otro antes de actuar.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "No dice traten bien solo a quien los trata bien a ustedes, porque eso, aclara Jesús, hasta las personas menos generosas lo hacen sin esfuerzo. La idea va mucho más allá de devolver favores: se trata de elegir la amabilidad primero, sin esperar a ver qué hace el otro antes, incluso cuando nadie está mirando ni va a enterarse.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Hoy, antes de reaccionar frente a algo que puede molestar —un empujón sin querer, una broma pesada, una pelea por un juguete o por quién elige el juego, un comentario que cae mal— se puede hacer una pausa cortita, de apenas un segundo, y preguntarse: ¿me gustaría que me lo hicieran así a mí? Esa pregunta, tan simple y tan chiquita, cambia por completo cómo se responde después.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Esta regla también funciona al revés, como recordatorio para cuando uno mismo tiene ganas de molestar a alguien o de dejarlo afuera de un juego. Antes de hacerlo, se puede pensar cómo se sentiría uno si le pasara lo mismo, si fuera uno el que queda afuera, el que recibe la broma, o el que no es invitado. Esa misma pregunta, mirada desde el otro lado, ayuda a frenar antes de lastimar sin querer.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Esta manera de tratar a los demás no depende de que el otro la aplique primero. Aunque alguien no sea amable, uno puede elegir serlo igual, sin esperar nada a cambio. Con el tiempo, ese tipo de trato amable, sostenido incluso cuando cuesta, suele contagiarse y cambiar poco a poco la forma en que un grupo entero se trata entre sí.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En la escuela, en la casa, en el equipo de deporte, siempre hay alguien que puede empezar a cambiar el clima del grupo con una sola decisión: tratar bien primero, sin esperar a que otro dé el primer paso. Esa persona puede ser cualquiera, incluso un niño, incluso hoy mismo, en cualquiera de esos lugares.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Pensando en tu día de hoy, en la escuela o en tu casa, ¿en qué momento vas a poder aplicar esa pregunta tan simple: me gustaría que me lo hicieran a mí?",
+      },
+    ],
+    conversationQuestions: ["Pensando en tu día de hoy, en la escuela o en tu casa, ¿en qué momento vas a poder aplicar esa pregunta tan simple: me gustaría que me lo hicieran a mí?"],
+  },
+
+  {
+    id: "evangelio-noche-regla-de-oro",
+    contentType: "evangelio",
+    title: "Repasar cómo tratamos",
+    subtitle: "Una manera calma de revisar el día antes de dormir",
+    description: "Un cierre de día breve inspirado en Lucas 6:31, para repasar cómo tratamos a los demás hoy.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "noche",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 159,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Lucas 6:31"],
+    language: "es",
+    illustrationSlug: "evangelio-noche-regla-de-oro",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de dormir es un buen momento para repasar con calma cómo tratamos a los demás durante el día, sin culpa, solo para aprender un poco más. Jesús, en el Evangelio de Lucas, dejó una frase que sirve como espejo, fácil de recordar cada noche: traten a los demás como quieren que los traten a ustedes.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Esa frase no busca hacer sentir mal a nadie, invita a pensar con honestidad. No hace falta ser perfecto para intentarlo cada día: alcanza con recordar, antes de dormir, algún momento del día en que se pudo elegir ser amable, y con revisar con calma si eso fue realmente lo que pasó, o si faltó un poco de esfuerzo en ese instante.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Y si hoy no salió del todo bien —si hubo un enojo grande, una respuesta brusca, un momento en que no se pensó en el otro y solo se pensó en uno mismo— no pasa absolutamente nada. Mañana es una nueva oportunidad, otra vez desde cero, para intentarlo de nuevo, tratando a los demás exactamente como a uno le gustaría ser tratado en esa misma situación.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Esta frase de Jesús no distingue entre amigos y desconocidos, ni entre quien cae bien y quien cae mal. Vale para todos por igual: el hermano con el que uno pelea seguido, el compañero difícil de la clase, hasta la persona que uno recién conoce. Pensar en cómo a uno le gustaría ser tratado ayuda a tratar mejor incluso a quien menos ganas dan de tratar bien.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "No es necesario llevar la cuenta exacta de cuántas veces se cumplió esta regla en el día, como si fuera un examen para aprobar. Se trata más bien de ir tomando conciencia, poco a poco, noche tras noche, de que cada trato con otra persona es una oportunidad de practicar algo que, con el tiempo, se vuelve más natural y menos esforzado.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de dormir, conviene ser generoso con uno mismo también. Si hoy costó aplicar esta regla, mañana sigue siendo una nueva oportunidad, sin castigo ni reproche de más. Total la misma regla de oro también pide tratarse a uno mismo con esa paciencia que se le pide para con los demás, sin exigirse más de lo que se le pediría a un amigo querido.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Pensando en todo tu día, desde la mañana hasta ahora, sin apuro y con calma, ¿hubo algún momento en que trataste a alguien tal como te gustaría que te trataran a ti mismo, aunque haya sido un gesto chiquito?",
+      },
+    ],
+    conversationQuestions: ["Pensando en todo tu día, desde la mañana hasta ahora, sin apuro y con calma, ¿hubo algún momento en que trataste a alguien tal como te gustaría que te trataran a ti mismo, aunque haya sido un gesto chiquito?"],
+  },
+
+  {
+    id: "evangelio-manana-amense-los-unos-a-los-otros",
+    contentType: "evangelio",
+    title: "Amar de verdad, cada día",
+    subtitle: "Empezar el día eligiendo amar con hechos concretos",
+    description: "Un vistazo breve a Juan 13:34 sobre el mandamiento nuevo de amarse los unos a los otros.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "manana",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 161,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Juan 13:34"],
+    language: "es",
+    illustrationSlug: "evangelio-manana-amense-los-unos-a-los-otros",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En el Evangelio de Juan, durante la última cena que compartió con sus amigos más cercanos, sabiendo que se acercaba un momento difícil, Jesús les deja un mandamiento nuevo: que se amen los unos a los otros, así como yo los he amado. No pide solamente llevarse bien o no pelear, pide amar de verdad, del mismo modo profundo en que él mismo amaba a cada uno.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Y aclara algo importante, casi como una señal secreta: en eso, dice, van a reconocer que son mis seguidores, en que se tienen amor entre ustedes. No en usar ciertas palabras especiales, ni en hacer ciertos gestos religiosos, sino en cómo se tratan de verdad, todos los días, incluso en los momentos en que no es nada fácil hacerlo.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Amar así no es solo sentir cariño cuando todo va bien y nadie molesta. Es elegir ser paciente con un hermano que fastidia sin parar, compartir algo aunque cueste un poco soltarlo, perdonar rápido después de una pelea sin guardar rencor. Ese tipo de amor se construye poquito a poco, con decisiones chiquitas repetidas cada día, no solo con sentimientos que van y vienen.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Jesús no dijo amen solo a quienes son fáciles de amar, ni amen únicamente cuando tengan ganas. Dijo que se amaran como él amó, y él amó incluso a quienes lo trataron mal, incluso en los momentos más difíciles. Eso da una pista clara: el amor de verdad no depende del humor del día, es una decisión que se puede tomar aunque cueste, una y otra vez.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Este mandamiento nuevo no vino con una lista de excepciones ni de condiciones especiales. Se aplica en la casa, con hermanos y padres, en la escuela, con compañeros y maestros, y también con quien todavía no se conoce bien. Empezar el día con esa idea en la cabeza ayuda a elegir el amor primero, antes que el enojo o la indiferencia.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Se puede pensar en este mandamiento como una brújula para todo el día: cada vez que aparezca la duda de cómo actuar frente a alguien, la pregunta que sirve de guía es simple, ¿esto que estoy por hacer se parece al amor con el que Jesús ama? Esa sola pregunta ayuda a elegir mejor, una y otra vez, sin necesidad de reglas más complicadas.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Hoy vas a tener varias oportunidades de elegir amar con hechos concretos, no solo con palabras bonitas. ¿Con quién te gustaría intentarlo primero, ni bien tengas la ocasión?",
+      },
+    ],
+    conversationQuestions: ["Hoy vas a tener varias oportunidades de elegir amar con hechos concretos, no solo con palabras bonitas. ¿Con quién te gustaría intentarlo primero, ni bien tengas la ocasión?"],
+  },
+
+  {
+    id: "evangelio-noche-amense-los-unos-a-los-otros",
+    contentType: "evangelio",
+    title: "El amor que elegiste hoy",
+    subtitle: "Una manera tranquila de repasar los gestos de amor del día",
+    description: "Un cierre de día breve inspirado en Juan 13:34, para recordar el amor practicado hoy.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "noche",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 160,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Juan 13:34"],
+    language: "es",
+    illustrationSlug: "evangelio-noche-amense-los-unos-a-los-otros",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de cerrar el día es lindo volver a algo que Jesús dijo en una de las noches más importantes de su vida, compartiendo la última cena con sus amigos más cercanos, sabiendo bien lo que se avecinaba: les doy un mandamiento nuevo, que se amen los unos a los otros, como yo los he amado a ustedes.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ese amor, explicó con calma, iba a ser la señal más clara de quiénes eran sus seguidores de verdad: no un símbolo especial, ni una palabra mágica, sino el amor real y concreto entre ellos, en lo cotidiano, en lo de todos los días. Amar así no siempre es fácil, sobre todo en un día largo, cansado, o con algún roce que quedó sin resolver del todo.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Por eso, antes de dormir, se puede pensar con calma y sin apuro: ¿logré hoy amar con hechos, aunque sea en algo chiquito y silencioso que nadie notó? Y si en algún momento costó más de la cuenta, si el cansancio ganó, mañana siempre hay una nueva oportunidad para decidir amar otra vez, un poquito mejor que hoy, sin necesidad de ser perfecto.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Amar no siempre se siente como algo lindo o cómodo. A veces se parece más a aguantar un enojo sin contestar mal, a ceder en algo que uno quería para sí mismo, o a acompañar a alguien en un mal momento sin saber bien qué decir. Todo eso también es amor, del mismo tipo que Jesús pidió esa noche a sus amigos más cercanos.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Esta noche, antes de dormir, también se puede recordar que el amor no es solo tarea de uno. Los demás también están tratando de amar, muchas veces sin decirlo, con gestos chiquitos que a veces pasan desapercibidos: un abrazo, una ayuda con la tarea, una paciencia extra en un momento difícil del día.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Cerrar los ojos pensando en ese mandamiento nuevo deja una sensación distinta a la de simplemente repasar lo que salió bien o mal. Es más bien una invitación tranquila para mañana: seguir intentando amar como Jesús amó, sin exigirse la perfección, sabiendo que cada intento cuenta, aunque sea imperfecto. Esa misma noche, mientras la casa duerme en calma, ese mandamiento sigue vigente, esperando pacientemente a mañana para ponerse otra vez en práctica.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Repasando tu día completo, con calma antes de dormir, ¿hubo un momento en que decidiste amar a alguien con un gesto concreto, aunque no tuvieras muchas ganas al principio de hacerlo?",
+      },
+    ],
+    conversationQuestions: ["Repasando tu día completo, con calma antes de dormir, ¿hubo un momento en que decidiste amar a alguien con un gesto concreto, aunque no tuvieras muchas ganas al principio de hacerlo?"],
+  },
+
+  {
+    id: "evangelio-manana-pidan-y-se-les-dara",
+    contentType: "evangelio",
+    title: "Pedir sin miedo",
+    subtitle: "Empezar el día sabiendo que se puede hablar con Dios de todo",
+    description: "Un vistazo breve a Mateo 7:7 sobre animarse a pedir, buscar y llamar a la puerta de Dios.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "manana",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 161,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Mateo 7:7"],
+    language: "es",
+    illustrationSlug: "evangelio-manana-pidan-y-se-les-dara",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "En el Evangelio de Mateo, Jesús anima a quienes lo escuchan a acercarse a Dios sin miedo ni vergüenza, como quien se acerca a alguien de mucha confianza: pidan, y se les dará; busquen, y encontrarán; llamen, y se les abrirá la puerta. Tres verbos simples, pedir, buscar, llamar, que hablan todos de lo mismo: animarse a acercarse sin dudar.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Después Jesús compara ese pedido con algo bien conocido para cualquiera que escuche: si un hijo le pide pan a su padre, ¿qué padre en su sano juicio le daría una piedra en su lugar? Si ustedes, que a veces se equivocan y no son perfectos, saben dar cosas buenas a sus hijos cuando se las piden, cuánto más el Padre que está en el cielo va a dar cosas buenas a quienes se las piden de corazón.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Esto quiere decir que no hace falta un momento especial, ni un lugar sagrado, ni palabras complicadas o memorizadas para hablar con Dios. Se puede hacer como quien le cuenta algo a alguien de mucha confianza: contento por algo que pasó, preocupado por una duda, con miedo por algo que se viene, o simplemente para saludar al empezar el día, sin ningún motivo especial.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Pedir no es una señal de debilidad, aunque a veces parezca que sí. Hasta las personas más fuertes y valientes necesitan ayuda en algún momento, y saber pedirla es parte de ser sabio, no de ser débil. Empezar el día sabiendo que se puede pedir ayuda, buscar respuestas, y golpear esa puerta cuantas veces haga falta, da una tranquilidad que dura toda la jornada.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Buscar, en esta frase de Jesús, también implica algo de esfuerzo propio: no se trata solo de sentarse a esperar que las cosas caigan del cielo, sino de animarse a intentar, a explorar, a hacer preguntas cuando algo no se entiende. Dios acompaña esa búsqueda, no la reemplaza, y eso vuelve el día de hoy un poco más liviano de encarar.",
+      },
+      {
+        role: "narracion",
+        mood: "book",
+        caption:
+          "Esta invitación de Jesús también recuerda que no hace falta pedir de manera perfecta, con las palabras justas, para que la puerta se abra. Se puede pedir con torpeza, con dudas, incluso con enojo si hace falta, y aun así la promesa sigue siendo la misma: quien pide, recibe; quien busca, encuentra.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Si hoy pudieras pedirle a Dios una sola cosa, sin vergüenza y con toda la confianza del mundo, como quien habla con alguien que lo quiere de verdad, ¿qué le pedirías?",
+      },
+    ],
+    conversationQuestions: ["Si hoy pudieras pedirle a Dios una sola cosa, sin vergüenza y con toda la confianza del mundo, como quien habla con alguien que lo quiere de verdad, ¿qué le pedirías?"],
+  },
+
+  {
+    id: "evangelio-noche-pidan-y-se-les-dara",
+    contentType: "evangelio",
+    title: "Una puerta siempre abierta",
+    subtitle: "Una manera tranquila de hablar con Dios antes de dormir",
+    description: "Un cierre de día breve inspirado en Mateo 7:7, para contarle a Dios cómo fue el día.",
+    category: "nuevo",
+    collectionId: "evangelio-diario",
+    tone: "noche",
+    lengthCategory: "evangelio-diario",
+    durationSeconds: 159,
+    ageRange: "4-10",
+    biblicalLevel: "principiante",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: ["Mateo 7:7"],
+    language: "es",
+    illustrationSlug: "evangelio-noche-pidan-y-se-les-dara",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Al terminar el día es un buen momento para recordar, con la casa en calma, algo que Jesús prometió en el Evangelio de Mateo: pidan, y se les dará; busquen, y encontrarán; llamen, y se les abrirá. Una invitación abierta a hablar con Dios de lo que sea, sin necesidad de fórmulas especiales ni de esperar el momento perfecto.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Jesús lo explica con un ejemplo muy simple, fácil de entender para cualquiera: ningún padre, si su hijo le pide pan porque tiene hambre, le da una piedra en su lugar para engañarlo. Y si los padres, con todo lo que se pueden equivocar en un día cualquiera, igual buscan dar cosas buenas a sus hijos cuando se las piden, mucho más va a dar el Padre del cielo a quien se lo pide de corazón, sin condiciones.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Antes de dormir, se puede aprovechar ese ratito de calma, con la luz ya baja, para pedir lo que haga falta: que algo salga bien mañana, que alguien querido esté cuidado esta noche, o simplemente decir gracias por el día que pasó, con todo lo bueno y lo difícil que trajo. No hace falta guardarse nada para uno mismo, todo se puede contar tal cual es.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Buscar y llamar, como dijo Jesús, también significa que no siempre la respuesta llega al instante, y eso está bien. A veces hay que insistir un poco, volver a preguntar, seguir buscando con paciencia. Pero la promesa sigue firme: a quien pide de corazón, tarde o temprano, se le abre la puerta que estaba buscando.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Es lindo pensar que esta puerta de la que habla Jesús siempre está disponible, a cualquier hora, incluso de noche, cuando todo está en silencio y no hay nadie más despierto para escuchar. No hace falta esperar al día siguiente ni a un momento más adecuado: se puede golpear esa puerta ahora mismo, antes de quedarse dormido.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Y si esta noche no hay nada puntual para pedir, también está bien simplemente agradecer, o contar cómo fue el día, sin pedir nada en especial. La misma puerta que se abre para los pedidos también está abierta para las charlas tranquilas antes de dormir, sin ningún motivo urgente detrás, solo por el gusto de estar cerca antes de cerrar los ojos.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "prayer",
+        caption:
+          "Antes de dormir, con la casa ya en silencio y la luz apagada, ¿qué es lo primero que te gustaría contarle o pedirle a Dios esta noche, sin apuro y sin vergüenza?",
+      },
+    ],
+    conversationQuestions: ["Antes de dormir, con la casa ya en silencio y la luz apagada, ¿qué es lo primero que te gustaría contarle o pedirle a Dios esta noche, sin apuro y sin vergüenza?"],
+  },
+
+  {
+    id: "meditacion-calma-antes-de-dormir",
+    contentType: "meditacion",
+    title: "Calma antes de dormir",
+    subtitle: "Suelta el día, un poco a la vez",
+    description: "Una meditación guiada para relajar el cuerpo parte por parte antes de dormir.",
+    category: "general",
+    collectionId: "meditaciones-guiadas",
+    lengthCategory: "momento-dormir",
+    durationSeconds: 540,
+    ageRange: "4-10",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: [],
+    language: "es",
+    illustrationSlug: "meditacion-calma-antes-de-dormir",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Hola... soy Lumo... y estoy aquí, contigo, en este ratito antes de dormir...\n\nAcomódate bien... como más cómodo estés... tal vez de costado... tal vez boca arriba... no importa cómo... importa que estés tranquilo, en tu cama, en tu cuarto, seguro...\n\nDeja que tu cabeza descanse sobre la almohada... pesada... tranquila... deja que todo tu cuerpo se hunda despacio en el colchón, como si la cama te abrazara suavemente desde abajo...\n\nVamos a respirar juntos, despacio... inhala... uno... dos... tres... y exhala... uno... dos... tres... cuatro...\n\nOtra vez... inhala por la nariz, suave... y exhala por la boca, largo... como si soltaras un suspiro que llevabas guardado todo el día...\n\nEste es un momento para soltar el día... todo lo que pasó hoy... lo lindo... lo que costó un poco... lo que salió bien... lo que salió distinto a lo que esperabas... todo eso ya pasó... ya no hace falta cargarlo... ahora solo queda este momento... tú... tu respiración... y esta calma que te acompaña, despacio, sin apuro...\n\nNo hay nada que hacer ahora... nada que resolver... nada que recordar... solo descansar, poquito a poco, mientras mi voz te acompaña...",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Vamos a empezar por los pies... piensa en tus pies, ahí, dentro de las sábanas, quietos...\n\nSiente cómo se van poniendo pesados... pesados y calientitos... como si se hundieran despacio en la cama, como si la cama los sostuviera con cariño...\n\nDeja que los dedos de los pies se aflojen... uno por uno... sin apuro... no hace falta mover nada, solo dejar que se aflojen solos, despacio...\n\nInhala... y al exhalar, suelta cualquier tensión que quede en tus pies... se aflojan... se relajan... se quedan quietos, tranquilos, descansados...\n\nAhora sube esa calma a tus tobillos... y a tus piernas... tus piernas se sienten pesadas, pesadas... como si no quisieran moverse más esta noche...\n\nComo cuando estás muy cómodo en la cama y no tienes ganas de levantarte para nada... así de pesadas y tranquilas están tus piernas ahora, hundidas en el colchón, calientitas...\n\nInhala... exhala... tus piernas descansan... completamente quietas... completamente tranquilas... como si fueran de arena tibia, pesada, en calma...\n\nSi se te escapa un bostezo, está bien, es bienvenido... eso quiere decir que tu cuerpo ya empezó a soltar el día, a prepararse para el descanso...\n\nInhala... exhala... más pesado... más tranquilo... más en calma, desde los pies hacia arriba...",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora piensa en tu panza... esa parte de ti que sube y baja cuando respiras, despacio, sin esfuerzo...\n\nPon, si quieres, una mano suave sobre tu panza... y siente cómo sube despacio cuando inhalas... y baja despacio cuando exhalas... como una ola tranquila que va y viene...\n\nInhala... tu panza se infla como un globito suave... y exhala... tu panza baja, tranquila, sin apuro, como siempre...\n\nOtra vez... inhala... uno... dos... tres... exhala... uno... dos... tres... cuatro... cada vez un poquito más largo, un poquito más suave...\n\nTu respiración no tiene que ser perfecta... solo tiene que ser tuya... lenta... suave... tuya, como siempre fue, desde que naciste...\n\nCada vez que exhalas, imagina que sueltas un poquito más de cansancio... un poquito más del día que pasó... un poquito más de todo lo que tuviste que pensar hoy...\n\nY con cada inhalación, dejas entrar un poquito más de calma... de paz... de ese silencio bueno que llega antes de dormir, ese silencio que no asusta, que solo acompaña...\n\nTu panza sube... y baja... sube... y baja... como las olas del mar, despacio, despacio, sin apuro nunca, sin esfuerzo nunca, solo el ritmo natural de tu cuerpo descansando...",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora vamos a tus brazos... piensa en tus brazos, apoyados donde estén, tranquilos, quietos junto a ti...\n\nDeja que se pongan pesados... pesados como si fueran de arena tibia... tus brazos ya no tienen que sostener nada, ya no tienen que hacer nada, ya no tienen que cargar nada de este día...\n\nSiente tus manos... tus dedos... aflójalos, uno por uno... sin apretar nada... sin sostener nada, sin agarrar nada... déjalos flojos, abiertos, tranquilos...\n\nInhala... y al exhalar, suelta cualquier tensión de tus manos... se aflojan... se quedan quietas, descansadas, en paz...\n\nTus brazos descansan junto a ti... pesados... calientitos... tranquilos, como si flotaran despacio sobre la cama...\n\nY ahora piensa en tus hombros... a veces los hombros se quedan un poco tensos, sin que nos demos cuenta, cargando cosas invisibles todo el día... déjalos caer un poquito... suéltalos, despacio...\n\nInhala... exhala... tus hombros bajan... se relajan... se quedan tranquilos, lejos de las orejas, descansados, en su lugar natural...\n\nTodo tu cuerpo, desde los pies hasta los hombros, se va poniendo pesado y tranquilo... como si la cama te abrazara despacio, con paciencia, sin ningún apuro...",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora piensa en tu cara... en tu frente... déjala lisa, sin arrugas, tranquila, como el agua quieta de un lago...\n\nAfloja tus cejas... afloja tus ojos, que ya deben estar cerrados o casi cerrados... afloja tus mejillas, despacio, sin esfuerzo...\n\nDeja que tu boca se afloje también... a veces apretamos la mandíbula sin darnos cuenta, todo el día... suéltala despacio... deja los labios flojitos, tranquilos, entreabiertos si quieren...\n\nInhala... exhala... toda tu cara descansa... tranquila... en paz, como la cara de alguien que ya soltó todas sus preocupaciones...\n\nY ahora tu cuello... déjalo pesado también, apoyado, sin ninguna tensión, sostenido por la almohada...\n\nDesde la punta de tu cabeza hasta la punta de tus pies, todo tu cuerpo está tranquilo ahora... pesado... calientito... en calma, completo, entero...\n\nInhala profundo... y exhala largo, muy largo... como si soltaras el último poquito de cansancio del día, el último pensamiento que quedaba dando vueltas...\n\nQué bien se siente estar así, tan tranquilo, tan en paz, sin nada que hacer, sin nada que pensar, sin nada que resolver... solo descansar, respirar, y dejarte llevar poquito a poco hacia el sueño...",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora imagina que todo tu cuerpo, tan pesado y tan tranquilo, flota despacio... como una nube suave, blanca, mullida...\n\nUna nube que flota despacio en un cielo oscuro y calmo, lleno de estrellitas pequeñas que titilan sin apuro...\n\nTú vas sobre esa nube... flotando... sin apuro... sin destino... solo flotando, tranquilo, seguro, sostenido por algo mucho más grande que tú...\n\nDios está cerca... como una luz cálida que abraza esa nube... una compañía silenciosa que no necesita palabras, que solo está ahí, cuidando, acompañando...\n\nNo tienes que hacer nada... no tienes que decir nada... solo estar aquí, flotando, respirando, tranquilo, dejándote llevar poco a poco...\n\nInhala... exhala... cada respiración te lleva un poquito más profundo hacia el descanso, un poquito más cerca del sueño...\n\nTu cuerpo pesado... tu mente tranquila... tu corazón en paz... todo tú, descansando sobre esta nube suave, acompañado, cuidado, seguro, protegido...\n\nQué lindo es este momento de calma... este ratito solo para ti... para soltar... para descansar... para simplemente ser, sin tener que hacer nada más...",
+      },
+      {
+        role: "guia-cierre",
+        mood: "night",
+        caption:
+          "Ya casi es hora de dormir... tu cuerpo está tranquilo... tu respiración es lenta y suave, como las olas del mar...\n\nDeja que tus ojos se sientan pesados... pesados... como si quisieran cerrarse del todo, poquito a poco...\n\nEstás seguro... estás acompañado... y puedes soltar, poquito a poco, hasta quedarte dormido, tranquilo, en paz...\n\nBuenas noches... descansa... nos vemos mañana, con un nuevo día lleno de calma.",
+      },
+    ],
+    conversationQuestions: [],
+  },
+
+  {
+    id: "meditacion-miedo-a-la-oscuridad",
+    contentType: "meditacion",
+    title: "Una luz en la oscuridad",
+    subtitle: "Para cuando la noche da un poco de miedo",
+    description: "Una meditación guiada para sentir compañía y calma cuando la oscuridad asusta un poco.",
+    category: "general",
+    collectionId: "meditaciones-guiadas",
+    lengthCategory: "momento-dormir",
+    durationSeconds: 506,
+    ageRange: "4-10",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: [],
+    language: "es",
+    illustrationSlug: "meditacion-miedo-a-la-oscuridad",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Hola... soy Lumo... estoy aquí contigo, en esta habitación, en esta noche...\n\nA veces, cuando se apaga la luz, la oscuridad parece muy grande... y un poquito de miedo puede aparecer... eso le pasa a muchos niños, en muchas partes del mundo, y está bien que pase... no significa que hagas nada mal...\n\nHoy vamos a descubrir algo juntos, despacio... la oscuridad no es mala... la oscuridad es solo un momento de descanso, como cuando cierras los ojos para dormir... la noche también necesita estar oscura, para que las estrellas se vean, para que todo pueda descansar, para que los pájaros duerman y las plantas también descansen un poco...\n\nRespira conmigo... inhala... despacio... y exhala... despacio, largo, sin apuro...\n\nNo estás solo... nunca estás solo en la oscuridad... hay una luz que te acompaña siempre, aunque no la veas con los ojos, aunque el cuarto esté callado y oscuro...\n\nInhala... exhala... poco a poco, tu cuerpo se va poniendo más tranquilo, más pesado, más en calma.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Cierra los ojos, si quieres... o déjalos entrecerrados, tranquilos, descansados...\n\nImagina, dentro de tu pecho, una lucecita pequeña... cálida... dorada... como la luz de una velita chiquita que nunca se apaga...\n\nEsa luz eres tú... y esa luz nunca se apaga... aunque todo alrededor esté oscuro, esa luz sigue ahí, brillando despacito, dentro de ti, quieta y constante...\n\nInhala... y siente cómo esa luz crece un poquito... exhala... y siente cómo esa luz se calienta, suave, tranquila, como una brasa que da calor sin quemar...\n\nEsa luz no le tiene miedo a la oscuridad... porque sabe que la oscuridad no puede apagarla... una luz pequeña, en un cuarto oscuro, sigue siendo una luz... sigue brillando, sigue estando ahí...\n\nInhala... exhala... esa luz dorada te acompaña, late despacio junto a tu corazón, tranquila, constante, segura, como un amigo callado que nunca se va...\n\nPuedes sentir cómo esa luz calienta tu pecho, poquito a poco, mientras tu respiración se hace cada vez más lenta y más profunda.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora imagina que esa luz cálida sale un poquito de ti... y se convierte en una luz suave que llena toda la habitación, sin encenderse de verdad, solo en tu imaginación...\n\nUna luz dorada, tibia, que flota cerca del techo, cerca de tu cama... una luz que no encandila... una luz que solo abraza, suave, sin lastimar los ojos...\n\nEsa luz mira los rincones de tu cuarto... y ahí donde parecía que había algo raro, la luz solo encuentra tus juguetes, tu ropa, las cosas de siempre, quietas, tranquilas, dormidas también, esperando el nuevo día...\n\nLa oscuridad no esconde nada malo... solo esconde las cosas de siempre, descansando, como tú, como toda la casa, como el mundo entero cuando llega la noche...\n\nInhala... exhala... esa luz tibia flota cerca de ti, cuidándote, acompañándote, sin apuro, sin ruido...\n\nDios también está ahí, en esa luz callada... una presencia que no hace ruido, que no necesita palabras, que simplemente está, cerca, cuidando, como siempre estuvo y siempre va a estar...\n\nInhala... exhala... tu cuerpo se afloja un poco más, sabiendo que esa luz sigue ahí, cuidándolo todo mientras tú descansas.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Piensa en todas las noches que ya has dormido... muchas, muchas noches... y en todas ellas, la mañana siempre llegó... siempre, sin excepción...\n\nLa oscuridad nunca se queda para siempre... es solo un ratito, un descanso, y después vuelve la luz del sol, vuelven los colores, vuelve el día, con todo lo lindo que trae...\n\nAsí que esta noche también va a pasar tranquila... y esta luz cálida que imaginamos va a quedarse contigo todo el tiempo que la necesites, sin cansarse, sin apagarse...\n\nInhala profundo... exhala largo, muy largo...\n\nSi en algún momento de la noche sientes un poquito de miedo, puedes recordar esta luz... puedes respirar despacio, como ahora... y recordar que no estás solo, que hay una compañía calma que nunca se va, que está siempre cerca, aunque no la veas...\n\nInhala... exhala... tu cuerpo se siente más tranquilo... más pesado... más seguro, más en paz con cada respiración.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora deja que esa luz cálida se acerque a ti, despacio, y te cubra como una manta suave y dorada...\n\nSiente ese calorcito sobre tus hombros... sobre tu pecho... sobre tus piernas... una manta de luz que no pesa, que no molesta, que solo abriga, suave, constante...\n\nInhala... y siente cómo esa manta de luz te envuelve un poco más... exhala... y siente cómo tu cuerpo se afloja, tranquilo, dentro de esa luz cálida...\n\nLa oscuridad de afuera sigue ahí, tranquila, pero tú estás adentro, envuelto en esta luz cálida que nadie puede apagar, ni el viento, ni la noche, ni nada...\n\nEsta luz se va a quedar contigo toda la noche... cuidándote... acompañándote... sin hacer ruido, sin apuro, siempre presente, siempre cerca...\n\nInhala... exhala... qué tranquilo se siente estar así, cuidado, abrigado, seguro, en esta noche que ya no asusta tanto, que se va sintiendo cada vez más amigable...\n\nTu cuerpo pesado, envuelto en esa luz tibia, se hunde despacio en la cama, listo para descansar de verdad.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Repite conmigo, despacio, aunque sea solo en tu mente... no estoy solo... hay una luz conmigo...\n\nNo estoy solo... hay una luz conmigo... esa luz cálida y dorada que vive dentro de mi pecho y también afuera, cuidando todo mi cuarto...\n\nEsta luz cálida va a estar encendida toda la noche, cuidándote desde adentro, aunque tus ojos estén cerrados y todo esté oscuro y en silencio, aunque no puedas verla con los ojos abiertos...\n\nInhala... exhala... tu cuerpo se pone pesado, tranquilo, como si flotara despacio dentro de esta luz suave, sostenido, cuidado...\n\nLa noche ya no es algo para temer... es solo un ratito de descanso, abrazado por esta luz que nunca se apaga, que siempre está...\n\nInhala... exhala... más tranquilo... más pesado... más en paz, dejándote ir poco a poco hacia el sueño.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Si quieres, imagina también las estrellas, allá afuera, muy lejos, brillando despacito en el cielo oscuro... cada estrella es como una lucecita más, una compañera silenciosa que vela mientras tú duermes...\n\nY la luna, grande y tranquila, también está ahí, arriba, cuidando en silencio toda la noche, sin apuro, sin cansarse nunca...\n\nInhala... y siente cómo esas luces de afuera se unen a tu luz de adentro, formando una red suave de cuidado que te rodea por todos lados...\n\nExhala... y deja que esa sensación de compañía se instale en tu pecho, tranquila, firme, segura...\n\nNo hace falta ver la oscuridad como algo vacío... está llena de estrellas, llena de luna, llena de una presencia cálida que nunca duerme mientras tú descansas...\n\nInhala... exhala... tu cuerpo pesado, tu mente tranquila, tu corazón acompañado por toda esa luz silenciosa que cuida la noche.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "night",
+        caption:
+          "Duérmete tranquilo, sabiendo que esta luz cálida se queda contigo toda la noche...\n\nNo estás solo... nunca estás solo...\n\nDeja que tu cuerpo descanse, pesado y calientito, dentro de esta luz suave que te cuida, que te acompaña sin descanso...\n\nBuenas noches... duerme en paz... mañana la luz del sol te va a estar esperando otra vez.",
+      },
+    ],
+    conversationQuestions: [],
+  },
+
+  {
+    id: "meditacion-gratitud-del-dia",
+    contentType: "meditacion",
+    title: "Tres momentos lindos",
+    subtitle: "Repasar el día con calma antes de dormir",
+    description: "Una meditación guiada para agradecer, uno por uno, tres momentos lindos del día que pasó.",
+    category: "general",
+    collectionId: "meditaciones-guiadas",
+    lengthCategory: "momento-dormir",
+    durationSeconds: 508,
+    ageRange: "4-10",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: [],
+    language: "es",
+    illustrationSlug: "meditacion-gratitud-del-dia",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "diary",
+        caption:
+          "Hola... soy Lumo... y hoy, antes de dormir, vamos a hacer algo lindo juntos... vamos a mirar el día que pasó, despacio, con calma, sin apuro...\n\nAcomódate en tu cama... deja que tu cuerpo se sienta pesado, tranquilo, como si el colchón te sostuviera con cuidado... cierra los ojos si quieres...\n\nInhala... despacio... y exhala... despacio, largo, soltando cualquier tensión que haya quedado del día...\n\nHoy pasaron muchas cosas... algunas grandes, otras muy pequeñas... y entre todas ellas, seguro hubo momentos lindos... momentos que a veces pasan rápido y no nos damos cuenta de lo lindos que fueron en su momento...\n\nEsta noche vamos a buscar tres de esos momentos... uno por uno... sin apuro... y vamos a agradecer por cada uno, despacito, antes de dormir, dejando que ese agradecimiento se sienta cálido dentro del pecho...\n\nInhala... exhala... tu mente se pone tranquila, lista para recordar con calma, sin esfuerzo, dejando que los recuerdos aparezcan solos.",
+      },
+      {
+        role: "narracion",
+        mood: "diary",
+        caption:
+          "Piensa en tu día, desde la mañana... imagina que apenas te despertaste... la luz entrando por la ventana... los primeros sonidos de la casa, despacio, tranquilos...\n\nBusca ahí, en esa parte del día, un primer momento lindo... tal vez fue algo que comiste... tal vez fue un abrazo... tal vez fue simplemente el sol entrando calentito por la ventana, o una canción que te gustó...\n\nTómate tu tiempo... no hay apuro... deja que ese momento aparezca solo, sin forzarlo, sin buscarlo con demasiada fuerza...\n\nInhala... y cuando lo tengas, aunque sea chiquito, guárdalo despacio en tu corazón, como quien guarda una piedrita bonita en el bolsillo...\n\nGracias por ese momento... gracias por esa parte linda de la mañana, aunque haya durado solo un segundo...\n\nExhala... y deja que esa gratitud se sienta como algo tibio, suave, dentro de tu pecho, como una lucecita chiquita que se enciende...\n\nNo importa si el momento fue grande o pequeño... lo pequeño también cuenta... lo pequeño, a veces, es lo más lindo de todo, lo que más se guarda en la memoria del corazón.",
+      },
+      {
+        role: "narracion",
+        mood: "diary",
+        caption:
+          "Ahora sigamos con el día... piensa en el resto de la mañana, y en la tarde, despacio, sin apuro...\n\nTal vez jugaste con alguien... tal vez aprendiste algo nuevo... tal vez alguien te miró y te sonrió... tal vez simplemente descansaste un ratito y se sintió bien, tranquilo, sin nada más que hacer...\n\nBusca ahí un segundo momento lindo... despacio... sin apuro... deja que aparezca solo, como aparecen las cosas cuando no las buscamos con fuerza, cuando simplemente dejamos espacio para que lleguen...\n\nInhala... y cuando lo encuentres, guárdalo también, despacito, junto al primero, como quien va llenando un frasquito de recuerdos buenos...\n\nGracias por ese segundo momento... gracias por esa parte de tu día, por pequeña que haya sido...\n\nExhala... y siente cómo esa gratitud se suma a la anterior, como dos lucecitas cálidas dentro de tu pecho, brillando juntas, suaves...\n\nEs lindo darse cuenta de que, aunque el día tuvo partes difíciles o cansadoras, también tuvo estos momentos buenos, guardados ahí, esperando que los encontremos con calma, esta noche, antes de dormir.",
+      },
+      {
+        role: "narracion",
+        mood: "diary",
+        caption:
+          "Y ahora pensemos en lo último del día... en la tarde que se hizo noche... en este mismo momento, aquí, en tu cama, tranquilo, respirando despacio...\n\nBusca un tercer momento lindo... tal vez fue la cena... tal vez fue un cuento... tal vez fue simplemente este ratito de ahora, quieto, calientito, seguro, escuchando esta voz que te acompaña, sin apuro...\n\nInhala... despacio... y cuando encuentres ese tercer momento, guárdalo junto a los otros dos, con cuidado, con cariño...\n\nGracias por ese tercer momento... gracias por este día completo, con sus partes fáciles y sus partes no tan fáciles, con todo lo que trajo...\n\nExhala... y siente cómo esas tres lucecitas de gratitud brillan juntas, suaves, dentro de tu pecho, calentándote un poquito por dentro, como una fogata pequeña y tranquila...\n\nTres momentos lindos... tres razones pequeñas para decir gracias, esta noche, antes de dormir, antes de cerrar los ojos.",
+      },
+      {
+        role: "narracion",
+        mood: "diary",
+        caption:
+          "Ahora, con esos tres momentos guardados dentro de ti, respira profundo... inhala... exhala, despacio, largo...\n\nDios estuvo presente en cada uno de esos momentos, aunque no lo hayas notado en su momento... en la luz de la mañana... en el juego de la tarde... en este ratito tranquilo de ahora... una compañía callada, que acompaña siempre, en lo grande y en lo pequeño, en lo que se nota y en lo que pasa desapercibido...\n\nNo hace falta guardar más cosas esta noche... con estos tres momentos alcanza... son suficientes para dormir con el corazón contento, con el corazón en paz...\n\nInhala... exhala... tu cuerpo se pone pesado, tranquilo... tu mente descansa, satisfecha, agradecida, sin necesidad de nada más...\n\nQué lindo cerrar el día así, mirando hacia atrás con calma, y encontrando cosas buenas, aunque el día no haya sido perfecto... nunca hace falta que sea perfecto... solo hace falta mirarlo con calma, con ojos agradecidos.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Deja que esas tres lucecitas de gratitud se queden contigo mientras te vas quedando dormido, brillando suave, sin apuro...\n\nInhala... exhala... cada respiración las hace brillar un poquito más suave, un poquito más tranquilo, un poquito más cerca del sueño...\n\nMañana va a llegar un nuevo día, con nuevos momentos por descubrir, con nuevas cosas por agradecer... pero eso es para mañana... esta noche, solo toca descansar, agradecido, tranquilo, en paz, sin pensar en nada más...\n\nInhala profundo... exhala largo... tu cuerpo pesado... tu corazón contento... tu mente en calma, lista para dormir.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Si quieres, puedes decir gracias una vez más, despacio, en tu mente... gracias por hoy... gracias por las personas que te acompañaron... gracias por la comida, por el juego, por este ratito de descanso...\n\nNo hace falta decir gracias por cosas grandes... a veces lo más lindo es agradecer las cosas chiquitas: un vaso de agua fresca, una sonrisa, una canción que te gustó, el sonido tranquilo de la casa antes de dormir...\n\nInhala... y siente cómo ese agradecimiento se expande despacio por todo tu cuerpo, como agua tibia que llega hasta los pies, hasta las manos, hasta la cabeza...\n\nExhala... y deja que esa gratitud se quede ahí, quieta, calladita, acompañándote mientras te preparas para dormir...\n\nCada día trae algo por lo cual agradecer, aunque sea pequeño... y encontrarlo, esta noche, es un regalo que te haces a ti mismo antes de cerrar los ojos.\n\nInhala una vez más, despacio... y exhala, dejando que todo tu cuerpo se sienta agradecido, tranquilo, pesado, listo para dormir, sin ninguna prisa, sin ningún pendiente...\n\nMañana, cuando te despiertes, va a haber nuevos momentos esperando... pero eso es cosa de mañana... esta noche, solo toca cerrar los ojos, agradecido, en paz.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "night",
+        caption:
+          "Gracias por este día... gracias por estos tres momentos lindos que encontramos juntos...\n\nAhora descansa... deja que el sueño llegue despacio, mientras esas lucecitas de gratitud siguen brillando suave dentro de ti...\n\nBuenas noches... descansa en paz... mañana habrá nuevos momentos para agradecer.",
+      },
+    ],
+    conversationQuestions: [],
+  },
+
+  {
+    id: "meditacion-paz-cuando-estoy-nervioso",
+    contentType: "meditacion",
+    title: "Soltar los nervios",
+    subtitle: "Para las noches antes de algo importante",
+    description: "Una meditación guiada para soltar los nervios, como globos que se van, y quedarse con la calma.",
+    category: "general",
+    collectionId: "meditaciones-guiadas",
+    lengthCategory: "momento-dormir",
+    durationSeconds: 504,
+    ageRange: "4-10",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: [],
+    language: "es",
+    illustrationSlug: "meditacion-paz-cuando-estoy-nervioso",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Hola... soy Lumo... estoy aquí contigo esta noche...\n\nTal vez mañana tienes algo importante... algo nuevo... algo que te pone un poquito nervioso, un poquito inquieto por dentro... y por eso cuesta más quedarse dormido, por eso los pensamientos dan vueltas y vueltas...\n\nEso le pasa a todos, grandes y chicos... sentir nervios antes de algo importante es normal... no significa que algo esté mal... solo significa que te importa, que te importa hacerlo bien, que te importa lo que viene...\n\nEsta noche vamos a hacer algo juntos, despacio, para soltar esos nervios, uno por uno, y quedarnos solamente con la calma que siempre está debajo de todo eso...\n\nAcomódate en tu cama... inhala... despacio... y exhala... despacio, largo, soltando un poquito de tensión con cada respiración...\n\nNo hace falta resolver nada ahora... mañana ya llegará, a su tiempo... esta noche, solo toca descansar, respirar, y prepararte con calma.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Piensa por un momento en esos nervios... esa sensación de cosquilleo en la panza, o esos pensamientos que dan vueltas y vueltas sin parar...\n\nNo hace falta que desaparezcan de golpe... solo vamos a imaginar algo juntos, despacio, con calma...\n\nImagina que cada uno de esos nervios, cada uno de esos pensamientos que dan vueltas, es como un globito de colores... un globito suave, liviano, atado con un hilito a tu mano...\n\nInhala... y mira ese primer globito... tal vez tiene el color de tu preocupación más grande... está bien que esté ahí, no hace falta empujarlo ni esconderlo, ni fingir que no existe...\n\nExhala... y despacio, muy despacio, abre la mano... deja que el hilito se resbale de tus dedos, sin apuro, sin fuerza...\n\nEl globito sube... despacio... flotando hacia el cielo oscuro, lleno de estrellitas... se hace más chiquito... más chiquito... hasta que casi no se ve, hasta que se pierde entre las estrellas.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora busca otro globito... tal vez este tiene el color de otro pensamiento que daba vueltas en tu cabeza, uno que aparece justo antes de dormir...\n\nInhala... y mira ese globito, atado también a un hilito en tu mano, esperando que lo sueltes...\n\nNo hace falta que lo analices, ni que entiendas todo lo que sientes... solo hace falta soltarlo, despacio, con cariño hacia ti mismo, sin juzgarte por sentir nervios...\n\nExhala... y abre la mano otra vez... deja que ese segundo globito también suba, despacio, hacia el cielo oscuro y tranquilo, sin apuro...\n\nSube... y sube... y se hace pequeño... pequeño... hasta perderse entre las estrellas, junto al primero...\n\nInhala... exhala... tu mano ya está más liviana... tu pecho también se siente un poquito más liviano, un poquito más tranquilo...\n\nCada globito que sueltas es un poquito de nervios que se va, despacio, sin apuro, flotando lejos de ti, hacia un cielo grande que tiene lugar para todo eso, sin que tengas que cargarlo tú solo.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Sigamos soltando, despacio... busca un tercer globito, y un cuarto, si hace falta... tantos como necesites esta noche...\n\nCada preocupación de mañana, cada pensamiento que da vueltas, puede convertirse en un globito suave, y puede subir, y puede irse, sin que tú tengas que cargarlo toda la noche, sin que tengas que resolverlo ahora mismo...\n\nInhala... mira el globito... exhala... suéltalo, despacio, con la mano abierta, sin apretar, sin retener...\n\nSube... se hace chiquito... desaparece entre las estrellas, junto a los otros, todos juntos, tranquilos, lejos...\n\nNo necesitas resolver nada esta noche... los globitos que sueltas no desaparecen para siempre, pero esta noche no tienen que estar contigo... esta noche pueden descansar lejos, en ese cielo grande, mientras tú también descansas, tranquilo, en tu cama...\n\nInhala... exhala... tus manos, tus brazos, tu pecho, se sienten cada vez más livianos, más tranquilos, más en paz.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora que soltaste esos globitos, mira hacia adentro tuyo... ¿qué queda ahí, cuando los nervios ya no ocupan tanto espacio?\n\nQueda la calma... una calma suave, callada, que estuvo ahí todo el tiempo, debajo de los nervios, esperando pacientemente a que la encuentres...\n\nInhala esa calma... exhala cualquier resto de tensión que quede, cualquier pensamiento que todavía dé vueltas...\n\nDios está en esa calma... una presencia tranquila que te acompaña, que no te apura, que confía en ti más de lo que tú mismo confías a veces, que sabe que vas a poder con lo que venga...\n\nMañana, cuando llegue lo que te pone nervioso, vas a poder hacerlo, un pasito a la vez, como siempre haces las cosas nuevas... y esta noche, no hace falta pensar en eso... esta noche solo toca descansar, liviano, tranquilo, en paz...\n\nInhala... exhala... tu cuerpo pesado y tranquilo... tu mente en calma... tu corazón en paz, sin nervios, sin apuro.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Si algún globito quiere volver, si algún pensamiento vuelve a dar vueltas, no pasa nada, es normal... solo respira otra vez, despacio, con paciencia...\n\nInhala... mira ese pensamiento como un globito más... exhala... suéltalo otra vez, con la mano abierta, dejándolo subir hacia el cielo oscuro y tranquilo, sin pelear con él...\n\nPuedes hacer esto tantas veces como haga falta, esta noche y cualquier otra noche que los nervios aparezcan, sin cansarte, sin frustrarte...\n\nInhala... exhala... cada vez que sueltas, tu cuerpo se pone un poco más pesado, un poco más tranquilo, un poco más listo para dormir...\n\nLa calma siempre está ahí, esperándote, debajo de los nervios... solo hay que respirar despacio para encontrarla otra vez, sin apuro, con confianza.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Piensa en otras veces que sentiste nervios antes de algo importante... y piensa en cómo, después, casi siempre resultó mejor de lo que imaginabas, o al menos, resultó, y tú seguiste adelante, un pasito a la vez...\n\nTu cuerpo ya sabe cómo hacer esto... ya lo hizo antes, muchas veces, aunque no lo recuerdes todas las veces...\n\nInhala... y confía un poquito en ese cuerpo tuyo, que sabe respirar, que sabe descansar, que sabe prepararse para mañana, aunque la mente todavía dé vueltas de vez en cuando...\n\nExhala... y suelta un globito más, el último por ahora, con toda la calma que puedas reunir esta noche...\n\nMañana no estarás solo... vas a tener a las personas que te quieren cerca, y esa calma tranquila que ahora sientes también va a estar ahí, esperándote, lista para acompañarte otra vez.\n\nInhala profundo, una vez más... y exhala, muy despacio, dejando que tu cuerpo entero se sienta liviano, tranquilo, listo para descansar, sin ningún globito más que soltar por ahora, sin ningún pendiente que resolver esta noche.\n\nInhala... exhala... tu cuerpo pesado, tu mente en calma, tu corazón tranquilo, sabiendo que mañana, un pasito a la vez, vas a poder con todo lo que llegue.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "night",
+        caption:
+          "Ya soltaste lo que tenías que soltar por esta noche... ahora solo queda la calma, y el descanso...\n\nMañana vas a estar listo para lo que venga, un pasito a la vez... pero eso es cosa de mañana...\n\nEsta noche, descansa... deja que tu cuerpo pesado y tranquilo se hunda despacio en la cama...\n\nBuenas noches... duerme en paz... mañana todo va a estar bien.",
+      },
+    ],
+    conversationQuestions: [],
+  },
+
+  {
+    id: "meditacion-descansar-en-el-amor-de-dios",
+    contentType: "meditacion",
+    title: "Envuelto en amor",
+    subtitle: "Para dormir sintiéndote cuidado",
+    description: "Una meditación guiada para sentirse envuelto, seguro y en paz en el amor de Dios antes de dormir.",
+    category: "general",
+    collectionId: "meditaciones-guiadas",
+    lengthCategory: "momento-dormir",
+    durationSeconds: 503,
+    ageRange: "4-10",
+    narrator: "Lumo",
+    characters: [],
+    tags: ["valores"],
+    passages: [],
+    language: "es",
+    illustrationSlug: "meditacion-descansar-en-el-amor-de-dios",
+    audioUrl: null,
+    musicUrl: null,
+    segments: [
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Hola... soy Lumo... y esta noche vamos a descansar juntos en algo muy lindo... el amor de Dios, que te cuida siempre, de día y de noche, sin cansarse nunca...\n\nAcomódate en tu cama... deja que tu cuerpo se sienta pesado y tranquilo, sostenido por el colchón, por la almohada, por todo lo que te rodea...\n\nInhala... despacio... y exhala... despacio, largo, soltando el día que pasó...\n\nNo hace falta hacer nada especial para recibir ese amor... ya está aquí, siempre estuvo aquí, rodeándote, como el aire que respiras, como la luz que entra por la ventana...\n\nEsta noche solo vamos a notarlo, despacio, y a descansar en él, como quien se hunde despacio en una cama muy cómoda, sin resistencia, sin esfuerzo...\n\nInhala... exhala... tu cuerpo se afloja... tu mente se aquieta... y ese amor, calladito, te va rodeando, poco a poco, con cada respiración que das.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Imagina que ese amor de Dios es como una manta... pero no una manta cualquiera... una manta invisible, suave, tibia, que no se ve pero se siente, en todo el cuerpo...\n\nInhala... y siente cómo esa manta se posa despacio sobre tus pies... calentitos... tranquilos, cubiertos con cuidado...\n\nExhala... y siente cómo esa manta sube un poquito más, sobre tus piernas... pesadas, tranquilas, cubiertas de calor suave, sin peso...\n\nInhala... y esa manta sigue subiendo, despacio, sobre tu panza, que sube y baja tranquila con cada respiración, arropada, cuidada...\n\nExhala... y la manta cubre tus brazos, tus manos, aflojándolas, calentándolas, suave, despacio, con cariño...\n\nNo hay ninguna parte de ti que quede afuera de este amor... todo tú, desde los pies hasta la cabeza, está cubierto, cuidado, abrazado, esta noche y siempre, sin excepción.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Inhala... y siente cómo esa manta invisible sube hasta tus hombros, hasta tu cuello, aflojando cualquier tensión que quedara ahí, con suavidad...\n\nExhala... y siente cómo llega hasta tu cara, tu frente, tus mejillas, suave, tibia, sin peso, solo calor y calma, como una caricia silenciosa...\n\nEstás completamente envuelto ahora... como un bebé bien arropado... como cuando alguien que te quiere mucho te abraza fuerte y te dice que todo está bien, que no hay nada que temer...\n\nAsí te sostiene el amor de Dios esta noche... sin apuro, sin condiciones, solo porque eres tú, tal como eres, con tus días buenos y tus días no tan buenos, con tus aciertos y tus equivocaciones...\n\nInhala... exhala... no tienes que hacer nada para merecer este amor... ya es tuyo... siempre fue tuyo, desde el primer día...\n\nDéjate caer un poquito más dentro de esta manta invisible... más pesado... más tranquilo... más seguro, más en calma que nunca.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Piensa en todas las veces que te sentiste cuidado hoy... un abrazo, una comida rica, una palabra amable, un ratito de juego... todo eso también fue parte de este amor, aunque no lo hayas pensado así en su momento, aunque haya pasado rápido...\n\nInhala... y siente gratitud por esos momentos, calladita, suave, dentro de tu pecho, como una lucecita cálida...\n\nExhala... y siente cómo esa gratitud se mezcla con la manta invisible que te envuelve, haciéndola aún más cálida, aún más suave...\n\nEste amor no depende de que el día haya sido perfecto... este amor está ahí en los días fáciles y en los días difíciles, sin cambiar nunca, sin cansarse nunca, sin irse nunca, pase lo que pase...\n\nInhala... exhala... tu cuerpo pesado, envuelto, tranquilo... tu corazón sabiendo, sin necesidad de palabras, que está profundamente cuidado, hoy y siempre.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora, dentro de esta manta invisible de amor, imagina que también flotas, despacito, como sobre una nube suave y oscura, llena de estrellitas tranquilas que brillan sin apuro...\n\nNo tienes que sostenerte tú solo... esta noche, y todas las noches, hay algo mucho más grande que te sostiene, que te lleva despacio hacia el sueño, sin dejarte caer nunca...\n\nInhala... y siente cómo te dejas llevar un poquito más... exhala... y siente cómo confías, sin esfuerzo, en que estás bien cuidado, en que todo está bien...\n\nNo hace falta entender todo... no hace falta resolver nada esta noche... solo hace falta descansar, envuelto, sostenido, amado, tal como estás ahora mismo...\n\nInhala... exhala... más pesado... más tranquilo... más en paz, envuelto en este amor que no se apaga nunca, ni siquiera cuando cierras los ojos, ni siquiera en sueños.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Repite despacio, en tu mente, si quieres... estoy cuidado... estoy amado... estoy en paz...\n\nEstoy cuidado... estoy amado... estoy en paz... son palabras simples, pero muy verdaderas, esta noche y siempre...\n\nEsta manta invisible de amor se queda contigo toda la noche, sin importar si te mueves, si cambias de posición, si sueñas... siempre está ahí, envolviéndote, quieta, constante, fiel, sin descanso...\n\nInhala... exhala... tu cuerpo se hunde despacio en la cama, pesado, calientito, seguro, protegido...\n\nQué lindo dormir sabiendo esto... que no estás solo, que estás profundamente cuidado, esta noche y siempre, sin ninguna duda.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Piensa en las personas que te quieren... tu familia, las personas cercanas a ti... ellas también son parte de este amor, un poquito de ese amor grande que se muestra a través de sus abrazos, de sus cuidados, de sus palabras suaves antes de dormir...\n\nInhala... y agradece por esas personas, despacio, sintiendo su cariño como una parte más de esta manta invisible que te envuelve...\n\nExhala... y siente cómo todo se une: el amor de Dios, el amor de las personas que te cuidan, el calor de tu propia cama, todo formando una sola cosa cálida y segura a tu alrededor...\n\nNo estás solo en ningún momento, ni de día ni de noche... siempre hay amor cerca, aunque a veces no lo notes, aunque a veces esté callado...\n\nInhala... exhala... tu cuerpo pesado, tu corazón tranquilo, sabiendo que está rodeado de amor por todos lados, esta noche y siempre.",
+      },
+      {
+        role: "narracion",
+        mood: "night",
+        caption:
+          "Ahora deja que todo tu cuerpo se afloje del todo, sin guardar ninguna tensión, sabiendo que no hace falta sostenerse solo...\n\nInhala profundo... y exhala muy despacio, como si soltaras el último pedacito de esfuerzo del día...\n\nEsta manta invisible de amor no se mueve, no se cansa, no se va... se queda ahí, quieta, mientras tú duermes, mientras sueñas, mientras descansas toda la noche...\n\nNo hace falta hacer nada más para merecerla... ya es tuya, desde siempre, sin condiciones...\n\nInhala... exhala... más pesado... más tranquilo... más envuelto en esta calma que no tiene fin, en este amor que te sostiene esta noche y todas las noches que vengan.\n\nInhala una vez más, largo y profundo... y exhala, muy despacio, sintiendo cómo todo tu cuerpo se entrega al descanso, sin resistencia, sin esfuerzo, confiando en que este amor te sostiene mientras duermes, mientras sueñas, mientras descansas hasta el nuevo día.",
+      },
+      {
+        role: "guia-cierre",
+        mood: "night",
+        caption:
+          "Descansa ahora, envuelto en este amor tan grande y tan suave...\n\nNo tienes que hacer nada más... solo dejarte llevar, despacio, hacia el sueño...\n\nEstás cuidado... estás amado... estás en paz...\n\nBuenas noches... duerme profundo... descansa envuelto en amor.",
+      },
+    ],
+    conversationQuestions: [],
+  },
 ];
 
 export function getContent(id: string): ContentItem | undefined {

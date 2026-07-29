@@ -2,107 +2,72 @@
 
 > Personaje principal / mascota. Ficha completa — ver `CLAUDE.md` §5 para el template y las
 > reglas generales de personajes (proporciones, silhouette test, expresiones).
+>
+> **Rebrand "Estrella" (2026-07-28):** Lumo deja de ser una luciérnaga y pasa a ser una estrella
+> sonriente — mismo nombre, misma voz, misma personalidad narrativa (guía cálido y curioso),
+> solo cambia su diseño ilustrado. Reemplaza por completo la ficha anterior (luciérnaga,
+> abdomen bioluminiscente, alas) — ese diseño queda descontinuado, no coexiste con este.
 
 **Slug:** `lumo`
-**Color de acento:** `#FFD740` (dorado luciérnaga)
-
-## GOLDEN MASTER — Circle Portrait oficial (aprobado 2026-07-22)
-
-**Archivo:** `public/lumo-art/lumo_circle_default_200.webp` (2x: `lumo_circle_default_400.webp`)
-
-Esta es la referencia oficial de identidad de Lumo. Toda ilustración futura del personaje se
-compara contra esta imagen antes de aprobarse — cualquier mejora debe demostrar una mejora
-clara sin alterar la identidad ya fijada acá (expresión, encuadre, proporciones, materiales).
-
-**Por qué fondo claro y no nocturno:** el avatar de identidad permanente representa el estado
-"de día" de Lumo (brillo suave, siempre visible — ver morfología abajo), no una escena
-puntual. Convive con la UI real de la app (`#FAF3EE`) sin competir. La versión nocturna
-original (`lumo_circle_night_*.webp`) queda como referencia para uso Hero/Splash, no como
-identidad permanente — ver decisión de dirección de arte del 2026-07-22.
-
-**Reproducibilidad:**
-- Modelo: `gpt-image-1` (OpenAI Images API)
-- Proceso: generación base + una edición dirigida (`images.edit`), no un solo paso
-- Tamaño de generación: 1024×1024, calidad `high`
-- Script de generación base: `scripts/generate-character-art-light-variant.mjs`
-- Script de edición final: `scripts/edit-character-art.mjs`
-- Prompt de generación base: bloque `{{CHARACTER}}` de Lumo + SCENE "seamless soft warm cream
-  background (#FAF3EE)" + EMOTION "Curiosidad" + LIGHTING "Magia nocturna" (adaptada a ambient
-  fill cálido) + FORMAT "Circle Portrait" — ver `MASTER-PROMPT-SYSTEM.md`
-- Prompt de edición aplicada sobre esa base: reemplazar halo circular por degradado ambiental
-  cálido de bajo contraste; aumentar iridiscencia/definición de alas; aumentar color bleeding
-  cálido del abdomen sobre torso/brazos (texto completo en `scripts/edit-character-art.mjs`)
-- No existe un parámetro de "seed" reproducible en `gpt-image-1` — la reproducibilidad depende
-  de repetir este mismo proceso de dos pasos (generación + edición) con los prompts exactos
-  arriba, no de un ID numérico único.
-
----
+**Color de acento:** `#F6C945` (amarillo miel)
 
 ```
-ESPECIE:          Luciérnaga (firefly) — 3D cartoon, estilo Pixar
+ESPECIE:          Estrella — 3D cartoon, estilo Pixar
 
 DESCRIPTOR ICÓNICO (silhouette test)
-  Abdomen bioluminiscente que emite luz cálida amarillo-dorada.
-  Cuerpo oscuro + punto de luz cálida que irradia = LUMO en silueta pura.
-  El brillo SIEMPRE visible. De día: suave. De noche: intenso. Nunca apagado.
+  Silueta de estrella de 5 puntas redondeadas (nunca puntas afiladas).
+  Dos brazos y dos piernas cortos y redondeados saliendo de las puntas laterales/inferiores.
+  Cuerpo sólido amarillo miel con un brillo suave alrededor (halo), nunca opaco.
 
 MORFOLOGÍA — proporciones específicas
-  Cabeza:    45% de la altura total (más grande que la norma)
-  Ojos:      50-60% del área facial. Catchlight DOBLE:
-             (1) catchlight estándar de la luz externa
-             (2) reflejo dorado del brillo propio del abdomen
-  Antenas:   Cortas, redondeadas, bolitas en las puntas (#FFD740)
-  Cuerpo:    Oval compacto. Tórax oscuro + abdomen luminoso
-  Alas:      2 pares, translúcidas, iridiscencia suave (verde-azul-lavanda)
-             Plegadas en reposo, desplegadas en vuelo
-  Patas:     6, cortas, redondeadas. Nunca en primer plano
-  Tamaño:    Pelota de tenis (escala cartoon, no insecto realista diminuto)
+  Cabeza:    la punta superior de la estrella ES la cabeza — cara ocupa el 60-70% del cuerpo
+  Ojos:      grandes, redondos, muy expresivos. Catchlight blanco SIEMPRE visible.
+  Mejillas:  sonrojo suave rosado, siempre presente — es lo que da calidez a la expresión
+  Brazos:    cortos, redondeados, sin dedos definidos (guantes redondos, estilo mascota)
+  Piernas:   cortas, redondeadas, mismo tratamiento que los brazos
+  Tamaño:    escala cartoon compacta, nunca proporciones realistas de estrella de cinco puntas afilada
 
-COLOR DEL BRILLO — el color más importante del proyecto
-  Brillo principal:  #FFD740  (amarillo-dorado cálido)
-  Halo exterior:     #FF8C00  (naranja ámbar, difuso)
-  De noche:          Ilumina 60-80px de radio alrededor del personaje
-  De día:            Presente al 30% de intensidad nocturna
-  Prompt keyword:    "glowing bioluminescent abdomen, warm golden light"
+COLOR DEL BRILLO
+  Cuerpo principal:  #F6C945  (amarillo miel cálido)
+  Halo exterior:     #FFE9A8  (amarillo pálido, difuso, radio suave)
+  El halo está SIEMPRE presente, aunque sutil — Lumo nunca se ve "plano" o sin luz propia.
+  Prompt keyword:    "warm soft golden glow halo around the character"
 
 COLOR DE ACENTO UI (ring, badges, CTAs, iconos activos)
-  HEX: #FFD740  —  Dorado luciérnaga
+  HEX: #F6C945  —  Amarillo miel
 
 PALETA DE CUERPO
-  Tórax:    #1A2A1A  (verde muy oscuro, casi negro)
-  Abdomen:  #2A3A10  (verde oscuro) + glow #FFD740 encima
-  Alas:     Translúcidas, tinte base #C8E8FF + iridiscencia
-  Ojos:     Iris #2D5A1A + catchlight blanco + reflejo dorado
-  Antenas:  #1A2A1A con bolitas #FFD740 en puntas
+  Cuerpo:   #F6C945 con sombreado suave #E8B93A en los pliegues
+  Mejillas: #FFB4A8 (sonrojo suave)
+  Ojos:     Iris #10204A (azul marino, mismo tono que el texto de la UI) + catchlight blanco
+  Halo:     #FFE9A8, difuso, nunca un anillo duro
 
 EXPRESIÓN DEFAULT
-  CURIOSIDAD — cabeza ladeada, una antena más alta, ojos muy abiertos,
-  sonrisa suave. LUMO siempre está descubriendo algo.
+  ALEGRÍA / CURIOSIDAD — sonrisa amplia y abierta, ojos bien abiertos, brazos ligeramente
+  levantados como si estuviera saludando. Lumo siempre transmite calidez y bienvenida.
 
-COMPORTAMIENTO DE ALAS
-  Reposo:    Plegadas, casi invisibles
-  Vuelo:     Desplegadas, mostrando iridiscencia
-  Emoción:   Semi-desplegadas, temblando
-  Sueño:     Completamente cerradas, brillo muy suave
+POSES OFICIALES (mismo set de siempre, no se agregan nuevas)
+  lumo-frontal:  de pie, brazos relajados, sonrisa suave — pose neutra/guía
+  lumo-feliz:    brazos arriba, sonrisa amplia, ojos en forma de arco — celebración/logro
+  lumo-volando:  inclinado hacia adelante, brazos hacia atrás como si flotara, estela suave detrás
 
 REGLA CRÍTICA — efecto de luz en el entorno
-  LUMO ilumina lo que tiene cerca. Objetos y personajes cercanos deben
-  tener un tinte dorado-ámbar en el lado que da hacia LUMO.
-  Este "color bleeding" del brillo es lo que hace la imagen sentirse mágica.
-  Prompt keyword: "casting warm golden light on surroundings,
-                   color bleeding from bioluminescence"
+  El halo cálido de Lumo tiñe levemente las superficies cercanas en la ilustración
+  ("color bleeding" dorado suave) — mismo principio que antes, ahora con menos intensidad
+  (Lumo ya no es una fuente de luz nocturna, es una mascota cálida de día).
+  Prompt keyword: "soft warm golden ambient glow, gentle color bleeding onto nearby surfaces"
 
 KEYWORDS DE CONSISTENCIA (incluir en TODOS los prompts)
-  "firefly character, cartoon firefly, Pixar style firefly,
-   glowing abdomen, bioluminescent, warm golden glow,
-   big expressive eyes, translucent iridescent wings,
-   rounded cute design, no realistic proportions"
+  "smiling yellow star character, cartoon star mascot, Pixar style,
+   rounded five-pointed star body, soft golden glow halo,
+   big expressive eyes with white catchlight, rosy cheeks,
+   short rounded arms and legs, warm and friendly, no sharp points"
 
 NUNCA para este personaje
-  - Brillo verde (cliché radiactivo, no mágico — siempre dorado)
-  - Cuerpo marrón (pierde el carácter nocturno/misterioso)
-  - 6 patas en primer plano (muy literal, resta encanto cartoon)
-  - Postura amenazante o agresiva
+  - Puntas afiladas o agresivas (la estrella es siempre redondeada, nunca geométrica dura)
+  - Cuerpo opaco o sin halo — el brillo suave siempre está presente
+  - Expresión neutra o seria — Lumo siempre transmite calidez
+  - Referencias al diseño anterior (luciérnaga, alas, abdomen bioluminiscente, antenas)
+  - Colores fríos en el cuerpo (el amarillo miel es no negociable, es la identidad)
   - Ojos pequeños o entrecerrados
-  - Brillo apagado o invisible en cualquier escena
 ```

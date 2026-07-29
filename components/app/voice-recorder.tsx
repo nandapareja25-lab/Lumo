@@ -73,8 +73,8 @@ export function VoiceRecorder({ value, onChange }: VoiceRecorderProps) {
         <button
           type="button"
           onClick={togglePlay}
-          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-[#1F1712]"
-          style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+          className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full text-[#2D2A26]"
+          style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)" }}
         >
           {playing ? <Pause className="h-4 w-4" /> : <Play className="h-4 w-4" />}
         </button>

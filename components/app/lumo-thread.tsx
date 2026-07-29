@@ -37,7 +37,7 @@ export function LumoThread({ height = 74 }: { height?: number }) {
       <span
         className="lumo-thread-dot absolute left-1/2 top-1/2 h-[7px] w-[7px] -translate-x-1/2 -translate-y-1/2 rounded-full"
         style={{
-          background: "radial-gradient(circle, #F3C878 0%, #E8A33D 65%, rgba(232,163,61,0) 100%)",
+          background: "radial-gradient(circle, #F7C948 0%, #F5B800 65%, rgba(232,163,61,0) 100%)",
           boxShadow: "0 0 16px 5px rgba(232,163,61,0.45)",
         }}
       />

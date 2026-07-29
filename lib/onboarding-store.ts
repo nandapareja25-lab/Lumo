@@ -8,10 +8,21 @@
 
 const KEY = "lumo_onboarding_v1";
 
+/** Opciones exactas de "¿Qué desean fortalecer?" (lumo-design-tokens.json, captura de
+ * referencia). Solo "valores" mapea hoy a un StoryTag real en todaysStory() — el resto se
+ * guarda igual (dato real, no descartado) pero cae con gracia a la rotación normal hasta que
+ * exista contenido/tag propio, documentado en lib/app-data.ts. */
+export type FocusArea = "valores" | "fe" | "gratitud" | "historias" | "musica" | "rutinas";
+
 export type OnboardingState = {
   v: 1;
   childName: string;
   childAge: number | null;
+  /** Para quién es la experiencia — solo cambia el copy de los pasos siguientes, sin lógica propia. */
+  audience: "hija" | "hijo" | "familia" | null;
+  /** Qué quieren fortalecer — conecta de verdad con todaysStory() (lib/app-data.ts), mismo
+   * patrón que el "tone" de Evangelio del día: un filtro real, no un dato guardado sin uso. */
+  focusArea: FocusArea | null;
   faithTradition: "cristiana" | null;
   diaryEntry: string;
   diaryAudio: string | null;
@@ -23,6 +34,8 @@ const DEFAULT_STATE: OnboardingState = {
   v: 1,
   childName: "",
   childAge: null,
+  audience: null,
+  focusArea: null,
   faithTradition: null,
   diaryEntry: "",
   diaryAudio: null,

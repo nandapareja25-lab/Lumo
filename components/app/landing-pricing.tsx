@@ -23,19 +23,19 @@ export function LandingPricing() {
         onClick={() => setPlan("mensual")}
         className="flex items-center justify-between rounded-2xl border p-4 text-left transition-colors"
         style={{
-          borderColor: plan === "mensual" ? "#FFD740" : "rgba(255,255,255,0.12)",
+          borderColor: plan === "mensual" ? "#F5B800" : "rgba(255,255,255,0.12)",
           background: plan === "mensual" ? "rgba(255,215,64,0.08)" : "rgba(255,255,255,0.03)",
         }}
       >
         <div>
-          <p className="font-heading text-lg font-semibold text-[#F2ECDF]">$4.99/mes</p>
+          <p className="font-heading text-lg font-semibold text-[#FDFCF9]">$4.99/mes</p>
           <p className="text-xs text-[rgba(242,236,223,0.66)]">Plan mensual · sin compromiso anual</p>
         </div>
         <span
           className="h-5 w-5 shrink-0 rounded-full border-2"
           style={{
-            borderColor: plan === "mensual" ? "#FFD740" : "rgba(242,236,223,0.3)",
-            background: plan === "mensual" ? "#FFD740" : "transparent",
+            borderColor: plan === "mensual" ? "#F5B800" : "rgba(242,236,223,0.3)",
+            background: plan === "mensual" ? "#F5B800" : "transparent",
           }}
         />
       </button>
@@ -43,33 +43,33 @@ export function LandingPricing() {
       <div
         className="relative rounded-2xl border-2 p-4 transition-colors"
         style={{
-          borderColor: plan === "anual" ? "#FFD740" : "rgba(255,255,255,0.12)",
+          borderColor: plan === "anual" ? "#F5B800" : "rgba(255,255,255,0.12)",
           background: plan === "anual" ? "rgba(255,215,64,0.09)" : "rgba(255,255,255,0.03)",
         }}
       >
         <span
-          className="absolute -top-3 left-4 rounded-full px-2.5 py-0.5 text-xs font-semibold text-[#3A2705]"
-          style={{ background: "linear-gradient(135deg, #FFD740, #F7C35C)" }}
+          className="absolute -top-3 left-4 rounded-full px-2.5 py-0.5 text-xs font-semibold text-[#2D2A26]"
+          style={{ background: "linear-gradient(135deg, #F5B800, #F7C35C)" }}
         >
           Más popular
         </span>
         <button onClick={() => setPlan("anual")} className="flex w-full items-center justify-between text-left">
           <div>
-            <p className="font-heading text-lg font-semibold text-[#F2ECDF]">$3.33/mes</p>
+            <p className="font-heading text-lg font-semibold text-[#FDFCF9]">$3.33/mes</p>
             <p className="text-xs text-[rgba(242,236,223,0.66)]">Plan anual · facturado $39.99/año</p>
           </div>
           <span
             className="h-5 w-5 shrink-0 rounded-full border-2"
             style={{
-              borderColor: plan === "anual" ? "#FFD740" : "rgba(242,236,223,0.3)",
-              background: plan === "anual" ? "#FFD740" : "transparent",
+              borderColor: plan === "anual" ? "#F5B800" : "rgba(242,236,223,0.3)",
+              background: plan === "anual" ? "#F5B800" : "transparent",
             }}
           />
         </button>
         <ul className="mt-3 flex flex-col gap-1.5 border-t pt-3" style={{ borderColor: "rgba(255,255,255,0.12)" }}>
           {["Ahorro frente al mensual", "Acceso completo", "Mejor valor"].map((item) => (
             <li key={item} className="flex items-center gap-2 text-sm text-[rgba(242,236,223,0.75)]">
-              <Check className="h-3.5 w-3.5 shrink-0" style={{ color: "#FFD740" }} />
+              <Check className="h-3.5 w-3.5 shrink-0" style={{ color: "#F5B800" }} />
               {item}
             </li>
           ))}
@@ -78,8 +78,8 @@ export function LandingPricing() {
 
       <Link
         href={REGISTRO_HREF}
-        className="mt-2 flex h-14 w-full items-center justify-center rounded-full text-base font-semibold text-[#3A2705]"
-        style={{ background: "linear-gradient(135deg, #FFD740, #F7C35C)" }}
+        className="mt-2 flex h-14 w-full items-center justify-center rounded-full text-base font-semibold text-[#2D2A26]"
+        style={{ background: "linear-gradient(135deg, #F5B800, #F7C35C)" }}
       >
         Empezar gratis — plan {plan === "anual" ? "anual" : "mensual"}
       </Link>

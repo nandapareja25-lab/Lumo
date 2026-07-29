@@ -25,7 +25,8 @@ export function StoryPoster({ story, size = "medium", locked = false }: StoryPos
         whileHover={{ scale: 1.02, y: -2 }}
         whileTap={{ scale: 0.97 }}
         transition={{ duration: 0.2, ease: "easeOut" }}
-        className={`image-text-overlay relative ${width} ${height} overflow-hidden rounded-[12px] shadow-sm`}
+        className={`image-text-overlay relative ${width} ${height} overflow-hidden rounded-[24px]`}
+        style={{ boxShadow: "var(--shadow-card)" }}
       >
         <ArtAsset
           slug={story.id.startsWith("cuento-") ? story.id : `story-${story.id}`}

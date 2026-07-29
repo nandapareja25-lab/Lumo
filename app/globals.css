@@ -7,9 +7,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-display);
+  --font-sans: var(--font-baloo-2), var(--font-display), sans-serif;
   --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-fredoka);
+  --font-heading: var(--font-baloo-2), var(--font-fredoka), sans-serif;
   --color-growth: var(--growth);
   --color-growth-foreground: var(--growth-foreground);
   --color-sky: var(--sky);
@@ -50,90 +50,125 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --radius-card: 24px;
+  --radius-card-lg: 28px;
+  --radius-input: 16px;
+  --color-category-blue: var(--category-blue);
+  --color-category-pink: var(--category-pink);
+  --color-category-green: var(--category-green);
+  --color-category-purple: var(--category-purple);
+  --color-category-red: var(--category-red);
+  --color-category-cream: var(--category-cream);
+  --font-baloo: var(--font-baloo-2);
 }
 
 /*
- * Brand kit de Lumo — identidad "Vigilia" (CLAUDE.md §9.1), único vigente. Reemplaza el
- * "brand kit v3" verde-salvia anterior (pre-Vigilia) — esos tokens habían quedado sin
- * actualizar aunque toda la UI real ya usaba el crema cálido a mano (bg-[#FAF3EE]), lo que
- * dejaba estas variables como un sistema fantasma que nadie leía. Fondo crema cálido (nunca
- * blanco puro), texto casi-negro cálido, dorado Lumo como acento.
+ * Brand kit de Lumo — tokens exactos de lumo-design-tokens.json (2026-07-28), fuente de verdad
+ * pixel-a-pixel provista por el usuario. Reemplaza los valores aproximados de la primera pasada
+ * del rebrand "Estrella". Fondo blanco cálido, texto en 3 grises cálidos, CTA en degradado
+ * amarillo-dorado, y 6 colores de categoría (nunca como fondo de pantalla completo).
  */
 :root {
-  --background: #FAF3EE;
-  --foreground: #1A1410;
+  --background: #FDFCF9;
+  --foreground: #2D2A26;
   --card: #FFFFFF;
-  --card-foreground: #1A1410;
+  --card-foreground: #2D2A26;
   --popover: #FFFFFF;
-  --popover-foreground: #1A1410;
-  --primary: #E8A33D;
-  --primary-foreground: #1F1712;
-  --secondary: #F3E9DD;
-  --secondary-foreground: #6B5B52;
-  --muted: #F3E9DD;
-  --muted-foreground: #A89288;
-  --accent: #FBE8C8;
-  --accent-foreground: #1A1410;
-  --growth: #4E9270;
-  --growth-foreground: #FFFFFF;
-  --sky: #6FA8C7;
+  --popover-foreground: #2D2A26;
+  --primary: #F5B800;
+  --primary-foreground: #2D2A26;
+  --primary-gradient-start: #F7C948;
+  --primary-gradient-end: #F5A300;
+  --secondary: #FFF4D6;
+  --secondary-foreground: #2D2A26;
+  --muted: #F5F1E6;
+  --muted-foreground: #9B9690;
+  --body-foreground: #5A564F;
+  --accent: #FFF4D6;
+  --accent-foreground: #2D2A26;
+  --growth: #6BCB77;
+  --growth-foreground: #2D2A26;
+  --sky: #5B9BD5;
   --sky-foreground: #FFFFFF;
-  --destructive: #B5432E;
-  --border: rgba(26, 20, 16, 0.12);
-  --input: rgba(26, 20, 16, 0.16);
-  --ring: #E8A33D;
-  --chart-1: #E8A33D;
-  --chart-2: #4E9270;
-  --chart-3: #6FA8C7;
-  --chart-4: #1A1410;
-  --chart-5: #B5432E;
+  --category-blue: #5B9BD5;
+  --category-pink: #F06BA8;
+  --category-green: #6BCB77;
+  --category-purple: #9B87F5;
+  --category-red: #F26B6B;
+  --category-cream: #FFF4D6;
+  --night-gradient: linear-gradient(180deg, #2C2A4A 0%, #1A1836 100%);
+  --destructive: #F26B6B;
+  --border: #EFEDE8;
+  --input: rgba(0, 0, 0, 0.08);
+  --ring: #F5B800;
+  --chart-1: #F5B800;
+  --chart-2: #5B9BD5;
+  --chart-3: #6BCB77;
+  --chart-4: #9B87F5;
+  --chart-5: #F06BA8;
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-button: 0 4px 10px rgba(245, 184, 0, 0.35);
+  --shadow-mascot: 0 8px 20px rgba(0, 0, 0, 0.10);
   --radius: 1rem;
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #1A1410;
-  --sidebar-primary: #E8A33D;
-  --sidebar-primary-foreground: #1F1712;
-  --sidebar-accent: #F3E9DD;
-  --sidebar-accent-foreground: #1A1410;
-  --sidebar-border: rgba(26, 20, 16, 0.12);
-  --sidebar-ring: #E8A33D;
+  --sidebar-foreground: #2D2A26;
+  --sidebar-primary: #F5B800;
+  --sidebar-primary-foreground: #2D2A26;
+  --sidebar-accent: #FFF4D6;
+  --sidebar-accent-foreground: #2D2A26;
+  --sidebar-border: #EFEDE8;
+  --sidebar-ring: #F5B800;
 }
 
 .dark {
-  --background: #FAF3EE;
-  --foreground: #1A1410;
+  --background: #FDFCF9;
+  --foreground: #2D2A26;
   --card: #FFFFFF;
-  --card-foreground: #1A1410;
+  --card-foreground: #2D2A26;
   --popover: #FFFFFF;
-  --popover-foreground: #1A1410;
-  --primary: #E8A33D;
-  --primary-foreground: #1F1712;
-  --secondary: #F3E9DD;
-  --secondary-foreground: #6B5B52;
-  --muted: #F3E9DD;
-  --muted-foreground: #A89288;
-  --accent: #FBE8C8;
-  --accent-foreground: #1A1410;
-  --growth: #4E9270;
-  --growth-foreground: #FFFFFF;
-  --sky: #6FA8C7;
+  --popover-foreground: #2D2A26;
+  --primary: #F5B800;
+  --primary-foreground: #2D2A26;
+  --primary-gradient-start: #F7C948;
+  --primary-gradient-end: #F5A300;
+  --secondary: #FFF4D6;
+  --secondary-foreground: #2D2A26;
+  --muted: #F5F1E6;
+  --muted-foreground: #9B9690;
+  --body-foreground: #5A564F;
+  --accent: #FFF4D6;
+  --accent-foreground: #2D2A26;
+  --growth: #6BCB77;
+  --growth-foreground: #2D2A26;
+  --sky: #5B9BD5;
   --sky-foreground: #FFFFFF;
-  --destructive: #B5432E;
-  --border: rgba(26, 20, 16, 0.12);
-  --input: rgba(26, 20, 16, 0.16);
-  --ring: #E8A33D;
-  --chart-1: #E8A33D;
-  --chart-2: #4E9270;
-  --chart-3: #6FA8C7;
-  --chart-4: #1A1410;
-  --chart-5: #B5432E;
+  --category-blue: #5B9BD5;
+  --category-pink: #F06BA8;
+  --category-green: #6BCB77;
+  --category-purple: #9B87F5;
+  --category-red: #F26B6B;
+  --category-cream: #FFF4D6;
+  --night-gradient: linear-gradient(180deg, #2C2A4A 0%, #1A1836 100%);
+  --destructive: #F26B6B;
+  --border: #EFEDE8;
+  --input: rgba(0, 0, 0, 0.08);
+  --ring: #F5B800;
+  --chart-1: #F5B800;
+  --chart-2: #5B9BD5;
+  --chart-3: #6BCB77;
+  --chart-4: #9B87F5;
+  --chart-5: #F06BA8;
+  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-button: 0 4px 10px rgba(245, 184, 0, 0.35);
+  --shadow-mascot: 0 8px 20px rgba(0, 0, 0, 0.10);
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #1A1410;
-  --sidebar-primary: #E8A33D;
-  --sidebar-primary-foreground: #1F1712;
-  --sidebar-accent: #F3E9DD;
-  --sidebar-accent-foreground: #1A1410;
-  --sidebar-border: rgba(26, 20, 16, 0.12);
-  --sidebar-ring: #E8A33D;
+  --sidebar-foreground: #2D2A26;
+  --sidebar-primary: #F5B800;
+  --sidebar-primary-foreground: #2D2A26;
+  --sidebar-accent: #FFF4D6;
+  --sidebar-accent-foreground: #2D2A26;
+  --sidebar-border: #EFEDE8;
+  --sidebar-ring: #F5B800;
 }
 
 @layer base {
@@ -160,36 +195,51 @@
 }
 
 /*
- * Escala tipográfica única — antes cada pantalla elegía tamaño/peso a mano y todo terminaba
- * pesando parecido (auditoría visual 2026-07-24). 5 roles, del más grande al más chico.
+ * Escala tipográfica única — valores exactos de lumo-design-tokens.json (2026-07-28).
  * Usar SIEMPRE una de estas clases para título/subtítulo/cuerpo en vez de un tamaño suelto.
  */
 .text-display {
-  font-size: clamp(28px, 6vw, 36px);
-  font-weight: 700;
-  line-height: 1.15;
+  font-size: clamp(28px, 6vw, 34px);
+  font-weight: 800;
+  line-height: 1.2;
 }
 .text-h1 {
-  font-size: clamp(22px, 5vw, 28px);
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   line-height: 1.2;
 }
 .text-h2 {
-  font-size: 19px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.text-h3 {
+  font-size: 18px;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 .text-body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.5;
 }
+.text-small {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
 .text-caption {
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   line-height: 1.4;
+}
+/* Palabra clave resaltada dentro de un título (lumo-design-tokens.json highlightWordStyle). */
+.text-highlight {
+  color: var(--primary);
+  font-weight: 800;
+  display: inline;
 }
 
 /*
@@ -211,4 +261,19 @@
 .image-text-overlay .overlay-content {
   position: relative;
   z-index: 1;
+}
+
+/*
+ * Reducción de movimiento centralizada — antes vivía ad hoc en dos componentes distintos
+ * (scene-backdrop.tsx, lumo-thread.tsx) con su propio styled-jsx. Una sola regla acá cubre
+ * toda animación/transición CSS del proyecto; framer-motion respeta esta preferencia por su
+ * cuenta a nivel de SO, esto cubre el resto (CSS puro, @keyframes, transitions).
+ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

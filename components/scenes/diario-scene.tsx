@@ -18,10 +18,10 @@ export function DiarioScene() {
         <GlowOrb cx={54} cy={34} r={18} duration={3.2} />
 
         {/* diario */}
-        <rect x="32" y="30" width="36" height="24" rx="3" fill="#2A1F17" />
+        <rect x="32" y="30" width="36" height="24" rx="3" fill="#2D2A26" />
         <rect x="49" y="30" width="1.4" height="24" fill="#140D0A" />
-        <rect x="37" y="36" width="12" height="1.4" rx="0.7" fill="#6B5A4A" />
-        <rect x="37" y="40" width="9" height="1.4" rx="0.7" fill="#6B5A4A" />
+        <rect x="37" y="36" width="12" height="1.4" rx="0.7" fill="#5A564F" />
+        <rect x="37" y="40" width="9" height="1.4" rx="0.7" fill="#5A564F" />
 
         {/* pluma con brillo en la punta */}
         <motion.g

@@ -17,7 +17,7 @@ export function RutinaScene() {
       >
         {/* marco de ventana */}
         <rect x="30" y="10" width="40" height="36" rx="4" fill="#140D0A" />
-        <rect x="34" y="14" width="32" height="28" rx="2" fill="#2A1F17" />
+        <rect x="34" y="14" width="32" height="28" rx="2" fill="#2D2A26" />
         <rect x="49" y="14" width="1.4" height="28" fill="#140D0A" />
         <rect x="34" y="27" width="32" height="1.4" fill="#140D0A" />
 

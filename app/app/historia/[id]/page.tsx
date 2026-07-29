@@ -24,14 +24,14 @@ export default function HistoriaCoverPage() {
 
   if (!story) {
     return (
-      <main className="flex min-h-dvh items-center justify-center bg-[#FAF3EE] px-4 text-center text-[#2A1F17]">
-        <p className="text-[#6B5A4A]">No encontramos esta historia.</p>
+      <main className="flex min-h-dvh items-center justify-center bg-background px-4 text-center text-foreground">
+        <p className="text-muted-foreground">No encontramos esta historia.</p>
       </main>
     );
   }
 
   return (
-    <main className="flex min-h-dvh flex-col bg-[#FAF3EE] text-[#2A1F17]">
+    <main className="flex min-h-dvh flex-col bg-background text-foreground">
       <div className="relative h-96 w-full">
         <ArtAsset
           slug={story.id.startsWith("cuento-") ? story.id : `story-${story.id}`}
@@ -42,7 +42,7 @@ export default function HistoriaCoverPage() {
         <div
           className="pointer-events-none absolute inset-0"
           style={{
-            background: "linear-gradient(0deg, #FAF3EE 0%, rgba(250,243,238,0.15) 45%, rgba(250,243,238,0) 70%)",
+            background: "linear-gradient(0deg, #FDFCF9 0%, rgba(253,252,249,0.15) 45%, rgba(253,252,249,0) 70%)",
           }}
         />
         <button
@@ -60,31 +60,31 @@ export default function HistoriaCoverPage() {
           aria-label="Favorito"
           className="absolute right-4 top-6 flex h-10 w-10 items-center justify-center rounded-full bg-black/30 backdrop-blur-sm"
         >
-          <Heart className="h-5 w-5" style={{ color: fav ? "#F3C878" : "#fff", fill: fav ? "#F3C878" : "none" }} />
+          <Heart className="h-5 w-5" style={{ color: fav ? "#F06BA8" : "#fff", fill: fav ? "#F06BA8" : "none" }} />
         </button>
       </div>
 
       <div className="flex flex-col gap-4 px-4 pb-8 pt-2">
         <div>
           <span
-            className="mb-3 inline-block rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase"
-            style={{ background: "rgba(42,31,23,0.06)", color: "#6B5A4A" }}
+            className="mb-3 inline-block rounded-full px-2.5 py-1 text-[10px] font-bold uppercase"
+            style={{ background: "#FFF4D6", color: "#B8912A" }}
           >
             {story.category === "antiguo" ? "Antiguo Testamento" : story.category === "nuevo" ? "Nuevo Testamento" : "Cuento"}
           </span>
-          <h1 className="font-heading text-2xl font-medium text-balance">{story.title}</h1>
-          <p className="mt-1 text-[15px] text-[#6B5A4A]">{story.subtitle}</p>
+          <h1 className="font-heading text-2xl font-bold text-balance">{story.title}</h1>
+          <p className="mt-1 text-[15px] text-muted-foreground">{story.subtitle}</p>
         </div>
 
         <Link
           href={`/reproducir/${story.id}`}
-          className="flex h-14 w-full items-center justify-center gap-1.5 rounded-full text-base font-semibold text-[#1F1712]"
-          style={{ background: "linear-gradient(180deg, #F3C878, #F0B860)" }}
+          className="flex h-14 w-full items-center justify-center gap-1.5 rounded-full text-base font-bold text-[#2D2A26]"
+          style={{ background: "linear-gradient(180deg, #F7C948, #F5A300)", boxShadow: "var(--shadow-button)" }}
         >
           <Play className="h-4 w-4 fill-current" /> {done ? "Volver a escuchar" : "Reproducir historia"}
         </Link>
         {done && (
-          <p className="text-center text-xs text-[#6B5A4A]">
+          <p className="text-center text-xs text-muted-foreground">
             Ya vivieron esta historia en familia — pueden repetirla cuando quieran.
           </p>
         )}

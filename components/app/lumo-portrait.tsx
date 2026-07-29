@@ -4,16 +4,29 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import { Lumo } from "./lumo";
 
+export type LumoPose =
+  | "lumo-frontal"
+  | "lumo-feliz"
+  | "lumo-volando"
+  | "lumo-saludo"
+  | "lumo-leyendo"
+  | "lumo-senalando"
+  | "lumo-pensando"
+  | "lumo-durmiendo"
+  | "lumo-abrazo";
+
 type LumoPortraitProps = {
-  pose: "lumo-frontal" | "lumo-feliz" | "lumo-volando";
+  pose: LumoPose;
   size: number;
   className?: string;
 };
 
 /**
- * Muestra la pose real de Lumo (generada y aprobada en /admin/landing) si ya existe; si no,
- * cae en el SVG simplificado como respaldo. Reemplaza el dibujo por las poses reales en cuanto
- * el usuario las genere con su clave de OpenAI — sin tocar ninguna pantalla que use este componente.
+ * Muestra la pose real de Lumo (recortada de la lámina de 9 poses del usuario en
+ * Desktop/IMAGENES, 2026-07-28 — reemplaza las poses generadas con IA anteriores) si ya existe;
+ * si no, cae en el SVG simplificado como respaldo. Los recortes son PNG con fondo transparente
+ * del personaje completo, no una foto-retrato — por eso usa `object-contain` sin máscara
+ * circular (una máscara redonda recortaría la estrella en vez de mostrarla completa).
  */
 export function LumoPortrait({ pose, size, className }: LumoPortraitProps) {
   const [url, setUrl] = useState<string | null | undefined>(undefined);
@@ -38,7 +51,7 @@ export function LumoPortrait({ pose, size, className }: LumoPortraitProps) {
         alt="Lumo"
         width={size}
         height={size}
-        className={`rounded-full object-cover ${className ?? ""}`}
+        className={`object-contain ${className ?? ""}`}
       />
     );
   }

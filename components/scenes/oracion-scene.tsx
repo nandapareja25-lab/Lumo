@@ -23,7 +23,7 @@ export function OracionScene() {
         <GlowOrb cx={49} cy={40} r={16} duration={3} />
 
         {/* manos unidas (forma abstracta) */}
-        <path d="M40 46 Q49 30 58 46 Z" fill="#2A1F17" />
+        <path d="M40 46 Q49 30 58 46 Z" fill="#2D2A26" />
         <path d="M43 46 Q49 36 55 46 Z" fill="#3A2A1E" />
 
         {particles.map((p, i) => (

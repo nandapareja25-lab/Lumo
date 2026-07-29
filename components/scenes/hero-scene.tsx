@@ -18,8 +18,8 @@ export function HeroScene() {
         <GlowOrb cx={50} cy={30} r={22} duration={3.4} />
 
         {/* silueta mamá */}
-        <ellipse cx="35" cy="50" rx="11" ry="14" fill="#2A1F17" />
-        <circle cx="35" cy="33" r="6.5" fill="#2A1F17" />
+        <ellipse cx="35" cy="50" rx="11" ry="14" fill="#2D2A26" />
+        <circle cx="35" cy="33" r="6.5" fill="#2D2A26" />
 
         {/* silueta hija */}
         <ellipse cx="52" cy="53" rx="8" ry="10" fill="#3A2A1E" />

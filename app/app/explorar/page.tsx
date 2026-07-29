@@ -2,7 +2,9 @@
 
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import { Search } from "lucide-react";
+import Link from "next/link";
+import { Lock, Search } from "lucide-react";
+import { motion } from "framer-motion";
 import { StoryPoster } from "@/components/app/story-poster";
 import { PrayerPoster } from "@/components/app/prayer-poster";
 import { ArtAsset } from "@/components/app/art-asset";
@@ -10,6 +12,7 @@ import { MoodScene } from "@/components/scenes/mood-scene";
 import { LumoPortrait } from "@/components/app/lumo-portrait";
 import { STORIES, CUENTOS, StoryTag, multiEpisodeSeries } from "@/lib/story-catalog";
 import { PRAYERS } from "@/lib/prayers";
+import { getContentByType } from "@/lib/content-catalog";
 import { EXPLORE_FILTERS as FILTERS, EXPLORE_CATEGORY_CARDS as CATEGORY_CARDS, ExploreFilterId as FilterId } from "@/lib/explore-categories";
 import { AppState, isGated, readApp } from "@/lib/app-data";
 
@@ -78,24 +81,32 @@ function ExplorarPageInner() {
     return PRAYERS.filter((p) => p.title.toLowerCase().includes(q) || p.subtitle.toLowerCase().includes(q));
   }, [q]);
 
+  const meditations = useMemo(() => {
+    const all = getContentByType("meditacion");
+    if (!q) return all;
+    return all.filter((m) => m.title.toLowerCase().includes(q) || m.subtitle.toLowerCase().includes(q));
+  }, [q]);
+
   const searching = q.length > 0;
 
   if (!state) return null;
 
   return (
-    <main className="relative min-h-dvh bg-[#FBF5EC] text-[#1C1712]">
-      <div className="bg-[#132018] px-4 pb-5 pt-6 text-[#F2ECDF]">
+    <main className="relative min-h-dvh bg-background text-foreground">
+      <div className="px-4 pb-3 pt-6">
         <h1 className="font-heading text-h1">Explorar</h1>
+        <p className="text-body text-muted-foreground">Descubre por categoría</p>
       </div>
-      <div className="relative z-10 flex flex-col gap-6 pb-4 pt-6">
+      <div className="relative z-10 flex flex-col gap-6 pb-4 pt-2">
       <div className="px-4">
         <div className="relative">
-          <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-[#A3927F]" />
+          <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
           <input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Buscar historias u oraciones…"
-            className="h-11 w-full rounded-full border border-[#ECDFCD] bg-white pl-10 pr-4 text-sm text-[#1C1712] outline-none placeholder:text-[#A3927F] focus-visible:border-[#B9860F]"
+            className="h-12 w-full rounded-[16px] border-none bg-card pl-10 pr-4 text-sm text-foreground outline-none placeholder:text-muted-foreground focus-visible:ring-2 focus-visible:ring-primary/40"
+            style={{ boxShadow: "var(--shadow-card)" }}
           />
         </div>
       </div>
@@ -111,13 +122,49 @@ function ExplorarPageInner() {
         </section>
       )}
 
+      {!searching && meditations.length > 0 && (
+        <section className="flex flex-col gap-3">
+          <h2 className="px-4 font-heading text-h2">Meditaciones</h2>
+          <div className="scrollbar-none flex gap-3 overflow-x-auto px-4 pb-1">
+            {meditations.map((m) => (
+              <Link key={m.id} href={`/reproducir/${m.id}`}>
+                <motion.div
+                  whileHover={{ scale: 1.02, y: -2 }}
+                  whileTap={{ scale: 0.97 }}
+                  transition={{ duration: 0.2, ease: "easeOut" }}
+                  className="image-text-overlay relative h-52 w-44 shrink-0 overflow-hidden rounded-[20px]" style={{ boxShadow: "var(--shadow-card)" }}
+                >
+                  <ArtAsset
+                    slug={m.illustrationSlug}
+                    alt={m.title}
+                    fallback={<MoodScene mood="night" />}
+                    className="absolute inset-0"
+                  />
+                  <div className="overlay-content absolute inset-0">
+                    {isGated(state, m.id, "meditacion") && (
+                      <span className="absolute right-3 top-3 flex h-7 w-7 items-center justify-center rounded-full bg-black/40 backdrop-blur-sm">
+                        <Lock className="h-3.5 w-3.5 text-white" />
+                      </span>
+                    )}
+                    <div className="absolute inset-x-0 bottom-0 p-4">
+                      <h3 className="font-heading text-h2 leading-tight text-white text-balance">{m.title}</h3>
+                    </div>
+                  </div>
+                </motion.div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
       {!searching && (
         <div className="grid grid-cols-2 gap-3 px-4">
           {CATEGORY_CARDS.map((c) => (
             <button
               key={c.id}
               onClick={() => setFilter(c.id)}
-              className="image-text-overlay relative h-28 overflow-hidden rounded-2xl text-left shadow-sm"
+              className="image-text-overlay relative h-28 overflow-hidden rounded-[24px] text-left"
+              style={{ boxShadow: "var(--shadow-card)" }}
             >
               <ArtAsset
                 slug={c.slug}
@@ -139,11 +186,11 @@ function ExplorarPageInner() {
             <button
               key={f.id}
               onClick={() => setFilter(f.id)}
-              className="shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition-colors"
+              className="shrink-0 rounded-full px-4 py-2 text-sm font-bold transition-colors"
               style={
                 filter === f.id
-                  ? { background: "linear-gradient(135deg, #FFD740, #F7C35C)", color: "#3A2705" }
-                  : { background: "transparent", border: "1.5px solid #ECDFCD", color: "#6B5D4F" }
+                  ? { background: "linear-gradient(180deg, #F7C948, #F5A300)", color: "#2D2A26", boxShadow: "var(--shadow-button)" }
+                  : { background: "transparent", border: "1.5px solid #EFEDE8", color: "#5A564F" }
               }
             >
               {f.label}
@@ -164,19 +211,54 @@ function ExplorarPageInner() {
           </section>
         )}
 
+        {searching && meditations.length > 0 && (
+          <section className="flex flex-col gap-3">
+            <h2 className="font-heading text-h2">Meditaciones</h2>
+            <div className="scrollbar-none flex gap-3 overflow-x-auto pb-1">
+              {meditations.map((m) => (
+                <Link key={m.id} href={`/reproducir/${m.id}`}>
+                  <motion.div
+                    whileHover={{ scale: 1.02, y: -2 }}
+                    whileTap={{ scale: 0.97 }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
+                    className="image-text-overlay relative h-52 w-44 shrink-0 overflow-hidden rounded-[20px]" style={{ boxShadow: "var(--shadow-card)" }}
+                  >
+                    <ArtAsset
+                      slug={m.illustrationSlug}
+                      alt={m.title}
+                      fallback={<MoodScene mood="night" />}
+                      className="absolute inset-0"
+                    />
+                    <div className="overlay-content absolute inset-0">
+                      {isGated(state, m.id, "meditacion") && (
+                        <span className="absolute right-3 top-3 flex h-7 w-7 items-center justify-center rounded-full bg-black/40 backdrop-blur-sm">
+                          <Lock className="h-3.5 w-3.5 text-white" />
+                        </span>
+                      )}
+                      <div className="absolute inset-x-0 bottom-0 p-4">
+                        <h3 className="font-heading text-h2 leading-tight text-white text-balance">{m.title}</h3>
+                      </div>
+                    </div>
+                  </motion.div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
         {searching && <h2 className="font-heading text-h2">Historias</h2>}
 
         {!searching && filter === "musica" ? (
           <div className="flex flex-col items-center gap-3 py-12 text-center">
             <LumoPortrait pose="lumo-frontal" size={56} />
-            <p className="max-w-[26ch] text-body text-[#6B5D4F]">
+            <p className="max-w-[26ch] text-body text-muted-foreground">
               Todavía no hay música disponible. Pronto vamos a sumar canciones para dormir.
             </p>
           </div>
-        ) : stories.length === 0 && prayers.length === 0 ? (
+        ) : stories.length === 0 && prayers.length === 0 && meditations.length === 0 ? (
           <div className="flex flex-col items-center gap-3 py-12 text-center">
             <LumoPortrait pose="lumo-frontal" size={56} />
-            <p className="max-w-[26ch] text-body text-[#6B5D4F]">
+            <p className="max-w-[26ch] text-body text-muted-foreground">
               No encontramos nada con esa búsqueda. Prueba con otra palabra.
             </p>
           </div>

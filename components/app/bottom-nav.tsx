@@ -3,52 +3,65 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
-import { Home, Compass, Sparkles, NotebookPen, User } from "lucide-react";
+import { Home, Compass, Heart, User } from "lucide-react";
+import { LumoPortrait } from "@/components/app/lumo-portrait";
 
+/** Nav de 5 items, mismo layout que la referencia (lumo-design-tokens.json): Inicio, Explorar,
+ * Lumo (botón circular elevado en el centro, enlaza a /app/lumo), Favoritos, Perfil. Mi Camino y
+ * Diario ya no son tabs — viven como accesos dentro de Perfil (ver app/app/perfil/page.tsx),
+ * sin perder ninguna ruta ni funcionalidad, solo cambia el punto de entrada. */
 const ITEMS = [
   { href: "/app", label: "Inicio", icon: Home },
   { href: "/app/explorar", label: "Explorar", icon: Compass },
-  { href: "/app/mi-camino", label: "Mi camino", icon: Sparkles },
-  { href: "/app/diario", label: "Diario", icon: NotebookPen },
+];
+
+const ITEMS_RIGHT = [
+  { href: "/app/favoritos", label: "Favoritos", icon: Heart },
   { href: "/app/perfil", label: "Perfil", icon: User },
 ];
 
 export function BottomNav() {
   const pathname = usePathname();
 
+  function renderItem({ href, label, icon: Icon }: (typeof ITEMS)[number]) {
+    const active = pathname === href;
+    return (
+      <Link
+        key={href}
+        href={href}
+        className="relative flex flex-1 flex-col items-center gap-1 rounded-2xl px-2 py-1.5 text-[10.5px] font-bold"
+        style={{ color: active ? "#F5B800" : "#B9B5AE" }}
+      >
+        <Icon className="h-5 w-5" strokeWidth={active ? 2.4 : 1.8} />
+        <span>{label}</span>
+      </Link>
+    );
+  }
+
   return (
-    <nav
-      className="fixed inset-x-0 bottom-0 z-40"
-      style={{
-        borderTop: "1px solid rgba(242,236,223,0.1)",
-        background: "#132018",
-      }}
-    >
-      <div className="mx-auto flex max-w-md justify-around px-1 py-2">
-        {ITEMS.map(({ href, label, icon: Icon }) => {
-          const active = pathname === href;
-          return (
-            <Link
-              key={href}
-              href={href}
-              className="relative flex flex-col items-center gap-1 rounded-xl px-3 py-1.5 text-[9.5px] font-semibold"
-              style={{ color: active ? "#FFD740" : "rgba(242,236,223,0.5)" }}
-            >
-              <span className="relative">
-                <Icon className="h-5 w-5" strokeWidth={active ? 2.3 : 1.8} />
-              </span>
-              <span className="relative">{label}</span>
-              {active && (
-                <motion.span
-                  layoutId="bottom-nav-dot"
-                  className="absolute -top-0.5 left-1/2 h-[3px] w-[3px] -translate-x-1/2 rounded-full"
-                  style={{ background: "#FFD740", boxShadow: "0 0 6px 1px rgba(255,215,64,0.6)" }}
-                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                />
-              )}
-            </Link>
-          );
-        })}
+    <nav className="fixed inset-x-0 bottom-0 z-40 bg-white" style={{ borderTop: "1px solid #EFEDE8" }}>
+      <div className="relative mx-auto flex max-w-md items-center px-1 py-2">
+        {ITEMS.map(renderItem)}
+
+        <Link
+          href="/app/lumo"
+          aria-label="Lumo"
+          className="relative -mt-7 flex flex-1 flex-col items-center gap-1"
+        >
+          <motion.div
+            whileTap={{ scale: 0.94 }}
+            whileHover={{ y: -2 }}
+            className="flex h-14 w-14 items-center justify-center rounded-full bg-white p-1"
+            style={{ boxShadow: "var(--shadow-mascot)", border: "3px solid #FFF4D6" }}
+          >
+            <LumoPortrait pose="lumo-frontal" size={44} />
+          </motion.div>
+          <span className="text-[10.5px] font-bold" style={{ color: pathname === "/app/lumo" ? "#F5B800" : "#B9B5AE" }}>
+            Lumo
+          </span>
+        </Link>
+
+        {ITEMS_RIGHT.map(renderItem)}
       </div>
     </nav>
   );
