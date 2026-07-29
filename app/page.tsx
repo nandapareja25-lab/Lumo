@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, Download, Users, Quote } from "lucide-react";
+import { Menu, Quote } from "lucide-react";
 import { LandingPricing } from "@/components/app/landing-pricing";
 
 const REGISTRO_HREF = "/onboarding";
@@ -46,6 +46,16 @@ export default function LandingPage() {
         .landing .btn-pill {
           font-family: var(--font-heading);
         }
+        .landing h1,
+        .landing h2 {
+          color: var(--heading);
+        }
+        .landing .l-logo {
+          background: linear-gradient(180deg, #F7C948, #F5A300);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
         .l-header {
           display: flex;
           align-items: center;
@@ -73,8 +83,8 @@ export default function LandingPage() {
           display: inline-flex;
           align-items: center;
           gap: 6px;
-          background: #fff4d6;
-          color: #b8912a;
+          background: #EDE9FB;
+          color: #7C5CFC;
           font-weight: 700;
           font-size: 12px;
           padding: 7px 14px;
@@ -84,12 +94,14 @@ export default function LandingPage() {
         .btn-pill {
           display: inline-flex;
           align-items: center;
+          justify-content: center;
           gap: 8px;
           background: linear-gradient(180deg, #f7c948, #f5a300);
           color: #2d2a26;
           font-weight: 700;
           font-size: 15px;
-          padding: 15px 28px;
+          padding: 16px 44px;
+          min-width: 260px;
           border-radius: 999px;
           box-shadow: var(--shadow-button);
           border: none;
@@ -131,19 +143,29 @@ export default function LandingPage() {
         }
         .hero p.lead {
           font-size: 15px;
-          color: var(--muted-foreground);
+          color: var(--heading);
           line-height: 1.6;
           max-width: 340px;
           margin: 0 auto 24px;
         }
         .hero-art {
           position: relative;
-          aspect-ratio: 1/1;
-          max-width: 320px;
+          aspect-ratio: 4/5;
+          max-width: 340px;
           margin: 0 auto 24px;
-          border-radius: 28px;
-          overflow: hidden;
-          box-shadow: var(--shadow-card);
+        }
+        .hero-art .cloud {
+          position: absolute;
+          border-radius: 999px;
+          background: rgba(255, 255, 255, 0.9);
+          filter: blur(1px);
+        }
+        .hero-art .sparkle {
+          position: absolute;
+          color: #F5B800;
+        }
+        .hero-art img {
+          object-fit: contain;
         }
         .hero-cta-wrap {
           display: flex;
@@ -175,18 +197,23 @@ export default function LandingPage() {
           padding: 0 24px;
         }
         .feature-sq-card {
-          background: #ffffff;
-          border-radius: 20px;
-          padding: 18px;
-          box-shadow: var(--shadow-card);
+          border-radius: 22px;
+          padding: 22px 16px;
           display: flex;
           flex-direction: column;
-          gap: 10px;
+          align-items: center;
+          text-align: center;
+          gap: 8px;
+        }
+        .feature-sq-card h3 {
+          margin-top: 4px;
         }
         .feature-sq-card.full {
           grid-column: 1 / -1;
           flex-direction: row;
           align-items: center;
+          text-align: left;
+          gap: 16px;
         }
         .feature-sq-icon {
           width: 44px;
@@ -217,7 +244,11 @@ export default function LandingPage() {
         }
         .social-card .art {
           position: relative;
-          aspect-ratio: 16/10;
+          aspect-ratio: 1/1;
+        }
+        .social-card .art img {
+          object-fit: cover;
+          object-position: center 30%;
         }
         .social-card-copy {
           background: #ffffff;
@@ -300,11 +331,23 @@ export default function LandingPage() {
           font-size: 13px;
           color: var(--muted-foreground);
         }
+        .pill-num-circle {
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #ffffff;
+          font-weight: 800;
+          font-size: 14px;
+          flex-shrink: 0;
+        }
         /* PURPLE BLOCK */
         .purple-block {
           margin: 40px 24px;
           border-radius: 28px;
-          background: linear-gradient(160deg, #9b87f5, #7a63e8);
+          background: linear-gradient(160deg, #B9A8F7, #9E8EEA);
           padding: 44px 24px;
           display: flex;
           flex-direction: column;
@@ -390,11 +433,12 @@ export default function LandingPage() {
         }
         /* FOOTER */
         footer {
-          background: var(--foreground);
-          color: rgba(255, 255, 255, 0.6);
+          background: var(--background);
+          color: var(--muted-foreground);
           text-align: center;
           padding: 36px 24px 30px;
           font-size: 13px;
+          border-top: 1px solid var(--border);
         }
         .foot-logo {
           display: flex;
@@ -402,7 +446,7 @@ export default function LandingPage() {
           justify-content: center;
           gap: 8px;
           margin-bottom: 12px;
-          color: #ffffff;
+          color: var(--heading);
           font-weight: 700;
           font-size: 16px;
         }
@@ -442,7 +486,16 @@ export default function LandingPage() {
           acompañan a tus hijos todos los días.
         </p>
         <div className="hero-art">
-          <Image src="/lumo-art/onboarding-bienvenida-v2.png" alt="Un niño sonriendo con un libro brillante de Lumo" fill sizes="320px" />
+          <div className="absolute bottom-0 right-0 h-[55%] w-[65%]">
+            <Image src="/lumo-art/landing-arcoiris.png" alt="" fill sizes="220px" className="object-contain" />
+          </div>
+          <Image
+            src="/lumo-art/onboarding-bienvenida-v2.png"
+            alt="Un niño sonriendo con un libro brillante de Lumo"
+            fill
+            sizes="340px"
+            className="relative"
+          />
         </div>
         <div className="hero-cta-wrap">
           <Link href={REGISTRO_HREF} className="btn-pill">
@@ -458,44 +511,34 @@ export default function LandingPage() {
       {/* TODO LO QUE TU HIJO NECESITA */}
       <section className="grow-section">
         <div className="section-head">
-          <div className="icon-star mx-auto"><IconImg slug="icon-estrella" size={26} /></div>
+          <div className="icon-star mx-auto"><IconImg slug="icon-estrella" size={40} /></div>
           <h2>
-            Todo lo que tu hijo necesita <span style={{ color: "#F5B800" }}>para crecer en fe</span>
+            Todo lo que tu hijo <span className="block">necesita <span style={{ color: "#7C5CFC" }}>para crecer en fe</span></span>
           </h2>
         </div>
         <div className="features-sq-grid">
-          <div className="feature-sq-card">
-            <div className="feature-sq-icon" style={{ background: "#EFF6FF" }}>
-              <IconImg slug="icon-libro" size={22} />
-            </div>
+          <div className="feature-sq-card" style={{ background: "#FDF3D6" }}>
+            <IconImg slug="icon-libro" size={64} />
             <h3>Historias de la Biblia</h3>
             <p>Relatos increíbles contados de forma divertida y educativa.</p>
           </div>
-          <div className="feature-sq-card">
-            <div className="feature-sq-icon" style={{ background: "#F3F0FF" }}>
-              <IconImg slug="icon-nota-musical" size={22} />
-            </div>
+          <div className="feature-sq-card" style={{ background: "#F1EAFC" }}>
+            <IconImg slug="icon-nota-musical" size={64} />
             <h3>Música y adoración</h3>
             <p>Canciones que enseñan y llenan su corazón de alegría.</p>
           </div>
-          <div className="feature-sq-card">
-            <div className="feature-sq-icon" style={{ background: "#FFF0F5" }}>
-              <IconImg slug="icon-manitos-orando" size={22} />
-            </div>
+          <div className="feature-sq-card" style={{ background: "#E3F5E6" }}>
+            <IconImg slug="icon-manitos-orando" size={64} />
             <h3>Oraciones y rutinas</h3>
             <p>Momentos especiales para hablar con Dios cada día.</p>
           </div>
-          <div className="feature-sq-card">
-            <div className="feature-sq-icon" style={{ background: "#EEFBF1" }}>
-              <IconImg slug="icon-paleta" size={22} />
-            </div>
+          <div className="feature-sq-card" style={{ background: "#E3F0FC" }}>
+            <IconImg slug="icon-paleta" size={64} />
             <h3>Actividades y juegos</h3>
             <p>Juega, aprende y desarrolla valores mientras te diviertes.</p>
           </div>
-          <div className="feature-sq-card full">
-            <div className="feature-sq-icon" style={{ background: "#FFF4D6" }}>
-              <IconImg slug="icon-estrella" size={22} />
-            </div>
+          <div className="feature-sq-card full" style={{ background: "#FCE8ED" }}>
+            <IconImg slug="icon-estrella" size={56} />
             <div>
               <h3>Acompañamiento diario</h3>
               <p>Lumo está siempre con ellos, guiándolos en su camino.</p>
@@ -505,81 +548,30 @@ export default function LandingPage() {
 
         <div className="social-card">
           <div className="art">
-            <Image src="/lumo-art/landing-familia-tablet-transparente.png" alt="Una familia compartiendo un momento con Lumo" fill sizes="360px" />
+            <Image src="/lumo-art/landing-familia-tablet-v2.png" alt="Una familia compartiendo un momento con Lumo" fill sizes="360px" />
           </div>
           <div className="social-card-copy">
             <p className="stat">
-              Familias que ya <b>viven la aventura</b> con Lumo
+              Familias que ya <b style={{ color: "var(--primary)" }}>viven la aventura</b>
+              <br />
+              con Lumo
             </p>
-            <div className="avatar-stack">
-              <div className="blob"><Image src="/lumo-art/familia-presencia-compartida.png" alt="" fill sizes="34px" /></div>
-              <div className="blob"><Image src="/lumo-art/familia-leyendo-juntos.png" alt="" fill sizes="34px" /></div>
-              <div className="blob"><Image src="/lumo-art/familia-manta-sofa.png" alt="" fill sizes="34px" /></div>
-              <div className="blob"><Image src="/lumo-art/familia-arropar-cama.png" alt="" fill sizes="34px" /></div>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* ASÍ ACOMPAÑA LUMO */}
-      <section className="grow-section">
-        <div className="section-head">
-          <div className="icon-star mx-auto"><IconImg slug="icon-estrella" size={26} /></div>
-          <h2>Así acompaña Lumo a tu familia</h2>
-        </div>
-        <div className="pill-list">
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#FFF0F0" }}>
-              <IconImg slug="icon-corazon" size={22} />
-            </div>
-            <div>
-              <h3>Contenido 100% seguro</h3>
-              <p>Diseñado especialmente para niños.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#EFF6FF" }}>
-              <IconImg slug="icon-nube" size={22} />
-            </div>
-            <div>
-              <h3>Sin anuncios ni distracciones</h3>
-              <p>Un espacio tranquilo para aprender y crecer.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#EEFBF1" }}>
-              <IconImg slug="icon-escudo" size={22} />
-            </div>
-            <div>
-              <h3>Hecho con amor y fe</h3>
-              <p>Basado en valores cristianos para toda la familia.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#F3F0FF" }}>
-              <Download className="h-5 w-5" style={{ color: "#9B87F5" }} />
-            </div>
-            <div>
-              <h3>Para cada etapa</h3>
-              <p>Contenido adaptado a la edad e intereses de tu hijo.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* BLOQUE 2 — imagen completa provista por el usuario, fondo crema a pantalla completa (mismo fondo que la app) */}
+      <Image src="/lumo-art/bloque-2-asi-acompana.png" alt="Así acompaña Lumo a tu familia — contenido 100% seguro, sin anuncios, hecho con amor y fe, para cada etapa." width={925} height={1701} sizes="375px" className="w-full h-auto block" />
 
-      {/* PURPLE BLOCK — cada día */}
-      <div className="purple-block">
-        <div className="art-circle">
-          <Image src="/lumo-art/landing-lumo-nube.png" alt="Lumo flotando sobre una nube" fill sizes="180px" />
-        </div>
-        <h3>Cada día es una nueva aventura con Lumo</h3>
-        <p>Historias, música, oraciones y mucho más, todo en un solo lugar.</p>
+      {/* BLOQUE 5 — imagen completa provista por el usuario, tarjeta morada con su propio redondeado */}
+      <div style={{ margin: "40px 24px" }}>
+        <Image src="/lumo-art/bloque-5-cada-dia.png" alt="Cada día es una nueva aventura con Lumo — historias, música, oraciones y mucho más, todo en un solo lugar." width={1024} height={1536} sizes="340px" className="w-full h-auto block" />
       </div>
 
       {/* TESTIMONIOS */}
       <section className="grow-section">
         <div className="section-head">
-          <div className="icon-star mx-auto"><IconImg slug="icon-estrella" size={26} /></div>
+          <div className="icon-star mx-auto"><IconImg slug="icon-estrella" size={40} /></div>
           <h2>Lo que dicen otras familias</h2>
         </div>
         {/* Contenido de muestra — todavía no hay reseñas reales, reemplazar antes de publicar. */}
@@ -605,138 +597,38 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* CTA MID */}
-      <section className="cta-mid">
-        <h2>¿Listo para comenzar esta aventura?</h2>
-        <p>Únete a las familias que están creciendo en fe junto a Lumo.</p>
-        <Link href={REGISTRO_HREF} className="btn-pill">
-          Quiero conocer a Lumo <span>→</span>
-        </Link>
-      </section>
+      {/* BLOQUE 7 — imagen completa provista por el usuario, tarjeta con su propio redondeado, envuelta en link funcional */}
+      <Link href={REGISTRO_HREF} style={{ display: "block", margin: "40px 24px" }}>
+        <Image src="/lumo-art/bloque-7-listo-para-comenzar.png" alt="¿Listo para comenzar esta aventura? Únete a miles de familias que están creciendo en fe junto a Lumo." width={941} height={1672} sizes="340px" className="w-full h-auto block" />
+      </Link>
 
-      {/* CÓMO FUNCIONA */}
-      <section className="grow-section">
-        <div className="section-head">
-          <div className="icon-star mx-auto"><IconImg slug="icon-estrella" size={26} /></div>
-          <h2>¿Cómo funciona?</h2>
-        </div>
-        <div className="pill-list">
-          <div className="pill-card">
-            <div className="pill-icon round" style={{ background: "#F3F0FF" }}>
-              <Image src="/lumo-art/onboarding-para-quien-hija-v2.png" alt="" fill sizes="44px" />
-            </div>
-            <div>
-              <span className="pill-num">1</span>
-              <h3>Crea el perfil de tu hijo</h3>
-              <p>Es rápido y fácil.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#EFF6FF" }}>
-              <IconImg slug="icon-estrella" size={22} />
-            </div>
-            <div>
-              <span className="pill-num">2</span>
-              <h3>Personalizamos su experiencia</h3>
-              <p>Según su edad e intereses.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#F3F0FF" }}>
-              <IconImg slug="icon-nota-musical" size={22} />
-            </div>
-            <div>
-              <span className="pill-num">3</span>
-              <h3>Exploran juntos cada día</h3>
-              <p>Historias, música, oraciones y más.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#FFF0F0" }}>
-              <IconImg slug="icon-trofeo" size={22} />
-            </div>
-            <div>
-              <span className="pill-num">4</span>
-              <h3>Crece en valores y fe</h3>
-              <p>Con diversión y contenido que deja huella.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* BLOQUE 3 — imagen completa provista por el usuario, fondo crema a pantalla completa */}
+      <Image src="/lumo-art/bloque-3-como-funciona.png" alt="¿Cómo funciona? Crea el perfil de tu hijo, personalizamos su experiencia, exploran juntos cada día, crece en valores y fe." width={863} height={1823} sizes="375px" className="w-full h-auto block" />
 
-      {/* PURPLE BLOCK — noche/oración */}
-      <div className="purple-block night">
-        <div className="art-circle">
-          <Image src="/lumo-art/landing-nino-orando-noche.png" alt="Una niña orando junto a Lumo antes de dormir" fill sizes="180px" />
-        </div>
-      </div>
+      {/* BLOQUE 10 — imagen completa provista por el usuario, fondo lavanda a pantalla completa */}
+      <Image src="/lumo-art/bloque-10-momento-especial.png" alt="Termina el día en paz junto a Lumo — oraciones y afirmaciones para agradecer, soltar preocupaciones y dormir con el corazón tranquilo." width={1024} height={1536} sizes="375px" className="w-full h-auto block" />
 
-      {/* CONTENIDO CREADO CON AMOR */}
-      <section className="grow-section">
-        <div className="section-head">
-          <div className="icon-star mx-auto"><IconImg slug="icon-corazon" size={26} /></div>
-          <h2>Contenido creado con amor y propósito</h2>
-        </div>
-        <div className="pill-list">
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#F3F0FF" }}>
-              <IconImg slug="icon-libro" size={22} />
-            </div>
-            <div>
-              <h3>Alineado a la Biblia</h3>
-              <p>Enseñanzas fieles y apropiadas para niños.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#FFF0F0" }}>
-              <IconImg slug="icon-corazon" size={22} />
-            </div>
-            <div>
-              <h3>Desarrollo emocional</h3>
-              <p>Fortalece su corazón, su mente y su espíritu.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#EEFBF1" }}>
-              <Users className="h-5 w-5" style={{ color: "#6BCB77" }} />
-            </div>
-            <div>
-              <h3>Tiempo en familia</h3>
-              <p>Momentos que conectan y dejan recuerdos.</p>
-            </div>
-          </div>
-          <div className="pill-card">
-            <div className="pill-icon" style={{ background: "#FFF4D6" }}>
-              <IconImg slug="icon-destello-amarillo" size={22} />
-            </div>
-            <div>
-              <h3>Actualizado constantemente</h3>
-              <p>Nuevo contenido cada semana para seguir aprendiendo.</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* BLOQUE 8 — imagen completa provista por el usuario, fondo crema a pantalla completa */}
+      <Image src="/lumo-art/bloque-8-contenido-con-amor.png" alt="Contenido creado con amor y propósito — alineado a la Biblia, desarrollo emocional, tiempo en familia, actualizado constantemente." width={941} height={1672} sizes="375px" className="w-full h-auto block" />
 
       {/* PRICING */}
       <section className="grow-section">
         <div className="section-head">
           <h2>Para familias reales.</h2>
         </div>
-        <div style={{ background: "var(--foreground)", borderRadius: 28, margin: "0 24px", padding: "32px 20px" }}>
+        <div style={{ margin: "0 24px" }}>
           <LandingPricing />
         </div>
       </section>
 
-      {/* PURPLE BLOCK FINAL */}
-      <div className="purple-block">
-        <div className="art-circle">
-          <Image src="/lumo-art/landing-lumo-nino-saltando-v2.png" alt="Un niño y Lumo saltando de alegría" fill sizes="180px" />
-        </div>
-        <h3>
-          Lumo está aquí para acompañarlos siempre <span style={{ color: "#FFD740" }}>✨</span>
-        </h3>
-        <p>Historias que iluminan hoy, valores que guían para siempre.</p>
-        <Link href={REGISTRO_HREF} className="btn-pill">
+      {/* BLOQUE 9 — imagen completa provista por el usuario, con CTA funcional superpuesto */}
+      <div style={{ position: "relative", margin: "40px 24px", aspectRatio: "1024/1536" }}>
+        <Image src="/lumo-art/bloque-9-cierre-final.png" alt="Lumo está aquí para acompañarlos siempre. Historias que iluminan hoy, valores que guían para siempre." fill sizes="340px" className="object-contain" />
+        <Link
+          href={REGISTRO_HREF}
+          className="btn-pill"
+          style={{ position: "absolute", left: "50%", bottom: "8%", transform: "translateX(-50%)" }}
+        >
           Crear mi plan gratis
         </Link>
       </div>

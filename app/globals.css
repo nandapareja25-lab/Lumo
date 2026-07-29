@@ -69,8 +69,9 @@
  * amarillo-dorado, y 6 colores de categoría (nunca como fondo de pantalla completo).
  */
 :root {
-  --background: #FDFCF9;
+  --background: #FBFAFE;
   --foreground: #2D2A26;
+  --heading: #1E2A56;
   --card: #FFFFFF;
   --card-foreground: #2D2A26;
   --popover: #FFFFFF;
